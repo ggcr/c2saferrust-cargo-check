@@ -1,0 +1,146 @@
+example1.rs:36:49: 36:57
+mut argv
+example1.rs:60:9: 60:16
+mut ann
+example2.rs:29:49: 29:57
+mut argv
+example2.rs:53:9: 53:16
+mut ann
+example2.rs:65:13: 65:21
+mut save
+example3.rs:70:49: 70:57
+mut argv
+example3.rs:75:9: 75:18
+mut saved
+example3.rs:82:9: 82:16
+mut ann
+example4.rs:82:9: 82:17
+mut in_0
+example4.rs:123:13: 123:18
+mut p
+example4.rs:125:13: 125:18
+mut c
+example4.rs:136:13: 136:22
+mut split
+example4.rs:169:49: 169:57
+mut argv
+example4.rs:180:9: 180:16
+mut ann
+example4.rs:204:13: 204:22
+mut guess
+genann.rs:132:9: 132:16
+mut ret
+genann.rs:158:38: 158:46
+mut in_0
+genann.rs:175:9: 175:16
+mut ann
+genann.rs:194:38: 194:45
+mut ann
+genann.rs:209:9: 209:16
+mut ret
+genann.rs:224:43: 224:50
+mut ann
+genann.rs:237:38: 237:45
+mut ann
+genann.rs:242:37: 242:44
+mut ann
+genann.rs:243:37: 243:47
+mut inputs
+genann.rs:245:9: 245:14
+mut w
+genann.rs:246:9: 246:14
+mut o
+genann.rs:248:9: 248:14
+mut i
+genann.rs:264:17: 264:23
+fresh0
+genann.rs:272:21: 272:27
+fresh1
+genann.rs:277:17: 277:23
+fresh2
+genann.rs:288:9: 288:16
+mut ret
+genann.rs:292:13: 292:19
+fresh3
+genann.rs:300:17: 300:23
+fresh4
+genann.rs:305:13: 305:19
+fresh5
+genann.rs:334:39: 334:46
+mut ann
+genann.rs:335:39: 335:49
+mut inputs
+genann.rs:336:39: 336:58
+mut desired_outputs
+genann.rs:345:9: 345:14
+mut o
+genann.rs:350:9: 350:14
+mut d
+genann.rs:353:9: 353:14
+mut t
+genann.rs:361:17: 361:23
+fresh6
+genann.rs:363:17: 363:23
+fresh7
+genann.rs:365:17: 365:23
+fresh8
+genann.rs:373:17: 373:23
+fresh9
+genann.rs:387:13: 387:20
+mut o_0
+genann.rs:391:13: 391:20
+mut d_0
+genann.rs:394:13: 394:15
+dd
+genann.rs:398:13: 398:15
+ww
+genann.rs:432:9: 432:16
+mut d_1
+genann.rs:435:9: 435:14
+mut w
+genann.rs:444:9: 444:10
+i
+genann.rs:459:21: 459:28
+fresh10
+genann.rs:463:21: 463:28
+fresh11
+genann.rs:491:13: 491:20
+mut d_2
+genann.rs:494:13: 494:20
+mut i_0
+genann.rs:501:13: 501:20
+mut w_0
+genann.rs:517:25: 517:32
+fresh12
+genann.rs:521:25: 521:32
+fresh13
+genann.rs:536:39: 536:46
+mut ann
+genann.rs:537:39: 537:46
+mut out
+test.rs:95:9: 95:16
+mut ann
+test.rs:170:9: 170:16
+mut ann
+test.rs:271:9: 271:16
+mut ann
+test.rs:306:9: 306:16
+mut ann
+test.rs:390:9: 390:16
+mut ann
+test.rs:475:9: 475:16
+mut ann
+test.rs:547:9: 547:18
+mut first
+test.rs:550:9: 550:16
+mut out
+test.rs:555:9: 555:17
+mut in_0
+test.rs:558:9: 558:19
+mut second
+test.rs:615:9: 615:18
+mut first
+test.rs:618:9: 618:19
+mut second
+test.rs:693:49: 693:57
+mut argv

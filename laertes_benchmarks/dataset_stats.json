@@ -1,0 +1,74 @@
+{
+    "tulipindicators": {
+        "lines": 44486,
+        "num_functions": 234,
+        "max_length": 306,
+        "avg_length": 32.1025641025641
+    },
+    "xzoom": {
+        "lines": 2524,
+        "num_functions": 11,
+        "max_length": 536,
+        "avg_length": 134.0909090909091
+    },
+    "genann": {
+        "lines": 2084,
+        "num_functions": 32,
+        "max_length": 201,
+        "avg_length": 52.4375
+    },
+    "optipng": {
+        "lines": 95560,
+        "num_functions": 576,
+        "max_length": 42124,
+        "avg_length": 143.63020833333334
+    },
+    "urlparser": {
+        "lines": 1118,
+        "num_functions": 22,
+        "max_length": 409,
+        "avg_length": 38.40909090909091
+    },
+    "lil": {
+        "lines": 5400,
+        "num_functions": 160,
+        "max_length": 283,
+        "avg_length": 30.44375
+    },
+    "robotfindskitten": {
+        "lines": 1497,
+        "num_functions": 18,
+        "max_length": 62,
+        "avg_length": 27.166666666666668
+    },
+    "qsort": {
+        "lines": 41,
+        "num_functions": 3,
+        "max_length": 17,
+        "avg_length": 10.666666666666666
+    },
+    "snudown": {
+        "lines": 6521,
+        "num_functions": 92,
+        "max_length": 792,
+        "avg_length": 63.53260869565217
+    },
+    "grabc": {
+        "lines": 1046,
+        "num_functions": 7,
+        "max_length": 61,
+        "avg_length": 31.571428571428573
+    },
+    "libcsv": {
+        "lines": 1020,
+        "num_functions": 23,
+        "max_length": 483,
+        "avg_length": 37.95652173913044
+    },
+    "bzip2": {
+        "lines": 43374,
+        "num_functions": 128,
+        "max_length": 3289,
+        "avg_length": 98.84375
+    }
+}

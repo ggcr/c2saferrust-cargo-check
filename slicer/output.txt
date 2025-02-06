@@ -1,0 +1,34 @@
+slicer v0.1.0 (/proj/arise/arise/vikram.nitin/c2rust_corpus/slicer)
+├── cargo_metadata v0.11.4
+│   ├── semver v0.10.0
+│   │   ├── semver-parser v0.7.0
+│   │   └── serde v1.0.200
+│   │       └── serde_derive v1.0.200 (proc-macro)
+│   │           ├── proc-macro2 v1.0.86
+│   │           │   └── unicode-ident v1.0.12
+│   │           ├── quote v1.0.36
+│   │           │   └── proc-macro2 v1.0.86 (*)
+│   │           └── syn v2.0.72
+│   │               ├── proc-macro2 v1.0.86 (*)
+│   │               ├── quote v1.0.36 (*)
+│   │               └── unicode-ident v1.0.12
+│   ├── serde v1.0.200 (*)
+│   └── serde_json v1.0.122
+│       ├── itoa v1.0.11
+│       ├── memchr v2.7.4
+│       ├── ryu v1.0.18
+│       └── serde v1.0.200 (*)
+├── rustc_version v0.2.3
+│   └── semver v0.9.0
+│       └── semver-parser v0.7.0
+├── serde v1.0.200 (*)
+├── serde_json v1.0.122 (*)
+├── wait-timeout v0.2.0
+│   └── libc v0.2.155
+└── which v4.0.2
+    ├── libc v0.2.155
+    └── thiserror v1.0.63
+        └── thiserror-impl v1.0.63 (proc-macro)
+            ├── proc-macro2 v1.0.86 (*)
+            ├── quote v1.0.36 (*)
+            └── syn v2.0.72 (*)

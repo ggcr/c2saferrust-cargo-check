@@ -1,0 +1,866 @@
+xzoom.rs:1050:21: 1050:46
+(*(dpy as _XPrivDisplay))
+xzoom.rs:1054:31: 1054:37
+(*scr)
+xzoom.rs:1055:26: 1055:32
+(*scr)
+xzoom.rs:1075:14: 1075:35
+(*ximage[i as usize])
+xzoom.rs:1077:9: 1077:30
+(*ximage[i as usize])
+xzoom.rs:1079:14: 1080:55
+(**ximage.as_mut_ptr().offset(i as
+                                               isize))
+xzoom.rs:1079:16: 1080:54
+*ximage.as_mut_ptr().offset(i as
+                                               isize)
+xzoom.rs:1116:51: 1116:57
+(*scr)
+xzoom.rs:1117:52: 1117:58
+(*scr)
+xzoom.rs:1122:52: 1122:58
+(*scr)
+xzoom.rs:1123:53: 1123:59
+(*scr)
+xzoom.rs:1175:18: 1200:83
+*(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)).xoffset
+                                                                              +
+                                                                              0
+                                                                                  as
+                                                                                  std::os::raw::c_int)
+                                                                             as
+                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uchar>()
+                                                                                                             as
+                                                                                                             std::os::raw::c_ulong).wrapping_add((j
+                                                                                                                                              *
+                                                                                                                                              magy
+                                                                                                                                              *
+                                                                                                                                              (**ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)).bytes_per_line)
+                                                                                                                                             as
+                                                                                                                                             std::os::raw::c_ulong)
+                                                                            as
+                                                                            isize)
+xzoom.rs:1175:19: 1176:60
+(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize))
+xzoom.rs:1175:21: 1176:59
+*ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize)
+xzoom.rs:1176:75: 1180:116
+(**ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize))
+xzoom.rs:1176:77: 1180:115
+*ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)
+xzoom.rs:1192:143: 1196:184
+(**ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize))
+xzoom.rs:1192:145: 1196:183
+*ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1210:18: 1250:83
+*(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)).xoffset
+                                                                              +
+                                                                              0
+                                                                                  as
+                                                                                  std::os::raw::c_int)
+                                                                             as
+                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uchar>()
+                                                                                                             as
+                                                                                                             std::os::raw::c_ulong).wrapping_add(((if flipy
+                                                                                                                                                  !=
+                                                                                                                                                  0
+                                                                                                                                              {
+                                                                                                                                               (*height.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+                                                                                                                                                    -
+                                                                                                                                                    1
+                                                                                                                                                        as
+                                                                                                                                                        std::os::raw::c_int)
+                                                                                                                                                   -
+                                                                                                                                                   j
+                                                                                                                                           } else {
+                                                                                                                                               j
+                                                                                                                                           })
+                                                                                                                                              *
+                                                                                                                                              (**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)).bytes_per_line)
+                                                                                                                                             as
+                                                                                                                                             std::os::raw::c_ulong)
+                                                                            as
+                                                                            isize)
+xzoom.rs:1210:19: 1211:60
+(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize))
+xzoom.rs:1210:21: 1211:59
+*ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize)
+xzoom.rs:1211:75: 1215:116
+(**ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize))
+xzoom.rs:1211:77: 1215:115
+*ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)
+xzoom.rs:1227:145: 1231:183
+*height.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1242:143: 1246:184
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize))
+xzoom.rs:1242:145: 1246:183
+*ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1254:22: 1294:87
+*(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize)).data.offset((((**ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize)).xoffset
+                                                                                  +
+                                                                                  (if flipy
+                                                                                          !=
+                                                                                          0
+                                                                                      {
+                                                                                       j
+                                                                                   } else {
+                                                                                       (*width.as_mut_ptr().offset(0
+                                                                                                                       as
+                                                                                                                       std::os::raw::c_int
+                                                                                                                       as
+                                                                                                                       isize)
+                                                                                            -
+                                                                                            1
+                                                                                                as
+                                                                                                std::os::raw::c_int)
+                                                                                           -
+                                                                                           j
+                                                                                   }))
+                                                                                 as
+                                                                                 std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uchar>()
+                                                                                                                 as
+                                                                                                                 std::os::raw::c_ulong).wrapping_add((0
+                                                                                                                                                  as
+                                                                                                                                                  std::os::raw::c_int
+                                                                                                                                                  *
+                                                                                                                                                  (**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize)).bytes_per_line)
+                                                                                                                                                 as
+                                                                                                                                                 std::os::raw::c_ulong)
+                                                                                as
+                                                                                isize)
+xzoom.rs:1254:23: 1255:64
+(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize))
+xzoom.rs:1254:25: 1255:63
+*ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize)
+xzoom.rs:1255:79: 1259:120
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize))
+xzoom.rs:1255:81: 1259:119
+*ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize)
+xzoom.rs:1267:89: 1271:126
+*width.as_mut_ptr().offset(0
+                                                                                                                       as
+                                                                                                                       std::os::raw::c_int
+                                                                                                                       as
+                                                                                                                       isize)
+xzoom.rs:1286:147: 1290:188
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize))
+xzoom.rs:1286:149: 1290:187
+*ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize)
+xzoom.rs:1297:18: 1297:62
+(*ximage[0 as std::os::raw::c_int as usize])
+xzoom.rs:1310:52: 1310:55
+*p2
+xzoom.rs:1316:21: 1316:28
+*fresh0
+xzoom.rs:1328:54: 1328:57
+*p2
+xzoom.rs:1333:21: 1333:28
+*fresh1
+xzoom.rs:1345:54: 1345:61
+*fresh2
+xzoom.rs:1350:21: 1350:28
+*fresh3
+xzoom.rs:1371:22: 1371:25
+*p1
+xzoom.rs:1370:17: 1370:20
+*p1
+xzoom.rs:1391:18: 1391:62
+(*ximage[1 as std::os::raw::c_int as usize])
+xzoom.rs:1417:26: 1417:33
+*fresh4
+xzoom.rs:1416:21: 1416:28
+*fresh4
+xzoom.rs:1444:18: 1469:83
+*(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)).xoffset
+                                                                              +
+                                                                              0
+                                                                                  as
+                                                                                  std::os::raw::c_int)
+                                                                             as
+                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_ushort>()
+                                                                                                             as
+                                                                                                             std::os::raw::c_ulong).wrapping_add((j
+                                                                                                                                              *
+                                                                                                                                              magy
+                                                                                                                                              *
+                                                                                                                                              (**ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)).bytes_per_line)
+                                                                                                                                             as
+                                                                                                                                             std::os::raw::c_ulong)
+                                                                            as
+                                                                            isize)
+xzoom.rs:1444:19: 1445:60
+(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize))
+xzoom.rs:1444:21: 1445:59
+*ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize)
+xzoom.rs:1445:75: 1449:116
+(**ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize))
+xzoom.rs:1445:77: 1449:115
+*ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)
+xzoom.rs:1461:143: 1465:184
+(**ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize))
+xzoom.rs:1461:145: 1465:183
+*ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1473:18: 1513:83
+*(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)).xoffset
+                                                                              +
+                                                                              0
+                                                                                  as
+                                                                                  std::os::raw::c_int)
+                                                                             as
+                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_ushort>()
+                                                                                                             as
+                                                                                                             std::os::raw::c_ulong).wrapping_add(((if flipy
+                                                                                                                                                  !=
+                                                                                                                                                  0
+                                                                                                                                              {
+                                                                                                                                               (*height.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+                                                                                                                                                    -
+                                                                                                                                                    1
+                                                                                                                                                        as
+                                                                                                                                                        std::os::raw::c_int)
+                                                                                                                                                   -
+                                                                                                                                                   j
+                                                                                                                                           } else {
+                                                                                                                                               j
+                                                                                                                                           })
+                                                                                                                                              *
+                                                                                                                                              (**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)).bytes_per_line)
+                                                                                                                                             as
+                                                                                                                                             std::os::raw::c_ulong)
+                                                                            as
+                                                                            isize)
+xzoom.rs:1473:19: 1474:60
+(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize))
+xzoom.rs:1473:21: 1474:59
+*ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize)
+xzoom.rs:1474:75: 1478:116
+(**ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize))
+xzoom.rs:1474:77: 1478:115
+*ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)
+xzoom.rs:1490:145: 1494:183
+*height.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1505:143: 1509:184
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize))
+xzoom.rs:1505:145: 1509:183
+*ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1517:22: 1557:87
+*(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize)).data.offset((((**ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize)).xoffset
+                                                                                  +
+                                                                                  (if flipy
+                                                                                          !=
+                                                                                          0
+                                                                                      {
+                                                                                       j
+                                                                                   } else {
+                                                                                       (*width.as_mut_ptr().offset(0
+                                                                                                                       as
+                                                                                                                       std::os::raw::c_int
+                                                                                                                       as
+                                                                                                                       isize)
+                                                                                            -
+                                                                                            1
+                                                                                                as
+                                                                                                std::os::raw::c_int)
+                                                                                           -
+                                                                                           j
+                                                                                   }))
+                                                                                 as
+                                                                                 std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_ushort>()
+                                                                                                                 as
+                                                                                                                 std::os::raw::c_ulong).wrapping_add((0
+                                                                                                                                                  as
+                                                                                                                                                  std::os::raw::c_int
+                                                                                                                                                  *
+                                                                                                                                                  (**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize)).bytes_per_line)
+                                                                                                                                                 as
+                                                                                                                                                 std::os::raw::c_ulong)
+                                                                                as
+                                                                                isize)
+xzoom.rs:1517:23: 1518:64
+(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize))
+xzoom.rs:1517:25: 1518:63
+*ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize)
+xzoom.rs:1518:79: 1522:120
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize))
+xzoom.rs:1518:81: 1522:119
+*ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize)
+xzoom.rs:1530:89: 1534:126
+*width.as_mut_ptr().offset(0
+                                                                                                                       as
+                                                                                                                       std::os::raw::c_int
+                                                                                                                       as
+                                                                                                                       isize)
+xzoom.rs:1549:147: 1553:188
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize))
+xzoom.rs:1549:149: 1553:187
+*ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize)
+xzoom.rs:1560:18: 1560:62
+(*ximage[0 as std::os::raw::c_int as usize])
+xzoom.rs:1573:53: 1573:56
+*p2
+xzoom.rs:1579:21: 1579:28
+*fresh5
+xzoom.rs:1591:55: 1591:58
+*p2
+xzoom.rs:1596:21: 1596:28
+*fresh6
+xzoom.rs:1608:55: 1608:62
+*fresh7
+xzoom.rs:1613:21: 1613:28
+*fresh8
+xzoom.rs:1631:22: 1631:25
+*p1
+xzoom.rs:1630:17: 1630:20
+*p1
+xzoom.rs:1642:18: 1642:62
+(*ximage[1 as std::os::raw::c_int as usize])
+xzoom.rs:1665:26: 1665:33
+*fresh9
+xzoom.rs:1664:21: 1664:28
+*fresh9
+xzoom.rs:1692:18: 1717:83
+*(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)).xoffset
+                                                                              +
+                                                                              0
+                                                                                  as
+                                                                                  std::os::raw::c_int)
+                                                                             as
+                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uint>()
+                                                                                                             as
+                                                                                                             std::os::raw::c_ulong).wrapping_add((j
+                                                                                                                                              *
+                                                                                                                                              magy
+                                                                                                                                              *
+                                                                                                                                              (**ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)).bytes_per_line)
+                                                                                                                                             as
+                                                                                                                                             std::os::raw::c_ulong)
+                                                                            as
+                                                                            isize)
+xzoom.rs:1692:19: 1693:60
+(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize))
+xzoom.rs:1692:21: 1693:59
+*ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                    isize)
+xzoom.rs:1693:75: 1697:116
+(**ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize))
+xzoom.rs:1693:77: 1697:115
+*ximage.as_mut_ptr().offset(1
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)
+xzoom.rs:1709:143: 1713:184
+(**ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize))
+xzoom.rs:1709:145: 1713:183
+*ximage.as_mut_ptr().offset(1
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1721:18: 1761:83
+*(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)).xoffset
+                                                                              +
+                                                                              0
+                                                                                  as
+                                                                                  std::os::raw::c_int)
+                                                                             as
+                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uint>()
+                                                                                                             as
+                                                                                                             std::os::raw::c_ulong).wrapping_add(((if flipy
+                                                                                                                                                  !=
+                                                                                                                                                  0
+                                                                                                                                              {
+                                                                                                                                               (*height.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+                                                                                                                                                    -
+                                                                                                                                                    1
+                                                                                                                                                        as
+                                                                                                                                                        std::os::raw::c_int)
+                                                                                                                                                   -
+                                                                                                                                                   j
+                                                                                                                                           } else {
+                                                                                                                                               j
+                                                                                                                                           })
+                                                                                                                                              *
+                                                                                                                                              (**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)).bytes_per_line)
+                                                                                                                                             as
+                                                                                                                                             std::os::raw::c_ulong)
+                                                                            as
+                                                                            isize)
+xzoom.rs:1721:19: 1722:60
+(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize))
+xzoom.rs:1721:21: 1722:59
+*ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                    isize)
+xzoom.rs:1722:75: 1726:116
+(**ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize))
+xzoom.rs:1722:77: 1726:115
+*ximage.as_mut_ptr().offset(0
+                                                                                                            as
+                                                                                                            std::os::raw::c_int
+                                                                                                            as
+                                                                                                            isize)
+xzoom.rs:1738:145: 1742:183
+*height.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1753:143: 1757:184
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize))
+xzoom.rs:1753:145: 1757:183
+*ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                as
+                                                                                                                                                                                std::os::raw::c_int
+                                                                                                                                                                                as
+                                                                                                                                                                                isize)
+xzoom.rs:1765:22: 1805:87
+*(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize)).data.offset((((**ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize)).xoffset
+                                                                                  +
+                                                                                  (if flipy
+                                                                                          !=
+                                                                                          0
+                                                                                      {
+                                                                                       j
+                                                                                   } else {
+                                                                                       (*width.as_mut_ptr().offset(0
+                                                                                                                       as
+                                                                                                                       std::os::raw::c_int
+                                                                                                                       as
+                                                                                                                       isize)
+                                                                                            -
+                                                                                            1
+                                                                                                as
+                                                                                                std::os::raw::c_int)
+                                                                                           -
+                                                                                           j
+                                                                                   }))
+                                                                                 as
+                                                                                 std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uint>()
+                                                                                                                 as
+                                                                                                                 std::os::raw::c_ulong).wrapping_add((0
+                                                                                                                                                  as
+                                                                                                                                                  std::os::raw::c_int
+                                                                                                                                                  *
+                                                                                                                                                  (**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize)).bytes_per_line)
+                                                                                                                                                 as
+                                                                                                                                                 std::os::raw::c_ulong)
+                                                                                as
+                                                                                isize)
+xzoom.rs:1765:23: 1766:64
+(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize))
+xzoom.rs:1765:25: 1766:63
+*ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                        isize)
+xzoom.rs:1766:79: 1770:120
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize))
+xzoom.rs:1766:81: 1770:119
+*ximage.as_mut_ptr().offset(0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int
+                                                                                                                as
+                                                                                                                isize)
+xzoom.rs:1778:89: 1782:126
+*width.as_mut_ptr().offset(0
+                                                                                                                       as
+                                                                                                                       std::os::raw::c_int
+                                                                                                                       as
+                                                                                                                       isize)
+xzoom.rs:1797:147: 1801:188
+(**ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize))
+xzoom.rs:1797:149: 1801:187
+*ximage.as_mut_ptr().offset(0
+                                                                                                                                                                                    as
+                                                                                                                                                                                    std::os::raw::c_int
+                                                                                                                                                                                    as
+                                                                                                                                                                                    isize)
+xzoom.rs:1808:18: 1808:62
+(*ximage[0 as std::os::raw::c_int as usize])
+xzoom.rs:1821:51: 1821:54
+*p2
+xzoom.rs:1827:21: 1827:29
+*fresh10
+xzoom.rs:1839:53: 1839:56
+*p2
+xzoom.rs:1844:21: 1844:29
+*fresh11
+xzoom.rs:1856:53: 1856:61
+*fresh12
+xzoom.rs:1861:21: 1861:29
+*fresh13
+xzoom.rs:1878:17: 1878:20
+*p1
+xzoom.rs:1887:18: 1887:62
+(*ximage[1 as std::os::raw::c_int as usize])
+xzoom.rs:1909:21: 1909:29
+*fresh14
+xzoom.rs:1922:23: 1922:29
+(*scr)
+xzoom.rs:2038:24: 2038:71
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2041:25: 2041:72
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2048:12: 2049:80
+*(*argv.offset(0 as std::os::raw::c_int as
+                              isize)).offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2048:13: 2049:38
+(*argv.offset(0 as std::os::raw::c_int as
+                              isize))
+xzoom.rs:2052:32: 2052:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2054:37: 2056:77
+*width.as_mut_ptr().offset(1 as
+                                                                   std::os::raw::c_int
+                                                                   as isize)
+xzoom.rs:2058:37: 2060:78
+*height.as_mut_ptr().offset(1 as
+                                                                    std::os::raw::c_int
+                                                                    as isize)
+xzoom.rs:2062:26: 2062:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2069:26: 2069:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2074:26: 2074:73
+*argv.offset(1 as std::os::raw::c_int as isize)
+xzoom.rs:2079:26: 2079:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2082:26: 2082:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2085:26: 2085:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2088:30: 2088:77
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2092:26: 2092:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2099:32: 2099:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2101:37: 2103:77
+*width.as_mut_ptr().offset(0 as
+                                                                   std::os::raw::c_int
+                                                                   as isize)
+xzoom.rs:2105:37: 2107:78
+*height.as_mut_ptr().offset(0 as
+                                                                    std::os::raw::c_int
+                                                                    as isize)
+xzoom.rs:2109:26: 2109:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2112:30: 2112:77
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2119:32: 2119:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2121:37: 2123:77
+*width.as_mut_ptr().offset(1 as
+                                                                   std::os::raw::c_int
+                                                                   as isize)
+xzoom.rs:2125:37: 2127:78
+*height.as_mut_ptr().offset(1 as
+                                                                    std::os::raw::c_int
+                                                                    as isize)
+xzoom.rs:2129:26: 2129:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2132:30: 2132:77
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2138:23: 2138:70
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2139:26: 2139:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2145:23: 2145:70
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2151:26: 2151:73
+*argv.offset(0 as std::os::raw::c_int as isize)
+xzoom.rs:2195:14: 2198:66
+*(*(dpy as
+                     _XPrivDisplay)).screens.offset((*(dpy as
+                                                           _XPrivDisplay)).default_screen
+                                                        as isize)
+xzoom.rs:2195:15: 2196:37
+(*(dpy as
+                     _XPrivDisplay))
+xzoom.rs:2196:53: 2197:75
+(*(dpy as
+                                                           _XPrivDisplay))
+xzoom.rs:2200:13: 2200:19
+(*scr)
+xzoom.rs:2207:71: 2207:77
+(*scr)
+xzoom.rs:2208:71: 2208:77
+(*scr)
+xzoom.rs:2209:68: 2209:74
+(*scr)
+xzoom.rs:2210:68: 2210:74
+(*scr)
+xzoom.rs:2223:29: 2223:35
+(*scr)
+xzoom.rs:2225:28: 2225:34
+(*scr)
+xzoom.rs:2228:73: 2228:79
+(*scr)
+xzoom.rs:2229:73: 2229:79
+(*scr)
+xzoom.rs:2239:9: 2239:17
+(*sizeh)
+xzoom.rs:2242:9: 2242:17
+(*sizeh)
+xzoom.rs:2243:30: 2243:38
+(*sizeh)
+xzoom.rs:2243:9: 2243:17
+(*sizeh)
+xzoom.rs:2244:9: 2244:17
+(*sizeh)
+xzoom.rs:2245:31: 2245:39
+(*sizeh)
+xzoom.rs:2245:9: 2245:17
+(*sizeh)
+xzoom.rs:2249:5: 2249:10
+(*ch)
+xzoom.rs:2250:5: 2250:10
+(*ch)
+xzoom.rs:2292:22: 2292:28
+(*scr)
+xzoom.rs:2293:22: 2293:28
+(*scr)
+xzoom.rs:2295:24: 2295:30
+(*scr)
+xzoom.rs:2498:24: 2498:30
+(*scr)
+xzoom.rs:2499:25: 2499:31
+(*scr)
+xzoom.rs:2502:24: 2502:30
+(*scr)
+xzoom.rs:2503:25: 2503:31
+(*scr)

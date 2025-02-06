@@ -1,0 +1,35 @@
+qsort.rs:8:1: 13:2
+pub unsafe extern "C" fn swap<'a1, 'a2>(mut a: Option<&'a1 mut std::os::raw::c_int>,
+                              mut b: Option<&'a2 mut std::os::raw::c_int>) {
+    let mut t: i32 = *(borrow_mut(&mut a)).unwrap();
+    *(borrow_mut(&mut a)).unwrap() = *(borrow_mut(&mut b)).unwrap();
+    *(borrow_mut(&mut b)).unwrap() = t;
+}
+qsort.rs:15:1: 31:2
+pub unsafe extern "C" fn partition(mut arr: * mut std::os::raw::c_int,
+                                   mut low: std::os::raw::c_int,
+                                   mut high: std::os::raw::c_int) -> std::os::raw::c_int {
+    let mut pivot: i32 = *arr.offset(high as isize);
+    let mut i: i32 = low - 1 as std::os::raw::c_int;
+    let mut j: i32 = low;
+    while j <= high - 1 as std::os::raw::c_int {
+        if *arr.offset(j as isize) <= pivot {
+            i += 1;
+            swap(Some(&mut *arr.offset(i as isize)), Some(&mut *arr.offset(j as isize)));
+        }
+        j += 1
+    }
+    swap(Some(&mut *arr.offset((i + 1 as std::os::raw::c_int) as isize)),
+         Some(&mut *arr.offset(high as isize)));
+    return i + 1 as std::os::raw::c_int;
+}
+qsort.rs:33:1: 41:2
+pub unsafe extern "C" fn quickSort(mut arr: * mut std::os::raw::c_int,
+                                   mut low: std::os::raw::c_int,
+                                   mut high: std::os::raw::c_int) {
+    if low < high {
+        let mut i: i32 = partition(arr, low, high);
+        quickSort(arr, low, i - 1 as std::os::raw::c_int);
+        quickSort(arr, i + 1 as std::os::raw::c_int, high);
+    };
+}

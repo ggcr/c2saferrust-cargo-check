@@ -1,0 +1,3818 @@
+example1.rs:47:16: 47:37
+*p.offset(i as isize)
+example2.rs:82:12: 82:19
+(*info)
+example2.rs:85:65: 85:72
+(*info)
+example2.rs:86:16: 86:23
+(*info)
+example2.rs:86:35: 86:42
+(*info)
+example2.rs:86:51: 86:58
+(*info)
+example2.rs:87:16: 87:23
+(*info)
+example2.rs:87:33: 87:40
+(*info)
+example2.rs:90:19: 90:26
+(*info)
+example2.rs:95:20: 95:27
+(*info)
+example2.rs:101:19: 101:26
+(*info)
+example2.rs:106:20: 106:27
+(*info)
+example2.rs:112:19: 112:26
+(*info)
+example2.rs:117:20: 117:27
+(*info)
+fuzzer.rs:135:9: 135:16
+(*info)
+fuzzer.rs:138:15: 138:22
+(*info)
+fuzzer.rs:145:17: 145:66
+*(*outputs.offset(o as isize)).offset(i as isize)
+fuzzer.rs:145:18: 145:47
+(*outputs.offset(o as isize))
+fuzzer.rs:147:17: 148:70
+*(*inputs.offset(0 as std::os::raw::c_int as
+                                     isize)).offset((i + s) as isize)
+fuzzer.rs:147:18: 148:45
+(*inputs.offset(0 as std::os::raw::c_int as
+                                     isize))
+fuzzer.rs:151:19: 151:26
+(*info)
+fuzzer.rs:166:36: 168:82
+*(*inputs.offset(0 as std::os::raw::c_int as
+                                                        isize)).offset(k as
+                                                                           isize)
+fuzzer.rs:166:37: 167:64
+(*inputs.offset(0 as std::os::raw::c_int as
+                                                        isize))
+fuzzer.rs:174:35: 174:42
+(*info)
+fuzzer.rs:177:36: 177:63
+*options.offset(k as isize)
+fuzzer.rs:181:35: 181:42
+(*info)
+fuzzer.rs:188:40: 191:87
+*(*outputs.offset(j as
+                                                             isize)).offset(k
+                                                                                as
+                                                                                isize)
+fuzzer.rs:188:41: 189:69
+(*outputs.offset(j as
+                                                             isize))
+fuzzer.rs:219:26: 219:33
+(*info)
+fuzzer.rs:221:12: 221:19
+(*info)
+fuzzer.rs:221:26: 221:33
+(*info)
+fuzzer.rs:244:20: 244:27
+(*info)
+fuzzer.rs:248:20: 248:27
+(*info)
+fuzzer.rs:252:20: 252:27
+(*info)
+fuzzer.rs:283:13: 283:20
+(*info)
+fuzzer.rs:294:13: 294:20
+(*info)
+fuzzer.rs:305:13: 305:20
+(*info)
+fuzzer.rs:316:13: 316:20
+(*info)
+fuzzer.rs:327:13: 327:20
+(*info)
+fuzzer.rs:337:13: 337:20
+(*info)
+fuzzer.rs:376:31: 376:78
+*argv.offset(1 as std::os::raw::c_int as isize)
+fuzzer.rs:383:16: 383:25
+(*info_0)
+indicators/abs.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/abs.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/abs.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/abs.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/acos.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/acos.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/acos.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/acos.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/ad.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ad.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/ad.rs:40:9: 40:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/ad.rs:42:9: 42:58
+*inputs.offset(3 as std::os::raw::c_int as isize)
+indicators/ad.rs:44:9: 44:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ad.rs:50:13: 50:37
+*high.offset(i as isize)
+indicators/ad.rs:50:40: 50:63
+*low.offset(i as isize)
+indicators/ad.rs:53:18: 53:43
+*close.offset(i as isize)
+indicators/ad.rs:53:46: 53:69
+*low.offset(i as isize)
+indicators/ad.rs:54:22: 54:46
+*high.offset(i as isize)
+indicators/ad.rs:54:49: 54:74
+*close.offset(i as isize)
+indicators/ad.rs:55:26: 55:52
+*volume.offset(i as isize)
+indicators/ad.rs:57:9: 57:35
+*output.offset(i as isize)
+indicators/add.rs:31:9: 31:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/add.rs:33:9: 33:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/add.rs:35:9: 35:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/add.rs:40:13: 40:36
+*in1.offset(i as isize)
+indicators/add.rs:40:39: 40:62
+*in2.offset(i as isize)
+indicators/add.rs:39:9: 39:35
+*output.offset(i as isize)
+indicators/adosc.rs:32:12: 32:62
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/adosc.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/adosc.rs:44:9: 44:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/adosc.rs:46:9: 46:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/adosc.rs:48:9: 48:58
+*inputs.offset(3 as std::os::raw::c_int as isize)
+indicators/adosc.rs:50:9: 50:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/adosc.rs:52:9: 52:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/adosc.rs:66:9: 66:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/adosc.rs:74:13: 74:37
+*high.offset(i as isize)
+indicators/adosc.rs:74:40: 74:63
+*low.offset(i as isize)
+indicators/adosc.rs:77:18: 77:43
+*close.offset(i as isize)
+indicators/adosc.rs:77:46: 77:69
+*low.offset(i as isize)
+indicators/adosc.rs:78:22: 78:46
+*high.offset(i as isize)
+indicators/adosc.rs:78:49: 78:74
+*close.offset(i as isize)
+indicators/adosc.rs:79:26: 79:52
+*volume.offset(i as isize)
+indicators/adosc.rs:91:13: 91:20
+*fresh0
+indicators/adosc.rs:95:29: 96:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/adx.rs:34:13: 34:63
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/adx.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/adx.rs:46:9: 46:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/adx.rs:48:9: 48:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/adx.rs:50:9: 50:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/adx.rs:52:9: 52:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/adx.rs:66:22: 66:45
+*low.offset(i as isize)
+indicators/adx.rs:67:22: 67:46
+*high.offset(i as isize)
+indicators/adx.rs:69:13: 69:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adx.rs:80:13: 80:37
+*high.offset(i as isize)
+indicators/adx.rs:81:17: 81:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adx.rs:83:13: 83:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adx.rs:84:17: 84:40
+*low.offset(i as isize)
+indicators/adx.rs:106:24: 106:47
+*low.offset(i as isize)
+indicators/adx.rs:107:24: 107:48
+*high.offset(i as isize)
+indicators/adx.rs:109:13: 109:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adx.rs:120:13: 120:37
+*high.offset(i as isize)
+indicators/adx.rs:121:17: 121:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adx.rs:123:13: 123:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adx.rs:124:17: 124:40
+*low.offset(i as isize)
+indicators/adx.rs:145:13: 145:20
+*fresh0
+indicators/adx.rs:150:13: 150:20
+*fresh1
+indicators/adx.rs:154:29: 155:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/adxr.rs:65:13: 65:63
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/adxr.rs:75:9: 75:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/adxr.rs:77:9: 77:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/adxr.rs:79:9: 79:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/adxr.rs:81:9: 81:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/adxr.rs:83:9: 83:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/adxr.rs:97:22: 97:45
+*low.offset(i as isize)
+indicators/adxr.rs:98:22: 98:46
+*high.offset(i as isize)
+indicators/adxr.rs:100:13: 100:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adxr.rs:111:13: 111:37
+*high.offset(i as isize)
+indicators/adxr.rs:112:17: 112:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adxr.rs:114:13: 114:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adxr.rs:115:17: 115:40
+*low.offset(i as isize)
+indicators/adxr.rs:139:24: 139:47
+*low.offset(i as isize)
+indicators/adxr.rs:140:24: 140:48
+*high.offset(i as isize)
+indicators/adxr.rs:142:13: 142:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adxr.rs:153:13: 153:37
+*high.offset(i as isize)
+indicators/adxr.rs:154:17: 154:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adxr.rs:156:13: 156:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/adxr.rs:157:17: 157:40
+*low.offset(i as isize)
+indicators/adxr.rs:176:13: 176:70
+*(*adxr).vals.as_mut_ptr().offset((*adxr).index as isize)
+indicators/adxr.rs:176:14: 176:21
+(*adxr)
+indicators/adxr.rs:176:47: 176:54
+(*adxr)
+indicators/adxr.rs:178:29: 178:36
+(*adxr)
+indicators/adxr.rs:178:13: 178:20
+(*adxr)
+indicators/adxr.rs:179:16: 179:23
+(*adxr)
+indicators/adxr.rs:179:33: 179:40
+(*adxr)
+indicators/adxr.rs:180:17: 180:24
+(*adxr)
+indicators/adxr.rs:190:30: 201:77
+*(*adxr).vals.as_mut_ptr().offset((((*adxr).index
+                                                                     +
+                                                                     (*adxr).size
+                                                                     -
+                                                                     1 as
+                                                                         std::os::raw::c_int
+                                                                     +
+                                                                     1 as
+                                                                         std::os::raw::c_int)
+                                                                    %
+                                                                    (*adxr).size)
+                                                                   as isize)
+indicators/adxr.rs:190:31: 190:38
+(*adxr)
+indicators/adxr.rs:190:66: 190:73
+(*adxr)
+indicators/adxr.rs:192:70: 192:77
+(*adxr)
+indicators/adxr.rs:200:69: 200:76
+(*adxr)
+indicators/adxr.rs:187:17: 187:24
+*fresh0
+indicators/adxr.rs:203:13: 203:70
+*(*adxr).vals.as_mut_ptr().offset((*adxr).index as isize)
+indicators/adxr.rs:203:14: 203:21
+(*adxr)
+indicators/adxr.rs:203:47: 203:54
+(*adxr)
+indicators/adxr.rs:205:29: 205:36
+(*adxr)
+indicators/adxr.rs:205:13: 205:20
+(*adxr)
+indicators/adxr.rs:206:16: 206:23
+(*adxr)
+indicators/adxr.rs:206:33: 206:40
+(*adxr)
+indicators/adxr.rs:207:17: 207:24
+(*adxr)
+indicators/adxr.rs:213:29: 214:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/ao.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ao.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/ao.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ao.rs:56:23: 56:47
+*high.offset(i as isize)
+indicators/ao.rs:56:50: 56:73
+*low.offset(i as isize)
+indicators/ao.rs:63:5: 63:12
+*fresh0
+indicators/ao.rs:67:23: 67:47
+*high.offset(i as isize)
+indicators/ao.rs:67:50: 67:73
+*low.offset(i as isize)
+indicators/ao.rs:72:18: 72:72
+*high.offset((i - 34 as std::os::raw::c_int) as isize)
+indicators/ao.rs:73:22: 73:75
+*low.offset((i - 34 as std::os::raw::c_int) as isize)
+indicators/ao.rs:76:18: 76:71
+*high.offset((i - 5 as std::os::raw::c_int) as isize)
+indicators/ao.rs:77:22: 77:74
+*low.offset((i - 5 as std::os::raw::c_int) as isize)
+indicators/ao.rs:80:9: 80:16
+*fresh1
+indicators/ao.rs:83:29: 84:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/apo.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/apo.rs:43:9: 43:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/apo.rs:45:9: 45:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/apo.rs:47:9: 47:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/apo.rs:61:9: 61:57
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/apo.rs:63:9: 63:57
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/apo.rs:68:14: 68:39
+*input.offset(i as isize)
+indicators/apo.rs:70:14: 70:39
+*input.offset(i as isize)
+indicators/apo.rs:74:9: 74:16
+*fresh0
+indicators/apo.rs:77:26: 77:76
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/aroon.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/aroon.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/aroon.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/aroon.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/aroon.rs:47:9: 47:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/aroon.rs:49:9: 49:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/aroon.rs:56:24: 56:71
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/aroon.rs:57:24: 57:70
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/aroon.rs:64:15: 64:39
+*high.offset(i as isize)
+indicators/aroon.rs:67:19: 67:46
+*high.offset(maxi as isize)
+indicators/aroon.rs:72:23: 72:47
+*high.offset(j as isize)
+indicators/aroon.rs:77:15: 77:38
+*low.offset(i as isize)
+indicators/aroon.rs:80:19: 80:45
+*low.offset(mini as isize)
+indicators/aroon.rs:85:23: 85:46
+*low.offset(j as isize)
+indicators/aroon.rs:92:9: 92:16
+*fresh0
+indicators/aroon.rs:96:9: 96:16
+*fresh1
+indicators/aroon.rs:101:28: 102:63
+*outputs.offset(0 as std::os::raw::c_int as
+                                                        isize)
+indicators/aroon.rs:111:26: 111:76
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:35:12: 35:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:46:9: 46:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:50:9: 50:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:57:24: 57:71
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:58:24: 58:70
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/aroonosc.rs:64:28: 64:52
+*high.offset(i as isize)
+indicators/aroonosc.rs:67:19: 67:46
+*high.offset(maxi as isize)
+indicators/aroonosc.rs:72:23: 72:47
+*high.offset(j as isize)
+indicators/aroonosc.rs:77:15: 77:38
+*low.offset(i as isize)
+indicators/aroonosc.rs:80:19: 80:45
+*low.offset(mini as isize)
+indicators/aroonosc.rs:85:23: 85:46
+*low.offset(j as isize)
+indicators/aroonosc.rs:99:9: 99:16
+*fresh0
+indicators/aroonosc.rs:103:29: 104:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/asin.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/asin.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/asin.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/asin.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/atan.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/atan.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/atan.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/atan.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/atr.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/atr.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/atr.rs:46:9: 46:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/atr.rs:48:9: 48:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/atr.rs:50:9: 50:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/atr.rs:52:9: 52:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/atr.rs:59:9: 59:56
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/atr.rs:60:13: 60:59
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/atr.rs:64:22: 64:45
+*low.offset(i as isize)
+indicators/atr.rs:65:22: 65:46
+*high.offset(i as isize)
+indicators/atr.rs:67:13: 67:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/atr.rs:80:5: 80:12
+*fresh0
+indicators/atr.rs:83:24: 83:47
+*low.offset(i as isize)
+indicators/atr.rs:84:24: 84:48
+*high.offset(i as isize)
+indicators/atr.rs:86:13: 86:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/atr.rs:96:9: 96:16
+*fresh1
+indicators/atr.rs:99:29: 100:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/avgprice.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/avgprice.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/avgprice.rs:40:9: 40:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/avgprice.rs:42:9: 42:58
+*inputs.offset(3 as std::os::raw::c_int as isize)
+indicators/avgprice.rs:44:9: 44:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/avgprice.rs:49:14: 49:38
+*open.offset(i as isize)
+indicators/avgprice.rs:49:41: 49:65
+*high.offset(i as isize)
+indicators/avgprice.rs:50:18: 50:41
+*low.offset(i as isize)
+indicators/avgprice.rs:50:44: 50:69
+*close.offset(i as isize)
+indicators/avgprice.rs:48:9: 48:35
+*output.offset(i as isize)
+indicators/bbands.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/bbands.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/bbands.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/bbands.rs:48:9: 48:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/bbands.rs:50:9: 50:59
+*outputs.offset(2 as std::os::raw::c_int as isize)
+indicators/bbands.rs:52:9: 52:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/bbands.rs:53:23: 53:73
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/bbands.rs:62:16: 62:41
+*input.offset(i as isize)
+indicators/bbands.rs:63:17: 63:42
+*input.offset(i as isize)
+indicators/bbands.rs:63:45: 63:70
+*input.offset(i as isize)
+indicators/bbands.rs:68:5: 68:12
+*middle
+indicators/bbands.rs:71:15: 71:22
+*middle
+indicators/bbands.rs:71:5: 71:12
+*fresh0
+indicators/bbands.rs:74:15: 74:22
+*middle
+indicators/bbands.rs:74:5: 74:12
+*fresh1
+indicators/bbands.rs:78:16: 78:41
+*input.offset(i as isize)
+indicators/bbands.rs:79:17: 79:42
+*input.offset(i as isize)
+indicators/bbands.rs:79:45: 79:70
+*input.offset(i as isize)
+indicators/bbands.rs:80:16: 80:52
+*input.offset((i - period) as isize)
+indicators/bbands.rs:82:13: 82:49
+*input.offset((i - period) as isize)
+indicators/bbands.rs:83:17: 83:53
+*input.offset((i - period) as isize)
+indicators/bbands.rs:85:9: 85:16
+*middle
+indicators/bbands.rs:88:19: 88:26
+*middle
+indicators/bbands.rs:88:9: 88:16
+*fresh2
+indicators/bbands.rs:91:19: 91:26
+*middle
+indicators/bbands.rs:91:9: 91:16
+*fresh3
+indicators/bbands.rs:95:28: 96:63
+*outputs.offset(0 as std::os::raw::c_int as
+                                                        isize)
+indicators/bbands.rs:106:29: 107:64
+*outputs.offset(1 as std::os::raw::c_int as
+                                                         isize)
+indicators/bbands.rs:117:28: 118:63
+*outputs.offset(2 as std::os::raw::c_int as
+                                                        isize)
+indicators/bop.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/bop.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/bop.rs:40:9: 40:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/bop.rs:42:9: 42:58
+*inputs.offset(3 as std::os::raw::c_int as isize)
+indicators/bop.rs:44:9: 44:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/bop.rs:49:13: 49:37
+*high.offset(i as isize)
+indicators/bop.rs:49:40: 49:63
+*low.offset(i as isize)
+indicators/bop.rs:51:13: 51:39
+*output.offset(i as isize)
+indicators/bop.rs:54:18: 54:43
+*close.offset(i as isize)
+indicators/bop.rs:54:46: 54:70
+*open.offset(i as isize)
+indicators/bop.rs:53:13: 53:39
+*output.offset(i as isize)
+indicators/cci.rs:22:9: 22:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/cci.rs:32:9: 32:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cci.rs:34:9: 34:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/cci.rs:36:9: 36:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/cci.rs:38:9: 38:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/cci.rs:43:9: 43:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cci.rs:50:14: 50:38
+*high.offset(i as isize)
+indicators/cci.rs:50:41: 50:64
+*low.offset(i as isize)
+indicators/cci.rs:51:18: 51:43
+*close.offset(i as isize)
+indicators/cci.rs:52:12: 52:18
+(*sum)
+indicators/cci.rs:52:29: 52:35
+(*sum)
+indicators/cci.rs:54:17: 54:72
+*(*sum).vals.as_mut_ptr().offset((*sum).index as isize)
+indicators/cci.rs:54:18: 54:24
+(*sum)
+indicators/cci.rs:54:50: 54:56
+(*sum)
+indicators/cci.rs:53:13: 53:19
+(*sum)
+indicators/cci.rs:56:9: 56:15
+(*sum)
+indicators/cci.rs:57:9: 57:64
+*(*sum).vals.as_mut_ptr().offset((*sum).index as isize)
+indicators/cci.rs:57:10: 57:16
+(*sum)
+indicators/cci.rs:57:42: 57:48
+(*sum)
+indicators/cci.rs:58:9: 58:15
+(*sum)
+indicators/cci.rs:59:24: 59:30
+(*sum)
+indicators/cci.rs:59:9: 59:15
+(*sum)
+indicators/cci.rs:60:12: 60:18
+(*sum)
+indicators/cci.rs:60:28: 60:34
+(*sum)
+indicators/cci.rs:60:42: 60:48
+(*sum)
+indicators/cci.rs:61:24: 61:30
+(*sum)
+indicators/cci.rs:67:32: 67:76
+*(*sum).vals.as_mut_ptr().offset(j as isize)
+indicators/cci.rs:67:33: 67:39
+(*sum)
+indicators/cci.rs:75:13: 75:20
+*fresh0
+indicators/cci.rs:80:29: 81:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/ceil.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ceil.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ceil.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/ceil.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/cmo.rs:10:12: 10:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/cmo.rs:19:9: 19:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cmo.rs:21:9: 21:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cmo.rs:23:9: 23:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/cmo.rs:32:16: 32:41
+*input.offset(i as isize)
+indicators/cmo.rs:33:20: 33:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:34:17: 34:44
+(*input.offset(i as isize))
+indicators/cmo.rs:35:21: 35:75
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:38:16: 38:41
+*input.offset(i as isize)
+indicators/cmo.rs:39:20: 39:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:40:17: 40:73
+(*input.offset((i - 1 as std::os::raw::c_int) as isize))
+indicators/cmo.rs:41:21: 41:46
+*input.offset(i as isize)
+indicators/cmo.rs:47:5: 47:12
+*fresh0
+indicators/cmo.rs:53:16: 53:52
+*input.offset((i - period) as isize)
+indicators/cmo.rs:54:20: 54:83
+*input.offset((i - period - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:55:17: 55:55
+(*input.offset((i - period) as isize))
+indicators/cmo.rs:56:21: 56:84
+*input.offset((i - period - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:59:16: 59:52
+*input.offset((i - period) as isize)
+indicators/cmo.rs:60:20: 60:83
+*input.offset((i - period - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:61:17: 61:82
+(*input.offset((i - period - 1 as std::os::raw::c_int) as isize))
+indicators/cmo.rs:62:21: 62:57
+*input.offset((i - period) as isize)
+indicators/cmo.rs:65:16: 65:41
+*input.offset(i as isize)
+indicators/cmo.rs:66:20: 66:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:67:17: 67:44
+(*input.offset(i as isize))
+indicators/cmo.rs:68:21: 68:75
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:71:16: 71:41
+*input.offset(i as isize)
+indicators/cmo.rs:72:20: 72:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/cmo.rs:73:17: 73:73
+(*input.offset((i - 1 as std::os::raw::c_int) as isize))
+indicators/cmo.rs:74:21: 74:46
+*input.offset(i as isize)
+indicators/cmo.rs:78:9: 78:16
+*fresh1
+indicators/cmo.rs:83:29: 84:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/cos.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cos.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cos.rs:41:42: 41:65
+*in1.offset(i as isize)
+indicators/cos.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/cosh.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cosh.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cosh.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/cosh.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/crossany.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/crossany.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/crossany.rs:40:9: 40:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/crossany.rs:47:14: 47:35
+*a.offset(i as isize)
+indicators/crossany.rs:47:38: 47:59
+*b.offset(i as isize)
+indicators/crossany.rs:48:18: 48:68
+*a.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/crossany.rs:49:22: 49:72
+*b.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/crossany.rs:50:18: 50:39
+*a.offset(i as isize)
+indicators/crossany.rs:50:42: 50:63
+*b.offset(i as isize)
+indicators/crossany.rs:51:22: 51:72
+*a.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/crossany.rs:52:26: 52:76
+*b.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/crossany.rs:46:9: 46:16
+*fresh0
+indicators/crossover.rs:38:9: 38:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/crossover.rs:40:9: 40:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/crossover.rs:42:9: 42:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/crossover.rs:49:14: 49:35
+*a.offset(i as isize)
+indicators/crossover.rs:49:38: 49:59
+*b.offset(i as isize)
+indicators/crossover.rs:50:18: 50:68
+*a.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/crossover.rs:51:22: 51:72
+*b.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/crossover.rs:48:9: 48:16
+*fresh0
+indicators/cvi.rs:42:9: 42:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/cvi.rs:52:9: 52:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cvi.rs:54:9: 54:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/cvi.rs:56:9: 56:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/cvi.rs:58:9: 58:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/cvi.rs:66:9: 66:56
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/cvi.rs:67:13: 67:59
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/cvi.rs:72:14: 72:38
+*high.offset(i as isize)
+indicators/cvi.rs:72:41: 72:64
+*low.offset(i as isize)
+indicators/cvi.rs:74:9: 74:64
+*(*lag).vals.as_mut_ptr().offset((*lag).index as isize)
+indicators/cvi.rs:74:10: 74:16
+(*lag)
+indicators/cvi.rs:74:42: 74:48
+(*lag)
+indicators/cvi.rs:75:24: 75:30
+(*lag)
+indicators/cvi.rs:75:9: 75:15
+(*lag)
+indicators/cvi.rs:76:12: 76:18
+(*lag)
+indicators/cvi.rs:76:28: 76:34
+(*lag)
+indicators/cvi.rs:76:42: 76:48
+(*lag)
+indicators/cvi.rs:82:14: 82:38
+*high.offset(i as isize)
+indicators/cvi.rs:82:41: 82:64
+*low.offset(i as isize)
+indicators/cvi.rs:85:13: 85:68
+*(*lag).vals.as_mut_ptr().offset((*lag).index as isize)
+indicators/cvi.rs:85:14: 85:20
+(*lag)
+indicators/cvi.rs:85:46: 85:52
+(*lag)
+indicators/cvi.rs:88:9: 88:16
+*fresh0
+indicators/cvi.rs:89:9: 89:64
+*(*lag).vals.as_mut_ptr().offset((*lag).index as isize)
+indicators/cvi.rs:89:10: 89:16
+(*lag)
+indicators/cvi.rs:89:42: 89:48
+(*lag)
+indicators/cvi.rs:90:24: 90:30
+(*lag)
+indicators/cvi.rs:90:9: 90:15
+(*lag)
+indicators/cvi.rs:91:12: 91:18
+(*lag)
+indicators/cvi.rs:91:28: 91:34
+(*lag)
+indicators/cvi.rs:91:42: 91:48
+(*lag)
+indicators/cvi.rs:95:29: 96:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/decay.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/decay.rs:38:9: 38:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/decay.rs:40:9: 40:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/decay.rs:44:15: 44:63
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/decay.rs:44:5: 44:12
+*fresh0
+indicators/decay.rs:49:13: 49:65
+*output.offset(-(1 as std::os::raw::c_int) as isize)
+indicators/decay.rs:53:16: 53:41
+*input.offset(i as isize)
+indicators/decay.rs:54:17: 54:42
+*input.offset(i as isize)
+indicators/decay.rs:52:9: 52:16
+*fresh1
+indicators/dema.rs:33:9: 33:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dema.rs:43:9: 43:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dema.rs:45:9: 45:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dema.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dema.rs:55:24: 55:72
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/dema.rs:61:28: 61:53
+*input.offset(i as isize)
+indicators/dema.rs:66:17: 66:24
+*output
+indicators/dema.rs:72:29: 73:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/di.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/di.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/di.rs:46:9: 46:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/di.rs:48:9: 48:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/di.rs:50:9: 50:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/di.rs:52:9: 52:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/di.rs:54:9: 54:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/di.rs:67:22: 67:45
+*low.offset(i as isize)
+indicators/di.rs:68:22: 68:46
+*high.offset(i as isize)
+indicators/di.rs:70:13: 70:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/di.rs:81:13: 81:37
+*high.offset(i as isize)
+indicators/di.rs:82:17: 82:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/di.rs:84:13: 84:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/di.rs:85:17: 85:40
+*low.offset(i as isize)
+indicators/di.rs:98:5: 98:12
+*fresh0
+indicators/di.rs:101:5: 101:12
+*fresh1
+indicators/di.rs:105:24: 105:47
+*low.offset(i as isize)
+indicators/di.rs:106:24: 106:48
+*high.offset(i as isize)
+indicators/di.rs:108:13: 108:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/di.rs:119:13: 119:37
+*high.offset(i as isize)
+indicators/di.rs:120:17: 120:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/di.rs:122:13: 122:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/di.rs:123:17: 123:40
+*low.offset(i as isize)
+indicators/di.rs:134:9: 134:16
+*fresh2
+indicators/di.rs:137:9: 137:16
+*fresh3
+indicators/di.rs:140:30: 141:65
+*outputs.offset(0 as std::os::raw::c_int as
+                                                          isize)
+indicators/di.rs:150:31: 151:66
+*outputs.offset(1 as std::os::raw::c_int as
+                                                           isize)
+indicators/div.rs:31:9: 31:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/div.rs:33:9: 33:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/div.rs:35:9: 35:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/div.rs:40:13: 40:36
+*in1.offset(i as isize)
+indicators/div.rs:40:39: 40:62
+*in2.offset(i as isize)
+indicators/div.rs:39:9: 39:35
+*output.offset(i as isize)
+indicators/dm.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dm.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dm.rs:44:9: 44:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/dm.rs:46:9: 46:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dm.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dm.rs:50:9: 50:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/dm.rs:64:13: 64:37
+*high.offset(i as isize)
+indicators/dm.rs:65:17: 65:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dm.rs:67:13: 67:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dm.rs:68:17: 68:40
+*low.offset(i as isize)
+indicators/dm.rs:81:5: 81:12
+*fresh0
+indicators/dm.rs:84:5: 84:12
+*fresh1
+indicators/dm.rs:90:13: 90:37
+*high.offset(i as isize)
+indicators/dm.rs:91:17: 91:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dm.rs:93:13: 93:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dm.rs:94:17: 94:40
+*low.offset(i as isize)
+indicators/dm.rs:105:9: 105:16
+*fresh2
+indicators/dm.rs:108:9: 108:16
+*fresh3
+indicators/dm.rs:111:30: 112:65
+*outputs.offset(0 as std::os::raw::c_int as
+                                                          isize)
+indicators/dm.rs:121:31: 122:66
+*outputs.offset(1 as std::os::raw::c_int as
+                                                           isize)
+indicators/dpo.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dpo.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dpo.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dpo.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dpo.rs:54:31: 54:56
+*input.offset(i as isize)
+indicators/dpo.rs:58:9: 58:75
+*input.offset((period - 1 as std::os::raw::c_int - back) as isize)
+indicators/dpo.rs:57:5: 57:12
+*fresh0
+indicators/dpo.rs:62:16: 62:41
+*input.offset(i as isize)
+indicators/dpo.rs:63:16: 63:52
+*input.offset((i - period) as isize)
+indicators/dpo.rs:66:19: 66:53
+*input.offset((i - back) as isize)
+indicators/dpo.rs:66:9: 66:16
+*fresh1
+indicators/dpo.rs:69:29: 70:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/dx.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dx.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dx.rs:46:9: 46:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/dx.rs:48:9: 48:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/dx.rs:50:9: 50:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/dx.rs:52:9: 52:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/dx.rs:65:22: 65:45
+*low.offset(i as isize)
+indicators/dx.rs:66:22: 66:46
+*high.offset(i as isize)
+indicators/dx.rs:68:13: 68:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dx.rs:79:13: 79:37
+*high.offset(i as isize)
+indicators/dx.rs:80:17: 80:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dx.rs:82:13: 82:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dx.rs:83:17: 83:40
+*low.offset(i as isize)
+indicators/dx.rs:102:5: 102:12
+*fresh0
+indicators/dx.rs:106:24: 106:47
+*low.offset(i as isize)
+indicators/dx.rs:107:24: 107:48
+*high.offset(i as isize)
+indicators/dx.rs:109:13: 109:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dx.rs:120:13: 120:37
+*high.offset(i as isize)
+indicators/dx.rs:121:17: 121:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dx.rs:123:13: 123:65
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/dx.rs:124:17: 124:40
+*low.offset(i as isize)
+indicators/dx.rs:141:9: 141:16
+*fresh1
+indicators/dx.rs:144:29: 145:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/edecay.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/edecay.rs:38:9: 38:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/edecay.rs:40:9: 40:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/edecay.rs:44:15: 44:63
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/edecay.rs:44:5: 44:12
+*fresh0
+indicators/edecay.rs:49:13: 49:65
+*output.offset(-(1 as std::os::raw::c_int) as isize)
+indicators/edecay.rs:53:16: 53:41
+*input.offset(i as isize)
+indicators/edecay.rs:54:17: 54:42
+*input.offset(i as isize)
+indicators/edecay.rs:52:9: 52:16
+*fresh1
+indicators/ema.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ema.rs:43:9: 43:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/ema.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ema.rs:51:24: 51:72
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/ema.rs:54:5: 54:12
+*fresh0
+indicators/ema.rs:58:16: 58:41
+*input.offset(i as isize)
+indicators/ema.rs:61:9: 61:16
+*fresh1
+indicators/ema.rs:64:29: 65:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/emv.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/emv.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/emv.rs:45:9: 45:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/emv.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/emv.rs:50:10: 50:57
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/emv.rs:51:14: 51:60
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/emv.rs:56:14: 56:38
+*high.offset(i as isize)
+indicators/emv.rs:56:41: 56:64
+*low.offset(i as isize)
+indicators/emv.rs:58:13: 58:39
+*volume.offset(i as isize)
+indicators/emv.rs:59:18: 59:42
+*high.offset(i as isize)
+indicators/emv.rs:59:45: 59:68
+*low.offset(i as isize)
+indicators/emv.rs:62:9: 62:16
+*fresh0
+indicators/emv.rs:66:29: 67:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/exp.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/exp.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/exp.rs:41:42: 41:65
+*in1.offset(i as isize)
+indicators/exp.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/fisher.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:46:9: 46:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/fisher.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:50:9: 50:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/fisher.rs:52:9: 52:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:60:14: 60:61
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:61:18: 61:64
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:64:14: 64:61
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:65:18: 65:64
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/fisher.rs:74:25: 74:49
+*high.offset(i as isize)
+indicators/fisher.rs:74:52: 74:75
+*low.offset(i as isize)
+indicators/fisher.rs:79:22: 79:49
+*high.offset(maxi as isize)
+indicators/fisher.rs:80:26: 80:52
+*low.offset(maxi as isize)
+indicators/fisher.rs:87:26: 87:50
+*high.offset(j as isize)
+indicators/fisher.rs:87:53: 87:76
+*low.offset(j as isize)
+indicators/fisher.rs:92:25: 92:49
+*high.offset(i as isize)
+indicators/fisher.rs:92:52: 92:75
+*low.offset(i as isize)
+indicators/fisher.rs:97:22: 97:49
+*high.offset(mini as isize)
+indicators/fisher.rs:98:26: 98:52
+*low.offset(mini as isize)
+indicators/fisher.rs:105:26: 105:50
+*high.offset(j as isize)
+indicators/fisher.rs:105:53: 105:76
+*low.offset(j as isize)
+indicators/fisher.rs:114:24: 114:48
+*high.offset(i as isize)
+indicators/fisher.rs:114:51: 114:74
+*low.offset(i as isize)
+indicators/fisher.rs:120:9: 120:16
+*fresh0
+indicators/fisher.rs:125:9: 125:16
+*fresh1
+indicators/fisher.rs:129:29: 130:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/fisher.rs:140:29: 141:64
+*outputs.offset(1 as std::os::raw::c_int as
+                                                         isize)
+indicators/floor.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/floor.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/floor.rs:41:44: 41:67
+*in1.offset(i as isize)
+indicators/floor.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/fosc.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/fosc.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/fosc.rs:43:9: 43:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/fosc.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/fosc.rs:62:13: 62:38
+*input.offset(i as isize)
+indicators/fosc.rs:64:14: 64:39
+*input.offset(i as isize)
+indicators/fosc.rs:72:15: 72:40
+*input.offset(i as isize)
+indicators/fosc.rs:73:14: 73:39
+*input.offset(i as isize)
+indicators/fosc.rs:81:22: 81:47
+*input.offset(i as isize)
+indicators/fosc.rs:82:21: 82:46
+*input.offset(i as isize)
+indicators/fosc.rs:79:13: 79:20
+*fresh0
+indicators/fosc.rs:86:14: 86:77
+*input.offset((i - period + 1 as std::os::raw::c_int) as isize)
+indicators/fosc.rs:89:29: 90:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/hma.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/hma.rs:56:9: 56:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/hma.rs:58:9: 58:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/hma.rs:60:9: 60:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/hma.rs:91:13: 91:38
+*input.offset(i as isize)
+indicators/hma.rs:93:16: 93:41
+*input.offset(i as isize)
+indicators/hma.rs:96:17: 96:42
+*input.offset(i as isize)
+indicators/hma.rs:99:21: 99:46
+*input.offset(i as isize)
+indicators/hma.rs:106:23: 106:48
+*input.offset(i as isize)
+indicators/hma.rs:107:16: 107:41
+*input.offset(i as isize)
+indicators/hma.rs:108:24: 108:49
+*input.offset(i as isize)
+indicators/hma.rs:109:17: 109:42
+*input.offset(i as isize)
+indicators/hma.rs:116:9: 116:66
+*(*buff).vals.as_mut_ptr().offset((*buff).index as isize)
+indicators/hma.rs:116:10: 116:17
+(*buff)
+indicators/hma.rs:116:43: 116:50
+(*buff)
+indicators/hma.rs:117:25: 117:32
+(*buff)
+indicators/hma.rs:117:9: 117:16
+(*buff)
+indicators/hma.rs:118:12: 118:19
+(*buff)
+indicators/hma.rs:118:29: 118:36
+(*buff)
+indicators/hma.rs:118:44: 118:51
+(*buff)
+indicators/hma.rs:122:13: 122:20
+*fresh0
+indicators/hma.rs:125:17: 129:79
+*(*buff).vals.as_mut_ptr().offset((((*buff).index +
+                                                        (*buff).size -
+                                                        1 as std::os::raw::c_int +
+                                                        1 as std::os::raw::c_int) %
+                                                       (*buff).size) as isize)
+indicators/hma.rs:125:18: 125:25
+(*buff)
+indicators/hma.rs:125:53: 125:60
+(*buff)
+indicators/hma.rs:126:57: 126:64
+(*buff)
+indicators/hma.rs:129:56: 129:63
+(*buff)
+indicators/hma.rs:132:16: 132:79
+*input.offset((i - period + 1 as std::os::raw::c_int) as isize)
+indicators/hma.rs:134:17: 134:81
+*input.offset((i - period2 + 1 as std::os::raw::c_int) as isize)
+indicators/hma.rs:138:29: 139:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/kama.rs:36:12: 36:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/kama.rs:46:9: 46:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/kama.rs:48:9: 48:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/kama.rs:50:9: 50:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/kama.rs:66:18: 66:43
+*input.offset(i as isize)
+indicators/kama.rs:67:22: 67:76
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/kama.rs:71:9: 71:68
+*input.offset((period - 1 as std::os::raw::c_int) as isize)
+indicators/kama.rs:74:5: 74:12
+*fresh0
+indicators/kama.rs:80:18: 80:43
+*input.offset(i as isize)
+indicators/kama.rs:81:22: 81:76
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/kama.rs:84:22: 84:58
+*input.offset((i - period) as isize)
+indicators/kama.rs:85:26: 86:50
+*input.offset((i - period - 1 as std::os::raw::c_int) as
+                                           isize)
+indicators/kama.rs:90:22: 90:47
+*input.offset(i as isize)
+indicators/kama.rs:91:26: 91:62
+*input.offset((i - period) as isize)
+indicators/kama.rs:96:29: 96:54
+*input.offset(i as isize)
+indicators/kama.rs:99:9: 99:16
+*fresh1
+indicators/kama.rs:102:29: 103:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/kvo.rs:43:9: 43:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/kvo.rs:45:9: 45:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/kvo.rs:47:9: 47:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/kvo.rs:49:9: 49:58
+*inputs.offset(3 as std::os::raw::c_int as isize)
+indicators/kvo.rs:51:9: 51:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/kvo.rs:53:9: 53:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/kvo.rs:66:9: 66:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/kvo.rs:69:9: 69:56
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/kvo.rs:70:13: 70:59
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/kvo.rs:71:13: 71:61
+*close.offset(0 as std::os::raw::c_int as isize)
+indicators/kvo.rs:79:13: 79:37
+*high.offset(i as isize)
+indicators/kvo.rs:79:40: 79:63
+*low.offset(i as isize)
+indicators/kvo.rs:80:17: 80:42
+*close.offset(i as isize)
+indicators/kvo.rs:82:13: 82:37
+*high.offset(i as isize)
+indicators/kvo.rs:82:40: 82:63
+*low.offset(i as isize)
+indicators/kvo.rs:86:17: 86:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/kvo.rs:87:21: 87:73
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/kvo.rs:91:17: 91:70
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/kvo.rs:92:21: 92:73
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/kvo.rs:96:13: 96:39
+*volume.offset(i as isize)
+indicators/kvo.rs:110:9: 110:16
+*fresh0
+indicators/kvo.rs:114:29: 115:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/lag.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/lag.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/lag.rs:43:9: 43:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/lag.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/lag.rs:53:19: 53:55
+*input.offset((i - period) as isize)
+indicators/lag.rs:53:9: 53:16
+*fresh0
+indicators/lag.rs:56:29: 57:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/linreg.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/linreg.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/linreg.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/linreg.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/linreg.rs:62:13: 62:38
+*input.offset(i as isize)
+indicators/linreg.rs:64:14: 64:39
+*input.offset(i as isize)
+indicators/linreg.rs:72:15: 72:40
+*input.offset(i as isize)
+indicators/linreg.rs:73:14: 73:39
+*input.offset(i as isize)
+indicators/linreg.rs:78:9: 78:16
+*fresh0
+indicators/linreg.rs:80:14: 80:77
+*input.offset((i - period + 1 as std::os::raw::c_int) as isize)
+indicators/linreg.rs:83:29: 84:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/linregintercept.rs:33:12: 33:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/linregintercept.rs:46:9: 46:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/linregintercept.rs:48:9: 48:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/linregintercept.rs:50:9: 50:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/linregintercept.rs:66:13: 66:38
+*input.offset(i as isize)
+indicators/linregintercept.rs:68:14: 68:39
+*input.offset(i as isize)
+indicators/linregintercept.rs:76:15: 76:40
+*input.offset(i as isize)
+indicators/linregintercept.rs:77:14: 77:39
+*input.offset(i as isize)
+indicators/linregintercept.rs:82:9: 82:16
+*fresh0
+indicators/linregintercept.rs:84:14: 84:77
+*input.offset((i - period + 1 as std::os::raw::c_int) as isize)
+indicators/linregintercept.rs:87:29: 88:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/linregslope.rs:33:12: 33:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/linregslope.rs:45:9: 45:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/linregslope.rs:47:9: 47:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/linregslope.rs:49:9: 49:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/linregslope.rs:64:13: 64:38
+*input.offset(i as isize)
+indicators/linregslope.rs:66:14: 66:39
+*input.offset(i as isize)
+indicators/linregslope.rs:74:15: 74:40
+*input.offset(i as isize)
+indicators/linregslope.rs:75:14: 75:39
+*input.offset(i as isize)
+indicators/linregslope.rs:79:9: 79:16
+*fresh0
+indicators/linregslope.rs:81:14: 81:77
+*input.offset((i - period + 1 as std::os::raw::c_int) as isize)
+indicators/linregslope.rs:84:29: 85:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/ln.rs:40:9: 40:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ln.rs:42:9: 42:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ln.rs:46:42: 46:65
+*in1.offset(i as isize)
+indicators/ln.rs:46:9: 46:35
+*output.offset(i as isize)
+indicators/log10.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/log10.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/log10.rs:41:44: 41:67
+*in1.offset(i as isize)
+indicators/log10.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/macd.rs:34:9: 34:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/macd.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/macd.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/macd.rs:48:9: 48:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/macd.rs:50:9: 50:59
+*outputs.offset(2 as std::os::raw::c_int as isize)
+indicators/macd.rs:52:9: 52:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/macd.rs:54:9: 54:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/macd.rs:56:9: 56:59
+*options.offset(2 as std::os::raw::c_int as isize)
+indicators/macd.rs:80:9: 80:57
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/macd.rs:82:9: 82:57
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/macd.rs:88:14: 88:39
+*input.offset(i as isize)
+indicators/macd.rs:90:14: 90:39
+*input.offset(i as isize)
+indicators/macd.rs:97:13: 97:20
+*fresh0
+indicators/macd.rs:100:13: 100:20
+*fresh1
+indicators/macd.rs:103:13: 103:20
+*fresh2
+indicators/macd.rs:107:27: 107:77
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/macd.rs:117:29: 118:64
+*outputs.offset(1 as std::os::raw::c_int as
+                                                         isize)
+indicators/macd.rs:127:27: 127:77
+*outputs.offset(2 as std::os::raw::c_int as isize)
+indicators/marketfi.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/marketfi.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/marketfi.rs:45:9: 45:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/marketfi.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/marketfi.rs:55:14: 55:38
+*high.offset(i as isize)
+indicators/marketfi.rs:55:41: 55:64
+*low.offset(i as isize)
+indicators/marketfi.rs:56:17: 56:43
+*volume.offset(i as isize)
+indicators/marketfi.rs:54:9: 54:16
+*fresh0
+indicators/marketfi.rs:59:29: 60:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/mass.rs:42:9: 42:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/mass.rs:55:9: 55:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mass.rs:57:9: 57:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/mass.rs:59:9: 59:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/mass.rs:61:9: 61:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mass.rs:71:9: 71:56
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/mass.rs:72:13: 72:59
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/mass.rs:80:13: 80:37
+*high.offset(i as isize)
+indicators/mass.rs:80:40: 80:63
+*low.offset(i as isize)
+indicators/mass.rs:86:20: 86:26
+(*sum)
+indicators/mass.rs:86:37: 86:43
+(*sum)
+indicators/mass.rs:88:25: 89:68
+*(*sum).vals.as_mut_ptr().offset((*sum).index as
+                                                             isize)
+indicators/mass.rs:88:26: 88:32
+(*sum)
+indicators/mass.rs:88:58: 88:64
+(*sum)
+indicators/mass.rs:87:21: 87:27
+(*sum)
+indicators/mass.rs:91:17: 91:23
+(*sum)
+indicators/mass.rs:92:17: 92:72
+*(*sum).vals.as_mut_ptr().offset((*sum).index as isize)
+indicators/mass.rs:92:18: 92:24
+(*sum)
+indicators/mass.rs:92:50: 92:56
+(*sum)
+indicators/mass.rs:94:17: 94:23
+(*sum)
+indicators/mass.rs:95:32: 95:38
+(*sum)
+indicators/mass.rs:95:17: 95:23
+(*sum)
+indicators/mass.rs:96:20: 96:26
+(*sum)
+indicators/mass.rs:96:36: 96:42
+(*sum)
+indicators/mass.rs:97:21: 97:27
+(*sum)
+indicators/mass.rs:102:31: 102:37
+(*sum)
+indicators/mass.rs:102:21: 102:28
+*fresh0
+indicators/mass.rs:109:29: 110:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/max.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/max.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/max.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/max.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/max.rs:51:24: 51:72
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/max.rs:56:28: 56:53
+*input.offset(i as isize)
+indicators/max.rs:59:19: 59:47
+*input.offset(maxi as isize)
+indicators/max.rs:64:23: 64:48
+*input.offset(j as isize)
+indicators/max.rs:70:9: 70:16
+*fresh0
+indicators/max.rs:74:29: 75:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/md.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/md.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/md.rs:46:9: 46:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/md.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/md.rs:57:26: 57:51
+*input.offset(i as isize)
+indicators/md.rs:59:33: 59:69
+*input.offset((i - period) as isize)
+indicators/md.rs:65:35: 65:66
+*input.offset((i - j) as isize)
+indicators/md.rs:70:13: 70:20
+*fresh0
+indicators/md.rs:74:29: 75:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/medprice.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/medprice.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/medprice.rs:40:9: 40:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/medprice.rs:45:14: 45:38
+*high.offset(i as isize)
+indicators/medprice.rs:45:41: 45:64
+*low.offset(i as isize)
+indicators/medprice.rs:44:9: 44:35
+*output.offset(i as isize)
+indicators/mfi.rs:19:12: 19:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/mfi.rs:28:9: 28:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mfi.rs:30:9: 30:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/mfi.rs:32:9: 32:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/mfi.rs:34:9: 34:58
+*inputs.offset(3 as std::os::raw::c_int as isize)
+indicators/mfi.rs:36:9: 36:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/mfi.rs:40:9: 40:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mfi.rs:42:10: 42:57
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/mfi.rs:43:14: 43:60
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/mfi.rs:44:14: 44:62
+*close.offset(0 as std::os::raw::c_int as isize)
+indicators/mfi.rs:51:14: 51:38
+*high.offset(i as isize)
+indicators/mfi.rs:51:41: 51:64
+*low.offset(i as isize)
+indicators/mfi.rs:52:18: 52:43
+*close.offset(i as isize)
+indicators/mfi.rs:53:30: 53:56
+*volume.offset(i as isize)
+indicators/mfi.rs:55:16: 55:21
+(*up)
+indicators/mfi.rs:55:32: 55:37
+(*up)
+indicators/mfi.rs:57:21: 57:74
+*(*up).vals.as_mut_ptr().offset((*up).index as isize)
+indicators/mfi.rs:57:22: 57:27
+(*up)
+indicators/mfi.rs:57:53: 57:58
+(*up)
+indicators/mfi.rs:56:17: 56:22
+(*up)
+indicators/mfi.rs:59:13: 59:18
+(*up)
+indicators/mfi.rs:60:13: 60:66
+*(*up).vals.as_mut_ptr().offset((*up).index as isize)
+indicators/mfi.rs:60:14: 60:19
+(*up)
+indicators/mfi.rs:60:45: 60:50
+(*up)
+indicators/mfi.rs:61:13: 61:18
+(*up)
+indicators/mfi.rs:62:27: 62:32
+(*up)
+indicators/mfi.rs:62:13: 62:18
+(*up)
+indicators/mfi.rs:63:16: 63:21
+(*up)
+indicators/mfi.rs:63:31: 63:36
+(*up)
+indicators/mfi.rs:63:44: 63:49
+(*up)
+indicators/mfi.rs:64:16: 64:23
+(*down)
+indicators/mfi.rs:64:34: 64:41
+(*down)
+indicators/mfi.rs:66:21: 66:78
+*(*down).vals.as_mut_ptr().offset((*down).index as isize)
+indicators/mfi.rs:66:22: 66:29
+(*down)
+indicators/mfi.rs:66:55: 66:62
+(*down)
+indicators/mfi.rs:65:17: 65:24
+(*down)
+indicators/mfi.rs:68:13: 68:20
+(*down)
+indicators/mfi.rs:69:13: 69:70
+*(*down).vals.as_mut_ptr().offset((*down).index as isize)
+indicators/mfi.rs:69:14: 69:21
+(*down)
+indicators/mfi.rs:69:47: 69:54
+(*down)
+indicators/mfi.rs:71:13: 71:20
+(*down)
+indicators/mfi.rs:72:29: 72:36
+(*down)
+indicators/mfi.rs:72:13: 72:20
+(*down)
+indicators/mfi.rs:73:16: 73:23
+(*down)
+indicators/mfi.rs:73:33: 73:40
+(*down)
+indicators/mfi.rs:74:17: 74:24
+(*down)
+indicators/mfi.rs:77:16: 77:23
+(*down)
+indicators/mfi.rs:77:34: 77:41
+(*down)
+indicators/mfi.rs:79:21: 79:78
+*(*down).vals.as_mut_ptr().offset((*down).index as isize)
+indicators/mfi.rs:79:22: 79:29
+(*down)
+indicators/mfi.rs:79:55: 79:62
+(*down)
+indicators/mfi.rs:78:17: 78:24
+(*down)
+indicators/mfi.rs:81:13: 81:20
+(*down)
+indicators/mfi.rs:82:13: 82:70
+*(*down).vals.as_mut_ptr().offset((*down).index as isize)
+indicators/mfi.rs:82:14: 82:21
+(*down)
+indicators/mfi.rs:82:47: 82:54
+(*down)
+indicators/mfi.rs:83:13: 83:20
+(*down)
+indicators/mfi.rs:84:29: 84:36
+(*down)
+indicators/mfi.rs:84:13: 84:20
+(*down)
+indicators/mfi.rs:85:16: 85:23
+(*down)
+indicators/mfi.rs:85:33: 85:40
+(*down)
+indicators/mfi.rs:86:17: 86:24
+(*down)
+indicators/mfi.rs:88:16: 88:21
+(*up)
+indicators/mfi.rs:88:32: 88:37
+(*up)
+indicators/mfi.rs:90:21: 90:74
+*(*up).vals.as_mut_ptr().offset((*up).index as isize)
+indicators/mfi.rs:90:22: 90:27
+(*up)
+indicators/mfi.rs:90:53: 90:58
+(*up)
+indicators/mfi.rs:89:17: 89:22
+(*up)
+indicators/mfi.rs:92:13: 92:18
+(*up)
+indicators/mfi.rs:93:13: 93:66
+*(*up).vals.as_mut_ptr().offset((*up).index as isize)
+indicators/mfi.rs:93:14: 93:19
+(*up)
+indicators/mfi.rs:93:45: 93:50
+(*up)
+indicators/mfi.rs:94:13: 94:18
+(*up)
+indicators/mfi.rs:95:27: 95:32
+(*up)
+indicators/mfi.rs:95:13: 95:18
+(*up)
+indicators/mfi.rs:96:16: 96:21
+(*up)
+indicators/mfi.rs:96:31: 96:36
+(*up)
+indicators/mfi.rs:96:44: 96:49
+(*up)
+indicators/mfi.rs:98:16: 98:21
+(*up)
+indicators/mfi.rs:98:32: 98:37
+(*up)
+indicators/mfi.rs:100:21: 100:74
+*(*up).vals.as_mut_ptr().offset((*up).index as isize)
+indicators/mfi.rs:100:22: 100:27
+(*up)
+indicators/mfi.rs:100:53: 100:58
+(*up)
+indicators/mfi.rs:99:17: 99:22
+(*up)
+indicators/mfi.rs:102:13: 102:18
+(*up)
+indicators/mfi.rs:103:13: 103:66
+*(*up).vals.as_mut_ptr().offset((*up).index as isize)
+indicators/mfi.rs:103:14: 103:19
+(*up)
+indicators/mfi.rs:103:45: 103:50
+(*up)
+indicators/mfi.rs:104:13: 104:18
+(*up)
+indicators/mfi.rs:105:27: 105:32
+(*up)
+indicators/mfi.rs:105:13: 105:18
+(*up)
+indicators/mfi.rs:106:16: 106:21
+(*up)
+indicators/mfi.rs:106:31: 106:36
+(*up)
+indicators/mfi.rs:106:44: 106:49
+(*up)
+indicators/mfi.rs:107:16: 107:23
+(*down)
+indicators/mfi.rs:107:34: 107:41
+(*down)
+indicators/mfi.rs:109:21: 109:78
+*(*down).vals.as_mut_ptr().offset((*down).index as isize)
+indicators/mfi.rs:109:22: 109:29
+(*down)
+indicators/mfi.rs:109:55: 109:62
+(*down)
+indicators/mfi.rs:108:17: 108:24
+(*down)
+indicators/mfi.rs:111:13: 111:20
+(*down)
+indicators/mfi.rs:112:13: 112:70
+*(*down).vals.as_mut_ptr().offset((*down).index as isize)
+indicators/mfi.rs:112:14: 112:21
+(*down)
+indicators/mfi.rs:112:47: 112:54
+(*down)
+indicators/mfi.rs:114:13: 114:20
+(*down)
+indicators/mfi.rs:115:29: 115:36
+(*down)
+indicators/mfi.rs:115:13: 115:20
+(*down)
+indicators/mfi.rs:116:16: 116:23
+(*down)
+indicators/mfi.rs:116:33: 116:40
+(*down)
+indicators/mfi.rs:117:17: 117:24
+(*down)
+indicators/mfi.rs:124:23: 124:28
+(*up)
+indicators/mfi.rs:124:36: 124:41
+(*up)
+indicators/mfi.rs:124:48: 124:55
+(*down)
+indicators/mfi.rs:124:13: 124:20
+*fresh0
+indicators/mfi.rs:130:29: 131:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/min.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/min.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/min.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/min.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/min.rs:51:24: 51:72
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/min.rs:56:28: 56:53
+*input.offset(i as isize)
+indicators/min.rs:59:19: 59:47
+*input.offset(mini as isize)
+indicators/min.rs:64:23: 64:48
+*input.offset(j as isize)
+indicators/min.rs:70:9: 70:16
+*fresh0
+indicators/min.rs:74:29: 75:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/mom.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/mom.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mom.rs:43:9: 43:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/mom.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mom.rs:54:13: 54:38
+*input.offset(i as isize)
+indicators/mom.rs:54:41: 54:77
+*input.offset((i - period) as isize)
+indicators/mom.rs:53:9: 53:16
+*fresh0
+indicators/mom.rs:57:29: 58:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/msw.rs:40:12: 40:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/msw.rs:49:9: 49:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/msw.rs:51:9: 51:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/msw.rs:53:9: 53:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/msw.rs:55:9: 55:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/msw.rs:72:22: 72:53
+*input.offset((i - j) as isize)
+indicators/msw.rs:99:9: 99:16
+*fresh0
+indicators/msw.rs:102:9: 102:16
+*fresh1
+indicators/msw.rs:105:27: 105:77
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/msw.rs:115:27: 115:77
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/mul.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mul.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/mul.rs:40:9: 40:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/mul.rs:45:13: 45:36
+*in1.offset(i as isize)
+indicators/mul.rs:45:39: 45:62
+*in2.offset(i as isize)
+indicators/mul.rs:44:9: 44:35
+*output.offset(i as isize)
+indicators/natr.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/natr.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/natr.rs:46:9: 46:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/natr.rs:48:9: 48:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/natr.rs:50:9: 50:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/natr.rs:52:9: 52:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/natr.rs:59:9: 59:56
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/natr.rs:60:13: 60:59
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/natr.rs:64:22: 64:45
+*low.offset(i as isize)
+indicators/natr.rs:65:22: 65:46
+*high.offset(i as isize)
+indicators/natr.rs:67:13: 67:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/natr.rs:82:13: 82:72
+*close.offset((period - 1 as std::os::raw::c_int) as isize)
+indicators/natr.rs:80:5: 80:12
+*fresh0
+indicators/natr.rs:85:24: 85:47
+*low.offset(i as isize)
+indicators/natr.rs:86:24: 86:48
+*high.offset(i as isize)
+indicators/natr.rs:88:13: 88:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/natr.rs:100:17: 100:42
+*close.offset(i as isize)
+indicators/natr.rs:98:9: 98:16
+*fresh1
+indicators/natr.rs:103:29: 104:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/nvi.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/nvi.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/nvi.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/nvi.rs:50:5: 50:12
+*fresh0
+indicators/nvi.rs:54:12: 54:38
+*volume.offset(i as isize)
+indicators/nvi.rs:55:16: 55:71
+*volume.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/nvi.rs:57:18: 57:43
+*close.offset(i as isize)
+indicators/nvi.rs:58:22: 58:76
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/nvi.rs:59:21: 59:75
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/nvi.rs:63:9: 63:16
+*fresh1
+indicators/nvi.rs:66:29: 67:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/obv.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/obv.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/obv.rs:40:9: 40:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/obv.rs:44:5: 44:12
+*fresh0
+indicators/obv.rs:45:25: 45:73
+*close.offset(0 as std::os::raw::c_int as isize)
+indicators/obv.rs:49:12: 49:37
+*close.offset(i as isize)
+indicators/obv.rs:50:20: 50:46
+*volume.offset(i as isize)
+indicators/obv.rs:51:19: 51:44
+*close.offset(i as isize)
+indicators/obv.rs:52:20: 52:46
+*volume.offset(i as isize)
+indicators/obv.rs:54:16: 54:41
+*close.offset(i as isize)
+indicators/obv.rs:57:9: 57:16
+*fresh1
+indicators/ppo.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ppo.rs:43:9: 43:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ppo.rs:45:9: 45:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/ppo.rs:47:9: 47:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/ppo.rs:61:9: 61:57
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/ppo.rs:63:9: 63:57
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/ppo.rs:68:14: 68:39
+*input.offset(i as isize)
+indicators/ppo.rs:70:14: 70:39
+*input.offset(i as isize)
+indicators/ppo.rs:75:9: 75:16
+*fresh0
+indicators/ppo.rs:78:26: 78:76
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/psar.rs:45:9: 45:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:47:9: 47:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/psar.rs:49:9: 49:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:58:8: 58:55
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:59:12: 59:58
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:60:12: 60:59
+*high.offset(1 as std::os::raw::c_int as isize)
+indicators/psar.rs:61:16: 61:62
+*low.offset(1 as std::os::raw::c_int as isize)
+indicators/psar.rs:67:19: 67:66
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:68:15: 68:61
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:70:19: 70:65
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:71:15: 71:62
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/psar.rs:80:26: 80:78
+*low.offset((i - 2 as std::os::raw::c_int) as isize)
+indicators/psar.rs:81:23: 81:75
+*low.offset((i - 2 as std::os::raw::c_int) as isize)
+indicators/psar.rs:83:22: 83:74
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/psar.rs:84:23: 84:75
+*low.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/psar.rs:86:37: 86:61
+*high.offset(i as isize)
+indicators/psar.rs:90:16: 90:40
+*high.offset(i as isize)
+indicators/psar.rs:91:27: 91:51
+*high.offset(i as isize)
+indicators/psar.rs:95:26: 95:79
+*high.offset((i - 2 as std::os::raw::c_int) as isize)
+indicators/psar.rs:96:23: 96:76
+*high.offset((i - 2 as std::os::raw::c_int) as isize)
+indicators/psar.rs:98:22: 98:75
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/psar.rs:99:23: 99:76
+*high.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/psar.rs:101:37: 101:60
+*low.offset(i as isize)
+indicators/psar.rs:105:16: 105:39
+*low.offset(i as isize)
+indicators/psar.rs:106:27: 106:50
+*low.offset(i as isize)
+indicators/psar.rs:109:24: 109:47
+*low.offset(i as isize)
+indicators/psar.rs:110:28: 110:52
+*high.offset(i as isize)
+indicators/psar.rs:115:27: 115:50
+*low.offset(i as isize)
+indicators/psar.rs:116:32: 116:56
+*high.offset(i as isize)
+indicators/psar.rs:120:9: 120:16
+*fresh0
+indicators/psar.rs:126:29: 127:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/pvi.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/pvi.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/pvi.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/pvi.rs:50:5: 50:12
+*fresh0
+indicators/pvi.rs:54:12: 54:38
+*volume.offset(i as isize)
+indicators/pvi.rs:55:16: 55:71
+*volume.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/pvi.rs:57:18: 57:43
+*close.offset(i as isize)
+indicators/pvi.rs:58:22: 58:76
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/pvi.rs:59:21: 59:75
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/pvi.rs:63:9: 63:16
+*fresh1
+indicators/pvi.rs:66:29: 67:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/qstick.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/qstick.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/qstick.rs:44:9: 44:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/qstick.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/qstick.rs:48:9: 48:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/qstick.rs:56:16: 56:41
+*close.offset(i as isize)
+indicators/qstick.rs:56:44: 56:68
+*open.offset(i as isize)
+indicators/qstick.rs:61:5: 61:12
+*fresh0
+indicators/qstick.rs:64:16: 64:41
+*close.offset(i as isize)
+indicators/qstick.rs:64:44: 64:68
+*open.offset(i as isize)
+indicators/qstick.rs:66:13: 66:49
+*close.offset((i - period) as isize)
+indicators/qstick.rs:67:17: 67:52
+*open.offset((i - period) as isize)
+indicators/qstick.rs:70:9: 70:16
+*fresh1
+indicators/qstick.rs:73:29: 74:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/roc.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/roc.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/roc.rs:43:9: 43:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/roc.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/roc.rs:54:14: 54:39
+*input.offset(i as isize)
+indicators/roc.rs:54:42: 54:78
+*input.offset((i - period) as isize)
+indicators/roc.rs:55:19: 55:55
+*input.offset((i - period) as isize)
+indicators/roc.rs:53:9: 53:16
+*fresh0
+indicators/roc.rs:58:29: 59:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/rocr.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/rocr.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/rocr.rs:43:9: 43:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/rocr.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/rocr.rs:54:13: 54:38
+*input.offset(i as isize)
+indicators/rocr.rs:54:41: 54:77
+*input.offset((i - period) as isize)
+indicators/rocr.rs:53:9: 53:16
+*fresh0
+indicators/rocr.rs:57:29: 58:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/round.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/round.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/round.rs:41:44: 41:67
+*in1.offset(i as isize)
+indicators/round.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/rsi.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/rsi.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/rsi.rs:43:9: 43:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/rsi.rs:45:9: 45:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/rsi.rs:55:16: 55:41
+*input.offset(i as isize)
+indicators/rsi.rs:56:20: 56:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/rsi.rs:57:17: 57:44
+(*input.offset(i as isize))
+indicators/rsi.rs:58:21: 58:75
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/rsi.rs:61:16: 61:41
+*input.offset(i as isize)
+indicators/rsi.rs:62:20: 62:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/rsi.rs:63:17: 63:73
+(*input.offset((i - 1 as std::os::raw::c_int) as isize))
+indicators/rsi.rs:64:21: 64:46
+*input.offset(i as isize)
+indicators/rsi.rs:74:5: 74:12
+*fresh0
+indicators/rsi.rs:78:16: 78:41
+*input.offset(i as isize)
+indicators/rsi.rs:79:20: 79:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/rsi.rs:80:17: 80:44
+(*input.offset(i as isize))
+indicators/rsi.rs:81:21: 81:75
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/rsi.rs:84:16: 84:41
+*input.offset(i as isize)
+indicators/rsi.rs:85:20: 85:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/rsi.rs:86:17: 86:73
+(*input.offset((i - 1 as std::os::raw::c_int) as isize))
+indicators/rsi.rs:87:21: 87:46
+*input.offset(i as isize)
+indicators/rsi.rs:93:9: 93:16
+*fresh1
+indicators/rsi.rs:96:29: 97:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/sin.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sin.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sin.rs:41:42: 41:65
+*in1.offset(i as isize)
+indicators/sin.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/sinh.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sinh.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sinh.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/sinh.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/sma.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/sma.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sma.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/sma.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sma.rs:53:31: 53:56
+*input.offset(i as isize)
+indicators/sma.rs:56:5: 56:12
+*fresh0
+indicators/sma.rs:59:16: 59:41
+*input.offset(i as isize)
+indicators/sma.rs:60:16: 60:52
+*input.offset((i - period) as isize)
+indicators/sma.rs:63:9: 63:16
+*fresh1
+indicators/sma.rs:66:29: 67:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/sqrt.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sqrt.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sqrt.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/sqrt.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/stddev.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stddev.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stddev.rs:46:9: 46:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stddev.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stddev.rs:57:16: 57:41
+*input.offset(i as isize)
+indicators/stddev.rs:58:17: 58:42
+*input.offset(i as isize)
+indicators/stddev.rs:58:45: 58:70
+*input.offset(i as isize)
+indicators/stddev.rs:65:5: 65:12
+*fresh0
+indicators/stddev.rs:68:16: 68:41
+*input.offset(i as isize)
+indicators/stddev.rs:69:17: 69:42
+*input.offset(i as isize)
+indicators/stddev.rs:69:45: 69:70
+*input.offset(i as isize)
+indicators/stddev.rs:70:16: 70:52
+*input.offset((i - period) as isize)
+indicators/stddev.rs:72:13: 72:49
+*input.offset((i - period) as isize)
+indicators/stddev.rs:73:17: 73:53
+*input.offset((i - period) as isize)
+indicators/stddev.rs:79:9: 79:16
+*fresh1
+indicators/stddev.rs:82:29: 83:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/stderr.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stderr.rs:44:9: 44:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stderr.rs:46:9: 46:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stderr.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stderr.rs:58:16: 58:41
+*input.offset(i as isize)
+indicators/stderr.rs:59:17: 59:42
+*input.offset(i as isize)
+indicators/stderr.rs:59:45: 59:70
+*input.offset(i as isize)
+indicators/stderr.rs:66:5: 66:12
+*fresh0
+indicators/stderr.rs:69:16: 69:41
+*input.offset(i as isize)
+indicators/stderr.rs:70:17: 70:42
+*input.offset(i as isize)
+indicators/stderr.rs:70:45: 70:70
+*input.offset(i as isize)
+indicators/stderr.rs:71:16: 71:52
+*input.offset((i - period) as isize)
+indicators/stderr.rs:73:13: 73:49
+*input.offset((i - period) as isize)
+indicators/stderr.rs:74:17: 74:53
+*input.offset((i - period) as isize)
+indicators/stderr.rs:80:9: 80:16
+*fresh1
+indicators/stderr.rs:83:29: 84:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/stoch.rs:42:9: 42:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stoch.rs:44:9: 44:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/stoch.rs:46:9: 46:59
+*options.offset(2 as std::os::raw::c_int as isize)
+indicators/stoch.rs:56:9: 56:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stoch.rs:58:9: 58:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/stoch.rs:60:9: 60:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/stoch.rs:62:9: 62:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stoch.rs:64:9: 64:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/stoch.rs:66:9: 66:59
+*options.offset(2 as std::os::raw::c_int as isize)
+indicators/stoch.rs:70:9: 70:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stoch.rs:72:9: 72:59
+*outputs.offset(1 as std::os::raw::c_int as isize)
+indicators/stoch.rs:80:24: 80:71
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/stoch.rs:81:24: 81:70
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/stoch.rs:91:15: 91:39
+*high.offset(i as isize)
+indicators/stoch.rs:94:19: 94:46
+*high.offset(maxi as isize)
+indicators/stoch.rs:99:23: 99:47
+*high.offset(j as isize)
+indicators/stoch.rs:104:15: 104:38
+*low.offset(i as isize)
+indicators/stoch.rs:107:19: 107:45
+*low.offset(mini as isize)
+indicators/stoch.rs:112:23: 112:46
+*low.offset(j as isize)
+indicators/stoch.rs:123:23: 123:48
+*close.offset(i as isize)
+indicators/stoch.rs:125:12: 125:20
+(*k_sum)
+indicators/stoch.rs:125:31: 125:39
+(*k_sum)
+indicators/stoch.rs:127:17: 127:76
+*(*k_sum).vals.as_mut_ptr().offset((*k_sum).index as isize)
+indicators/stoch.rs:127:18: 127:26
+(*k_sum)
+indicators/stoch.rs:127:52: 127:60
+(*k_sum)
+indicators/stoch.rs:126:13: 126:21
+(*k_sum)
+indicators/stoch.rs:129:9: 129:17
+(*k_sum)
+indicators/stoch.rs:130:9: 130:68
+*(*k_sum).vals.as_mut_ptr().offset((*k_sum).index as isize)
+indicators/stoch.rs:130:10: 130:18
+(*k_sum)
+indicators/stoch.rs:130:44: 130:52
+(*k_sum)
+indicators/stoch.rs:131:9: 131:17
+(*k_sum)
+indicators/stoch.rs:132:26: 132:34
+(*k_sum)
+indicators/stoch.rs:132:9: 132:17
+(*k_sum)
+indicators/stoch.rs:133:12: 133:20
+(*k_sum)
+indicators/stoch.rs:133:30: 133:38
+(*k_sum)
+indicators/stoch.rs:134:13: 134:21
+(*k_sum)
+indicators/stoch.rs:137:26: 137:34
+(*k_sum)
+indicators/stoch.rs:138:16: 138:24
+(*d_sum)
+indicators/stoch.rs:138:35: 138:43
+(*d_sum)
+indicators/stoch.rs:140:21: 141:66
+*(*d_sum).vals.as_mut_ptr().offset((*d_sum).index as
+                                                           isize)
+indicators/stoch.rs:140:22: 140:30
+(*d_sum)
+indicators/stoch.rs:140:56: 140:64
+(*d_sum)
+indicators/stoch.rs:139:17: 139:25
+(*d_sum)
+indicators/stoch.rs:143:13: 143:21
+(*d_sum)
+indicators/stoch.rs:144:13: 144:72
+*(*d_sum).vals.as_mut_ptr().offset((*d_sum).index as isize)
+indicators/stoch.rs:144:14: 144:22
+(*d_sum)
+indicators/stoch.rs:144:48: 144:56
+(*d_sum)
+indicators/stoch.rs:145:13: 145:21
+(*d_sum)
+indicators/stoch.rs:146:30: 146:38
+(*d_sum)
+indicators/stoch.rs:146:13: 146:21
+(*d_sum)
+indicators/stoch.rs:147:16: 147:24
+(*d_sum)
+indicators/stoch.rs:147:34: 147:42
+(*d_sum)
+indicators/stoch.rs:148:17: 148:25
+(*d_sum)
+indicators/stoch.rs:155:17: 155:24
+*fresh0
+indicators/stoch.rs:158:27: 158:35
+(*d_sum)
+indicators/stoch.rs:158:17: 158:24
+*fresh1
+indicators/stoch.rs:165:28: 166:63
+*outputs.offset(0 as std::os::raw::c_int as
+                                                        isize)
+indicators/stoch.rs:175:31: 176:66
+*outputs.offset(1 as std::os::raw::c_int as
+                                                           isize)
+indicators/stochrsi.rs:41:12: 41:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stochrsi.rs:52:9: 52:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stochrsi.rs:54:9: 54:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/stochrsi.rs:56:9: 56:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/stochrsi.rs:67:16: 67:41
+*input.offset(i as isize)
+indicators/stochrsi.rs:68:20: 68:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/stochrsi.rs:69:17: 69:44
+(*input.offset(i as isize))
+indicators/stochrsi.rs:70:21: 70:75
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/stochrsi.rs:73:16: 73:41
+*input.offset(i as isize)
+indicators/stochrsi.rs:74:20: 74:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/stochrsi.rs:75:17: 75:73
+(*input.offset((i - 1 as std::os::raw::c_int) as isize))
+indicators/stochrsi.rs:76:21: 76:46
+*input.offset(i as isize)
+indicators/stochrsi.rs:86:8: 86:14
+(*rsi)
+indicators/stochrsi.rs:86:25: 86:31
+(*rsi)
+indicators/stochrsi.rs:87:23: 87:78
+*(*rsi).vals.as_mut_ptr().offset((*rsi).index as isize)
+indicators/stochrsi.rs:87:24: 87:30
+(*rsi)
+indicators/stochrsi.rs:87:56: 87:62
+(*rsi)
+indicators/stochrsi.rs:87:9: 87:15
+(*rsi)
+indicators/stochrsi.rs:89:5: 89:11
+(*rsi)
+indicators/stochrsi.rs:90:5: 90:60
+*(*rsi).vals.as_mut_ptr().offset((*rsi).index as isize)
+indicators/stochrsi.rs:90:6: 90:12
+(*rsi)
+indicators/stochrsi.rs:90:38: 90:44
+(*rsi)
+indicators/stochrsi.rs:91:5: 91:11
+(*rsi)
+indicators/stochrsi.rs:92:20: 92:26
+(*rsi)
+indicators/stochrsi.rs:92:5: 92:11
+(*rsi)
+indicators/stochrsi.rs:93:8: 93:14
+(*rsi)
+indicators/stochrsi.rs:93:24: 93:30
+(*rsi)
+indicators/stochrsi.rs:93:38: 93:44
+(*rsi)
+indicators/stochrsi.rs:101:16: 101:41
+*input.offset(i as isize)
+indicators/stochrsi.rs:102:20: 102:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/stochrsi.rs:103:17: 103:44
+(*input.offset(i as isize))
+indicators/stochrsi.rs:104:21: 104:75
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/stochrsi.rs:107:16: 107:41
+*input.offset(i as isize)
+indicators/stochrsi.rs:108:20: 108:74
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/stochrsi.rs:109:17: 109:73
+(*input.offset((i - 1 as std::os::raw::c_int) as isize))
+indicators/stochrsi.rs:110:21: 110:46
+*input.offset(i as isize)
+indicators/stochrsi.rs:117:20: 117:26
+(*rsi)
+indicators/stochrsi.rs:118:27: 118:33
+(*rsi)
+indicators/stochrsi.rs:122:23: 122:29
+(*rsi)
+indicators/stochrsi.rs:123:27: 123:33
+(*rsi)
+indicators/stochrsi.rs:124:24: 124:68
+*(*rsi).vals.as_mut_ptr().offset(j as isize)
+indicators/stochrsi.rs:124:25: 124:31
+(*rsi)
+indicators/stochrsi.rs:125:31: 125:75
+*(*rsi).vals.as_mut_ptr().offset(j as isize)
+indicators/stochrsi.rs:125:32: 125:38
+(*rsi)
+indicators/stochrsi.rs:134:20: 134:26
+(*rsi)
+indicators/stochrsi.rs:135:27: 135:33
+(*rsi)
+indicators/stochrsi.rs:139:25: 139:31
+(*rsi)
+indicators/stochrsi.rs:140:29: 140:35
+(*rsi)
+indicators/stochrsi.rs:141:24: 141:70
+*(*rsi).vals.as_mut_ptr().offset(j_0 as isize)
+indicators/stochrsi.rs:141:25: 141:31
+(*rsi)
+indicators/stochrsi.rs:142:31: 142:77
+*(*rsi).vals.as_mut_ptr().offset(j_0 as isize)
+indicators/stochrsi.rs:142:32: 142:38
+(*rsi)
+indicators/stochrsi.rs:149:9: 149:64
+*(*rsi).vals.as_mut_ptr().offset((*rsi).index as isize)
+indicators/stochrsi.rs:149:10: 149:16
+(*rsi)
+indicators/stochrsi.rs:149:42: 149:48
+(*rsi)
+indicators/stochrsi.rs:150:24: 150:30
+(*rsi)
+indicators/stochrsi.rs:150:9: 150:15
+(*rsi)
+indicators/stochrsi.rs:151:12: 151:18
+(*rsi)
+indicators/stochrsi.rs:151:28: 151:34
+(*rsi)
+indicators/stochrsi.rs:151:42: 151:48
+(*rsi)
+indicators/stochrsi.rs:157:17: 157:24
+*fresh0
+indicators/stochrsi.rs:161:17: 161:24
+*fresh1
+indicators/stochrsi.rs:167:29: 168:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/sub.rs:31:9: 31:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sub.rs:33:9: 33:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/sub.rs:35:9: 35:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sub.rs:40:13: 40:36
+*in1.offset(i as isize)
+indicators/sub.rs:40:39: 40:62
+*in2.offset(i as isize)
+indicators/sub.rs:39:9: 39:35
+*output.offset(i as isize)
+indicators/sum.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/sum.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sum.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/sum.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/sum.rs:52:31: 52:56
+*input.offset(i as isize)
+indicators/sum.rs:55:5: 55:12
+*fresh0
+indicators/sum.rs:58:16: 58:41
+*input.offset(i as isize)
+indicators/sum.rs:59:16: 59:52
+*input.offset((i - period) as isize)
+indicators/sum.rs:62:9: 62:16
+*fresh1
+indicators/sum.rs:65:29: 66:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/tan.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tan.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tan.rs:41:42: 41:65
+*in1.offset(i as isize)
+indicators/tan.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/tanh.rs:35:9: 35:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tanh.rs:37:9: 37:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tanh.rs:41:43: 41:66
+*in1.offset(i as isize)
+indicators/tanh.rs:41:9: 41:35
+*output.offset(i as isize)
+indicators/tema.rs:33:9: 33:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/tema.rs:43:9: 43:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tema.rs:45:9: 45:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/tema.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tema.rs:55:24: 55:72
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/tema.rs:63:28: 63:53
+*input.offset(i as isize)
+indicators/tema.rs:73:21: 73:28
+*output
+indicators/tema.rs:82:29: 83:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/todeg.rs:31:9: 31:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/todeg.rs:33:9: 33:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/todeg.rs:38:13: 38:36
+*in1.offset(i as isize)
+indicators/todeg.rs:37:9: 37:35
+*output.offset(i as isize)
+indicators/torad.rs:31:9: 31:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/torad.rs:33:9: 33:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/torad.rs:38:13: 38:36
+*in1.offset(i as isize)
+indicators/torad.rs:37:9: 37:35
+*output.offset(i as isize)
+indicators/tr.rs:40:9: 40:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tr.rs:42:9: 42:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/tr.rs:44:9: 44:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/tr.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tr.rs:49:9: 49:56
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/tr.rs:50:13: 50:59
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/tr.rs:48:5: 48:54
+*output.offset(0 as std::os::raw::c_int as isize)
+indicators/tr.rs:54:22: 54:45
+*low.offset(i as isize)
+indicators/tr.rs:55:22: 55:46
+*high.offset(i as isize)
+indicators/tr.rs:57:13: 57:67
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/tr.rs:64:9: 64:35
+*output.offset(i as isize)
+indicators/trima.rs:35:12: 35:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/trima.rs:45:9: 45:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/trima.rs:47:9: 47:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/trima.rs:49:9: 49:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/trima.rs:91:23: 91:48
+*input.offset(i as isize)
+indicators/trima.rs:93:25: 93:50
+*input.offset(i as isize)
+indicators/trima.rs:96:26: 96:51
+*input.offset(i as isize)
+indicators/trima.rs:110:23: 110:48
+*input.offset(i as isize)
+indicators/trima.rs:113:9: 113:16
+*fresh0
+indicators/trima.rs:114:21: 114:46
+*input.offset(i as isize)
+indicators/trima.rs:125:21: 125:51
+*input.offset(fresh1 as isize)
+indicators/trima.rs:128:22: 128:52
+*input.offset(fresh2 as isize)
+indicators/trima.rs:131:22: 131:52
+*input.offset(fresh3 as isize)
+indicators/trima.rs:134:29: 135:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/trix.rs:33:9: 33:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/trix.rs:43:9: 43:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/trix.rs:45:9: 45:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/trix.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/trix.rs:62:25: 62:73
+*input.offset(0 as std::os::raw::c_int as isize)
+indicators/trix.rs:68:17: 68:42
+*input.offset(i as isize)
+indicators/trix.rs:83:17: 83:42
+*input.offset(i as isize)
+indicators/trix.rs:89:9: 89:16
+*fresh0
+indicators/trix.rs:92:29: 93:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/trunc.rs:31:9: 31:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/trunc.rs:33:9: 33:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/trunc.rs:38:13: 38:36
+*in1.offset(i as isize)
+indicators/trunc.rs:37:9: 37:35
+*output.offset(i as isize)
+indicators/tsf.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/tsf.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tsf.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/tsf.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/tsf.rs:62:13: 62:38
+*input.offset(i as isize)
+indicators/tsf.rs:64:14: 64:39
+*input.offset(i as isize)
+indicators/tsf.rs:72:15: 72:40
+*input.offset(i as isize)
+indicators/tsf.rs:73:14: 73:39
+*input.offset(i as isize)
+indicators/tsf.rs:78:9: 78:16
+*fresh0
+indicators/tsf.rs:80:14: 80:77
+*input.offset((i - period + 1 as std::os::raw::c_int) as isize)
+indicators/tsf.rs:83:29: 84:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/typprice.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/typprice.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/typprice.rs:40:9: 40:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/typprice.rs:42:9: 42:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/typprice.rs:47:14: 47:38
+*high.offset(i as isize)
+indicators/typprice.rs:47:41: 47:64
+*low.offset(i as isize)
+indicators/typprice.rs:48:18: 48:43
+*close.offset(i as isize)
+indicators/typprice.rs:46:9: 46:35
+*output.offset(i as isize)
+indicators/ultosc.rs:41:12: 41:62
+*options.offset(2 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:50:9: 50:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:52:9: 52:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:54:9: 54:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:56:9: 56:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:58:9: 58:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:60:9: 60:59
+*options.offset(2 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:62:9: 62:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/ultosc.rs:78:16: 78:39
+*low.offset(i as isize)
+indicators/ultosc.rs:79:20: 79:74
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/ultosc.rs:80:17: 80:40
+*low.offset(i as isize)
+indicators/ultosc.rs:81:22: 81:76
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/ultosc.rs:83:16: 83:40
+*high.offset(i as isize)
+indicators/ultosc.rs:84:20: 84:74
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/ultosc.rs:85:17: 85:41
+*high.offset(i as isize)
+indicators/ultosc.rs:86:22: 86:76
+*close.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/ultosc.rs:87:23: 87:48
+*close.offset(i as isize)
+indicators/ultosc.rs:93:12: 93:21
+(*bp_buf)
+indicators/ultosc.rs:93:32: 93:41
+(*bp_buf)
+indicators/ultosc.rs:95:17: 95:78
+*(*bp_buf).vals.as_mut_ptr().offset((*bp_buf).index as isize)
+indicators/ultosc.rs:95:18: 95:27
+(*bp_buf)
+indicators/ultosc.rs:95:53: 95:62
+(*bp_buf)
+indicators/ultosc.rs:94:13: 94:22
+(*bp_buf)
+indicators/ultosc.rs:97:9: 97:18
+(*bp_buf)
+indicators/ultosc.rs:98:9: 98:70
+*(*bp_buf).vals.as_mut_ptr().offset((*bp_buf).index as isize)
+indicators/ultosc.rs:98:10: 98:19
+(*bp_buf)
+indicators/ultosc.rs:98:45: 98:54
+(*bp_buf)
+indicators/ultosc.rs:99:9: 99:18
+(*bp_buf)
+indicators/ultosc.rs:100:27: 100:36
+(*bp_buf)
+indicators/ultosc.rs:100:9: 100:18
+(*bp_buf)
+indicators/ultosc.rs:101:12: 101:21
+(*bp_buf)
+indicators/ultosc.rs:101:31: 101:40
+(*bp_buf)
+indicators/ultosc.rs:102:13: 102:22
+(*bp_buf)
+indicators/ultosc.rs:104:12: 104:20
+(*r_buf)
+indicators/ultosc.rs:104:31: 104:39
+(*r_buf)
+indicators/ultosc.rs:106:17: 106:76
+*(*r_buf).vals.as_mut_ptr().offset((*r_buf).index as isize)
+indicators/ultosc.rs:106:18: 106:26
+(*r_buf)
+indicators/ultosc.rs:106:52: 106:60
+(*r_buf)
+indicators/ultosc.rs:105:13: 105:21
+(*r_buf)
+indicators/ultosc.rs:108:9: 108:17
+(*r_buf)
+indicators/ultosc.rs:109:9: 109:68
+*(*r_buf).vals.as_mut_ptr().offset((*r_buf).index as isize)
+indicators/ultosc.rs:109:10: 109:18
+(*r_buf)
+indicators/ultosc.rs:109:44: 109:52
+(*r_buf)
+indicators/ultosc.rs:110:9: 110:17
+(*r_buf)
+indicators/ultosc.rs:111:26: 111:34
+(*r_buf)
+indicators/ultosc.rs:111:9: 111:17
+(*r_buf)
+indicators/ultosc.rs:112:12: 112:20
+(*r_buf)
+indicators/ultosc.rs:112:30: 112:38
+(*r_buf)
+indicators/ultosc.rs:113:13: 113:21
+(*r_buf)
+indicators/ultosc.rs:119:17: 119:26
+(*bp_buf)
+indicators/ultosc.rs:122:17: 122:74
+*(*bp_buf).vals.as_mut_ptr().offset(short_index as isize)
+indicators/ultosc.rs:122:18: 122:27
+(*bp_buf)
+indicators/ultosc.rs:124:17: 124:73
+*(*r_buf).vals.as_mut_ptr().offset(short_index as isize)
+indicators/ultosc.rs:124:18: 124:26
+(*r_buf)
+indicators/ultosc.rs:127:21: 127:30
+(*bp_buf)
+indicators/ultosc.rs:132:21: 133:67
+*(*bp_buf).vals.as_mut_ptr().offset(medium_index as
+                                                            isize)
+indicators/ultosc.rs:132:22: 132:31
+(*bp_buf)
+indicators/ultosc.rs:135:21: 135:78
+*(*r_buf).vals.as_mut_ptr().offset(medium_index as isize)
+indicators/ultosc.rs:135:22: 135:30
+(*r_buf)
+indicators/ultosc.rs:146:70: 146:79
+(*bp_buf)
+indicators/ultosc.rs:147:21: 147:29
+(*r_buf)
+indicators/ultosc.rs:152:13: 152:20
+*fresh0
+indicators/ultosc.rs:158:29: 159:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/var.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/var.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/var.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/var.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/var.rs:55:16: 55:41
+*input.offset(i as isize)
+indicators/var.rs:56:17: 56:42
+*input.offset(i as isize)
+indicators/var.rs:56:45: 56:70
+*input.offset(i as isize)
+indicators/var.rs:61:5: 61:12
+*fresh0
+indicators/var.rs:64:16: 64:41
+*input.offset(i as isize)
+indicators/var.rs:65:17: 65:42
+*input.offset(i as isize)
+indicators/var.rs:65:45: 65:70
+*input.offset(i as isize)
+indicators/var.rs:66:16: 66:52
+*input.offset((i - period) as isize)
+indicators/var.rs:68:13: 68:49
+*input.offset((i - period) as isize)
+indicators/var.rs:69:17: 69:53
+*input.offset((i - period) as isize)
+indicators/var.rs:72:9: 72:16
+*fresh1
+indicators/var.rs:75:29: 76:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/vhf.rs:34:12: 34:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/vhf.rs:43:9: 43:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vhf.rs:45:9: 45:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/vhf.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vhf.rs:53:24: 53:71
+*in_0.offset(0 as std::os::raw::c_int as isize)
+indicators/vhf.rs:54:24: 54:71
+*in_0.offset(0 as std::os::raw::c_int as isize)
+indicators/vhf.rs:59:23: 59:70
+*in_0.offset(0 as std::os::raw::c_int as isize)
+indicators/vhf.rs:63:13: 63:37
+*in_0.offset(i as isize)
+indicators/vhf.rs:70:13: 70:37
+*in_0.offset(i as isize)
+indicators/vhf.rs:75:22: 75:57
+*in_0.offset((i - period) as isize)
+indicators/vhf.rs:76:26: 77:49
+*in_0.offset((i - period - 1 as std::os::raw::c_int) as
+                                          isize)
+indicators/vhf.rs:83:19: 83:46
+*in_0.offset(maxi as isize)
+indicators/vhf.rs:88:23: 88:47
+*in_0.offset(j as isize)
+indicators/vhf.rs:96:19: 96:46
+*in_0.offset(mini as isize)
+indicators/vhf.rs:101:23: 101:47
+*in_0.offset(j as isize)
+indicators/vhf.rs:108:9: 108:16
+*fresh0
+indicators/vhf.rs:112:29: 113:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/vidya.rs:34:12: 34:62
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/vidya.rs:46:9: 46:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vidya.rs:48:9: 48:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/vidya.rs:50:9: 50:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/vidya.rs:51:22: 51:72
+*options.offset(2 as std::os::raw::c_int as isize)
+indicators/vidya.rs:53:9: 53:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vidya.rs:68:21: 68:46
+*input.offset(i as isize)
+indicators/vidya.rs:69:22: 69:47
+*input.offset(i as isize)
+indicators/vidya.rs:69:50: 69:75
+*input.offset(i as isize)
+indicators/vidya.rs:71:26: 71:51
+*input.offset(i as isize)
+indicators/vidya.rs:73:17: 73:42
+*input.offset(i as isize)
+indicators/vidya.rs:73:45: 73:70
+*input.offset(i as isize)
+indicators/vidya.rs:78:9: 78:73
+*input.offset((long_period - 2 as std::os::raw::c_int) as isize)
+indicators/vidya.rs:81:5: 81:12
+*fresh0
+indicators/vidya.rs:93:14: 93:78
+*input.offset((long_period - 1 as std::os::raw::c_int) as isize)
+indicators/vidya.rs:97:9: 97:16
+*fresh1
+indicators/vidya.rs:101:21: 101:46
+*input.offset(i as isize)
+indicators/vidya.rs:102:22: 102:47
+*input.offset(i as isize)
+indicators/vidya.rs:102:50: 102:75
+*input.offset(i as isize)
+indicators/vidya.rs:103:22: 103:47
+*input.offset(i as isize)
+indicators/vidya.rs:104:23: 104:48
+*input.offset(i as isize)
+indicators/vidya.rs:104:51: 104:76
+*input.offset(i as isize)
+indicators/vidya.rs:105:21: 105:62
+*input.offset((i - long_period) as isize)
+indicators/vidya.rs:107:13: 107:54
+*input.offset((i - long_period) as isize)
+indicators/vidya.rs:108:17: 108:58
+*input.offset((i - long_period) as isize)
+indicators/vidya.rs:109:22: 109:64
+*input.offset((i - short_period) as isize)
+indicators/vidya.rs:111:13: 111:55
+*input.offset((i - short_period) as isize)
+indicators/vidya.rs:112:17: 112:59
+*input.offset((i - short_period) as isize)
+indicators/vidya.rs:122:16: 122:41
+*input.offset(i as isize)
+indicators/vidya.rs:125:9: 125:16
+*fresh2
+indicators/vidya.rs:128:29: 129:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/volatility.rs:13:12: 13:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/volatility.rs:25:9: 25:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/volatility.rs:27:9: 27:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/volatility.rs:29:9: 29:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/volatility.rs:40:13: 40:38
+*input.offset(i as isize)
+indicators/volatility.rs:41:17: 41:71
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/volatility.rs:48:5: 48:12
+*fresh0
+indicators/volatility.rs:52:13: 52:38
+*input.offset(i as isize)
+indicators/volatility.rs:53:17: 53:71
+*input.offset((i - 1 as std::os::raw::c_int) as isize)
+indicators/volatility.rs:57:13: 57:49
+*input.offset((i - period) as isize)
+indicators/volatility.rs:58:17: 58:80
+*input.offset((i - period - 1 as std::os::raw::c_int) as isize)
+indicators/volatility.rs:64:9: 64:16
+*fresh1
+indicators/volatility.rs:67:29: 68:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/vosc.rs:32:12: 32:62
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/vosc.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vosc.rs:44:9: 44:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vosc.rs:46:9: 46:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/vosc.rs:48:9: 48:59
+*options.offset(1 as std::os::raw::c_int as isize)
+indicators/vosc.rs:60:26: 60:51
+*input.offset(i as isize)
+indicators/vosc.rs:62:21: 62:46
+*input.offset(i as isize)
+indicators/vosc.rs:69:5: 69:12
+*fresh0
+indicators/vosc.rs:72:22: 72:47
+*input.offset(i as isize)
+indicators/vosc.rs:73:22: 73:64
+*input.offset((i - short_period) as isize)
+indicators/vosc.rs:74:21: 74:46
+*input.offset(i as isize)
+indicators/vosc.rs:75:21: 75:62
+*input.offset((i - long_period) as isize)
+indicators/vosc.rs:80:9: 80:16
+*fresh1
+indicators/vosc.rs:83:29: 84:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/vwma.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/vwma.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vwma.rs:44:9: 44:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/vwma.rs:46:9: 46:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/vwma.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/vwma.rs:56:16: 56:41
+*input.offset(i as isize)
+indicators/vwma.rs:56:44: 56:70
+*volume.offset(i as isize)
+indicators/vwma.rs:57:17: 57:43
+*volume.offset(i as isize)
+indicators/vwma.rs:62:5: 62:12
+*fresh0
+indicators/vwma.rs:65:16: 65:41
+*input.offset(i as isize)
+indicators/vwma.rs:65:44: 65:70
+*volume.offset(i as isize)
+indicators/vwma.rs:67:13: 67:49
+*input.offset((i - period) as isize)
+indicators/vwma.rs:68:17: 68:54
+*volume.offset((i - period) as isize)
+indicators/vwma.rs:69:17: 69:43
+*volume.offset(i as isize)
+indicators/vwma.rs:70:17: 70:54
+*volume.offset((i - period) as isize)
+indicators/vwma.rs:73:9: 73:16
+*fresh1
+indicators/vwma.rs:76:29: 77:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/wad.rs:41:9: 41:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wad.rs:43:9: 43:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/wad.rs:45:9: 45:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/wad.rs:48:9: 48:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wad.rs:50:23: 50:71
+*close.offset(0 as std::os::raw::c_int as isize)
+indicators/wad.rs:54:22: 54:47
+*close.offset(i as isize)
+indicators/wad.rs:58:30: 58:53
+*low.offset(i as isize)
+indicators/wad.rs:60:31: 60:54
+*low.offset(i as isize)
+indicators/wad.rs:64:30: 64:54
+*high.offset(i as isize)
+indicators/wad.rs:66:31: 66:55
+*high.offset(i as isize)
+indicators/wad.rs:70:9: 70:16
+*fresh0
+indicators/wad.rs:71:14: 71:39
+*close.offset(i as isize)
+indicators/wad.rs:74:29: 75:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/wcprice.rs:36:9: 36:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wcprice.rs:38:9: 38:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/wcprice.rs:40:9: 40:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/wcprice.rs:42:9: 42:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wcprice.rs:47:14: 47:38
+*high.offset(i as isize)
+indicators/wcprice.rs:47:41: 47:64
+*low.offset(i as isize)
+indicators/wcprice.rs:48:18: 48:43
+*close.offset(i as isize)
+indicators/wcprice.rs:48:46: 48:71
+*close.offset(i as isize)
+indicators/wcprice.rs:46:9: 46:35
+*output.offset(i as isize)
+indicators/wilders.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/wilders.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wilders.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/wilders.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wilders.rs:53:31: 53:56
+*input.offset(i as isize)
+indicators/wilders.rs:57:5: 57:12
+*fresh0
+indicators/wilders.rs:60:16: 60:41
+*input.offset(i as isize)
+indicators/wilders.rs:63:9: 63:16
+*fresh1
+indicators/wilders.rs:66:29: 67:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/willr.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/willr.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/willr.rs:44:9: 44:58
+*inputs.offset(1 as std::os::raw::c_int as isize)
+indicators/willr.rs:46:9: 46:58
+*inputs.offset(2 as std::os::raw::c_int as isize)
+indicators/willr.rs:48:9: 48:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/willr.rs:50:9: 50:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/willr.rs:56:24: 56:71
+*high.offset(0 as std::os::raw::c_int as isize)
+indicators/willr.rs:57:24: 57:70
+*low.offset(0 as std::os::raw::c_int as isize)
+indicators/willr.rs:64:15: 64:39
+*high.offset(i as isize)
+indicators/willr.rs:67:19: 67:46
+*high.offset(maxi as isize)
+indicators/willr.rs:72:23: 72:47
+*high.offset(j as isize)
+indicators/willr.rs:77:15: 77:38
+*low.offset(i as isize)
+indicators/willr.rs:80:19: 80:45
+*low.offset(mini as isize)
+indicators/willr.rs:85:23: 85:46
+*low.offset(j as isize)
+indicators/willr.rs:96:29: 96:54
+*close.offset(i as isize)
+indicators/willr.rs:100:9: 100:16
+*fresh0
+indicators/willr.rs:104:29: 105:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/wma.rs:32:12: 32:62
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/wma.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wma.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/wma.rs:46:9: 46:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/wma.rs:63:13: 63:38
+*input.offset(i as isize)
+indicators/wma.rs:65:16: 65:41
+*input.offset(i as isize)
+indicators/wma.rs:70:23: 70:48
+*input.offset(i as isize)
+indicators/wma.rs:71:16: 71:41
+*input.offset(i as isize)
+indicators/wma.rs:74:9: 74:16
+*fresh0
+indicators/wma.rs:76:16: 76:79
+*input.offset((i - period + 1 as std::os::raw::c_int) as isize)
+indicators/wma.rs:79:29: 80:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+indicators/zlema.rs:32:13: 32:63
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/zlema.rs:42:9: 42:58
+*inputs.offset(0 as std::os::raw::c_int as isize)
+indicators/zlema.rs:44:9: 44:59
+*options.offset(0 as std::os::raw::c_int as isize)
+indicators/zlema.rs:47:9: 47:59
+*outputs.offset(0 as std::os::raw::c_int as isize)
+indicators/zlema.rs:54:9: 54:65
+*input.offset((lag - 1 as std::os::raw::c_int) as isize)
+indicators/zlema.rs:57:5: 57:12
+*fresh0
+indicators/zlema.rs:61:26: 61:51
+*input.offset(i as isize)
+indicators/zlema.rs:62:26: 62:59
+*input.offset((i - lag) as isize)
+indicators/zlema.rs:66:9: 66:16
+*fresh1
+indicators/zlema.rs:69:29: 70:64
+*outputs.offset(0 as std::os::raw::c_int as
+                                                         isize)
+sample.rs:122:15: 122:62
+*argv.offset(1 as std::os::raw::c_int as isize)
+sample.rs:131:15: 131:62
+*argv.offset(1 as std::os::raw::c_int as isize)
+sample.rs:135:16: 135:23
+(*info)
+sample.rs:138:23: 138:30
+(*info)
+sample.rs:141:23: 141:30
+(*info)
+sample.rs:143:23: 143:30
+(*info)
+sample.rs:151:20: 151:27
+(*info)
+sample.rs:153:20: 153:27
+(*info)
+sample.rs:157:23: 157:30
+(*info)
+sample.rs:162:24: 162:31
+(*info)
+sample.rs:168:23: 168:30
+(*info)
+sample.rs:173:24: 173:31
+(*info)
+sample.rs:179:23: 179:30
+(*info)
+sample.rs:184:24: 184:31
+(*info)
+sample.rs:190:16: 190:23
+(*info)
+sample.rs:194:30: 194:77
+*argv.offset(1 as std::os::raw::c_int as isize)
+sample.rs:198:16: 198:63
+*argv.offset(1 as std::os::raw::c_int as isize)
+sample.rs:222:15: 222:22
+(*info)
+sample.rs:223:19: 223:26
+(*info)
+sample.rs:228:26: 228:33
+(*info)
+sample.rs:233:26: 233:33
+(*info)
+sample.rs:238:26: 238:33
+(*info)
+sample.rs:243:26: 243:33
+(*info)
+sample.rs:248:26: 248:33
+(*info)
+sample.rs:279:12: 279:18
+(*alt)
+sample.rs:280:19: 280:23
+*alt
+sample.rs:280:25: 280:32
+(*info)
+sample.rs:284:23: 284:30
+(*info)
+sample.rs:295:17: 295:24
+(*info)
+sample.rs:302:18: 302:73
+*argv.offset((2 as std::os::raw::c_int + i_0) as isize)
+sample.rs:306:9: 306:16
+(*info)
+sample.rs:309:9: 309:16
+(*info)
+sample.rs:344:21: 344:28
+(*info)
+sample.rs:346:20: 346:27
+(*info)
+sample.rs:388:27: 388:34
+(*info)
+sample.rs:403:53: 403:60
+(*info)
+smoke.rs:189:17: 189:38
+*a.offset(i as isize)
+smoke.rs:189:41: 189:62
+*b.offset(i as isize)
+smoke.rs:194:47: 194:68
+*a.offset(i as isize)
+smoke.rs:195:20: 195:41
+*b.offset(i as isize)
+smoke.rs:227:8: 227:55
+*line.offset(0 as std::os::raw::c_int as isize)
+smoke.rs:245:9: 245:13
+*inp
+smoke.rs:285:9: 285:11
+*o
+smoke.rs:290:35: 290:42
+(*info)
+smoke.rs:296:41: 296:48
+(*info)
+smoke.rs:319:15: 319:22
+(*info)
+smoke.rs:330:15: 330:22
+(*info)
+smoke.rs:345:9: 345:16
+(*info)
+smoke.rs:360:13: 360:20
+(*info)
+smoke.rs:363:15: 363:22
+(*info)
+smoke.rs:369:15: 369:22
+(*info)
+smoke.rs:374:15: 374:22
+(*info)
+smoke.rs:379:15: 379:22
+(*info)
+smoke.rs:406:13: 406:60
+*line.offset(0 as std::os::raw::c_int as isize)
+smoke.rs:408:16: 408:63
+*line.offset(0 as std::os::raw::c_int as isize)
+smoke.rs:464:8: 464:12
+(*b)
+smoke.rs:464:23: 464:27
+(*b)
+smoke.rs:465:21: 465:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:465:22: 465:26
+(*b)
+smoke.rs:465:52: 465:56
+(*b)
+smoke.rs:465:9: 465:13
+(*b)
+smoke.rs:467:5: 467:9
+(*b)
+smoke.rs:468:5: 468:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:468:6: 468:10
+(*b)
+smoke.rs:468:36: 468:40
+(*b)
+smoke.rs:469:5: 469:9
+(*b)
+smoke.rs:470:18: 470:22
+(*b)
+smoke.rs:470:5: 470:9
+(*b)
+smoke.rs:471:8: 471:12
+(*b)
+smoke.rs:471:22: 471:26
+(*b)
+smoke.rs:471:34: 471:38
+(*b)
+smoke.rs:473:13: 473:17
+(*b)
+smoke.rs:477:44: 477:48
+(*b)
+smoke.rs:479:8: 479:12
+(*b)
+smoke.rs:479:23: 479:27
+(*b)
+smoke.rs:480:21: 480:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:480:22: 480:26
+(*b)
+smoke.rs:480:52: 480:56
+(*b)
+smoke.rs:480:9: 480:13
+(*b)
+smoke.rs:482:5: 482:9
+(*b)
+smoke.rs:483:5: 483:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:483:6: 483:10
+(*b)
+smoke.rs:483:36: 483:40
+(*b)
+smoke.rs:484:5: 484:9
+(*b)
+smoke.rs:485:18: 485:22
+(*b)
+smoke.rs:485:5: 485:9
+(*b)
+smoke.rs:486:8: 486:12
+(*b)
+smoke.rs:486:22: 486:26
+(*b)
+smoke.rs:486:34: 486:38
+(*b)
+smoke.rs:488:13: 488:17
+(*b)
+smoke.rs:492:44: 492:48
+(*b)
+smoke.rs:494:8: 494:12
+(*b)
+smoke.rs:494:23: 494:27
+(*b)
+smoke.rs:495:21: 495:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:495:22: 495:26
+(*b)
+smoke.rs:495:52: 495:56
+(*b)
+smoke.rs:495:9: 495:13
+(*b)
+smoke.rs:497:5: 497:9
+(*b)
+smoke.rs:498:5: 498:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:498:6: 498:10
+(*b)
+smoke.rs:498:36: 498:40
+(*b)
+smoke.rs:499:5: 499:9
+(*b)
+smoke.rs:500:18: 500:22
+(*b)
+smoke.rs:500:5: 500:9
+(*b)
+smoke.rs:501:8: 501:12
+(*b)
+smoke.rs:501:22: 501:26
+(*b)
+smoke.rs:501:34: 501:38
+(*b)
+smoke.rs:503:13: 503:17
+(*b)
+smoke.rs:507:44: 507:48
+(*b)
+smoke.rs:509:8: 509:12
+(*b)
+smoke.rs:509:23: 509:27
+(*b)
+smoke.rs:510:21: 510:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:510:22: 510:26
+(*b)
+smoke.rs:510:52: 510:56
+(*b)
+smoke.rs:510:9: 510:13
+(*b)
+smoke.rs:512:5: 512:9
+(*b)
+smoke.rs:513:5: 513:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:513:6: 513:10
+(*b)
+smoke.rs:513:36: 513:40
+(*b)
+smoke.rs:514:5: 514:9
+(*b)
+smoke.rs:515:18: 515:22
+(*b)
+smoke.rs:515:5: 515:9
+(*b)
+smoke.rs:516:8: 516:12
+(*b)
+smoke.rs:516:22: 516:26
+(*b)
+smoke.rs:516:34: 516:38
+(*b)
+smoke.rs:518:13: 518:17
+(*b)
+smoke.rs:522:44: 522:48
+(*b)
+smoke.rs:524:8: 524:12
+(*b)
+smoke.rs:524:23: 524:27
+(*b)
+smoke.rs:525:21: 525:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:525:22: 525:26
+(*b)
+smoke.rs:525:52: 525:56
+(*b)
+smoke.rs:525:9: 525:13
+(*b)
+smoke.rs:527:5: 527:9
+(*b)
+smoke.rs:528:5: 528:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:528:6: 528:10
+(*b)
+smoke.rs:528:36: 528:40
+(*b)
+smoke.rs:529:5: 529:9
+(*b)
+smoke.rs:530:18: 530:22
+(*b)
+smoke.rs:530:5: 530:9
+(*b)
+smoke.rs:531:8: 531:12
+(*b)
+smoke.rs:531:22: 531:26
+(*b)
+smoke.rs:531:34: 531:38
+(*b)
+smoke.rs:533:13: 533:17
+(*b)
+smoke.rs:537:44: 537:48
+(*b)
+smoke.rs:539:8: 539:12
+(*b)
+smoke.rs:539:23: 539:27
+(*b)
+smoke.rs:540:21: 540:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:540:22: 540:26
+(*b)
+smoke.rs:540:52: 540:56
+(*b)
+smoke.rs:540:9: 540:13
+(*b)
+smoke.rs:542:5: 542:9
+(*b)
+smoke.rs:543:5: 543:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:543:6: 543:10
+(*b)
+smoke.rs:543:36: 543:40
+(*b)
+smoke.rs:544:5: 544:9
+(*b)
+smoke.rs:545:18: 545:22
+(*b)
+smoke.rs:545:5: 545:9
+(*b)
+smoke.rs:546:8: 546:12
+(*b)
+smoke.rs:546:22: 546:26
+(*b)
+smoke.rs:546:34: 546:38
+(*b)
+smoke.rs:548:13: 548:17
+(*b)
+smoke.rs:552:44: 552:48
+(*b)
+smoke.rs:554:8: 554:12
+(*b)
+smoke.rs:554:23: 554:27
+(*b)
+smoke.rs:555:21: 555:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:555:22: 555:26
+(*b)
+smoke.rs:555:52: 555:56
+(*b)
+smoke.rs:555:9: 555:13
+(*b)
+smoke.rs:557:5: 557:9
+(*b)
+smoke.rs:558:5: 558:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:558:6: 558:10
+(*b)
+smoke.rs:558:36: 558:40
+(*b)
+smoke.rs:559:5: 559:9
+(*b)
+smoke.rs:560:18: 560:22
+(*b)
+smoke.rs:560:5: 560:9
+(*b)
+smoke.rs:561:8: 561:12
+(*b)
+smoke.rs:561:22: 561:26
+(*b)
+smoke.rs:561:34: 561:38
+(*b)
+smoke.rs:563:13: 563:17
+(*b)
+smoke.rs:567:44: 567:48
+(*b)
+smoke.rs:569:8: 569:12
+(*b)
+smoke.rs:569:23: 569:27
+(*b)
+smoke.rs:570:21: 570:72
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:570:22: 570:26
+(*b)
+smoke.rs:570:52: 570:56
+(*b)
+smoke.rs:570:9: 570:13
+(*b)
+smoke.rs:572:5: 572:9
+(*b)
+smoke.rs:573:5: 573:56
+*(*b).vals.as_mut_ptr().offset((*b).index as isize)
+smoke.rs:573:6: 573:10
+(*b)
+smoke.rs:573:36: 573:40
+(*b)
+smoke.rs:574:5: 574:9
+(*b)
+smoke.rs:575:18: 575:22
+(*b)
+smoke.rs:575:5: 575:9
+(*b)
+smoke.rs:576:8: 576:12
+(*b)
+smoke.rs:576:22: 576:26
+(*b)
+smoke.rs:576:34: 576:38
+(*b)
+smoke.rs:578:13: 578:17
+(*b)
+smoke.rs:582:44: 582:48
+(*b)
+smoke.rs:585:13: 588:69
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                 1 as std::os::raw::c_int +
+                                                 0 as std::os::raw::c_int) %
+                                                (*b).size) as isize)
+smoke.rs:585:14: 585:18
+(*b)
+smoke.rs:585:46: 585:50
+(*b)
+smoke.rs:585:59: 585:63
+(*b)
+smoke.rs:588:49: 588:53
+(*b)
+smoke.rs:594:16: 597:72
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                    1 as std::os::raw::c_int +
+                                                    0 as std::os::raw::c_int) %
+                                                   (*b).size) as isize)
+smoke.rs:594:17: 594:21
+(*b)
+smoke.rs:594:49: 594:53
+(*b)
+smoke.rs:594:62: 594:66
+(*b)
+smoke.rs:597:52: 597:56
+(*b)
+smoke.rs:601:13: 604:69
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                 1 as std::os::raw::c_int +
+                                                 -(1 as std::os::raw::c_int)) %
+                                                (*b).size) as isize)
+smoke.rs:601:14: 601:18
+(*b)
+smoke.rs:601:46: 601:50
+(*b)
+smoke.rs:601:59: 601:63
+(*b)
+smoke.rs:604:49: 604:53
+(*b)
+smoke.rs:610:16: 613:72
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                    1 as std::os::raw::c_int +
+                                                    -(1 as std::os::raw::c_int)) %
+                                                   (*b).size) as isize)
+smoke.rs:610:17: 610:21
+(*b)
+smoke.rs:610:49: 610:53
+(*b)
+smoke.rs:610:62: 610:66
+(*b)
+smoke.rs:613:52: 613:56
+(*b)
+smoke.rs:617:13: 620:69
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                 1 as std::os::raw::c_int +
+                                                 -(2 as std::os::raw::c_int)) %
+                                                (*b).size) as isize)
+smoke.rs:617:14: 617:18
+(*b)
+smoke.rs:617:46: 617:50
+(*b)
+smoke.rs:617:59: 617:63
+(*b)
+smoke.rs:620:49: 620:53
+(*b)
+smoke.rs:626:16: 629:72
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                    1 as std::os::raw::c_int +
+                                                    -(2 as std::os::raw::c_int)) %
+                                                   (*b).size) as isize)
+smoke.rs:626:17: 626:21
+(*b)
+smoke.rs:626:49: 626:53
+(*b)
+smoke.rs:626:62: 626:66
+(*b)
+smoke.rs:629:52: 629:56
+(*b)
+smoke.rs:633:13: 636:69
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                 1 as std::os::raw::c_int +
+                                                 -(3 as std::os::raw::c_int)) %
+                                                (*b).size) as isize)
+smoke.rs:633:14: 633:18
+(*b)
+smoke.rs:633:46: 633:50
+(*b)
+smoke.rs:633:59: 633:63
+(*b)
+smoke.rs:636:49: 636:53
+(*b)
+smoke.rs:642:16: 645:72
+*(*b).vals.as_mut_ptr().offset((((*b).index + (*b).size -
+                                                    1 as std::os::raw::c_int +
+                                                    -(3 as std::os::raw::c_int)) %
+                                                   (*b).size) as isize)
+smoke.rs:642:17: 642:21
+(*b)
+smoke.rs:642:49: 642:53
+(*b)
+smoke.rs:642:62: 642:66
+(*b)
+smoke.rs:645:52: 645:56
+(*b)
+smoke.rs:695:20: 695:68
+(*ti_indicators.as_mut_ptr().offset(i as isize))
+utils/buffer.rs:43:5: 43:11
+(*ret)
+utils/buffer.rs:44:5: 44:11
+(*ret)
+utils/buffer.rs:45:5: 45:11
+(*ret)
+utils/buffer.rs:46:5: 46:11
+(*ret)

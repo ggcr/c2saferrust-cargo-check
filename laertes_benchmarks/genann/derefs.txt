@@ -1,0 +1,713 @@
+example1.rs:85:12: 85:79
+*genann_run(ann, input[0 as std::os::raw::c_int as usize].as_ptr())
+example1.rs:90:12: 90:79
+*genann_run(ann, input[1 as std::os::raw::c_int as usize].as_ptr())
+example1.rs:95:12: 95:79
+*genann_run(ann, input[2 as std::os::raw::c_int as usize].as_ptr())
+example1.rs:100:12: 100:79
+*genann_run(ann, input[3 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:68:19: 68:25
+(*ann)
+example2.rs:69:13: 69:46
+*(*ann).weight.offset(i as isize)
+example2.rs:69:14: 69:20
+(*ann)
+example2.rs:77:17: 77:84
+*genann_run(ann, input[0 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:80:17: 80:84
+*genann_run(ann, input[1 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:83:17: 83:84
+*genann_run(ann, input[2 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:86:17: 86:84
+*genann_run(ann, input[3 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:102:12: 102:79
+*genann_run(ann, input[0 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:107:12: 107:79
+*genann_run(ann, input[1 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:112:12: 112:79
+*genann_run(ann, input[2 as std::os::raw::c_int as usize].as_ptr())
+example2.rs:117:12: 117:79
+*genann_run(ann, input[3 as std::os::raw::c_int as usize].as_ptr())
+example3.rs:104:12: 104:79
+*genann_run(ann, input[0 as std::os::raw::c_int as usize].as_ptr())
+example3.rs:109:12: 109:79
+*genann_run(ann, input[1 as std::os::raw::c_int as usize].as_ptr())
+example3.rs:114:12: 114:79
+*genann_run(ann, input[2 as std::os::raw::c_int as usize].as_ptr())
+example3.rs:119:12: 119:79
+*genann_run(ann, input[3 as std::os::raw::c_int as usize].as_ptr())
+example4.rs:127:30: 127:74
+*c.offset(2 as std::os::raw::c_int as isize)
+example4.rs:129:30: 129:74
+*c.offset(1 as std::os::raw::c_int as isize)
+example4.rs:131:9: 131:53
+*c.offset(0 as std::os::raw::c_int as isize)
+example4.rs:141:13: 141:34
+*p.offset(j as isize)
+example4.rs:147:9: 148:86
+*split.offset(strlen(split).wrapping_sub(1 as std::os::raw::c_int as
+                                                     std::os::raw::c_ulong) as isize)
+example4.rs:152:13: 152:57
+*c.offset(0 as std::os::raw::c_int as isize)
+example4.rs:155:13: 155:57
+*c.offset(1 as std::os::raw::c_int as isize)
+example4.rs:158:13: 158:57
+*c.offset(2 as std::os::raw::c_int as isize)
+example4.rs:206:12: 206:93
+*class.offset((j * 3 as std::os::raw::c_int + 0 as std::os::raw::c_int) as isize)
+example4.rs:208:16: 208:64
+*guess.offset(0 as std::os::raw::c_int as isize)
+example4.rs:209:20: 209:68
+*guess.offset(1 as std::os::raw::c_int as isize)
+example4.rs:210:20: 210:68
+*guess.offset(0 as std::os::raw::c_int as isize)
+example4.rs:211:24: 211:72
+*guess.offset(2 as std::os::raw::c_int as isize)
+example4.rs:214:19: 215:43
+*class.offset((j * 3 as std::os::raw::c_int + 1 as std::os::raw::c_int) as
+                                    isize)
+example4.rs:216:16: 216:64
+*guess.offset(1 as std::os::raw::c_int as isize)
+example4.rs:217:20: 217:68
+*guess.offset(0 as std::os::raw::c_int as isize)
+example4.rs:218:20: 218:68
+*guess.offset(1 as std::os::raw::c_int as isize)
+example4.rs:219:24: 219:72
+*guess.offset(2 as std::os::raw::c_int as isize)
+example4.rs:222:19: 223:43
+*class.offset((j * 3 as std::os::raw::c_int + 2 as std::os::raw::c_int) as
+                                    isize)
+example4.rs:224:16: 224:64
+*guess.offset(2 as std::os::raw::c_int as isize)
+example4.rs:225:20: 225:68
+*guess.offset(0 as std::os::raw::c_int as isize)
+example4.rs:226:20: 226:68
+*guess.offset(2 as std::os::raw::c_int as isize)
+example4.rs:227:24: 227:72
+*guess.offset(1 as std::os::raw::c_int as isize)
+genann.rs:134:5: 134:11
+(*ret)
+genann.rs:135:5: 135:11
+(*ret)
+genann.rs:136:5: 136:11
+(*ret)
+genann.rs:137:5: 137:11
+(*ret)
+genann.rs:138:5: 138:11
+(*ret)
+genann.rs:139:5: 139:11
+(*ret)
+genann.rs:141:5: 141:11
+(*ret)
+genann.rs:146:21: 146:27
+(*ret)
+genann.rs:146:42: 146:48
+(*ret)
+genann.rs:146:5: 146:11
+(*ret)
+genann.rs:147:20: 147:26
+(*ret)
+genann.rs:147:41: 147:47
+(*ret)
+genann.rs:147:5: 147:11
+(*ret)
+genann.rs:149:5: 149:11
+(*ret)
+genann.rs:152:5: 152:11
+(*ret)
+genann.rs:164:5: 164:15
+*__error()
+genann.rs:171:41: 171:51
+*__error()
+genann.rs:179:15: 179:21
+(*ann)
+genann.rs:180:9: 180:19
+*__error()
+genann.rs:183:20: 183:26
+(*ann)
+genann.rs:184:45: 184:55
+*__error()
+genann.rs:199:84: 199:90
+(*ann)
+genann.rs:201:80: 201:86
+(*ann)
+genann.rs:203:81: 203:87
+(*ann)
+genann.rs:205:85: 205:91
+(*ann)
+genann.rs:214:5: 214:11
+(*ret)
+genann.rs:219:21: 219:27
+(*ret)
+genann.rs:219:42: 219:48
+(*ret)
+genann.rs:219:5: 219:11
+(*ret)
+genann.rs:220:20: 220:26
+(*ret)
+genann.rs:220:41: 220:47
+(*ret)
+genann.rs:220:5: 220:11
+(*ret)
+genann.rs:227:15: 227:21
+(*ann)
+genann.rs:232:9: 232:42
+*(*ann).weight.offset(i as isize)
+genann.rs:232:10: 232:16
+(*ann)
+genann.rs:245:48: 245:54
+(*ann)
+genann.rs:247:9: 247:15
+(*ann)
+genann.rs:247:30: 247:36
+(*ann)
+genann.rs:248:48: 248:54
+(*ann)
+genann.rs:251:12: 251:18
+(*ann)
+genann.rs:253:53: 253:59
+(*ann)
+genann.rs:257:30: 257:36
+(*ann)
+genann.rs:258:31: 258:37
+(*ann)
+genann.rs:261:15: 261:21
+(*ann)
+genann.rs:263:19: 263:25
+(*ann)
+genann.rs:266:51: 266:58
+*fresh0
+genann.rs:270:28: 270:34
+(*ann)
+genann.rs:271:33: 271:39
+(*ann)
+genann.rs:274:24: 274:31
+*fresh1
+genann.rs:274:34: 274:55
+*i.offset(k as isize)
+genann.rs:279:13: 279:20
+*fresh2
+genann.rs:284:26: 284:32
+(*ann)
+genann.rs:285:31: 285:37
+(*ann)
+genann.rs:291:15: 291:21
+(*ann)
+genann.rs:294:49: 294:56
+*fresh3
+genann.rs:297:23: 297:29
+(*ann)
+genann.rs:298:24: 298:30
+(*ann)
+genann.rs:299:29: 299:35
+(*ann)
+genann.rs:302:22: 302:29
+*fresh4
+genann.rs:302:32: 302:53
+*i.offset(k as isize)
+genann.rs:307:9: 307:16
+*fresh5
+genann.rs:311:24: 311:30
+(*ann)
+genann.rs:312:14: 312:20
+(*ann)
+genann.rs:321:24: 321:30
+(*ann)
+genann.rs:322:14: 322:20
+(*ann)
+genann.rs:346:9: 346:15
+(*ann)
+genann.rs:346:30: 346:36
+(*ann)
+genann.rs:347:49: 347:55
+(*ann)
+genann.rs:348:53: 348:59
+(*ann)
+genann.rs:351:9: 351:15
+(*ann)
+genann.rs:351:30: 351:36
+(*ann)
+genann.rs:351:46: 351:52
+(*ann)
+genann.rs:355:8: 355:14
+(*ann)
+genann.rs:360:19: 360:25
+(*ann)
+genann.rs:367:23: 367:30
+*fresh6
+genann.rs:367:33: 367:40
+*fresh7
+genann.rs:367:13: 367:20
+*fresh8
+genann.rs:372:19: 372:25
+(*ann)
+genann.rs:375:24: 375:26
+*t
+genann.rs:375:29: 375:31
+*o
+genann.rs:375:35: 375:37
+*o
+genann.rs:375:50: 375:52
+*o
+genann.rs:375:13: 375:20
+*fresh9
+genann.rs:384:9: 384:15
+(*ann)
+genann.rs:388:13: 388:19
+(*ann)
+genann.rs:388:34: 388:40
+(*ann)
+genann.rs:389:57: 389:63
+(*ann)
+genann.rs:392:13: 392:19
+(*ann)
+genann.rs:392:38: 392:44
+(*ann)
+genann.rs:395:13: 395:19
+(*ann)
+genann.rs:395:67: 395:73
+(*ann)
+genann.rs:399:13: 399:19
+(*ann)
+genann.rs:399:36: 399:42
+(*ann)
+genann.rs:400:39: 400:45
+(*ann)
+genann.rs:401:54: 401:60
+(*ann)
+genann.rs:403:57: 403:63
+(*ann)
+genann.rs:406:19: 406:25
+(*ann)
+genann.rs:411:32: 411:38
+(*ann)
+genann.rs:412:28: 412:34
+(*ann)
+genann.rs:413:33: 413:39
+(*ann)
+genann.rs:414:61: 414:83
+*dd.offset(k as isize)
+genann.rs:416:26: 416:32
+(*ann)
+genann.rs:419:21: 419:48
+*ww.offset(windex as isize)
+genann.rs:423:20: 423:24
+*o_0
+genann.rs:423:37: 423:41
+*o_0
+genann.rs:423:13: 423:17
+*d_0
+genann.rs:433:9: 433:15
+(*ann)
+genann.rs:433:30: 433:36
+(*ann)
+genann.rs:433:46: 433:52
+(*ann)
+genann.rs:436:9: 436:15
+(*ann)
+genann.rs:436:34: 436:40
+(*ann)
+genann.rs:437:37: 437:43
+(*ann)
+genann.rs:438:40: 438:46
+(*ann)
+genann.rs:439:40: 439:46
+(*ann)
+genann.rs:440:43: 440:49
+(*ann)
+genann.rs:441:44: 441:50
+(*ann)
+genann.rs:445:9: 445:15
+(*ann)
+genann.rs:445:34: 445:40
+(*ann)
+genann.rs:446:36: 446:42
+(*ann)
+genann.rs:447:39: 447:45
+(*ann)
+genann.rs:448:44: 448:50
+(*ann)
+genann.rs:452:15: 452:21
+(*ann)
+genann.rs:455:23: 455:29
+(*ann)
+genann.rs:456:24: 456:30
+(*ann)
+genann.rs:457:29: 457:35
+(*ann)
+genann.rs:461:29: 461:33
+*d_1
+genann.rs:461:17: 461:25
+*fresh10
+genann.rs:466:21: 466:25
+*d_1
+genann.rs:467:25: 467:75
+*i.offset((k - 1 as std::os::raw::c_int) as isize)
+genann.rs:465:17: 465:25
+*fresh11
+genann.rs:474:24: 474:30
+(*ann)
+genann.rs:475:14: 475:20
+(*ann)
+genann.rs:488:9: 488:15
+(*ann)
+genann.rs:492:13: 492:19
+(*ann)
+genann.rs:492:38: 492:44
+(*ann)
+genann.rs:495:13: 495:19
+(*ann)
+genann.rs:496:40: 496:46
+(*ann)
+genann.rs:497:43: 497:49
+(*ann)
+genann.rs:502:13: 502:19
+(*ann)
+genann.rs:503:41: 503:47
+(*ann)
+genann.rs:504:44: 504:50
+(*ann)
+genann.rs:505:44: 505:50
+(*ann)
+genann.rs:506:47: 506:53
+(*ann)
+genann.rs:510:19: 510:25
+(*ann)
+genann.rs:514:28: 514:34
+(*ann)
+genann.rs:515:33: 515:39
+(*ann)
+genann.rs:519:33: 519:37
+*d_2
+genann.rs:519:21: 519:29
+*fresh12
+genann.rs:524:25: 524:29
+*d_2
+genann.rs:525:29: 525:81
+*i_0.offset((k - 1 as std::os::raw::c_int) as isize)
+genann.rs:523:21: 523:29
+*fresh13
+genann.rs:539:13: 539:19
+(*ann)
+genann.rs:539:28: 539:34
+(*ann)
+genann.rs:539:50: 539:56
+(*ann)
+genann.rs:540:13: 540:19
+(*ann)
+genann.rs:543:15: 543:21
+(*ann)
+genann.rs:545:17: 545:50
+*(*ann).weight.offset(i as isize)
+genann.rs:545:18: 545:24
+(*ann)
+test.rs:99:8: 99:14
+(*ann)
+test.rs:103:43: 103:49
+(*ann)
+test.rs:107:5: 107:61
+*(*ann).weight.offset(0 as std::os::raw::c_int as isize)
+test.rs:107:6: 107:12
+(*ann)
+test.rs:109:5: 109:61
+*(*ann).weight.offset(1 as std::os::raw::c_int as isize)
+test.rs:109:6: 109:12
+(*ann)
+test.rs:112:22: 112:46
+*genann_run(ann, &mut a)
+test.rs:116:51: 116:75
+*genann_run(ann, &mut a)
+test.rs:120:22: 120:46
+*genann_run(ann, &mut a)
+test.rs:124:51: 124:75
+*genann_run(ann, &mut a)
+test.rs:128:22: 128:46
+*genann_run(ann, &mut a)
+test.rs:132:51: 132:75
+*genann_run(ann, &mut a)
+test.rs:135:5: 135:61
+*(*ann).weight.offset(0 as std::os::raw::c_int as isize)
+test.rs:135:6: 135:12
+(*ann)
+test.rs:137:5: 137:61
+*(*ann).weight.offset(1 as std::os::raw::c_int as isize)
+test.rs:137:6: 137:12
+(*ann)
+test.rs:140:22: 140:46
+*genann_run(ann, &mut a)
+test.rs:144:51: 144:75
+*genann_run(ann, &mut a)
+test.rs:147:5: 147:61
+*(*ann).weight.offset(0 as std::os::raw::c_int as isize)
+test.rs:147:6: 147:12
+(*ann)
+test.rs:149:5: 149:61
+*(*ann).weight.offset(1 as std::os::raw::c_int as isize)
+test.rs:149:6: 149:12
+(*ann)
+test.rs:152:22: 152:46
+*genann_run(ann, &mut a)
+test.rs:156:51: 156:75
+*genann_run(ann, &mut a)
+test.rs:160:22: 160:46
+*genann_run(ann, &mut a)
+test.rs:164:51: 164:75
+*genann_run(ann, &mut a)
+test.rs:173:5: 173:11
+(*ann)
+test.rs:176:5: 176:11
+(*ann)
+test.rs:180:8: 180:14
+(*ann)
+test.rs:184:43: 184:49
+(*ann)
+test.rs:187:5: 187:61
+*(*ann).weight.offset(0 as std::os::raw::c_int as isize)
+test.rs:187:6: 187:12
+(*ann)
+test.rs:188:5: 188:61
+*(*ann).weight.offset(1 as std::os::raw::c_int as isize)
+test.rs:188:6: 188:12
+(*ann)
+test.rs:190:5: 190:61
+*(*ann).weight.offset(2 as std::os::raw::c_int as isize)
+test.rs:190:6: 190:12
+(*ann)
+test.rs:193:5: 193:61
+*(*ann).weight.offset(3 as std::os::raw::c_int as isize)
+test.rs:193:6: 193:12
+(*ann)
+test.rs:195:5: 195:61
+*(*ann).weight.offset(4 as std::os::raw::c_int as isize)
+test.rs:195:6: 195:12
+(*ann)
+test.rs:197:5: 197:61
+*(*ann).weight.offset(5 as std::os::raw::c_int as isize)
+test.rs:197:6: 197:12
+(*ann)
+test.rs:200:5: 200:61
+*(*ann).weight.offset(6 as std::os::raw::c_int as isize)
+test.rs:200:6: 200:12
+(*ann)
+test.rs:201:5: 201:61
+*(*ann).weight.offset(7 as std::os::raw::c_int as isize)
+test.rs:201:6: 201:12
+(*ann)
+test.rs:203:5: 203:61
+*(*ann).weight.offset(8 as std::os::raw::c_int as isize)
+test.rs:203:6: 203:12
+(*ann)
+test.rs:221:17: 222:83
+*genann_run(ann,
+                            input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:228:16: 229:82
+*genann_run(ann,
+                           input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:233:17: 234:83
+*genann_run(ann,
+                            input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:240:16: 241:82
+*genann_run(ann,
+                           input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:245:17: 246:83
+*genann_run(ann,
+                            input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:252:16: 253:82
+*genann_run(ann,
+                           input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:257:17: 258:83
+*genann_run(ann,
+                            input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:264:16: 265:82
+*genann_run(ann,
+                           input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:278:49: 278:77
+*genann_run(ann, &mut input)
+test.rs:280:50: 280:78
+*genann_run(ann, &mut input)
+test.rs:321:5: 321:11
+(*ann)
+test.rs:326:17: 327:83
+*genann_run(ann,
+                            input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:333:16: 334:82
+*genann_run(ann,
+                           input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:338:17: 339:83
+*genann_run(ann,
+                            input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:345:16: 346:82
+*genann_run(ann,
+                           input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:350:17: 351:83
+*genann_run(ann,
+                            input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:357:16: 358:82
+*genann_run(ann,
+                           input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:362:17: 363:83
+*genann_run(ann,
+                            input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:369:16: 370:82
+*genann_run(ann,
+                           input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:406:5: 406:11
+(*ann)
+test.rs:411:17: 412:83
+*genann_run(ann,
+                            input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:418:16: 419:82
+*genann_run(ann,
+                           input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:423:17: 424:83
+*genann_run(ann,
+                            input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:430:16: 431:82
+*genann_run(ann,
+                           input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:435:17: 436:83
+*genann_run(ann,
+                            input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:442:16: 443:82
+*genann_run(ann,
+                           input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:447:17: 448:83
+*genann_run(ann,
+                            input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:454:16: 455:82
+*genann_run(ann,
+                           input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:492:5: 492:11
+(*ann)
+test.rs:497:17: 498:83
+*genann_run(ann,
+                            input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:504:16: 505:82
+*genann_run(ann,
+                           input[0 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:509:17: 510:83
+*genann_run(ann,
+                            input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:516:16: 517:82
+*genann_run(ann,
+                           input[1 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:521:17: 522:83
+*genann_run(ann,
+                            input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:528:16: 529:82
+*genann_run(ann,
+                           input[2 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:533:17: 534:83
+*genann_run(ann,
+                            input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:540:16: 541:82
+*genann_run(ann,
+                           input[3 as std::os::raw::c_int as usize].as_mut_ptr())
+test.rs:561:8: 561:16
+(*first)
+test.rs:561:27: 561:36
+(*second)
+test.rs:565:44: 565:52
+(*first)
+test.rs:565:61: 565:70
+(*second)
+test.rs:568:8: 568:16
+(*first)
+test.rs:568:34: 568:43
+(*second)
+test.rs:572:44: 572:52
+(*first)
+test.rs:573:16: 573:25
+(*second)
+test.rs:576:8: 576:16
+(*first)
+test.rs:576:27: 576:36
+(*second)
+test.rs:580:44: 580:52
+(*first)
+test.rs:580:61: 580:70
+(*second)
+test.rs:583:8: 583:16
+(*first)
+test.rs:583:28: 583:37
+(*second)
+test.rs:587:44: 587:52
+(*first)
+test.rs:587:62: 587:71
+(*second)
+test.rs:590:8: 590:16
+(*first)
+test.rs:590:34: 590:43
+(*second)
+test.rs:594:44: 594:52
+(*first)
+test.rs:595:16: 595:25
+(*second)
+test.rs:599:15: 599:23
+(*first)
+test.rs:601:14: 601:49
+*(*first).weight.offset(i as isize)
+test.rs:601:15: 601:23
+(*first)
+test.rs:602:18: 602:54
+*(*second).weight.offset(i as isize)
+test.rs:602:19: 602:28
+(*second)
+test.rs:620:8: 620:16
+(*first)
+test.rs:620:27: 620:36
+(*second)
+test.rs:624:44: 624:52
+(*first)
+test.rs:624:61: 624:70
+(*second)
+test.rs:627:8: 627:16
+(*first)
+test.rs:627:34: 627:43
+(*second)
+test.rs:631:44: 631:52
+(*first)
+test.rs:632:16: 632:25
+(*second)
+test.rs:635:8: 635:16
+(*first)
+test.rs:635:27: 635:36
+(*second)
+test.rs:639:44: 639:52
+(*first)
+test.rs:639:61: 639:70
+(*second)
+test.rs:642:8: 642:16
+(*first)
+test.rs:642:28: 642:37
+(*second)
+test.rs:646:44: 646:52
+(*first)
+test.rs:646:62: 646:71
+(*second)
+test.rs:649:8: 649:16
+(*first)
+test.rs:649:34: 649:43
+(*second)
+test.rs:653:44: 653:52
+(*first)
+test.rs:654:16: 654:25
+(*second)
+test.rs:658:15: 658:23
+(*first)
+test.rs:660:17: 660:52
+*(*first).weight.offset(i as isize)
+test.rs:660:18: 660:26
+(*first)
+test.rs:661:21: 661:57
+*(*second).weight.offset(i as isize)
+test.rs:661:22: 661:31
+(*second)
+test.rs:666:48: 666:83
+*(*first).weight.offset(i as isize)
+test.rs:666:49: 666:57
+(*first)
+test.rs:667:20: 667:56
+*(*second).weight.offset(i as isize)
+test.rs:667:21: 667:30
+(*second)

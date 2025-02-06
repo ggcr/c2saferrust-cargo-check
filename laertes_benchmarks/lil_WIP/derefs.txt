@@ -1,0 +1,3548 @@
+lil.rs:351:13: 351:20
+*fresh0
+lil.rs:371:19: 371:24
+(*hm)
+lil.rs:372:18: 372:64
+(*(*hm).cell[i as usize].e.offset(j as isize))
+lil.rs:372:20: 372:25
+(*hm)
+lil.rs:376:14: 376:19
+(*hm)
+lil.rs:384:9: 384:14
+(*hm)
+lil.rs:389:15: 389:22
+(*cell)
+lil.rs:390:24: 390:55
+(*(*cell).e.offset(i as isize))
+lil.rs:390:26: 390:33
+(*cell)
+lil.rs:391:34: 391:65
+(*(*cell).e.offset(i as isize))
+lil.rs:391:36: 391:43
+(*cell)
+lil.rs:398:17: 398:24
+(*cell)
+lil.rs:400:58: 400:65
+(*cell)
+lil.rs:397:5: 397:12
+(*cell)
+lil.rs:405:26: 405:65
+(*(*cell).e.offset((*cell).c as isize))
+lil.rs:405:28: 405:35
+(*cell)
+lil.rs:405:45: 405:52
+(*cell)
+lil.rs:407:26: 407:65
+(*(*cell).e.offset((*cell).c as isize))
+lil.rs:407:28: 407:35
+(*cell)
+lil.rs:407:45: 407:52
+(*cell)
+lil.rs:409:17: 409:24
+(*cell)
+lil.rs:409:5: 409:12
+(*cell)
+lil.rs:415:9: 415:14
+(*hm)
+lil.rs:420:15: 420:22
+(*cell)
+lil.rs:421:24: 421:55
+(*(*cell).e.offset(i as isize))
+lil.rs:421:26: 421:33
+(*cell)
+lil.rs:422:20: 422:51
+(*(*cell).e.offset(i as isize))
+lil.rs:422:22: 422:29
+(*cell)
+lil.rs:431:9: 431:14
+(*hm)
+lil.rs:436:15: 436:22
+(*cell)
+lil.rs:437:24: 437:55
+(*(*cell).e.offset(i as isize))
+lil.rs:437:26: 437:33
+(*cell)
+lil.rs:452:9: 452:15
+(*val)
+lil.rs:453:9: 453:15
+(*val)
+lil.rs:456:12: 456:18
+(*val)
+lil.rs:460:16: 460:22
+(*val)
+lil.rs:462:9: 462:39
+*(*val).d.offset(len as isize)
+lil.rs:462:10: 462:16
+(*val)
+lil.rs:464:9: 464:15
+(*val)
+lil.rs:465:9: 465:15
+(*val)
+lil.rs:486:16: 486:22
+(*src)
+lil.rs:486:5: 486:11
+(*val)
+lil.rs:487:8: 487:14
+(*src)
+lil.rs:489:20: 489:26
+(*val)
+lil.rs:488:9: 488:15
+(*val)
+lil.rs:491:12: 491:18
+(*val)
+lil.rs:495:16: 495:22
+(*val)
+lil.rs:495:55: 495:61
+(*src)
+lil.rs:496:16: 496:22
+(*val)
+lil.rs:497:14: 497:20
+(*val)
+lil.rs:505:17: 505:23
+(*val)
+lil.rs:506:17: 506:23
+(*val)
+lil.rs:509:18: 509:24
+(*val)
+lil.rs:510:16: 510:22
+(*val)
+lil.rs:510:5: 510:11
+(*val)
+lil.rs:511:5: 511:33
+*new.offset(fresh4 as isize)
+lil.rs:512:5: 512:35
+*new.offset((*val).l as isize)
+lil.rs:512:17: 512:23
+(*val)
+lil.rs:513:5: 513:11
+(*val)
+lil.rs:522:23: 522:67
+*s.offset(0 as std::os::raw::c_int as isize)
+lil.rs:526:17: 526:23
+(*val)
+lil.rs:527:17: 527:23
+(*val)
+lil.rs:531:23: 531:29
+(*val)
+lil.rs:534:5: 534:11
+(*val)
+lil.rs:536:10: 536:16
+(*val)
+lil.rs:535:5: 535:11
+(*val)
+lil.rs:549:23: 549:27
+(*v)
+lil.rs:551:17: 551:23
+(*val)
+lil.rs:552:17: 552:23
+(*val)
+lil.rs:552:39: 552:43
+(*v)
+lil.rs:556:23: 556:29
+(*val)
+lil.rs:557:12: 557:16
+(*v)
+lil.rs:558:12: 558:16
+(*v)
+lil.rs:559:5: 559:11
+(*val)
+lil.rs:561:10: 561:16
+(*val)
+lil.rs:561:58: 561:62
+(*v)
+lil.rs:560:5: 560:11
+(*val)
+lil.rs:567:10: 567:16
+(*val)
+lil.rs:577:5: 577:12
+(*list)
+lil.rs:585:15: 585:22
+(*list)
+lil.rs:586:24: 586:53
+*(*list).v.offset(i as isize)
+lil.rs:586:25: 586:32
+(*list)
+lil.rs:589:10: 589:17
+(*list)
+lil.rs:595:8: 595:15
+(*list)
+lil.rs:595:21: 595:28
+(*list)
+lil.rs:597:16: 597:23
+(*list)
+lil.rs:598:17: 598:24
+(*list)
+lil.rs:598:42: 598:49
+(*list)
+lil.rs:604:21: 604:28
+(*list)
+lil.rs:609:9: 609:16
+(*list)
+lil.rs:610:9: 610:16
+(*list)
+lil.rs:612:18: 612:25
+(*list)
+lil.rs:613:17: 613:24
+(*list)
+lil.rs:613:5: 613:12
+(*list)
+lil.rs:614:26: 614:60
+*(*list).v.offset(fresh5 as isize)
+lil.rs:614:27: 614:34
+(*list)
+lil.rs:619:12: 619:19
+(*list)
+lil.rs:624:24: 624:31
+(*list)
+lil.rs:626:21: 626:54
+*(*list).v.offset(index as isize)
+lil.rs:626:22: 626:29
+(*list)
+lil.rs:631:25: 631:71
+*str.offset(0 as std::os::raw::c_int as isize)
+lil.rs:635:11: 635:34
+*str.offset(i as isize)
+lil.rs:636:20: 636:43
+*str.offset(i as isize)
+lil.rs:637:24: 637:47
+*str.offset(i as isize)
+lil.rs:652:15: 652:22
+(*list)
+lil.rs:655:44: 655:73
+*(*list).v.offset(i as isize)
+lil.rs:655:45: 655:52
+(*list)
+lil.rs:661:23: 661:55
+(**(*list).v.offset(i as isize))
+lil.rs:661:25: 661:54
+*(*list).v.offset(i as isize)
+lil.rs:661:26: 661:33
+(*list)
+lil.rs:662:20: 662:74
+*(**(*list).v.offset(i as isize)).d.offset(j as isize)
+lil.rs:662:21: 662:53
+(**(*list).v.offset(i as isize))
+lil.rs:662:23: 662:52
+*(*list).v.offset(i as isize)
+lil.rs:662:24: 662:31
+(*list)
+lil.rs:667:27: 669:79
+*(**(*list).v.offset(i as
+                                                   isize)).d.offset(j as
+                                                                        isize)
+lil.rs:667:28: 668:59
+(**(*list).v.offset(i as
+                                                   isize))
+lil.rs:667:30: 668:58
+*(*list).v.offset(i as
+                                                   isize)
+lil.rs:667:31: 667:38
+(*list)
+lil.rs:676:37: 679:89
+*(**(*list).v.offset(i as
+                                                             isize)).d.offset(j
+                                                                                  as
+                                                                                  isize)
+lil.rs:676:38: 677:69
+(**(*list).v.offset(i as
+                                                             isize))
+lil.rs:676:40: 677:68
+*(*list).v.offset(i as
+                                                             isize)
+lil.rs:676:41: 676:48
+(*list)
+lil.rs:684:38: 684:67
+*(*list).v.offset(i as isize)
+lil.rs:684:39: 684:46
+(*list)
+lil.rs:696:5: 696:11
+(*env)
+lil.rs:703:20: 703:26
+(*env)
+lil.rs:704:21: 704:27
+(*env)
+lil.rs:706:15: 706:21
+(*env)
+lil.rs:707:14: 707:47
+(**(*env).var.offset(i as isize))
+lil.rs:707:16: 707:46
+*(*env).var.offset(i as isize)
+lil.rs:707:17: 707:23
+(*env)
+lil.rs:708:24: 708:57
+(**(*env).var.offset(i as isize))
+lil.rs:708:26: 708:56
+*(*env).var.offset(i as isize)
+lil.rs:708:27: 708:33
+(*env)
+lil.rs:709:14: 709:47
+(**(*env).var.offset(i as isize))
+lil.rs:709:16: 709:46
+*(*env).var.offset(i as isize)
+lil.rs:709:17: 709:23
+(*env)
+lil.rs:710:14: 710:44
+*(*env).var.offset(i as isize)
+lil.rs:710:15: 710:21
+(*env)
+lil.rs:713:10: 713:16
+(*env)
+lil.rs:719:24: 719:30
+(*env)
+lil.rs:727:29: 727:35
+(*lil)
+lil.rs:729:39: 729:45
+(*lil)
+lil.rs:733:24: 733:30
+(*lil)
+lil.rs:741:13: 741:19
+(*cmd)
+lil.rs:741:55: 741:61
+(*cmd)
+lil.rs:742:24: 742:30
+(*cmd)
+lil.rs:743:9: 743:15
+(*cmd)
+lil.rs:744:9: 744:15
+(*cmd)
+lil.rs:745:9: 745:15
+(*cmd)
+lil.rs:752:5: 752:11
+(*cmd)
+lil.rs:754:17: 754:23
+(*lil)
+lil.rs:756:58: 756:64
+(*lil)
+lil.rs:765:5: 765:11
+(*lil)
+lil.rs:766:18: 766:24
+(*lil)
+lil.rs:767:19: 767:25
+(*lil)
+lil.rs:767:5: 767:11
+(*lil)
+lil.rs:768:26: 768:55
+*ncmd.offset(fresh7 as isize)
+lil.rs:770:17: 770:23
+(*lil)
+lil.rs:775:29: 775:35
+(*lil)
+lil.rs:777:15: 777:21
+(*lil)
+lil.rs:778:12: 778:42
+*(*lil).cmd.offset(i as isize)
+lil.rs:778:13: 778:19
+(*lil)
+lil.rs:783:17: 783:23
+(*lil)
+lil.rs:784:17: 784:23
+(*lil)
+lil.rs:784:32: 784:38
+(*cmd)
+lil.rs:785:9: 785:15
+(*cmd)
+lil.rs:785:51: 785:57
+(*cmd)
+lil.rs:786:20: 786:26
+(*cmd)
+lil.rs:787:10: 787:16
+(*cmd)
+lil.rs:789:19: 789:25
+(*lil)
+lil.rs:789:5: 789:11
+(*lil)
+lil.rs:791:15: 791:21
+(*lil)
+lil.rs:792:30: 792:60
+*(*lil).cmd.offset(i as isize)
+lil.rs:792:31: 792:37
+(*lil)
+lil.rs:794:13: 795:83
+*(*lil).cmd.offset(i.wrapping_add(1 as std::os::raw::c_int as
+                                                  std::os::raw::c_ulong) as isize)
+lil.rs:794:14: 794:20
+(*lil)
+lil.rs:806:5: 806:11
+(*cmd)
+lil.rs:816:48: 816:54
+(*lil)
+lil.rs:816:72: 816:78
+(*lil)
+lil.rs:818:8: 818:55
+*name.offset(0 as std::os::raw::c_int as isize)
+lil.rs:822:16: 822:22
+(*var)
+lil.rs:822:30: 822:36
+(*lil)
+lil.rs:822:48: 822:54
+(*var)
+lil.rs:825:37: 825:43
+(*lil)
+lil.rs:826:35: 826:41
+(*var)
+lil.rs:826:49: 826:55
+(*lil)
+lil.rs:827:16: 827:22
+(*lil)
+lil.rs:830:69: 830:75
+(*lil)
+lil.rs:843:28: 843:34
+(*var)
+lil.rs:844:13: 844:19
+(*var)
+lil.rs:845:17: 845:23
+(*var)
+lil.rs:847:28: 847:34
+(*lil)
+lil.rs:848:30: 848:36
+(*var)
+lil.rs:848:17: 848:23
+(*lil)
+lil.rs:849:47: 849:53
+(*var)
+lil.rs:852:17: 852:23
+(*lil)
+lil.rs:858:17: 858:23
+(*env)
+lil.rs:860:58: 860:64
+(*env)
+lil.rs:869:5: 869:11
+(*env)
+lil.rs:870:27: 870:61
+*nvar.offset((*env).vars as isize)
+lil.rs:870:40: 870:46
+(*env)
+lil.rs:875:27: 875:64
+(**nvar.offset((*env).vars as isize))
+lil.rs:875:29: 875:63
+*nvar.offset((*env).vars as isize)
+lil.rs:875:42: 875:48
+(*env)
+lil.rs:877:27: 877:64
+(**nvar.offset((*env).vars as isize))
+lil.rs:877:29: 877:63
+*nvar.offset((*env).vars as isize)
+lil.rs:877:42: 877:48
+(*env)
+lil.rs:879:27: 879:64
+(**nvar.offset((*env).vars as isize))
+lil.rs:879:29: 879:63
+*nvar.offset((*env).vars as isize)
+lil.rs:879:42: 879:48
+(*env)
+lil.rs:881:27: 881:64
+(**nvar.offset((*env).vars as isize))
+lil.rs:881:29: 881:63
+*nvar.offset((*env).vars as isize)
+lil.rs:881:42: 881:48
+(*env)
+lil.rs:883:17: 883:23
+(*env)
+lil.rs:884:12: 884:46
+*nvar.offset((*env).vars as isize)
+lil.rs:884:25: 884:31
+(*env)
+lil.rs:885:19: 885:25
+(*env)
+lil.rs:886:19: 886:25
+(*env)
+lil.rs:886:5: 886:11
+(*env)
+lil.rs:887:12: 887:42
+*nvar.offset(fresh15 as isize)
+lil.rs:893:38: 893:44
+(*lil)
+lil.rs:900:48: 900:54
+(*lil)
+lil.rs:902:29: 902:35
+(*var)
+lil.rs:903:8: 903:14
+(*lil)
+lil.rs:904:30: 904:36
+(*var)
+lil.rs:904:44: 904:50
+(*lil)
+lil.rs:907:65: 907:71
+(*lil)
+lil.rs:922:44: 922:50
+(*lil)
+lil.rs:923:5: 923:11
+(*lil)
+lil.rs:928:9: 928:22
+(*(*lil).env)
+lil.rs:928:11: 928:17
+(*lil)
+lil.rs:929:35: 929:48
+(*(*lil).env)
+lil.rs:929:37: 929:43
+(*lil)
+lil.rs:930:22: 930:28
+(*lil)
+lil.rs:931:9: 931:15
+(*lil)
+lil.rs:939:5: 939:11
+(*lil)
+lil.rs:940:22: 940:28
+(*lil)
+lil.rs:940:5: 940:11
+(*lil)
+lil.rs:941:5: 941:11
+(*lil)
+lil.rs:942:5: 942:11
+(*lil)
+lil.rs:944:18: 944:24
+(*lil)
+lil.rs:958:13: 958:19
+(*lil)
+lil.rs:959:18: 959:59
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:959:19: 959:25
+(*lil)
+lil.rs:959:38: 959:44
+(*lil)
+lil.rs:961:22: 961:63
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:961:23: 961:29
+(*lil)
+lil.rs:961:42: 961:48
+(*lil)
+lil.rs:963:22: 963:63
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:963:23: 963:29
+(*lil)
+lil.rs:963:42: 963:48
+(*lil)
+lil.rs:967:11: 967:17
+(*lil)
+lil.rs:967:25: 967:31
+(*lil)
+lil.rs:968:12: 968:53
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:968:13: 968:19
+(*lil)
+lil.rs:968:32: 968:38
+(*lil)
+lil.rs:970:16: 973:49
+*(*lil).code.offset((*lil).head.wrapping_add(1 as std::os::raw::c_int
+                                                                as
+                                                                std::os::raw::c_ulong)
+                                       as isize)
+lil.rs:970:17: 970:23
+(*lil)
+lil.rs:970:36: 970:42
+(*lil)
+lil.rs:975:20: 979:53
+*(*lil).code.offset((*lil).head.wrapping_add(2 as
+                                                                    std::os::raw::c_int
+                                                                    as
+                                                                    std::os::raw::c_ulong)
+                                           as isize)
+lil.rs:975:21: 975:27
+(*lil)
+lil.rs:975:40: 975:46
+(*lil)
+lil.rs:982:22: 982:28
+(*lil)
+lil.rs:981:17: 981:23
+(*lil)
+lil.rs:986:23: 986:29
+(*lil)
+lil.rs:986:37: 986:43
+(*lil)
+lil.rs:987:24: 987:65
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:987:25: 987:31
+(*lil)
+lil.rs:987:44: 987:50
+(*lil)
+lil.rs:989:28: 993:61
+*(*lil).code.offset((*lil).head.wrapping_add(1 as
+                                                                            std::os::raw::c_int
+                                                                            as
+                                                                            std::os::raw::c_ulong)
+                                                   as isize)
+lil.rs:989:29: 989:35
+(*lil)
+lil.rs:989:48: 989:54
+(*lil)
+lil.rs:995:28: 999:61
+*(*lil).code.offset((*lil).head.wrapping_add(2 as
+                                                                            std::os::raw::c_int
+                                                                            as
+                                                                            std::os::raw::c_ulong)
+                                                   as isize)
+lil.rs:995:29: 995:35
+(*lil)
+lil.rs:995:48: 995:54
+(*lil)
+lil.rs:1002:30: 1002:36
+(*lil)
+lil.rs:1001:25: 1001:31
+(*lil)
+lil.rs:1008:44: 1008:50
+(*lil)
+lil.rs:1008:30: 1008:36
+(*lil)
+lil.rs:1011:23: 1011:29
+(*lil)
+lil.rs:1011:37: 1011:43
+(*lil)
+lil.rs:1012:35: 1012:41
+(*lil)
+lil.rs:1012:21: 1012:27
+(*lil)
+lil.rs:1015:19: 1015:60
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1015:20: 1015:26
+(*lil)
+lil.rs:1015:39: 1015:45
+(*lil)
+lil.rs:1017:24: 1021:57
+*(*lil).code.offset((*lil).head.wrapping_add(1 as
+                                                                        std::os::raw::c_int
+                                                                        as
+                                                                        std::os::raw::c_ulong)
+                                               as isize)
+lil.rs:1017:25: 1017:31
+(*lil)
+lil.rs:1017:44: 1017:50
+(*lil)
+lil.rs:1023:28: 1027:61
+*(*lil).code.offset((*lil).head.wrapping_add(1 as
+                                                                            std::os::raw::c_int
+                                                                            as
+                                                                            std::os::raw::c_ulong)
+                                                   as isize)
+lil.rs:1023:29: 1023:35
+(*lil)
+lil.rs:1023:48: 1023:54
+(*lil)
+lil.rs:1029:27: 1029:33
+(*lil)
+lil.rs:1029:13: 1029:19
+(*lil)
+lil.rs:1030:19: 1030:25
+(*lil)
+lil.rs:1030:33: 1030:39
+(*lil)
+lil.rs:1031:31: 1031:37
+(*lil)
+lil.rs:1031:17: 1031:23
+(*lil)
+lil.rs:1033:19: 1033:60
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1033:20: 1033:26
+(*lil)
+lil.rs:1033:39: 1033:45
+(*lil)
+lil.rs:1035:23: 1035:64
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1035:24: 1035:30
+(*lil)
+lil.rs:1035:43: 1035:49
+(*lil)
+lil.rs:1037:18: 1037:24
+(*lil)
+lil.rs:1038:27: 1038:33
+(*lil)
+lil.rs:1038:13: 1038:19
+(*lil)
+lil.rs:1040:26: 1040:67
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1040:27: 1040:33
+(*lil)
+lil.rs:1040:46: 1040:52
+(*lil)
+lil.rs:1044:27: 1044:33
+(*lil)
+lil.rs:1044:13: 1044:19
+(*lil)
+lil.rs:1052:19: 1052:25
+(*lil)
+lil.rs:1052:5: 1052:11
+(*lil)
+lil.rs:1053:11: 1053:17
+(*lil)
+lil.rs:1053:25: 1053:31
+(*lil)
+lil.rs:1054:12: 1054:53
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1054:13: 1054:19
+(*lil)
+lil.rs:1054:32: 1054:38
+(*lil)
+lil.rs:1056:27: 1056:33
+(*lil)
+lil.rs:1056:13: 1056:19
+(*lil)
+lil.rs:1059:19: 1059:60
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1059:20: 1059:26
+(*lil)
+lil.rs:1059:39: 1059:45
+(*lil)
+lil.rs:1061:27: 1061:33
+(*lil)
+lil.rs:1061:13: 1061:19
+(*lil)
+lil.rs:1066:27: 1066:33
+(*lil)
+lil.rs:1067:27: 1067:33
+(*lil)
+lil.rs:1067:13: 1067:19
+(*lil)
+lil.rs:1068:34: 1068:71
+*(*lil).code.offset(fresh16 as isize)
+lil.rs:1068:35: 1068:41
+(*lil)
+lil.rs:1079:19: 1079:25
+(*lil)
+lil.rs:1079:5: 1079:11
+(*lil)
+lil.rs:1081:23: 1081:29
+(*lil)
+lil.rs:1092:8: 1092:49
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1092:9: 1092:15
+(*lil)
+lil.rs:1092:28: 1092:34
+(*lil)
+lil.rs:1095:15: 1095:56
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1095:16: 1095:22
+(*lil)
+lil.rs:1095:35: 1095:41
+(*lil)
+lil.rs:1098:23: 1098:29
+(*lil)
+lil.rs:1098:9: 1098:15
+(*lil)
+lil.rs:1100:15: 1100:21
+(*lil)
+lil.rs:1100:29: 1100:35
+(*lil)
+lil.rs:1101:16: 1101:57
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1101:17: 1101:23
+(*lil)
+lil.rs:1101:36: 1101:42
+(*lil)
+lil.rs:1103:31: 1103:37
+(*lil)
+lil.rs:1103:17: 1103:23
+(*lil)
+lil.rs:1106:23: 1106:64
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1106:24: 1106:30
+(*lil)
+lil.rs:1106:43: 1106:49
+(*lil)
+lil.rs:1108:31: 1108:37
+(*lil)
+lil.rs:1108:17: 1108:23
+(*lil)
+lil.rs:1113:31: 1113:37
+(*lil)
+lil.rs:1114:31: 1114:37
+(*lil)
+lil.rs:1114:17: 1114:23
+(*lil)
+lil.rs:1115:38: 1115:75
+*(*lil).code.offset(fresh17 as isize)
+lil.rs:1115:39: 1115:45
+(*lil)
+lil.rs:1118:15: 1118:56
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1118:16: 1118:22
+(*lil)
+lil.rs:1118:35: 1118:41
+(*lil)
+lil.rs:1121:15: 1121:56
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1121:16: 1121:22
+(*lil)
+lil.rs:1121:35: 1121:41
+(*lil)
+lil.rs:1123:19: 1123:60
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1123:20: 1123:26
+(*lil)
+lil.rs:1123:39: 1123:45
+(*lil)
+lil.rs:1125:23: 1125:29
+(*lil)
+lil.rs:1126:23: 1126:29
+(*lil)
+lil.rs:1126:9: 1126:15
+(*lil)
+lil.rs:1127:44: 1127:81
+*(*lil).code.offset(fresh18 as isize)
+lil.rs:1127:45: 1127:51
+(*lil)
+lil.rs:1129:15: 1129:21
+(*lil)
+lil.rs:1129:29: 1129:35
+(*lil)
+lil.rs:1130:16: 1130:57
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1130:17: 1130:23
+(*lil)
+lil.rs:1130:36: 1130:42
+(*lil)
+lil.rs:1132:20: 1132:61
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1132:21: 1132:27
+(*lil)
+lil.rs:1132:40: 1132:46
+(*lil)
+lil.rs:1135:24: 1135:65
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1135:25: 1135:31
+(*lil)
+lil.rs:1135:44: 1135:50
+(*lil)
+lil.rs:1141:31: 1141:37
+(*lil)
+lil.rs:1141:17: 1141:23
+(*lil)
+lil.rs:1143:23: 1143:64
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1143:24: 1143:30
+(*lil)
+lil.rs:1143:43: 1143:49
+(*lil)
+lil.rs:1145:31: 1145:37
+(*lil)
+lil.rs:1145:17: 1145:23
+(*lil)
+lil.rs:1146:23: 1146:64
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1146:24: 1146:30
+(*lil)
+lil.rs:1146:43: 1146:49
+(*lil)
+lil.rs:1181:41: 1182:71
+*(*lil).code.offset((*lil).head as
+                                                                isize)
+lil.rs:1181:42: 1181:48
+(*lil)
+lil.rs:1181:61: 1181:67
+(*lil)
+lil.rs:1185:23: 1185:64
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1185:24: 1185:30
+(*lil)
+lil.rs:1185:43: 1185:49
+(*lil)
+lil.rs:1187:31: 1187:37
+(*lil)
+lil.rs:1187:17: 1187:23
+(*lil)
+lil.rs:1191:33: 1191:74
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1191:34: 1191:40
+(*lil)
+lil.rs:1191:53: 1191:59
+(*lil)
+lil.rs:1193:27: 1193:33
+(*lil)
+lil.rs:1193:13: 1193:19
+(*lil)
+lil.rs:1196:17: 1196:23
+(*lil)
+lil.rs:1197:15: 1197:21
+(*lil)
+lil.rs:1197:29: 1197:35
+(*lil)
+lil.rs:1198:27: 1198:68
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1198:28: 1198:34
+(*lil)
+lil.rs:1198:47: 1198:53
+(*lil)
+lil.rs:1200:32: 1200:73
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1200:33: 1200:39
+(*lil)
+lil.rs:1200:52: 1200:58
+(*lil)
+lil.rs:1202:27: 1202:33
+(*lil)
+lil.rs:1202:13: 1202:19
+(*lil)
+lil.rs:1205:29: 1205:35
+(*lil)
+lil.rs:1206:29: 1206:35
+(*lil)
+lil.rs:1215:11: 1215:17
+(*lil)
+lil.rs:1215:25: 1215:31
+(*lil)
+lil.rs:1215:59: 1215:65
+(*lil)
+lil.rs:1218:36: 1218:42
+(*lil)
+lil.rs:1220:24: 1220:30
+(*lil)
+lil.rs:1229:18: 1229:24
+(*lil)
+lil.rs:1229:32: 1229:38
+(*lil)
+lil.rs:1230:30: 1230:71
+*(*lil).code.offset((*lil).head as isize)
+lil.rs:1230:31: 1230:37
+(*lil)
+lil.rs:1230:50: 1230:56
+(*lil)
+lil.rs:1231:63: 1231:69
+(*lil)
+lil.rs:1244:54: 1244:60
+(*lil)
+lil.rs:1245:33: 1245:39
+(*lil)
+lil.rs:1246:33: 1246:39
+(*lil)
+lil.rs:1247:47: 1247:53
+(*lil)
+lil.rs:1249:5: 1249:11
+(*lil)
+lil.rs:1250:19: 1250:26
+(*code)
+lil.rs:1250:5: 1250:11
+(*lil)
+lil.rs:1251:5: 1251:11
+(*lil)
+lil.rs:1252:5: 1252:11
+(*lil)
+lil.rs:1255:5: 1255:11
+(*lil)
+lil.rs:1256:5: 1256:11
+(*lil)
+lil.rs:1257:5: 1257:11
+(*lil)
+lil.rs:1258:5: 1258:11
+(*lil)
+lil.rs:1277:54: 1277:60
+(*lil)
+lil.rs:1278:33: 1278:39
+(*lil)
+lil.rs:1279:33: 1279:39
+(*lil)
+lil.rs:1282:30: 1282:36
+(*lil)
+lil.rs:1283:5: 1283:11
+(*lil)
+lil.rs:1284:5: 1284:11
+(*lil)
+lil.rs:1285:5: 1285:11
+(*lil)
+lil.rs:1287:26: 1287:32
+(*lil)
+lil.rs:1287:5: 1287:11
+(*lil)
+lil.rs:1288:8: 1288:14
+(*lil)
+lil.rs:1289:9: 1289:15
+(*lil)
+lil.rs:1291:25: 1291:38
+(*(*lil).env)
+lil.rs:1291:27: 1291:33
+(*lil)
+lil.rs:1292:11: 1292:17
+(*lil)
+lil.rs:1292:25: 1292:31
+(*lil)
+lil.rs:1292:40: 1292:46
+(*lil)
+lil.rs:1297:31: 1297:37
+(*lil)
+lil.rs:1298:12: 1298:20
+(*words)
+lil.rs:1301:40: 1302:69
+*(*words).v.offset(0 as std::os::raw::c_int as
+                                                              isize)
+lil.rs:1301:41: 1301:49
+(*words)
+lil.rs:1304:20: 1304:76
+(**(*words).v.offset(0 as std::os::raw::c_int as isize))
+lil.rs:1304:22: 1304:75
+*(*words).v.offset(0 as std::os::raw::c_int as isize)
+lil.rs:1304:23: 1304:31
+(*words)
+lil.rs:1305:25: 1305:31
+(*lil)
+lil.rs:1306:28: 1306:34
+(*lil)
+lil.rs:1309:29: 1309:35
+(*lil)
+lil.rs:1312:33: 1312:86
+*(*words).v.offset(0 as std::os::raw::c_int as isize)
+lil.rs:1312:34: 1312:42
+(*words)
+lil.rs:1311:29: 1311:42
+(*(*lil).env)
+lil.rs:1311:31: 1311:37
+(*lil)
+lil.rs:1320:48: 1320:54
+(*lil)
+lil.rs:1324:29: 1324:35
+(*lil)
+lil.rs:1327:40: 1329:72
+(**(*words).v.offset(0 as std::os::raw::c_int
+                                                                as
+                                                                isize))
+lil.rs:1327:42: 1329:71
+*(*words).v.offset(0 as std::os::raw::c_int
+                                                                as
+                                                                isize)
+lil.rs:1327:43: 1327:51
+(*words)
+lil.rs:1338:37: 1339:69
+(**(*words).v.offset(0 as std::os::raw::c_int as
+                                                             isize))
+lil.rs:1338:39: 1339:68
+*(*words).v.offset(0 as std::os::raw::c_int as
+                                                             isize)
+lil.rs:1338:40: 1338:48
+(*words)
+lil.rs:1340:51: 1340:57
+(*lil)
+lil.rs:1346:36: 1347:68
+(**(*words).v.offset(0 as std::os::raw::c_int as
+                                                            isize))
+lil.rs:1346:38: 1347:67
+*(*words).v.offset(0 as std::os::raw::c_int as
+                                                            isize)
+lil.rs:1346:39: 1346:47
+(*words)
+lil.rs:1356:33: 1357:65
+(**(*words).v.offset(0 as std::os::raw::c_int as
+                                                         isize))
+lil.rs:1356:35: 1357:64
+*(*words).v.offset(0 as std::os::raw::c_int as
+                                                         isize)
+lil.rs:1356:36: 1356:44
+(*words)
+lil.rs:1358:47: 1358:53
+(*lil)
+lil.rs:1365:20: 1365:26
+(*cmd)
+lil.rs:1366:45: 1366:51
+(*lil)
+lil.rs:1368:25: 1368:31
+(*cmd)
+lil.rs:1369:75: 1369:83
+(*words)
+lil.rs:1374:75: 1374:83
+(*words)
+lil.rs:1379:24: 1379:30
+(*lil)
+lil.rs:1380:25: 1380:31
+(*lil)
+lil.rs:1381:25: 1381:31
+(*lil)
+lil.rs:1385:21: 1385:34
+(*(*lil).env)
+lil.rs:1385:23: 1385:29
+(*lil)
+lil.rs:1386:24: 1386:42
+(*(*cmd).argnames)
+lil.rs:1386:26: 1386:32
+(*cmd)
+lil.rs:1388:49: 1392:88
+*(*(*cmd).argnames).v.offset(0
+                                                                                 as
+                                                                                 std::os::raw::c_int
+                                                                                 as
+                                                                                 isize)
+lil.rs:1388:50: 1388:68
+(*(*cmd).argnames)
+lil.rs:1388:52: 1388:58
+(*cmd)
+lil.rs:1405:35: 1405:53
+(*(*cmd).argnames)
+lil.rs:1405:37: 1405:43
+(*cmd)
+lil.rs:1407:55: 1409:94
+*(*(*cmd).argnames).v.offset(i
+                                                                                       as
+                                                                                       isize)
+lil.rs:1407:56: 1407:74
+(*(*cmd).argnames)
+lil.rs:1407:58: 1407:64
+(*cmd)
+lil.rs:1411:48: 1411:56
+(*words)
+lil.rs:1416:45: 1421:77
+*(*words).v.offset(i.wrapping_add(1
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  std::os::raw::c_ulong)
+                                                                   as isize)
+lil.rs:1416:46: 1416:54
+(*words)
+lil.rs:1422:50: 1422:56
+(*lil)
+lil.rs:1427:48: 1427:54
+(*cmd)
+lil.rs:1432:12: 1432:25
+(*(*lil).env)
+lil.rs:1432:14: 1432:20
+(*lil)
+lil.rs:1434:47: 1434:53
+(*lil)
+lil.rs:1434:33: 1434:39
+(*lil)
+lil.rs:1437:8: 1437:14
+(*lil)
+lil.rs:1438:12: 1438:18
+(*lil)
+lil.rs:1439:12: 1439:18
+(*lil)
+lil.rs:1442:64: 1442:70
+(*lil)
+lil.rs:1447:57: 1447:63
+(*lil)
+lil.rs:1448:52: 1448:58
+(*lil)
+lil.rs:1451:5: 1451:11
+(*lil)
+lil.rs:1452:5: 1452:11
+(*lil)
+lil.rs:1453:5: 1453:11
+(*lil)
+lil.rs:1454:26: 1454:39
+(*(*lil).env)
+lil.rs:1454:28: 1454:34
+(*lil)
+lil.rs:1456:15: 1456:28
+(*(*lil).env)
+lil.rs:1456:17: 1456:23
+(*lil)
+lil.rs:1457:9: 1457:22
+(*(*lil).env)
+lil.rs:1457:11: 1457:17
+(*lil)
+lil.rs:1458:9: 1458:22
+(*(*lil).env)
+lil.rs:1458:11: 1458:17
+(*lil)
+lil.rs:1459:9: 1459:22
+(*(*lil).env)
+lil.rs:1459:11: 1459:17
+(*lil)
+lil.rs:1461:26: 1461:32
+(*lil)
+lil.rs:1461:5: 1461:11
+(*lil)
+lil.rs:1470:25: 1470:31
+(*val)
+lil.rs:1470:47: 1470:53
+(*val)
+lil.rs:1473:27: 1473:33
+(*val)
+lil.rs:1473:37: 1473:43
+(*val)
+lil.rs:1483:12: 1483:18
+(*cmd)
+lil.rs:1485:17: 1485:23
+(*cmd)
+lil.rs:1490:13: 1490:26
+(*(*lil).env)
+lil.rs:1490:15: 1490:21
+(*lil)
+lil.rs:1491:16: 1491:34
+(*(*cmd).argnames)
+lil.rs:1491:18: 1491:24
+(*cmd)
+lil.rs:1492:41: 1495:80
+*(*(*cmd).argnames).v.offset(0 as
+                                                                         std::os::raw::c_int
+                                                                         as
+                                                                         isize)
+lil.rs:1492:42: 1492:60
+(*(*cmd).argnames)
+lil.rs:1492:44: 1492:50
+(*cmd)
+lil.rs:1503:53: 1504:76
+*argv.offset(i as
+                                                                     isize)
+lil.rs:1515:27: 1515:45
+(*(*cmd).argnames)
+lil.rs:1515:29: 1515:35
+(*cmd)
+lil.rs:1517:47: 1519:86
+*(*(*cmd).argnames).v.offset(i
+                                                                               as
+                                                                               isize)
+lil.rs:1517:48: 1517:66
+(*(*cmd).argnames)
+lil.rs:1517:50: 1517:56
+(*cmd)
+lil.rs:1521:37: 1521:61
+*argv.offset(i as isize)
+lil.rs:1527:38: 1527:44
+(*cmd)
+lil.rs:1537:5: 1537:11
+(*lil)
+lil.rs:1542:8: 1542:14
+(*lil)
+lil.rs:1543:10: 1543:16
+(*lil)
+lil.rs:1544:5: 1544:11
+(*lil)
+lil.rs:1545:5: 1545:11
+(*lil)
+lil.rs:1546:5: 1546:11
+(*lil)
+lil.rs:1554:8: 1554:14
+(*lil)
+lil.rs:1555:10: 1555:16
+(*lil)
+lil.rs:1556:5: 1556:11
+(*lil)
+lil.rs:1557:5: 1557:11
+(*lil)
+lil.rs:1558:5: 1558:11
+(*lil)
+lil.rs:1567:8: 1567:14
+(*lil)
+lil.rs:1568:12: 1568:18
+(*lil)
+lil.rs:1568:5: 1568:9
+*msg
+lil.rs:1569:12: 1569:18
+(*lil)
+lil.rs:1569:5: 1569:9
+*pos
+lil.rs:1570:5: 1570:11
+(*lil)
+lil.rs:1579:11: 1579:16
+(*ee)
+lil.rs:1579:24: 1579:29
+(*ee)
+lil.rs:1580:23: 1580:62
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1580:24: 1580:29
+(*ee)
+lil.rs:1580:42: 1580:47
+(*ee)
+lil.rs:1582:22: 1582:27
+(*ee)
+lil.rs:1582:9: 1582:14
+(*ee)
+lil.rs:1588:5: 1588:10
+(*ee)
+lil.rs:1590:5: 1590:10
+(*ee)
+lil.rs:1591:5: 1591:10
+(*ee)
+lil.rs:1592:11: 1592:16
+(*ee)
+lil.rs:1592:24: 1592:29
+(*ee)
+lil.rs:1593:12: 1593:51
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1593:13: 1593:18
+(*ee)
+lil.rs:1593:31: 1593:36
+(*ee)
+lil.rs:1595:16: 1595:21
+(*ee)
+lil.rs:1596:13: 1596:18
+(*ee)
+lil.rs:1597:26: 1597:31
+(*ee)
+lil.rs:1597:13: 1597:18
+(*ee)
+lil.rs:1598:27: 1598:66
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1598:28: 1598:33
+(*ee)
+lil.rs:1598:46: 1598:51
+(*ee)
+lil.rs:1602:12: 1602:17
+(*ee)
+lil.rs:1604:17: 1604:22
+(*ee)
+lil.rs:1605:22: 1605:61
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1605:23: 1605:28
+(*ee)
+lil.rs:1605:41: 1605:46
+(*ee)
+lil.rs:1603:13: 1603:18
+(*ee)
+lil.rs:1610:22: 1610:61
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1610:23: 1610:28
+(*ee)
+lil.rs:1610:41: 1610:46
+(*ee)
+lil.rs:1614:22: 1614:27
+(*ee)
+lil.rs:1614:9: 1614:14
+(*ee)
+lil.rs:1616:8: 1616:13
+(*ee)
+lil.rs:1618:13: 1618:18
+(*ee)
+lil.rs:1617:9: 1617:14
+(*ee)
+lil.rs:1623:16: 1623:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1623:17: 1623:22
+(*ee)
+lil.rs:1623:35: 1623:40
+(*ee)
+lil.rs:1630:5: 1630:10
+(*ee)
+lil.rs:1631:5: 1631:10
+(*ee)
+lil.rs:1632:5: 1632:10
+(*ee)
+lil.rs:1637:8: 1637:47
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1637:9: 1637:14
+(*ee)
+lil.rs:1637:27: 1637:32
+(*ee)
+lil.rs:1638:22: 1638:27
+(*ee)
+lil.rs:1638:9: 1638:14
+(*ee)
+lil.rs:1641:12: 1641:51
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1641:13: 1641:18
+(*ee)
+lil.rs:1641:31: 1641:36
+(*ee)
+lil.rs:1643:26: 1643:31
+(*ee)
+lil.rs:1643:13: 1643:18
+(*ee)
+lil.rs:1644:18: 1644:23
+(*ee)
+lil.rs:1649:8: 1649:13
+(*ee)
+lil.rs:1649:21: 1649:26
+(*ee)
+lil.rs:1649:34: 1649:39
+(*ee)
+lil.rs:1650:13: 1650:52
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1650:14: 1650:19
+(*ee)
+lil.rs:1650:32: 1650:37
+(*ee)
+lil.rs:1652:17: 1652:56
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1652:18: 1652:23
+(*ee)
+lil.rs:1652:36: 1652:41
+(*ee)
+lil.rs:1654:17: 1654:56
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1654:18: 1654:23
+(*ee)
+lil.rs:1654:36: 1654:41
+(*ee)
+lil.rs:1656:17: 1656:56
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1656:18: 1656:23
+(*ee)
+lil.rs:1656:36: 1656:41
+(*ee)
+lil.rs:1658:23: 1658:28
+(*ee)
+lil.rs:1659:22: 1659:27
+(*ee)
+lil.rs:1659:9: 1659:14
+(*ee)
+lil.rs:1660:44: 1660:80
+*(*ee).code.offset(fresh19 as isize)
+lil.rs:1660:45: 1660:50
+(*ee)
+lil.rs:1662:12: 1662:17
+(*ee)
+lil.rs:1665:23: 1665:28
+(*ee)
+lil.rs:1666:42: 1666:47
+(*ee)
+lil.rs:1666:28: 1666:33
+(*ee)
+lil.rs:1667:42: 1667:47
+(*ee)
+lil.rs:1667:28: 1667:33
+(*ee)
+lil.rs:1668:28: 1668:33
+(*ee)
+lil.rs:1672:23: 1672:28
+(*ee)
+lil.rs:1674:40: 1674:45
+(*ee)
+lil.rs:1674:25: 1674:30
+(*ee)
+lil.rs:1675:25: 1675:30
+(*ee)
+lil.rs:1677:42: 1677:47
+(*ee)
+lil.rs:1677:28: 1677:33
+(*ee)
+lil.rs:1678:28: 1678:33
+(*ee)
+lil.rs:1682:23: 1682:28
+(*ee)
+lil.rs:1685:30: 1685:35
+(*ee)
+lil.rs:1684:25: 1684:30
+(*ee)
+lil.rs:1690:30: 1690:35
+(*ee)
+lil.rs:1689:25: 1689:30
+(*ee)
+lil.rs:1692:28: 1692:33
+(*ee)
+lil.rs:1701:8: 1701:13
+(*ee)
+lil.rs:1703:11: 1703:16
+(*ee)
+lil.rs:1703:24: 1703:29
+(*ee)
+lil.rs:1703:37: 1703:42
+(*ee)
+lil.rs:1704:31: 1708:63
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                             std::os::raw::c_int
+                                                                             as
+                                                                             std::os::raw::c_ulong)
+                                                     as isize)
+lil.rs:1704:32: 1704:37
+(*ee)
+lil.rs:1704:50: 1704:55
+(*ee)
+lil.rs:1710:16: 1710:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1710:17: 1710:22
+(*ee)
+lil.rs:1710:35: 1710:40
+(*ee)
+lil.rs:1712:20: 1712:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1712:21: 1712:26
+(*ee)
+lil.rs:1712:39: 1712:44
+(*ee)
+lil.rs:1714:20: 1714:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1714:21: 1714:26
+(*ee)
+lil.rs:1714:39: 1714:44
+(*ee)
+lil.rs:1716:20: 1716:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1716:21: 1716:26
+(*ee)
+lil.rs:1716:39: 1716:44
+(*ee)
+lil.rs:1718:49: 1718:54
+(*ee)
+lil.rs:1719:35: 1719:40
+(*ee)
+lil.rs:1720:15: 1720:54
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1720:16: 1720:21
+(*ee)
+lil.rs:1720:34: 1720:39
+(*ee)
+lil.rs:1722:23: 1722:28
+(*ee)
+lil.rs:1724:38: 1724:43
+(*ee)
+lil.rs:1724:25: 1724:30
+(*ee)
+lil.rs:1726:28: 1726:33
+(*ee)
+lil.rs:1727:31: 1727:36
+(*ee)
+lil.rs:1728:49: 1728:54
+(*ee)
+lil.rs:1728:36: 1728:41
+(*ee)
+lil.rs:1731:37: 1731:42
+(*ee)
+lil.rs:1730:33: 1730:38
+(*ee)
+lil.rs:1732:33: 1732:38
+(*ee)
+lil.rs:1734:36: 1734:41
+(*ee)
+lil.rs:1738:38: 1738:43
+(*ee)
+lil.rs:1738:25: 1738:30
+(*ee)
+lil.rs:1740:28: 1740:33
+(*ee)
+lil.rs:1741:31: 1741:36
+(*ee)
+lil.rs:1744:37: 1744:42
+(*ee)
+lil.rs:1743:33: 1743:38
+(*ee)
+lil.rs:1745:33: 1745:38
+(*ee)
+lil.rs:1747:49: 1747:54
+(*ee)
+lil.rs:1747:36: 1747:41
+(*ee)
+lil.rs:1748:36: 1748:41
+(*ee)
+lil.rs:1751:28: 1751:33
+(*ee)
+lil.rs:1755:23: 1755:28
+(*ee)
+lil.rs:1757:38: 1757:43
+(*ee)
+lil.rs:1757:25: 1757:30
+(*ee)
+lil.rs:1759:28: 1759:33
+(*ee)
+lil.rs:1760:31: 1760:36
+(*ee)
+lil.rs:1762:36: 1762:41
+(*ee)
+lil.rs:1763:37: 1763:42
+(*ee)
+lil.rs:1765:62: 1765:67
+(*ee)
+lil.rs:1765:37: 1765:42
+(*ee)
+lil.rs:1769:36: 1769:41
+(*ee)
+lil.rs:1771:37: 1771:42
+(*ee)
+lil.rs:1775:46: 1775:51
+(*ee)
+lil.rs:1773:37: 1773:42
+(*ee)
+lil.rs:1777:33: 1777:38
+(*ee)
+lil.rs:1779:36: 1779:41
+(*ee)
+lil.rs:1783:38: 1783:43
+(*ee)
+lil.rs:1783:25: 1783:30
+(*ee)
+lil.rs:1785:28: 1785:33
+(*ee)
+lil.rs:1786:31: 1786:36
+(*ee)
+lil.rs:1788:36: 1788:41
+(*ee)
+lil.rs:1789:37: 1789:42
+(*ee)
+lil.rs:1793:46: 1793:51
+(*ee)
+lil.rs:1791:37: 1791:42
+(*ee)
+lil.rs:1797:36: 1797:41
+(*ee)
+lil.rs:1799:37: 1799:42
+(*ee)
+lil.rs:1800:63: 1800:68
+(*ee)
+lil.rs:1800:42: 1800:47
+(*ee)
+lil.rs:1802:36: 1802:41
+(*ee)
+lil.rs:1809:23: 1809:28
+(*ee)
+lil.rs:1811:38: 1811:43
+(*ee)
+lil.rs:1811:25: 1811:30
+(*ee)
+lil.rs:1813:28: 1813:33
+(*ee)
+lil.rs:1814:31: 1814:36
+(*ee)
+lil.rs:1816:36: 1816:41
+(*ee)
+lil.rs:1817:37: 1817:42
+(*ee)
+lil.rs:1818:63: 1818:68
+(*ee)
+lil.rs:1818:42: 1818:47
+(*ee)
+lil.rs:1821:36: 1821:41
+(*ee)
+lil.rs:1823:37: 1823:42
+(*ee)
+lil.rs:1826:49: 1826:54
+(*ee)
+lil.rs:1825:37: 1825:42
+(*ee)
+lil.rs:1828:33: 1828:38
+(*ee)
+lil.rs:1830:36: 1830:41
+(*ee)
+lil.rs:1834:38: 1834:43
+(*ee)
+lil.rs:1834:25: 1834:30
+(*ee)
+lil.rs:1836:28: 1836:33
+(*ee)
+lil.rs:1837:31: 1837:36
+(*ee)
+lil.rs:1839:36: 1839:41
+(*ee)
+lil.rs:1840:37: 1840:42
+(*ee)
+lil.rs:1843:75: 1843:80
+(*ee)
+lil.rs:1842:37: 1842:42
+(*ee)
+lil.rs:1847:36: 1847:41
+(*ee)
+lil.rs:1849:37: 1849:42
+(*ee)
+lil.rs:1853:45: 1853:50
+(*ee)
+lil.rs:1851:37: 1851:42
+(*ee)
+lil.rs:1855:33: 1855:38
+(*ee)
+lil.rs:1857:36: 1857:41
+(*ee)
+lil.rs:1864:23: 1864:28
+(*ee)
+lil.rs:1866:38: 1866:43
+(*ee)
+lil.rs:1866:25: 1866:30
+(*ee)
+lil.rs:1868:28: 1868:33
+(*ee)
+lil.rs:1869:31: 1869:36
+(*ee)
+lil.rs:1871:36: 1871:41
+(*ee)
+lil.rs:1872:37: 1872:42
+(*ee)
+lil.rs:1875:50: 1875:55
+(*ee)
+lil.rs:1874:37: 1874:42
+(*ee)
+lil.rs:1877:33: 1877:38
+(*ee)
+lil.rs:1880:36: 1880:41
+(*ee)
+lil.rs:1882:37: 1882:42
+(*ee)
+lil.rs:1885:50: 1885:55
+(*ee)
+lil.rs:1884:37: 1884:42
+(*ee)
+lil.rs:1889:36: 1889:41
+(*ee)
+lil.rs:1893:38: 1893:43
+(*ee)
+lil.rs:1893:25: 1893:30
+(*ee)
+lil.rs:1895:28: 1895:33
+(*ee)
+lil.rs:1896:31: 1896:36
+(*ee)
+lil.rs:1898:36: 1898:41
+(*ee)
+lil.rs:1899:37: 1899:42
+(*ee)
+lil.rs:1902:76: 1902:81
+(*ee)
+lil.rs:1901:37: 1901:42
+(*ee)
+lil.rs:1905:33: 1905:38
+(*ee)
+lil.rs:1908:36: 1908:41
+(*ee)
+lil.rs:1910:37: 1910:42
+(*ee)
+lil.rs:1911:63: 1911:68
+(*ee)
+lil.rs:1911:42: 1911:47
+(*ee)
+lil.rs:1913:36: 1913:41
+(*ee)
+lil.rs:1916:28: 1916:33
+(*ee)
+lil.rs:1927:11: 1927:16
+(*ee)
+lil.rs:1927:24: 1927:29
+(*ee)
+lil.rs:1927:37: 1927:42
+(*ee)
+lil.rs:1928:31: 1932:63
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                             std::os::raw::c_int
+                                                                             as
+                                                                             std::os::raw::c_ulong)
+                                                     as isize)
+lil.rs:1928:32: 1928:37
+(*ee)
+lil.rs:1928:50: 1928:55
+(*ee)
+lil.rs:1934:16: 1934:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1934:17: 1934:22
+(*ee)
+lil.rs:1934:35: 1934:40
+(*ee)
+lil.rs:1936:20: 1936:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1936:21: 1936:26
+(*ee)
+lil.rs:1936:39: 1936:44
+(*ee)
+lil.rs:1938:49: 1938:54
+(*ee)
+lil.rs:1939:35: 1939:40
+(*ee)
+lil.rs:1940:15: 1940:54
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:1940:16: 1940:21
+(*ee)
+lil.rs:1940:34: 1940:39
+(*ee)
+lil.rs:1942:23: 1942:28
+(*ee)
+lil.rs:1944:38: 1944:43
+(*ee)
+lil.rs:1944:25: 1944:30
+(*ee)
+lil.rs:1946:28: 1946:33
+(*ee)
+lil.rs:1947:31: 1947:36
+(*ee)
+lil.rs:1948:49: 1948:54
+(*ee)
+lil.rs:1948:36: 1948:41
+(*ee)
+lil.rs:1951:37: 1951:42
+(*ee)
+lil.rs:1950:33: 1950:38
+(*ee)
+lil.rs:1952:33: 1952:38
+(*ee)
+lil.rs:1954:36: 1954:41
+(*ee)
+lil.rs:1958:38: 1958:43
+(*ee)
+lil.rs:1958:25: 1958:30
+(*ee)
+lil.rs:1960:28: 1960:33
+(*ee)
+lil.rs:1961:31: 1961:36
+(*ee)
+lil.rs:1964:37: 1964:42
+(*ee)
+lil.rs:1963:33: 1963:38
+(*ee)
+lil.rs:1965:33: 1965:38
+(*ee)
+lil.rs:1967:49: 1967:54
+(*ee)
+lil.rs:1967:36: 1967:41
+(*ee)
+lil.rs:1968:36: 1968:41
+(*ee)
+lil.rs:1971:28: 1971:33
+(*ee)
+lil.rs:1975:23: 1975:28
+(*ee)
+lil.rs:1977:38: 1977:43
+(*ee)
+lil.rs:1977:25: 1977:30
+(*ee)
+lil.rs:1979:28: 1979:33
+(*ee)
+lil.rs:1980:31: 1980:36
+(*ee)
+lil.rs:1981:57: 1981:62
+(*ee)
+lil.rs:1981:36: 1981:41
+(*ee)
+lil.rs:1984:45: 1984:50
+(*ee)
+lil.rs:1983:33: 1983:38
+(*ee)
+lil.rs:1985:33: 1985:38
+(*ee)
+lil.rs:1987:36: 1987:41
+(*ee)
+lil.rs:1991:38: 1991:43
+(*ee)
+lil.rs:1991:25: 1991:30
+(*ee)
+lil.rs:1993:28: 1993:33
+(*ee)
+lil.rs:1994:31: 1994:36
+(*ee)
+lil.rs:1997:71: 1997:76
+(*ee)
+lil.rs:1996:33: 1996:38
+(*ee)
+lil.rs:1998:33: 1998:38
+(*ee)
+lil.rs:2000:57: 2000:62
+(*ee)
+lil.rs:2000:36: 2000:41
+(*ee)
+lil.rs:2001:36: 2001:41
+(*ee)
+lil.rs:2004:28: 2004:33
+(*ee)
+lil.rs:2015:11: 2015:16
+(*ee)
+lil.rs:2015:24: 2015:29
+(*ee)
+lil.rs:2015:37: 2015:42
+(*ee)
+lil.rs:2016:16: 2016:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2016:17: 2016:22
+(*ee)
+lil.rs:2016:35: 2016:40
+(*ee)
+lil.rs:2018:20: 2021:52
+*(*ee).code.offset((*ee).head.wrapping_add(1 as std::os::raw::c_int
+                                                                  as
+                                                                  std::os::raw::c_ulong)
+                                          as isize)
+lil.rs:2018:21: 2018:26
+(*ee)
+lil.rs:2018:39: 2018:44
+(*ee)
+lil.rs:2023:20: 2023:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2023:21: 2023:26
+(*ee)
+lil.rs:2023:39: 2023:44
+(*ee)
+lil.rs:2025:24: 2029:56
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                      std::os::raw::c_int
+                                                                      as
+                                                                      std::os::raw::c_ulong)
+                                              as isize)
+lil.rs:2025:25: 2025:30
+(*ee)
+lil.rs:2025:43: 2025:48
+(*ee)
+lil.rs:2031:49: 2031:54
+(*ee)
+lil.rs:2032:35: 2032:40
+(*ee)
+lil.rs:2033:22: 2033:27
+(*ee)
+lil.rs:2033:9: 2033:14
+(*ee)
+lil.rs:2034:15: 2034:54
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2034:16: 2034:21
+(*ee)
+lil.rs:2034:34: 2034:39
+(*ee)
+lil.rs:2036:23: 2036:28
+(*ee)
+lil.rs:2038:38: 2038:43
+(*ee)
+lil.rs:2038:25: 2038:30
+(*ee)
+lil.rs:2040:28: 2040:33
+(*ee)
+lil.rs:2041:31: 2041:36
+(*ee)
+lil.rs:2045:41: 2045:46
+(*ee)
+lil.rs:2043:33: 2043:38
+(*ee)
+lil.rs:2046:33: 2046:38
+(*ee)
+lil.rs:2049:69: 2049:74
+(*ee)
+lil.rs:2049:33: 2049:38
+(*ee)
+lil.rs:2051:36: 2051:41
+(*ee)
+lil.rs:2055:38: 2055:43
+(*ee)
+lil.rs:2055:25: 2055:30
+(*ee)
+lil.rs:2057:28: 2057:33
+(*ee)
+lil.rs:2058:31: 2058:36
+(*ee)
+lil.rs:2060:55: 2060:60
+(*ee)
+lil.rs:2060:33: 2060:38
+(*ee)
+lil.rs:2061:33: 2061:38
+(*ee)
+lil.rs:2063:58: 2063:63
+(*ee)
+lil.rs:2063:36: 2063:41
+(*ee)
+lil.rs:2064:36: 2064:41
+(*ee)
+lil.rs:2067:28: 2067:33
+(*ee)
+lil.rs:2071:23: 2071:28
+(*ee)
+lil.rs:2073:38: 2073:43
+(*ee)
+lil.rs:2073:25: 2073:30
+(*ee)
+lil.rs:2075:28: 2075:33
+(*ee)
+lil.rs:2076:31: 2076:36
+(*ee)
+lil.rs:2080:41: 2080:46
+(*ee)
+lil.rs:2078:33: 2078:38
+(*ee)
+lil.rs:2081:33: 2081:38
+(*ee)
+lil.rs:2084:67: 2084:72
+(*ee)
+lil.rs:2084:33: 2084:38
+(*ee)
+lil.rs:2086:36: 2086:41
+(*ee)
+lil.rs:2090:38: 2090:43
+(*ee)
+lil.rs:2090:25: 2090:30
+(*ee)
+lil.rs:2092:28: 2092:33
+(*ee)
+lil.rs:2093:31: 2093:36
+(*ee)
+lil.rs:2095:55: 2095:60
+(*ee)
+lil.rs:2095:33: 2095:38
+(*ee)
+lil.rs:2096:33: 2096:38
+(*ee)
+lil.rs:2098:58: 2098:63
+(*ee)
+lil.rs:2098:36: 2098:41
+(*ee)
+lil.rs:2099:36: 2099:41
+(*ee)
+lil.rs:2102:28: 2102:33
+(*ee)
+lil.rs:2113:11: 2113:16
+(*ee)
+lil.rs:2113:24: 2113:29
+(*ee)
+lil.rs:2113:37: 2113:42
+(*ee)
+lil.rs:2114:16: 2114:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2114:17: 2114:22
+(*ee)
+lil.rs:2114:35: 2114:40
+(*ee)
+lil.rs:2116:36: 2121:68
+*(*ee).code.offset((*ee).head.wrapping_add(1
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  std::os::raw::c_ulong)
+                                                          as isize)
+lil.rs:2116:37: 2116:42
+(*ee)
+lil.rs:2116:55: 2116:60
+(*ee)
+lil.rs:2123:20: 2123:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2123:21: 2123:26
+(*ee)
+lil.rs:2123:39: 2123:44
+(*ee)
+lil.rs:2125:40: 2130:72
+*(*ee).code.offset((*ee).head.wrapping_add(1
+                                                                                      as
+                                                                                      std::os::raw::c_int
+                                                                                      as
+                                                                                      std::os::raw::c_ulong)
+                                                              as isize)
+lil.rs:2125:41: 2125:46
+(*ee)
+lil.rs:2125:59: 2125:64
+(*ee)
+lil.rs:2132:20: 2132:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2132:21: 2132:26
+(*ee)
+lil.rs:2132:39: 2132:44
+(*ee)
+lil.rs:2134:24: 2138:56
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                      std::os::raw::c_int
+                                                                      as
+                                                                      std::os::raw::c_ulong)
+                                              as isize)
+lil.rs:2134:25: 2134:30
+(*ee)
+lil.rs:2134:43: 2134:48
+(*ee)
+lil.rs:2140:20: 2140:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2140:21: 2140:26
+(*ee)
+lil.rs:2140:39: 2140:44
+(*ee)
+lil.rs:2142:24: 2146:56
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                      std::os::raw::c_int
+                                                                      as
+                                                                      std::os::raw::c_ulong)
+                                              as isize)
+lil.rs:2142:25: 2142:30
+(*ee)
+lil.rs:2142:43: 2142:48
+(*ee)
+lil.rs:2148:49: 2148:54
+(*ee)
+lil.rs:2149:35: 2149:40
+(*ee)
+lil.rs:2151:12: 2151:51
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2151:13: 2151:18
+(*ee)
+lil.rs:2151:31: 2151:36
+(*ee)
+lil.rs:2153:32: 2157:64
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                              std::os::raw::c_int
+                                                                              as
+                                                                              std::os::raw::c_ulong)
+                                                      as isize)
+lil.rs:2153:33: 2153:38
+(*ee)
+lil.rs:2153:51: 2153:56
+(*ee)
+lil.rs:2160:19: 2160:58
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2160:20: 2160:25
+(*ee)
+lil.rs:2160:38: 2160:43
+(*ee)
+lil.rs:2162:39: 2167:71
+*(*ee).code.offset((*ee).head.wrapping_add(1
+                                                                                     as
+                                                                                     std::os::raw::c_int
+                                                                                     as
+                                                                                     std::os::raw::c_ulong)
+                                                             as isize)
+lil.rs:2162:40: 2162:45
+(*ee)
+lil.rs:2162:58: 2162:63
+(*ee)
+lil.rs:2170:19: 2170:58
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2170:20: 2170:25
+(*ee)
+lil.rs:2170:38: 2170:43
+(*ee)
+lil.rs:2172:23: 2176:55
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                     std::os::raw::c_int
+                                                                     as
+                                                                     std::os::raw::c_ulong)
+                                             as isize)
+lil.rs:2172:24: 2172:29
+(*ee)
+lil.rs:2172:42: 2172:47
+(*ee)
+lil.rs:2181:14: 2181:19
+(*ee)
+lil.rs:2180:9: 2180:14
+(*ee)
+lil.rs:2189:23: 2189:28
+(*ee)
+lil.rs:2192:28: 2192:33
+(*ee)
+lil.rs:2193:31: 2193:36
+(*ee)
+lil.rs:2196:48: 2196:53
+(*ee)
+lil.rs:2195:33: 2195:38
+(*ee)
+lil.rs:2199:33: 2199:38
+(*ee)
+lil.rs:2203:48: 2203:53
+(*ee)
+lil.rs:2202:33: 2202:38
+(*ee)
+lil.rs:2207:36: 2207:41
+(*ee)
+lil.rs:2212:28: 2212:33
+(*ee)
+lil.rs:2213:31: 2213:36
+(*ee)
+lil.rs:2216:76: 2216:81
+(*ee)
+lil.rs:2215:33: 2215:38
+(*ee)
+lil.rs:2220:33: 2220:38
+(*ee)
+lil.rs:2224:48: 2224:53
+(*ee)
+lil.rs:2223:33: 2223:38
+(*ee)
+lil.rs:2228:36: 2228:41
+(*ee)
+lil.rs:2231:28: 2231:33
+(*ee)
+lil.rs:2235:23: 2235:28
+(*ee)
+lil.rs:2238:28: 2238:33
+(*ee)
+lil.rs:2239:31: 2239:36
+(*ee)
+lil.rs:2242:48: 2242:53
+(*ee)
+lil.rs:2241:33: 2241:38
+(*ee)
+lil.rs:2245:33: 2245:38
+(*ee)
+lil.rs:2249:48: 2249:53
+(*ee)
+lil.rs:2248:33: 2248:38
+(*ee)
+lil.rs:2253:36: 2253:41
+(*ee)
+lil.rs:2258:28: 2258:33
+(*ee)
+lil.rs:2259:31: 2259:36
+(*ee)
+lil.rs:2262:74: 2262:79
+(*ee)
+lil.rs:2261:33: 2261:38
+(*ee)
+lil.rs:2265:33: 2265:38
+(*ee)
+lil.rs:2269:48: 2269:53
+(*ee)
+lil.rs:2268:33: 2268:38
+(*ee)
+lil.rs:2273:36: 2273:41
+(*ee)
+lil.rs:2276:28: 2276:33
+(*ee)
+lil.rs:2280:23: 2280:28
+(*ee)
+lil.rs:2283:28: 2283:33
+(*ee)
+lil.rs:2284:31: 2284:36
+(*ee)
+lil.rs:2287:49: 2287:54
+(*ee)
+lil.rs:2286:33: 2286:38
+(*ee)
+lil.rs:2290:33: 2290:38
+(*ee)
+lil.rs:2294:49: 2294:54
+(*ee)
+lil.rs:2293:33: 2293:38
+(*ee)
+lil.rs:2298:36: 2298:41
+(*ee)
+lil.rs:2303:28: 2303:33
+(*ee)
+lil.rs:2304:31: 2304:36
+(*ee)
+lil.rs:2307:75: 2307:80
+(*ee)
+lil.rs:2306:33: 2306:38
+(*ee)
+lil.rs:2310:33: 2310:38
+(*ee)
+lil.rs:2314:49: 2314:54
+(*ee)
+lil.rs:2313:33: 2313:38
+(*ee)
+lil.rs:2318:36: 2318:41
+(*ee)
+lil.rs:2321:28: 2321:33
+(*ee)
+lil.rs:2325:23: 2325:28
+(*ee)
+lil.rs:2328:28: 2328:33
+(*ee)
+lil.rs:2329:31: 2329:36
+(*ee)
+lil.rs:2332:49: 2332:54
+(*ee)
+lil.rs:2331:33: 2331:38
+(*ee)
+lil.rs:2335:33: 2335:38
+(*ee)
+lil.rs:2339:49: 2339:54
+(*ee)
+lil.rs:2338:33: 2338:38
+(*ee)
+lil.rs:2343:36: 2343:41
+(*ee)
+lil.rs:2348:28: 2348:33
+(*ee)
+lil.rs:2349:31: 2349:36
+(*ee)
+lil.rs:2352:75: 2352:80
+(*ee)
+lil.rs:2351:33: 2351:38
+(*ee)
+lil.rs:2355:33: 2355:38
+(*ee)
+lil.rs:2359:49: 2359:54
+(*ee)
+lil.rs:2358:33: 2358:38
+(*ee)
+lil.rs:2363:36: 2363:41
+(*ee)
+lil.rs:2366:28: 2366:33
+(*ee)
+lil.rs:2377:11: 2377:16
+(*ee)
+lil.rs:2377:24: 2377:29
+(*ee)
+lil.rs:2377:37: 2377:42
+(*ee)
+lil.rs:2378:16: 2378:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2378:17: 2378:22
+(*ee)
+lil.rs:2378:35: 2378:40
+(*ee)
+lil.rs:2380:20: 2383:52
+*(*ee).code.offset((*ee).head.wrapping_add(1 as std::os::raw::c_int
+                                                                  as
+                                                                  std::os::raw::c_ulong)
+                                          as isize)
+lil.rs:2380:21: 2380:26
+(*ee)
+lil.rs:2380:39: 2380:44
+(*ee)
+lil.rs:2385:20: 2385:59
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2385:21: 2385:26
+(*ee)
+lil.rs:2385:39: 2385:44
+(*ee)
+lil.rs:2387:24: 2391:56
+*(*ee).code.offset((*ee).head.wrapping_add(1 as
+                                                                      std::os::raw::c_int
+                                                                      as
+                                                                      std::os::raw::c_ulong)
+                                              as isize)
+lil.rs:2387:25: 2387:30
+(*ee)
+lil.rs:2387:43: 2387:48
+(*ee)
+lil.rs:2393:49: 2393:54
+(*ee)
+lil.rs:2394:35: 2394:40
+(*ee)
+lil.rs:2396:16: 2396:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2396:17: 2396:22
+(*ee)
+lil.rs:2396:35: 2396:40
+(*ee)
+lil.rs:2401:14: 2401:19
+(*ee)
+lil.rs:2400:9: 2400:14
+(*ee)
+lil.rs:2407:23: 2407:28
+(*ee)
+lil.rs:2410:28: 2410:33
+(*ee)
+lil.rs:2411:31: 2411:36
+(*ee)
+lil.rs:2414:49: 2414:54
+(*ee)
+lil.rs:2413:33: 2413:38
+(*ee)
+lil.rs:2417:33: 2417:38
+(*ee)
+lil.rs:2421:49: 2421:54
+(*ee)
+lil.rs:2420:33: 2420:38
+(*ee)
+lil.rs:2425:36: 2425:41
+(*ee)
+lil.rs:2430:28: 2430:33
+(*ee)
+lil.rs:2431:31: 2431:36
+(*ee)
+lil.rs:2434:75: 2434:80
+(*ee)
+lil.rs:2433:33: 2433:38
+(*ee)
+lil.rs:2437:33: 2437:38
+(*ee)
+lil.rs:2441:49: 2441:54
+(*ee)
+lil.rs:2440:33: 2440:38
+(*ee)
+lil.rs:2445:36: 2445:41
+(*ee)
+lil.rs:2448:28: 2448:33
+(*ee)
+lil.rs:2452:23: 2452:28
+(*ee)
+lil.rs:2455:28: 2455:33
+(*ee)
+lil.rs:2456:31: 2456:36
+(*ee)
+lil.rs:2459:49: 2459:54
+(*ee)
+lil.rs:2458:33: 2458:38
+(*ee)
+lil.rs:2462:33: 2462:38
+(*ee)
+lil.rs:2466:49: 2466:54
+(*ee)
+lil.rs:2465:33: 2465:38
+(*ee)
+lil.rs:2470:36: 2470:41
+(*ee)
+lil.rs:2475:28: 2475:33
+(*ee)
+lil.rs:2476:31: 2476:36
+(*ee)
+lil.rs:2479:75: 2479:80
+(*ee)
+lil.rs:2478:33: 2478:38
+(*ee)
+lil.rs:2482:33: 2482:38
+(*ee)
+lil.rs:2486:49: 2486:54
+(*ee)
+lil.rs:2485:33: 2485:38
+(*ee)
+lil.rs:2490:36: 2490:41
+(*ee)
+lil.rs:2493:28: 2493:33
+(*ee)
+lil.rs:2504:11: 2504:16
+(*ee)
+lil.rs:2504:24: 2504:29
+(*ee)
+lil.rs:2504:37: 2504:42
+(*ee)
+lil.rs:2505:16: 2505:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2505:17: 2505:22
+(*ee)
+lil.rs:2505:35: 2505:40
+(*ee)
+lil.rs:2507:36: 2512:68
+*(*ee).code.offset((*ee).head.wrapping_add(1
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  std::os::raw::c_ulong)
+                                                          as isize)
+lil.rs:2507:37: 2507:42
+(*ee)
+lil.rs:2507:55: 2507:60
+(*ee)
+lil.rs:2514:49: 2514:54
+(*ee)
+lil.rs:2515:35: 2515:40
+(*ee)
+lil.rs:2516:22: 2516:27
+(*ee)
+lil.rs:2516:9: 2516:14
+(*ee)
+lil.rs:2517:15: 2517:20
+(*ee)
+lil.rs:2520:20: 2520:25
+(*ee)
+lil.rs:2521:23: 2521:28
+(*ee)
+lil.rs:2524:49: 2524:54
+(*ee)
+lil.rs:2523:25: 2523:30
+(*ee)
+lil.rs:2525:25: 2525:30
+(*ee)
+lil.rs:2527:61: 2527:66
+(*ee)
+lil.rs:2527:28: 2527:33
+(*ee)
+lil.rs:2528:28: 2528:33
+(*ee)
+lil.rs:2533:20: 2533:25
+(*ee)
+lil.rs:2534:23: 2534:28
+(*ee)
+lil.rs:2536:46: 2536:51
+(*ee)
+lil.rs:2536:25: 2536:30
+(*ee)
+lil.rs:2537:25: 2537:30
+(*ee)
+lil.rs:2539:49: 2539:54
+(*ee)
+lil.rs:2539:28: 2539:33
+(*ee)
+lil.rs:2540:28: 2540:33
+(*ee)
+lil.rs:2543:20: 2543:25
+(*ee)
+lil.rs:2551:11: 2551:16
+(*ee)
+lil.rs:2551:24: 2551:29
+(*ee)
+lil.rs:2551:37: 2551:42
+(*ee)
+lil.rs:2552:16: 2552:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2552:17: 2552:22
+(*ee)
+lil.rs:2552:35: 2552:40
+(*ee)
+lil.rs:2554:36: 2559:68
+*(*ee).code.offset((*ee).head.wrapping_add(1
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  std::os::raw::c_ulong)
+                                                          as isize)
+lil.rs:2554:37: 2554:42
+(*ee)
+lil.rs:2554:55: 2554:60
+(*ee)
+lil.rs:2561:49: 2561:54
+(*ee)
+lil.rs:2562:35: 2562:40
+(*ee)
+lil.rs:2563:22: 2563:27
+(*ee)
+lil.rs:2563:9: 2563:14
+(*ee)
+lil.rs:2564:15: 2564:20
+(*ee)
+lil.rs:2567:20: 2567:25
+(*ee)
+lil.rs:2568:23: 2568:28
+(*ee)
+lil.rs:2571:49: 2571:54
+(*ee)
+lil.rs:2570:25: 2570:30
+(*ee)
+lil.rs:2572:25: 2572:30
+(*ee)
+lil.rs:2574:61: 2574:66
+(*ee)
+lil.rs:2574:28: 2574:33
+(*ee)
+lil.rs:2575:28: 2575:33
+(*ee)
+lil.rs:2580:20: 2580:25
+(*ee)
+lil.rs:2581:23: 2581:28
+(*ee)
+lil.rs:2583:46: 2583:51
+(*ee)
+lil.rs:2583:25: 2583:30
+(*ee)
+lil.rs:2584:25: 2584:30
+(*ee)
+lil.rs:2586:49: 2586:54
+(*ee)
+lil.rs:2586:28: 2586:33
+(*ee)
+lil.rs:2587:28: 2587:33
+(*ee)
+lil.rs:2590:20: 2590:25
+(*ee)
+lil.rs:2598:11: 2598:16
+(*ee)
+lil.rs:2598:24: 2598:29
+(*ee)
+lil.rs:2598:37: 2598:42
+(*ee)
+lil.rs:2599:16: 2599:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2599:17: 2599:22
+(*ee)
+lil.rs:2599:35: 2599:40
+(*ee)
+lil.rs:2601:20: 2604:52
+*(*ee).code.offset((*ee).head.wrapping_add(1 as std::os::raw::c_int
+                                                                  as
+                                                                  std::os::raw::c_ulong)
+                                          as isize)
+lil.rs:2601:21: 2601:26
+(*ee)
+lil.rs:2601:39: 2601:44
+(*ee)
+lil.rs:2606:49: 2606:54
+(*ee)
+lil.rs:2607:35: 2607:40
+(*ee)
+lil.rs:2609:14: 2609:19
+(*ee)
+lil.rs:2608:9: 2608:14
+(*ee)
+lil.rs:2613:15: 2613:20
+(*ee)
+lil.rs:2616:20: 2616:25
+(*ee)
+lil.rs:2617:23: 2617:28
+(*ee)
+lil.rs:2620:47: 2620:52
+(*ee)
+lil.rs:2619:25: 2619:30
+(*ee)
+lil.rs:2623:25: 2623:30
+(*ee)
+lil.rs:2627:47: 2627:52
+(*ee)
+lil.rs:2626:25: 2626:30
+(*ee)
+lil.rs:2631:28: 2631:33
+(*ee)
+lil.rs:2636:20: 2636:25
+(*ee)
+lil.rs:2637:23: 2637:28
+(*ee)
+lil.rs:2640:46: 2640:51
+(*ee)
+lil.rs:2639:25: 2639:30
+(*ee)
+lil.rs:2643:25: 2643:30
+(*ee)
+lil.rs:2647:46: 2647:51
+(*ee)
+lil.rs:2646:25: 2646:30
+(*ee)
+lil.rs:2651:28: 2651:33
+(*ee)
+lil.rs:2654:20: 2654:25
+(*ee)
+lil.rs:2662:11: 2662:16
+(*ee)
+lil.rs:2662:24: 2662:29
+(*ee)
+lil.rs:2662:37: 2662:42
+(*ee)
+lil.rs:2663:16: 2663:55
+*(*ee).code.offset((*ee).head as isize)
+lil.rs:2663:17: 2663:22
+(*ee)
+lil.rs:2663:35: 2663:40
+(*ee)
+lil.rs:2665:20: 2668:52
+*(*ee).code.offset((*ee).head.wrapping_add(1 as std::os::raw::c_int
+                                                                  as
+                                                                  std::os::raw::c_ulong)
+                                          as isize)
+lil.rs:2665:21: 2665:26
+(*ee)
+lil.rs:2665:39: 2665:44
+(*ee)
+lil.rs:2670:49: 2670:54
+(*ee)
+lil.rs:2671:35: 2671:40
+(*ee)
+lil.rs:2673:14: 2673:19
+(*ee)
+lil.rs:2672:9: 2672:14
+(*ee)
+lil.rs:2677:15: 2677:20
+(*ee)
+lil.rs:2680:20: 2680:25
+(*ee)
+lil.rs:2681:23: 2681:28
+(*ee)
+lil.rs:2684:47: 2684:52
+(*ee)
+lil.rs:2683:25: 2683:30
+(*ee)
+lil.rs:2687:25: 2687:30
+(*ee)
+lil.rs:2691:47: 2691:52
+(*ee)
+lil.rs:2690:25: 2690:30
+(*ee)
+lil.rs:2695:28: 2695:33
+(*ee)
+lil.rs:2700:20: 2700:25
+(*ee)
+lil.rs:2701:23: 2701:28
+(*ee)
+lil.rs:2704:46: 2704:51
+(*ee)
+lil.rs:2703:25: 2703:30
+(*ee)
+lil.rs:2707:25: 2707:30
+(*ee)
+lil.rs:2711:46: 2711:51
+(*ee)
+lil.rs:2710:25: 2710:30
+(*ee)
+lil.rs:2715:28: 2715:33
+(*ee)
+lil.rs:2718:20: 2718:25
+(*ee)
+lil.rs:2727:8: 2727:13
+(*ee)
+lil.rs:2728:9: 2728:14
+(*ee)
+lil.rs:2729:9: 2729:14
+(*ee)
+lil.rs:2744:8: 2744:14
+(*lil)
+lil.rs:2748:8: 2748:58
+*ee.code.offset(0 as std::os::raw::c_int as isize)
+lil.rs:2753:14: 2753:21
+(*code)
+lil.rs:2800:34: 2800:40
+(*lil)
+lil.rs:2814:16: 2814:44
+*argv.offset(index as isize)
+lil.rs:2820:33: 2820:39
+(*val)
+lil.rs:2821:16: 2821:22
+(*val)
+lil.rs:2838:8: 2838:52
+*s.offset(0 as std::os::raw::c_int as isize)
+lil.rs:2840:11: 2840:32
+*s.offset(i as isize)
+lil.rs:2841:12: 2841:33
+*s.offset(i as isize)
+lil.rs:2842:16: 2842:37
+*s.offset(i as isize)
+lil.rs:2845:12: 2845:33
+*s.offset(i as isize)
+lil.rs:2883:10: 2883:16
+(*lil)
+lil.rs:2884:20: 2884:26
+(*lil)
+lil.rs:2885:12: 2885:18
+(*lil)
+lil.rs:2886:35: 2886:48
+(*(*lil).env)
+lil.rs:2886:37: 2886:43
+(*lil)
+lil.rs:2887:22: 2887:28
+(*lil)
+lil.rs:2888:9: 2888:15
+(*lil)
+lil.rs:2891:15: 2891:21
+(*lil)
+lil.rs:2892:13: 2892:46
+(**(*lil).cmd.offset(i as isize))
+lil.rs:2892:15: 2892:45
+*(*lil).cmd.offset(i as isize)
+lil.rs:2892:16: 2892:22
+(*lil)
+lil.rs:2893:27: 2893:60
+(**(*lil).cmd.offset(i as isize))
+lil.rs:2893:29: 2893:59
+*(*lil).cmd.offset(i as isize)
+lil.rs:2893:30: 2893:36
+(*lil)
+lil.rs:2895:24: 2895:57
+(**(*lil).cmd.offset(i as isize))
+lil.rs:2895:26: 2895:56
+*(*lil).cmd.offset(i as isize)
+lil.rs:2895:27: 2895:33
+(*lil)
+lil.rs:2896:14: 2896:47
+(**(*lil).cmd.offset(i as isize))
+lil.rs:2896:16: 2896:46
+*(*lil).cmd.offset(i as isize)
+lil.rs:2896:17: 2896:23
+(*lil)
+lil.rs:2897:14: 2897:44
+*(*lil).cmd.offset(i as isize)
+lil.rs:2897:15: 2897:21
+(*lil)
+lil.rs:2900:21: 2900:27
+(*lil)
+lil.rs:2901:10: 2901:16
+(*lil)
+lil.rs:2902:10: 2902:16
+(*lil)
+lil.rs:2903:10: 2903:16
+(*lil)
+lil.rs:2909:5: 2909:11
+(*lil)
+lil.rs:2913:12: 2913:18
+(*lil)
+lil.rs:2920:17: 2920:23
+(*lil)
+lil.rs:2921:17: 2921:23
+(*lil)
+lil.rs:2919:5: 2919:11
+(*lil)
+lil.rs:2922:12: 2922:18
+(*lil)
+lil.rs:2922:32: 2922:38
+(*lil)
+lil.rs:2925:10: 2925:16
+(*lil)
+lil.rs:2924:5: 2924:11
+(*lil)
+lil.rs:2935:53: 2935:59
+(*lil)
+lil.rs:2936:37: 2936:43
+(*lil)
+lil.rs:2938:9: 2938:15
+(*lil)
+lil.rs:2946:5: 2946:11
+(*lil)
+lil.rs:2957:5: 2957:11
+(*lil)
+lil.rs:2958:5: 2958:11
+(*lil)
+lil.rs:2961:16: 2961:43
+*code.offset(head as isize)
+lil.rs:2962:16: 2963:83
+*code.offset(head.wrapping_add(1 as std::os::raw::c_int as
+                                                  std::os::raw::c_ulong) as isize)
+lil.rs:2965:16: 2966:83
+*code.offset(head.wrapping_add(2 as std::os::raw::c_int as
+                                                  std::os::raw::c_ulong) as isize)
+lil.rs:2968:16: 2969:83
+*code.offset(head.wrapping_add(3 as std::os::raw::c_int as
+                                                  std::os::raw::c_ulong) as isize)
+lil.rs:2971:16: 2972:83
+*code.offset(head.wrapping_add(4 as std::os::raw::c_int as
+                                                  std::os::raw::c_ulong) as isize)
+lil.rs:2998:17: 3003:46
+*lilcode.offset(lilcodelen.wrapping_add(contlen).wrapping_add(8
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  std::os::raw::c_ulong)
+                                    as isize)
+lil.rs:3004:17: 3009:46
+*lilcode.offset(lilcodelen.wrapping_add(contlen).wrapping_add(9
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  std::os::raw::c_ulong)
+                                    as isize)
+lil.rs:3026:24: 3026:51
+*code.offset(head as isize)
+lil.rs:3028:24: 3030:47
+*code.offset(head.wrapping_add(1 as std::os::raw::c_int as
+                                                          std::os::raw::c_ulong) as
+                                        isize)
+lil.rs:3048:25: 3048:55
+*code.offset(fresh20 as isize)
+lil.rs:3047:21: 3047:54
+*lilcode.offset(fresh21 as isize)
+lil.rs:3058:13: 3058:46
+*lilcode.offset(fresh22 as isize)
+lil.rs:3059:19: 3059:46
+*code.offset(head as isize)
+lil.rs:3060:23: 3060:50
+*code.offset(head as isize)
+lil.rs:3069:13: 3069:43
+*cont.offset(fresh23 as isize)
+lil.rs:3072:13: 3072:43
+*cont.offset(fresh24 as isize)
+lil.rs:3075:13: 3075:43
+*cont.offset(fresh25 as isize)
+lil.rs:3076:16: 3076:43
+*code.offset(head as isize)
+lil.rs:3079:17: 3079:47
+*cont.offset(fresh26 as isize)
+lil.rs:3083:17: 3083:47
+*cont.offset(fresh27 as isize)
+lil.rs:3087:13: 3087:43
+*cont.offset(fresh28 as isize)
+lil.rs:3090:13: 3090:43
+*cont.offset(fresh29 as isize)
+lil.rs:3102:46: 3102:76
+*code.offset(fresh30 as isize)
+lil.rs:3102:13: 3102:43
+*cont.offset(fresh31 as isize)
+lil.rs:3119:9: 3123:38
+*lilcode.offset(lilcodelen.wrapping_add(contlen).wrapping_add(8 as
+                                                                          std::os::raw::c_int
+                                                                          as
+                                                                          std::os::raw::c_ulong)
+                            as isize)
+lil.rs:3124:9: 3128:38
+*lilcode.offset(lilcodelen.wrapping_add(contlen).wrapping_add(9 as
+                                                                          std::os::raw::c_int
+                                                                          as
+                                                                          std::os::raw::c_ulong)
+                            as isize)
+lil.rs:3142:5: 3142:41
+*lilcode.offset(lilcodelen as isize)
+lil.rs:3147:13: 3147:19
+(*lil)
+lil.rs:3148:13: 3148:19
+(*lil)
+lil.rs:3150:5: 3150:11
+(*lil)
+lil.rs:3151:5: 3151:11
+(*lil)
+lil.rs:3152:5: 3152:11
+(*lil)
+lil.rs:3162:8: 3162:14
+(*lil)
+lil.rs:3165:64: 3165:70
+(*lil)
+lil.rs:3180:28: 3180:75
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3192:36: 3192:83
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3193:30: 3193:37
+(*func)
+lil.rs:3196:34: 3196:41
+(*func)
+lil.rs:3204:36: 3204:83
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3205:30: 3205:37
+(*func)
+lil.rs:3208:32: 3208:39
+(*func)
+lil.rs:3212:34: 3212:40
+(*lil)
+lil.rs:3217:19: 3217:25
+(*lil)
+lil.rs:3219:46: 3220:78
+(**(*lil).cmd.offset(i as
+                                                                      isize))
+lil.rs:3219:48: 3220:77
+*(*lil).cmd.offset(i as
+                                                                      isize)
+lil.rs:3219:49: 3219:55
+(*lil)
+lil.rs:3229:34: 3229:40
+(*lil)
+lil.rs:3232:23: 3232:29
+(*env)
+lil.rs:3234:50: 3235:82
+(**(*env).var.offset(i as
+                                                                          isize))
+lil.rs:3234:52: 3235:81
+*(*env).var.offset(i as
+                                                                          isize)
+lil.rs:3234:53: 3234:59
+(*env)
+lil.rs:3238:19: 3238:25
+(*env)
+lil.rs:3248:19: 3248:36
+(*(*lil).rootenv)
+lil.rs:3248:21: 3248:27
+(*lil)
+lil.rs:3250:46: 3252:89
+(**(*(*lil).rootenv).var.offset(i
+                                                                                 as
+                                                                                 isize))
+lil.rs:3250:48: 3252:88
+*(*(*lil).rootenv).var.offset(i
+                                                                                 as
+                                                                                 isize)
+lil.rs:3250:49: 3250:66
+(*(*lil).rootenv)
+lil.rs:3250:51: 3250:57
+(*lil)
+lil.rs:3265:32: 3265:79
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3266:31: 3266:37
+(*lil)
+lil.rs:3274:36: 3274:42
+(*lil)
+lil.rs:3278:34: 3278:81
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3280:28: 3280:36
+(*env_0)
+lil.rs:3284:21: 3284:29
+(*env_0)
+lil.rs:3294:34: 3294:81
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3296:19: 3296:36
+(*(*lil).rootenv)
+lil.rs:3296:21: 3296:27
+(*lil)
+lil.rs:3298:23: 3298:67
+(**(*(*lil).rootenv).var.offset(i as isize))
+lil.rs:3298:25: 3298:66
+*(*(*lil).rootenv).var.offset(i as isize)
+lil.rs:3298:26: 3298:43
+(*(*lil).rootenv)
+lil.rs:3298:28: 3298:34
+(*lil)
+lil.rs:3307:20: 3307:26
+(*lil)
+lil.rs:3308:37: 3308:43
+(*lil)
+lil.rs:3315:37: 3315:43
+(*lil)
+lil.rs:3317:32: 3317:38
+(*lil)
+lil.rs:3318:14: 3318:20
+(*lil)
+lil.rs:3320:36: 3320:83
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3319:9: 3319:15
+(*lil)
+lil.rs:3324:36: 3324:42
+(*lil)
+lil.rs:3325:24: 3325:30
+(*lil)
+lil.rs:3325:42: 3325:50
+(*env_1)
+lil.rs:3326:19: 3326:27
+(*env_1)
+lil.rs:3327:21: 3327:29
+(*env_1)
+lil.rs:3329:13: 3329:21
+(*env_1)
+lil.rs:3330:37: 3330:43
+(*lil)
+lil.rs:3332:21: 3332:27
+(*lil)
+lil.rs:3333:37: 3333:43
+(*lil)
+lil.rs:3335:20: 3335:28
+(*env_1)
+lil.rs:3336:20: 3336:36
+(*(*env_1).func)
+lil.rs:3336:22: 3336:30
+(*env_1)
+lil.rs:3340:36: 3340:42
+(*lil)
+lil.rs:3341:24: 3341:30
+(*lil)
+lil.rs:3341:42: 3341:50
+(*env_2)
+lil.rs:3342:19: 3342:27
+(*env_2)
+lil.rs:3343:21: 3343:29
+(*env_2)
+lil.rs:3345:13: 3345:21
+(*env_2)
+lil.rs:3345:53: 3345:61
+(*env_2)
+lil.rs:3346:21: 3346:27
+(*lil)
+lil.rs:3347:20: 3347:28
+(*env_2)
+lil.rs:3348:37: 3348:53
+(*(*env_2).func)
+lil.rs:3348:39: 3348:47
+(*env_2)
+lil.rs:3360:32: 3360:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3362:36: 3362:83
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3365:36: 3365:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3366:9: 3366:15
+(*cmd)
+lil.rs:3367:39: 3367:86
+*argv.offset(2 as std::os::raw::c_int as isize)
+lil.rs:3367:9: 3367:15
+(*cmd)
+lil.rs:3380:13: 3380:19
+(*cmd)
+lil.rs:3382:33: 3382:80
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3381:13: 3381:19
+(*cmd)
+lil.rs:3386:35: 3386:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3388:13: 3388:19
+(*cmd)
+lil.rs:3390:33: 3390:80
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3389:13: 3389:19
+(*cmd)
+lil.rs:3402:29: 3402:76
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3403:29: 3403:76
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3413:31: 3413:37
+(*lil)
+lil.rs:3417:26: 3417:33
+(*func)
+lil.rs:3418:8: 3418:58
+*newname.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3419:21: 3419:27
+(*lil)
+lil.rs:3420:21: 3420:27
+(*lil)
+lil.rs:3421:14: 3421:21
+(*func)
+lil.rs:3422:9: 3422:16
+(*func)
+lil.rs:3431:46: 3432:69
+*argv.offset(0 as std::os::raw::c_int as
+                                                              isize)
+lil.rs:3447:27: 3447:51
+*argv.offset(i as isize)
+lil.rs:3458:29: 3458:76
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3466:62: 3467:85
+*argv.offset(i as
+                                                                              isize)
+lil.rs:3470:44: 3470:68
+*argv.offset(i as isize)
+lil.rs:3471:25: 3473:48
+*argv.offset(i.wrapping_add(1 as std::os::raw::c_int as
+                                                        std::os::raw::c_ulong) as
+                                         isize)
+lil.rs:3481:32: 3481:38
+(*var)
+lil.rs:3490:27: 3490:51
+*argv.offset(i as isize)
+lil.rs:3491:36: 3491:42
+(*lil)
+lil.rs:3492:39: 3492:45
+(*lil)
+lil.rs:3505:29: 3505:53
+*argv.offset(i as isize)
+lil.rs:3521:37: 3521:84
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3531:33: 3531:57
+*argv.offset(i as isize)
+lil.rs:3542:34: 3542:40
+(*lil)
+lil.rs:3543:38: 3543:44
+(*lil)
+lil.rs:3545:18: 3545:24
+(*lil)
+lil.rs:3545:5: 3545:11
+(*lil)
+lil.rs:3546:5: 3546:11
+(*lil)
+lil.rs:3548:5: 3548:11
+(*lil)
+lil.rs:3549:5: 3549:11
+(*lil)
+lil.rs:3554:34: 3554:40
+(*lil)
+lil.rs:3555:38: 3555:44
+(*lil)
+lil.rs:3557:8: 3557:14
+(*lil)
+lil.rs:3558:18: 3558:28
+(*thisenv)
+lil.rs:3558:5: 3558:11
+(*lil)
+lil.rs:3559:5: 3559:11
+(*lil)
+lil.rs:3561:5: 3561:11
+(*lil)
+lil.rs:3562:5: 3562:11
+(*lil)
+lil.rs:3568:32: 3568:38
+(*lil)
+lil.rs:3569:34: 3569:40
+(*lil)
+lil.rs:3571:5: 3571:11
+(*lil)
+lil.rs:3572:5: 3572:11
+(*lil)
+lil.rs:3574:5: 3574:11
+(*lil)
+lil.rs:3575:5: 3575:11
+(*lil)
+lil.rs:3591:36: 3591:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3598:35: 3598:64
+*varvalues.offset(i as isize)
+lil.rs:3609:35: 3609:82
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3617:25: 3617:54
+*varvalues.offset(i as isize)
+lil.rs:3618:28: 3618:57
+*varvalues.offset(i as isize)
+lil.rs:3623:30: 3623:62
+*argv.offset(codeindex as isize)
+lil.rs:3634:39: 3634:68
+*varvalues.offset(i as isize)
+lil.rs:3644:39: 3644:68
+*varvalues.offset(i as isize)
+lil.rs:3659:29: 3659:58
+*varvalues.offset(i as isize)
+lil.rs:3660:32: 3660:61
+*varvalues.offset(i as isize)
+lil.rs:3667:29: 3667:58
+*varvalues.offset(i as isize)
+lil.rs:3668:32: 3668:61
+*varvalues.offset(i as isize)
+lil.rs:3685:29: 3685:76
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3694:13: 3694:19
+(*lil)
+lil.rs:3695:19: 3695:25
+(*lil)
+lil.rs:3696:39: 3696:69
+*(*lil).cmd.offset(i as isize)
+lil.rs:3696:40: 3696:46
+(*lil)
+lil.rs:3697:17: 3697:23
+(*fnc)
+lil.rs:3698:38: 3698:44
+(*fnc)
+lil.rs:3698:51: 3698:57
+(*fnc)
+lil.rs:3704:33: 3704:60
+*argv.offset(base as isize)
+lil.rs:3716:35: 3716:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3718:13: 3718:20
+(*list)
+lil.rs:3728:35: 3728:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3729:28: 3729:75
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3730:17: 3730:24
+(*list)
+lil.rs:3732:34: 3732:67
+*(*list).v.offset(index as isize)
+lil.rs:3732:35: 3732:42
+(*list)
+lil.rs:3742:35: 3742:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3744:19: 3744:26
+(*list)
+lil.rs:3745:33: 3745:66
+*(*list).v.offset(index as isize)
+lil.rs:3745:34: 3745:41
+(*list)
+lil.rs:3746:33: 3746:80
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3764:29: 3764:76
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3770:33: 3770:80
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3777:47: 3777:71
+*argv.offset(i as isize)
+lil.rs:3795:32: 3795:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3797:27: 3797:74
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:3801:35: 3801:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3804:28: 3804:75
+*argv.offset(2 as std::os::raw::c_int as isize)
+lil.rs:3805:18: 3805:25
+(*list)
+lil.rs:3806:13: 3806:20
+(*list)
+lil.rs:3806:42: 3806:49
+(*list)
+lil.rs:3812:41: 3812:70
+*(*list).v.offset(i as isize)
+lil.rs:3812:42: 3812:49
+(*list)
+lil.rs:3831:32: 3831:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3835:33: 3835:80
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3837:35: 3837:62
+*argv.offset(base as isize)
+lil.rs:3840:15: 3840:22
+(*list)
+lil.rs:3840:28: 3840:41
+(*(*lil).env)
+lil.rs:3840:30: 3840:36
+(*lil)
+lil.rs:3841:35: 3841:64
+*(*list).v.offset(i as isize)
+lil.rs:3841:36: 3841:43
+(*list)
+lil.rs:3845:27: 3845:83
+*argv.offset((base + 1 as std::os::raw::c_int) as isize)
+lil.rs:3848:45: 3848:74
+*(*list).v.offset(i as isize)
+lil.rs:3848:46: 3848:53
+(*list)
+lil.rs:3865:47: 3865:71
+*argv.offset(i as isize)
+lil.rs:3875:36: 3875:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3887:39: 3887:63
+*argv.offset(i as isize)
+lil.rs:3908:33: 3908:80
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3913:35: 3913:65
+*argv.offset(listidx as isize)
+lil.rs:3915:15: 3915:22
+(*list)
+lil.rs:3917:35: 3917:64
+*(*list).v.offset(i as isize)
+lil.rs:3917:36: 3917:43
+(*list)
+lil.rs:3920:34: 3920:64
+*argv.offset(codeidx as isize)
+lil.rs:3922:12: 3922:17
+(*rv)
+lil.rs:3925:12: 3925:25
+(*(*lil).env)
+lil.rs:3925:14: 3925:20
+(*lil)
+lil.rs:3925:43: 3925:49
+(*lil)
+lil.rs:3935:5: 3935:18
+(*(*lil).env)
+lil.rs:3935:7: 3935:13
+(*lil)
+lil.rs:3936:20: 3936:33
+(*(*lil).env)
+lil.rs:3936:22: 3936:28
+(*lil)
+lil.rs:3940:34: 3940:81
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3937:5: 3937:18
+(*(*lil).env)
+lil.rs:3937:7: 3937:13
+(*lil)
+lil.rs:3941:5: 3941:18
+(*(*lil).env)
+lil.rs:3941:7: 3941:13
+(*lil)
+lil.rs:3945:32: 3945:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3951:24: 3951:37
+(*(*lil).env)
+lil.rs:3951:26: 3951:32
+(*lil)
+lil.rs:3953:29: 3953:76
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3952:9: 3952:22
+(*(*lil).env)
+lil.rs:3952:11: 3952:17
+(*lil)
+lil.rs:3954:9: 3954:22
+(*(*lil).env)
+lil.rs:3954:11: 3954:17
+(*lil)
+lil.rs:3956:15: 3956:28
+(*(*lil).env)
+lil.rs:3956:17: 3956:23
+(*lil)
+lil.rs:3957:32: 3957:45
+(*(*lil).env)
+lil.rs:3957:34: 3957:40
+(*lil)
+lil.rs:3963:35: 3963:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3972:33: 3972:57
+*argv.offset(i as isize)
+lil.rs:3996:35: 3996:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:3998:39: 3998:86
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4006:35: 4006:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4008:40: 4009:63
+*argv.offset(1 as std::os::raw::c_int as
+                                                        isize)
+lil.rs:4020:8: 4020:14
+(*lil)
+lil.rs:4023:63: 4023:69
+(*lil)
+lil.rs:4030:70: 4034:93
+*argv.offset(0
+                                                                                      as
+                                                                                      std::os::raw::c_int
+                                                                                      as
+                                                                                      isize)
+lil.rs:4037:33: 4037:80
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4048:9: 4048:38
+*buffer.offset(size as isize)
+lil.rs:4060:8: 4060:14
+(*lil)
+lil.rs:4063:64: 4063:70
+(*lil)
+lil.rs:4069:66: 4073:89
+*argv.offset(0
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  isize)
+lil.rs:4074:66: 4078:89
+*argv.offset(1
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  isize)
+lil.rs:4081:33: 4081:80
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4084:32: 4084:79
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4089:28: 4089:75
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4099:29: 4099:76
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4108:30: 4108:57
+*argv.offset(base as isize)
+lil.rs:4109:25: 4109:31
+(*lil)
+lil.rs:4115:29: 4115:85
+*argv.offset((base + 1 as std::os::raw::c_int) as isize)
+lil.rs:4123:29: 4123:85
+*argv.offset((base + 2 as std::os::raw::c_int) as isize)
+lil.rs:4137:29: 4137:76
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4146:11: 4146:17
+(*lil)
+lil.rs:4146:32: 4146:45
+(*(*lil).env)
+lil.rs:4146:34: 4146:40
+(*lil)
+lil.rs:4147:34: 4147:61
+*argv.offset(base as isize)
+lil.rs:4148:29: 4148:35
+(*lil)
+lil.rs:4158:33: 4159:56
+*argv.offset((base + 1 as std::os::raw::c_int) as
+                                                 isize)
+lil.rs:4171:36: 4171:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4173:11: 4173:17
+(*lil)
+lil.rs:4173:32: 4173:45
+(*(*lil).env)
+lil.rs:4173:34: 4173:40
+(*lil)
+lil.rs:4174:34: 4174:81
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4175:29: 4175:35
+(*lil)
+lil.rs:4182:38: 4182:85
+*argv.offset(3 as std::os::raw::c_int as isize)
+lil.rs:4186:44: 4187:67
+*argv.offset(2 as std::os::raw::c_int as
+                                                            isize)
+lil.rs:4198:24: 4198:71
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4209:25: 4209:72
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4210:28: 4210:75
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4212:48: 4212:75
+*str.offset(index as isize)
+lil.rs:4221:25: 4221:72
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4222:28: 4222:75
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4224:30: 4224:57
+*str.offset(index as isize)
+lil.rs:4235:25: 4235:72
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4236:8: 4236:54
+*str.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4239:29: 4239:76
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4243:33: 4243:80
+*argv.offset(2 as std::os::raw::c_int as isize)
+lil.rs:4251:28: 4251:51
+*str.offset(i as isize)
+lil.rs:4264:25: 4264:72
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4267:33: 4267:80
+*argv.offset(2 as std::os::raw::c_int as isize)
+lil.rs:4275:30: 4275:77
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4291:75: 4293:90
+*argv.offset(i
+                                                                                   as
+                                                                                   isize)
+lil.rs:4306:15: 4306:41
+*str.offset(base as isize)
+lil.rs:4308:27: 4308:53
+*str.offset(base as isize)
+lil.rs:4314:37: 4314:63
+*str.offset(base as isize)
+lil.rs:4327:27: 4329:47
+*s.offset(len.wrapping_sub(1 as std::os::raw::c_int as
+                                                         std::os::raw::c_ulong) as
+                                        isize)
+lil.rs:4332:9: 4332:32
+*s.offset(len as isize)
+lil.rs:4341:36: 4341:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4346:40: 4347:63
+*argv.offset(1 as std::os::raw::c_int as
+                                                        isize)
+lil.rs:4353:36: 4353:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4358:40: 4359:63
+*argv.offset(1 as std::os::raw::c_int as
+                                                        isize)
+lil.rs:4365:36: 4365:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4370:40: 4371:63
+*argv.offset(1 as std::os::raw::c_int as
+                                                        isize)
+lil.rs:4377:51: 4379:77
+*argv.offset(0 as
+                                                                   std::os::raw::c_int
+                                                                   as isize)
+lil.rs:4380:51: 4382:77
+*argv.offset(1 as
+                                                                   std::os::raw::c_int
+                                                                   as isize)
+lil.rs:4388:54: 4391:77
+*argv.offset(0 as
+                                                                      std::os::raw::c_int
+                                                                      as
+                                                                      isize)
+lil.rs:4392:54: 4395:77
+*argv.offset(1 as
+                                                                      std::os::raw::c_int
+                                                                      as
+                                                                      isize)
+lil.rs:4413:32: 4413:79
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4415:26: 4415:73
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4416:24: 4416:71
+*argv.offset(2 as std::os::raw::c_int as isize)
+lil.rs:4417:8: 4417:55
+*from.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4420:34: 4420:81
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4449:9: 4449:37
+*src.offset(srclen as isize)
+lil.rs:4465:29: 4465:76
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4466:29: 4466:75
+*sep.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4467:36: 4467:83
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4471:25: 4471:72
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4474:11: 4474:34
+*str.offset(i as isize)
+lil.rs:4475:25: 4475:48
+*str.offset(i as isize)
+lil.rs:4479:39: 4479:62
+*str.offset(i as isize)
+lil.rs:4491:8: 4491:14
+(*lil)
+lil.rs:4493:30: 4493:77
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4495:8: 4495:14
+(*lil)
+lil.rs:4496:9: 4496:15
+(*lil)
+lil.rs:4500:38: 4500:85
+*argv.offset(1 as std::os::raw::c_int as isize)
+lil.rs:4510:37: 4510:84
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4516:8: 4516:14
+(*lil)
+lil.rs:4519:63: 4519:69
+(*lil)
+lil.rs:4528:56: 4531:79
+*argv.offset(0 as
+                                                                        std::os::raw::c_int
+                                                                        as
+                                                                        isize)
+lil.rs:4545:8: 4545:14
+(*lil)
+lil.rs:4548:65: 4548:71
+(*lil)
+lil.rs:4555:70: 4559:93
+*argv.offset(0
+                                                                                      as
+                                                                                      std::os::raw::c_int
+                                                                                      as
+                                                                                      isize)
+lil.rs:4560:15: 4560:21
+(*lil)
+lil.rs:4563:63: 4563:69
+(*lil)
+lil.rs:4570:70: 4574:93
+*argv.offset(0
+                                                                                      as
+                                                                                      std::os::raw::c_int
+                                                                                      as
+                                                                                      isize)
+lil.rs:4577:33: 4577:80
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4588:9: 4588:38
+*buffer.offset(size as isize)
+lil.rs:4600:35: 4600:82
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4603:40: 4603:64
+*argv.offset(i as isize)
+lil.rs:4621:33: 4621:39
+(*lil)
+lil.rs:4624:27: 4624:74
+*argv.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4625:14: 4625:20
+(*lil)
+lil.rs:4627:16: 4627:66
+*catcher.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4626:9: 4626:15
+(*lil)
+lil.rs:4640:23: 4642:46
+*argv.offset(argc.wrapping_sub(1 as std::os::raw::c_int as
+                                                         std::os::raw::c_ulong) as
+                                       isize)
+lil.rs:4646:27: 4646:51
+*argv.offset(i as isize)
+lil.rs:4648:14: 4648:62
+*vname.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4650:35: 4650:41
+(*lil)
+lil.rs:4651:44: 4651:68
+*argv.offset(i as isize)
+lil.rs:4657:18: 4657:22
+(*v)
+lil.rs:4659:20: 4659:68
+*wcode.offset(0 as std::os::raw::c_int as isize)
+lil.rs:4658:13: 4658:17
+(*v)
+lil.rs:4949:22: 4949:28
+(*lil)
+lil.rs:4949:5: 4949:11
+(*lil)
+main.rs:151:38: 151:62
+*argv.offset(i as isize)
+main.rs:159:13: 159:41
+*cmd.offset(fresh0 as isize)
+main.rs:166:16: 166:40
+*argv.offset(i as isize)
+main.rs:176:5: 176:33
+*cmd.offset(cmdlen as isize)
+main.rs:205:9: 205:38
+*retval.offset(size as isize)
+main.rs:215:27: 215:74
+*argv.offset(0 as std::os::raw::c_int as isize)
+main.rs:234:30: 234:55
+*sargv.offset(i as isize)
+main.rs:235:33: 235:57
+*argv.offset(i as isize)
+main.rs:238:26: 238:54
+*sargv.offset(argc as isize)
+main.rs:272:9: 272:40
+*buffer.offset(fresh3 as isize)
+main.rs:278:5: 278:33
+*buffer.offset(len as isize)
+main.rs:330:12: 330:61
+*strres.offset(0 as std::os::raw::c_int as isize)
+main.rs:347:9: 347:56
+*argv.offset(1 as std::os::raw::c_int as isize)
+main.rs:367:51: 367:75
+*argv.offset(i as isize)

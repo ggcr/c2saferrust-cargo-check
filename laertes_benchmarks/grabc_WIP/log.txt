@@ -1,0 +1,7 @@
+DefId(0:51 ~ c2rust_out[0636]::findSubWindow) Chunk root, Success, 4
+DefId(0:50 ~ c2rust_out[0636]::selectWindow) Chunk root, Success, 3
+DefId(0:52 ~ c2rust_out[0636]::getWindowColor) Chunk root, Success, 3
+DefId(0:48 ~ c2rust_out[0636]::main_0) Chunk root, Success, 3
+DefId(0:54 ~ c2rust_out[0636]::main) Chunk root, Success, 3
+DefId(0:55 ~ c2rust_out[0636]::run_static_initializers) Chunk root, Success, 3
+DefId(0:53 ~ c2rust_out[0636]::MXError) Chunk root, Success, 3

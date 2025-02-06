@@ -1,0 +1,1146 @@
+[
+  {
+    "func_defid": "DefId(0:117 ~ c2rust_out[0636]::scale32)",
+    "span": "xzoom.rs:1673:1: 1904:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1673:1: 1682:8 (#0)",
+      "xzoom.rs:1758:1: 1758:8 (#0)",
+      "xzoom.rs:1878:1: 1878:8 (#0)",
+      "xzoom.rs:1903:1: 1904:2 (#0)"
+    ],
+    "sub_chunks": [
+      0,
+      1,
+      2
+    ],
+    "num_lines": 14,
+    "source": "pub unsafe extern \"C\" fn scale32() {\n    let mut i: std::os::raw::c_int = 0;\n    let mut j: std::os::raw::c_int = 0;\n    let mut k: std::os::raw::c_int = 0;\n    j =\n        if flipxy != 0 {\n            (width[0 as std::os::raw::c_int as usize]) - 1 as std::os::raw::c_int\n        } else { (height[0 as std::os::raw::c_int as usize]) - 1 as std::os::raw::c_int };\n    loop  {\n       <<chunk 0>>       <<chunk 1>>       <<chunk 2>>    };\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:133 ~ c2rust_out[0636]::xzoom)",
+        "span": "xzoom.rs:1942:18: 1942:28 (#0)",
+        "source": "scale32();"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:1011:1: 1011:69 (#0)",
+        "source": "pub static mut magy: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1035:1: 1036:60 (#0)",
+        "source": "pub static mut height: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1009:1: 1009:69 (#0)",
+        "source": "pub static mut magx: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1032:1: 1033:60 (#0)",
+        "source": "pub static mut width: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1040:1: 1041:44 (#0)",
+        "source": "pub static mut ximage: [*mut XImage; 2] =\n    [0 as *const XImage as *mut XImage; 2];"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      }
+    ],
+    "chunks": [
+      {
+        "chunk_id": 0,
+        "span": "xzoom.rs:1682:9: 1757:75 (#0)",
+        "pieces": [
+          "xzoom.rs:1682:9: 1757:75 (#0)"
+        ],
+        "num_lines": 76,
+        "source": "let mut p1: *mut std::os::raw::c_uint = 0 as *mut std::os::raw::c_uint;\n        let mut p2: *mut std::os::raw::c_uint = 0 as *mut std::os::raw::c_uint;\n        let mut p2step: std::os::raw::c_int = 0;\n        let mut p1_save: *mut std::os::raw::c_uint = 0 as *mut std::os::raw::c_uint;\n        p1 =\n            &mut *(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as\n                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(1\n                                                                                                            as\n                                                                                                            std::os::raw::c_int\n                                                                                                            as\n                                                                                                            isize)).xoffset\n                                                                              +\n                                                                              0\n                                                                                  as\n                                                                                  std::os::raw::c_int)\n                                                                             as\n                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uint>()\n                                                                                                             as\n                                                                                                             std::os::raw::c_ulong).wrapping_add((j\n                                                                                                                                              *\n                                                                                                                                              magy\n                                                                                                                                              *\n                                                                                                                                              (**ximage.as_mut_ptr().offset(1\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)).bytes_per_line)\n                                                                                                                                             as\n                                                                                                                                             std::os::raw::c_ulong)\n                                                                            as\n                                                                            isize)\n                as *mut std::os::raw::c_char as *mut std::os::raw::c_uint;\n        p1_save = p1;\n        p2 =\n            &mut *(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as\n                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(0\n                                                                                                            as\n                                                                                                            std::os::raw::c_int\n                                                                                                            as\n                                                                                                            isize)).xoffset\n                                                                              +\n                                                                              0\n                                                                                  as\n                                                                                  std::os::raw::c_int)\n                                                                             as\n                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uint>()\n                                                                                                             as\n                                                                                                             std::os::raw::c_ulong).wrapping_add(((if flipy\n                                                                                                                                                  !=\n                                                                                                                                                  0\n                                                                                                                                              {\n                                                                                                                                               (*height.as_mut_ptr().offset(0\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)\n                                                                                                                                                    -\n                                                                                                                                                    1\n                                                                                                                                                        as\n                                                                                                                                                        std::os::raw::c_int)\n                                                                                                                                                   -\n                                                                                                                                                   j\n                                                                                                                                           } else {\n                                                                                                                                               j\n                                                                                                                                           })\n                                                                                                                                              *\n                                                                                                                                              (**ximage.as_mut_ptr().offset(0\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)).bytes_per_line)\n                                                                                                                                             as\n                                                                                                                                             std::os::raw::c_ulong)\n                                                                            as\n                                                                            isize)\n                as *mut std::os::raw::c_char as *mut std::os::raw::c_uint;",
+        "sub_chunks": [],
+        "live_in": [
+          "mut j: i32"
+        ],
+        "live_out": [
+          "mut j: i32",
+          "mut p1: *mut u32",
+          "mut p2: *mut u32",
+          "mut p2step: i32",
+          "mut p1_save: *mut u32"
+        ]
+      },
+      {
+        "chunk_id": 1,
+        "span": "xzoom.rs:1758:9: 1877:10 (#0)",
+        "pieces": [
+          "xzoom.rs:1758:9: 1877:10 (#0)"
+        ],
+        "num_lines": 120,
+        "source": "if flipxy != 0 {\n            p2 =\n                &mut *(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as\n                                                        isize)).data.offset((((**ximage.as_mut_ptr().offset(0\n                                                                                                                as\n                                                                                                                std::os::raw::c_int\n                                                                                                                as\n                                                                                                                isize)).xoffset\n                                                                                  +\n                                                                                  (if flipy\n                                                                                          !=\n                                                                                          0\n                                                                                      {\n                                                                                       j\n                                                                                   } else {\n                                                                                       (*width.as_mut_ptr().offset(0\n                                                                                                                       as\n                                                                                                                       std::os::raw::c_int\n                                                                                                                       as\n                                                                                                                       isize)\n                                                                                            -\n                                                                                            1\n                                                                                                as\n                                                                                                std::os::raw::c_int)\n                                                                                           -\n                                                                                           j\n                                                                                   }))\n                                                                                 as\n                                                                                 std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uint>()\n                                                                                                                 as\n                                                                                                                 std::os::raw::c_ulong).wrapping_add((0\n                                                                                                                                                  as\n                                                                                                                                                  std::os::raw::c_int\n                                                                                                                                                  *\n                                                                                                                                                  (**ximage.as_mut_ptr().offset(0\n                                                                                                                                                                                    as\n                                                                                                                                                                                    std::os::raw::c_int\n                                                                                                                                                                                    as\n                                                                                                                                                                                    isize)).bytes_per_line)\n                                                                                                                                                 as\n                                                                                                                                                 std::os::raw::c_ulong)\n                                                                                as\n                                                                                isize)\n                    as *mut std::os::raw::c_char as *mut std::os::raw::c_uint;\n            p2step =\n                ((*ximage[0 as std::os::raw::c_int as usize]).bytes_per_line as\n                     std::os::raw::c_ulong).wrapping_div(::std::mem::size_of::<std::os::raw::c_uint>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            if flipx != 0 {\n                p2 =\n                    p2.offset((p2step *\n                                   (height[0 as std::os::raw::c_int as usize] -\n                                        1 as std::os::raw::c_int)) as isize);\n                p2step = -p2step\n            }\n            i = height[0 as std::os::raw::c_int as usize];\n            loop  {\n                let mut c: std::os::raw::c_uint = *p2;\n                p2 = p2.offset(p2step as isize);\n                k = magx;\n                loop  {\n                    let fresh10 = p1;\n                    p1 = p1.offset(1);\n                    *fresh10 = c;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        } else if flipx != 0 {\n            p2 = p2.offset(width[0 as std::os::raw::c_int as usize] as isize);\n            i = width[0 as std::os::raw::c_int as usize];\n            loop  {\n                p2 = p2.offset(-1);\n                let mut c_0: std::os::raw::c_uint = *p2;\n                k = magx;\n                loop  {\n                    let fresh11 = p1;\n                    p1 = p1.offset(1);\n                    *fresh11 = c_0;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        } else {\n            i = width[0 as std::os::raw::c_int as usize];\n            loop  {\n                let fresh12 = p2;\n                p2 = p2.offset(1);\n                let mut c_1: std::os::raw::c_uint = *fresh12;\n                k = magx;\n                loop  {\n                    let fresh13 = p1;\n                    p1 = p1.offset(1);\n                    *fresh13 = c_1;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        }\n        if gridy != 0 && magx >= 2 as std::os::raw::c_int {\n            p1 = p1_save.offset(-(1 as std::os::raw::c_int as isize));\n            i = magx;\n            k =\n                if flipxy != 0 {\n                    height[0 as std::os::raw::c_int as usize]\n                } else { width[0 as std::os::raw::c_int as usize] };\n            loop  {\n                p1 = p1.offset(i as isize);\n                *p1 ^= !(0 as std::os::raw::c_int as std::os::raw::c_uint);\n                k -= 1;\n                if !(k > 0 as std::os::raw::c_int) { break ; }\n            }\n        }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u32",
+          "mut p2: *mut u32",
+          "mut p2step: i32",
+          "mut p1_save: *mut u32"
+        ],
+        "live_out": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u32",
+          "mut p2: *mut u32",
+          "mut p2step: i32",
+          "mut p1_save: *mut u32"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "span": "xzoom.rs:1878:9: 1901:20 (#0)",
+        "pieces": [
+          "xzoom.rs:1878:9: 1901:20 (#0)"
+        ],
+        "num_lines": 34,
+        "source": "if magy > 1 as std::os::raw::c_int {\n            p1 = p1_save;\n            p2 = p1;\n            p2step =\n                ((*ximage[1 as std::os::raw::c_int as usize]).bytes_per_line as\n                     std::os::raw::c_ulong).wrapping_div(::std::mem::size_of::<std::os::raw::c_uint>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            i =\n                (width[1 as std::os::raw::c_int as usize] as\n                     std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uint>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            k = magy - 1 as std::os::raw::c_int;\n            loop  {\n                p2 = p2.offset(p2step as isize);\n                memcpy(p2 as *mut std::os::raw::c_void, p1 as *const std::os::raw::c_void,\n                       i as std::os::raw::c_ulong);\n                k -= 1;\n                if !(k > 0 as std::os::raw::c_int) { break ; }\n            }\n            if gridx != 0 && magy >= 2 as std::os::raw::c_int {\n                k = width[1 as std::os::raw::c_int as usize];\n                loop  {\n                    let fresh14 = p2;\n                    p2 = p2.offset(1);\n                    *fresh14 ^= !(0 as std::os::raw::c_int as std::os::raw::c_uint);\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n            }\n        }\n        j -= 1;\n        if !(j >= 0 as std::os::raw::c_int) { break ; }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u32",
+          "mut p2step: i32",
+          "mut p1_save: *mut u32"
+        ],
+        "live_out": []
+      }
+    ]
+  },
+  {
+    "func_defid": "DefId(0:116 ~ c2rust_out[0636]::scale16)",
+    "span": "xzoom.rs:1432:1: 1671:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1432:1: 1441:8 (#0)",
+      "xzoom.rs:1517:1: 1517:8 (#0)",
+      "xzoom.rs:1640:1: 1640:8 (#0)",
+      "xzoom.rs:1670:1: 1671:2 (#0)"
+    ],
+    "sub_chunks": [
+      0,
+      1,
+      2
+    ],
+    "num_lines": 14,
+    "source": "pub unsafe extern \"C\" fn scale16() {\n    let mut i: std::os::raw::c_int = 0;\n    let mut j: std::os::raw::c_int = 0;\n    let mut k: std::os::raw::c_int = 0;\n    j =\n        if flipxy != 0 {\n            (width[0 as std::os::raw::c_int as usize]) - 1 as std::os::raw::c_int\n        } else { (height[0 as std::os::raw::c_int as usize]) - 1 as std::os::raw::c_int };\n    loop  {\n       <<chunk 0>>       <<chunk 1>>       <<chunk 2>>    };\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:133 ~ c2rust_out[0636]::xzoom)",
+        "span": "xzoom.rs:1940:18: 1940:28 (#0)",
+        "source": "scale16();"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:1032:1: 1033:60 (#0)",
+        "source": "pub static mut width: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1011:1: 1011:69 (#0)",
+        "source": "pub static mut magy: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1009:1: 1009:69 (#0)",
+        "source": "pub static mut magx: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1035:1: 1036:60 (#0)",
+        "source": "pub static mut height: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1040:1: 1041:44 (#0)",
+        "source": "pub static mut ximage: [*mut XImage; 2] =\n    [0 as *const XImage as *mut XImage; 2];"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      }
+    ],
+    "chunks": [
+      {
+        "chunk_id": 0,
+        "span": "xzoom.rs:1441:9: 1516:77 (#0)",
+        "pieces": [
+          "xzoom.rs:1441:9: 1516:77 (#0)"
+        ],
+        "num_lines": 76,
+        "source": "let mut p1: *mut std::os::raw::c_ushort = 0 as *mut std::os::raw::c_ushort;\n        let mut p2: *mut std::os::raw::c_ushort = 0 as *mut std::os::raw::c_ushort;\n        let mut p2step: std::os::raw::c_int = 0;\n        let mut p1_save: *mut std::os::raw::c_ushort = 0 as *mut std::os::raw::c_ushort;\n        p1 =\n            &mut *(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as\n                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(1\n                                                                                                            as\n                                                                                                            std::os::raw::c_int\n                                                                                                            as\n                                                                                                            isize)).xoffset\n                                                                              +\n                                                                              0\n                                                                                  as\n                                                                                  std::os::raw::c_int)\n                                                                             as\n                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_ushort>()\n                                                                                                             as\n                                                                                                             std::os::raw::c_ulong).wrapping_add((j\n                                                                                                                                              *\n                                                                                                                                              magy\n                                                                                                                                              *\n                                                                                                                                              (**ximage.as_mut_ptr().offset(1\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)).bytes_per_line)\n                                                                                                                                             as\n                                                                                                                                             std::os::raw::c_ulong)\n                                                                            as\n                                                                            isize)\n                as *mut std::os::raw::c_char as *mut std::os::raw::c_ushort;\n        p1_save = p1;\n        p2 =\n            &mut *(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as\n                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(0\n                                                                                                            as\n                                                                                                            std::os::raw::c_int\n                                                                                                            as\n                                                                                                            isize)).xoffset\n                                                                              +\n                                                                              0\n                                                                                  as\n                                                                                  std::os::raw::c_int)\n                                                                             as\n                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_ushort>()\n                                                                                                             as\n                                                                                                             std::os::raw::c_ulong).wrapping_add(((if flipy\n                                                                                                                                                  !=\n                                                                                                                                                  0\n                                                                                                                                              {\n                                                                                                                                               (*height.as_mut_ptr().offset(0\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)\n                                                                                                                                                    -\n                                                                                                                                                    1\n                                                                                                                                                        as\n                                                                                                                                                        std::os::raw::c_int)\n                                                                                                                                                   -\n                                                                                                                                                   j\n                                                                                                                                           } else {\n                                                                                                                                               j\n                                                                                                                                           })\n                                                                                                                                              *\n                                                                                                                                              (**ximage.as_mut_ptr().offset(0\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)).bytes_per_line)\n                                                                                                                                             as\n                                                                                                                                             std::os::raw::c_ulong)\n                                                                            as\n                                                                            isize)\n                as *mut std::os::raw::c_char as *mut std::os::raw::c_ushort;",
+        "sub_chunks": [],
+        "live_in": [
+          "mut j: i32"
+        ],
+        "live_out": [
+          "mut j: i32",
+          "mut p1: *mut u16",
+          "mut p2: *mut u16",
+          "mut p2step: i32",
+          "mut p1_save: *mut u16"
+        ]
+      },
+      {
+        "chunk_id": 1,
+        "span": "xzoom.rs:1517:9: 1639:10 (#0)",
+        "pieces": [
+          "xzoom.rs:1517:9: 1639:10 (#0)"
+        ],
+        "num_lines": 123,
+        "source": "if flipxy != 0 {\n            p2 =\n                &mut *(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as\n                                                        isize)).data.offset((((**ximage.as_mut_ptr().offset(0\n                                                                                                                as\n                                                                                                                std::os::raw::c_int\n                                                                                                                as\n                                                                                                                isize)).xoffset\n                                                                                  +\n                                                                                  (if flipy\n                                                                                          !=\n                                                                                          0\n                                                                                      {\n                                                                                       j\n                                                                                   } else {\n                                                                                       (*width.as_mut_ptr().offset(0\n                                                                                                                       as\n                                                                                                                       std::os::raw::c_int\n                                                                                                                       as\n                                                                                                                       isize)\n                                                                                            -\n                                                                                            1\n                                                                                                as\n                                                                                                std::os::raw::c_int)\n                                                                                           -\n                                                                                           j\n                                                                                   }))\n                                                                                 as\n                                                                                 std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_ushort>()\n                                                                                                                 as\n                                                                                                                 std::os::raw::c_ulong).wrapping_add((0\n                                                                                                                                                  as\n                                                                                                                                                  std::os::raw::c_int\n                                                                                                                                                  *\n                                                                                                                                                  (**ximage.as_mut_ptr().offset(0\n                                                                                                                                                                                    as\n                                                                                                                                                                                    std::os::raw::c_int\n                                                                                                                                                                                    as\n                                                                                                                                                                                    isize)).bytes_per_line)\n                                                                                                                                                 as\n                                                                                                                                                 std::os::raw::c_ulong)\n                                                                                as\n                                                                                isize)\n                    as *mut std::os::raw::c_char as *mut std::os::raw::c_ushort;\n            p2step =\n                ((*ximage[0 as std::os::raw::c_int as usize]).bytes_per_line as\n                     std::os::raw::c_ulong).wrapping_div(::std::mem::size_of::<std::os::raw::c_ushort>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            if flipx != 0 {\n                p2 =\n                    p2.offset((p2step *\n                                   (height[0 as std::os::raw::c_int as usize] -\n                                        1 as std::os::raw::c_int)) as isize);\n                p2step = -p2step\n            }\n            i = height[0 as std::os::raw::c_int as usize];\n            loop  {\n                let mut c: std::os::raw::c_ushort = *p2;\n                p2 = p2.offset(p2step as isize);\n                k = magx;\n                loop  {\n                    let fresh5 = p1;\n                    p1 = p1.offset(1);\n                    *fresh5 = c;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        } else if flipx != 0 {\n            p2 = p2.offset(width[0 as std::os::raw::c_int as usize] as isize);\n            i = width[0 as std::os::raw::c_int as usize];\n            loop  {\n                p2 = p2.offset(-1);\n                let mut c_0: std::os::raw::c_ushort = *p2;\n                k = magx;\n                loop  {\n                    let fresh6 = p1;\n                    p1 = p1.offset(1);\n                    *fresh6 = c_0;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        } else {\n            i = width[0 as std::os::raw::c_int as usize];\n            loop  {\n                let fresh7 = p2;\n                p2 = p2.offset(1);\n                let mut c_1: std::os::raw::c_ushort = *fresh7;\n                k = magx;\n                loop  {\n                    let fresh8 = p1;\n                    p1 = p1.offset(1);\n                    *fresh8 = c_1;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        }\n        if gridy != 0 && magx >= 2 as std::os::raw::c_int {\n            p1 = p1_save.offset(-(1 as std::os::raw::c_int as isize));\n            i = magx;\n            k =\n                if flipxy != 0 {\n                    height[0 as std::os::raw::c_int as usize]\n                } else { width[0 as std::os::raw::c_int as usize] };\n            loop  {\n                p1 = p1.offset(i as isize);\n                *p1 =\n                    (*p1 as std::os::raw::c_int ^\n                         !(0 as std::os::raw::c_int as std::os::raw::c_ushort as std::os::raw::c_int))\n                        as std::os::raw::c_ushort;\n                k -= 1;\n                if !(k > 0 as std::os::raw::c_int) { break ; }\n            }\n        }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u16",
+          "mut p2: *mut u16",
+          "mut p2step: i32",
+          "mut p1_save: *mut u16"
+        ],
+        "live_out": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u16",
+          "mut p2: *mut u16",
+          "mut p2step: i32",
+          "mut p1_save: *mut u16"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "span": "xzoom.rs:1640:9: 1668:20 (#0)",
+        "pieces": [
+          "xzoom.rs:1640:9: 1668:20 (#0)"
+        ],
+        "num_lines": 37,
+        "source": "if magy > 1 as std::os::raw::c_int {\n            p1 = p1_save;\n            p2 = p1;\n            p2step =\n                ((*ximage[1 as std::os::raw::c_int as usize]).bytes_per_line as\n                     std::os::raw::c_ulong).wrapping_div(::std::mem::size_of::<std::os::raw::c_ushort>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            i =\n                (width[1 as std::os::raw::c_int as usize] as\n                     std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_ushort>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            k = magy - 1 as std::os::raw::c_int;\n            loop  {\n                p2 = p2.offset(p2step as isize);\n                memcpy(p2 as *mut std::os::raw::c_void, p1 as *const std::os::raw::c_void,\n                       i as std::os::raw::c_ulong);\n                k -= 1;\n                if !(k > 0 as std::os::raw::c_int) { break ; }\n            }\n            if gridx != 0 && magy >= 2 as std::os::raw::c_int {\n                k = width[1 as std::os::raw::c_int as usize];\n                loop  {\n                    let fresh9 = p2;\n                    p2 = p2.offset(1);\n                    *fresh9 =\n                        (*fresh9 as std::os::raw::c_int ^\n                             !(0 as std::os::raw::c_int as std::os::raw::c_ushort as\n                                   std::os::raw::c_int)) as std::os::raw::c_ushort;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n            }\n        }\n        j -= 1;\n        if !(j >= 0 as std::os::raw::c_int) { break ; }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u16",
+          "mut p2: *mut u16",
+          "mut p2step: i32",
+          "mut p1_save: *mut u16"
+        ],
+        "live_out": []
+      }
+    ]
+  },
+  {
+    "func_defid": "DefId(0:115 ~ c2rust_out[0636]::scale8)",
+    "span": "xzoom.rs:1158:1: 1430:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1158:1: 1165:4 (#0)",
+      "xzoom.rs:1430:1: 1430:2 (#0)"
+    ],
+    "sub_chunks": [
+      3
+    ],
+    "num_lines": 9,
+    "source": "pub unsafe extern \"C\" fn scale8() {\n    /* scale image from SRC to DST - parameterized by type T */\n    /* scale image from SRC to DST - parameterized by type T */\n    /* scale image from SRC to DST - parameterized by type T */\n    /* get pixel address of point (x,y) in image t */\n    /* get pixel address of point (x,y) in image t */\n    /* get pixel address of point (x,y) in image t */\n   <<chunk 3>>}",
+    "calls": [
+      {
+        "caller": "DefId(0:133 ~ c2rust_out[0636]::xzoom)",
+        "span": "xzoom.rs:1938:18: 1938:27 (#0)",
+        "source": "scale8();"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:1011:1: 1011:69 (#0)",
+        "source": "pub static mut magy: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1035:1: 1036:60 (#0)",
+        "source": "pub static mut height: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1032:1: 1033:60 (#0)",
+        "source": "pub static mut width: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1009:1: 1009:69 (#0)",
+        "source": "pub static mut magx: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1040:1: 1041:44 (#0)",
+        "source": "pub static mut ximage: [*mut XImage; 2] =\n    [0 as *const XImage as *mut XImage; 2];"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      }
+    ],
+    "chunks": [
+      {
+        "chunk_id": 0,
+        "span": "xzoom.rs:1179:5: 1263:76 (#0)",
+        "pieces": [
+          "xzoom.rs:1179:5: 1263:76 (#0)"
+        ],
+        "num_lines": 85,
+        "source": "let mut p1: *mut std::os::raw::c_uchar = 0 as *mut std::os::raw::c_uchar;\n        let mut p2: *mut std::os::raw::c_uchar = 0 as *mut std::os::raw::c_uchar;\n        let mut p2step: std::os::raw::c_int = 0;\n        let mut p1_save: *mut std::os::raw::c_uchar = 0 as *mut std::os::raw::c_uchar;\n        /* p1 point to begining of scanline j*magy in DST */\n        /* p1 point to begining of scanline j*magy in DST */\n        /* p1 point to begining of scanline j*magy in DST */\n        p1 =\n            &mut *(**ximage.as_mut_ptr().offset(1 as std::os::raw::c_int as\n                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(1\n                                                                                                            as\n                                                                                                            std::os::raw::c_int\n                                                                                                            as\n                                                                                                            isize)).xoffset\n                                                                              +\n                                                                              0\n                                                                                  as\n                                                                                  std::os::raw::c_int)\n                                                                             as\n                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uchar>()\n                                                                                                             as\n                                                                                                             std::os::raw::c_ulong).wrapping_add((j\n                                                                                                                                              *\n                                                                                                                                              magy\n                                                                                                                                              *\n                                                                                                                                              (**ximage.as_mut_ptr().offset(1\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)).bytes_per_line)\n                                                                                                                                             as\n                                                                                                                                             std::os::raw::c_ulong)\n                                                                            as\n                                                                            isize)\n                as *mut std::os::raw::c_char as *mut std::os::raw::c_uchar;\n        p1_save = p1;\n        /* p2 point to begining of scanline j in SRC */\n\t\t/* if flipy then line height[SRC]-1-j */\n        /* p2 point to begining of scanline j in SRC */\n\t\t/* if flipy then line height[SRC]-1-j */\n        /* p2 point to begining of scanline j in SRC */\n\t\t/* if flipy then line height[SRC]-1-j */\n        p2 =\n            &mut *(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as\n                                                    isize)).data.offset((((**ximage.as_mut_ptr().offset(0\n                                                                                                            as\n                                                                                                            std::os::raw::c_int\n                                                                                                            as\n                                                                                                            isize)).xoffset\n                                                                              +\n                                                                              0\n                                                                                  as\n                                                                                  std::os::raw::c_int)\n                                                                             as\n                                                                             std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uchar>()\n                                                                                                             as\n                                                                                                             std::os::raw::c_ulong).wrapping_add(((if flipy\n                                                                                                                                                  !=\n                                                                                                                                                  0\n                                                                                                                                              {\n                                                                                                                                               (*height.as_mut_ptr().offset(0\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)\n                                                                                                                                                    -\n                                                                                                                                                    1\n                                                                                                                                                        as\n                                                                                                                                                        std::os::raw::c_int)\n                                                                                                                                                   -\n                                                                                                                                                   j\n                                                                                                                                           } else {\n                                                                                                                                               j\n                                                                                                                                           })\n                                                                                                                                              *\n                                                                                                                                              (**ximage.as_mut_ptr().offset(0\n                                                                                                                                                                                as\n                                                                                                                                                                                std::os::raw::c_int\n                                                                                                                                                                                as\n                                                                                                                                                                                isize)).bytes_per_line)\n                                                                                                                                             as\n                                                                                                                                             std::os::raw::c_ulong)\n                                                                            as\n                                                                            isize)\n                as *mut std::os::raw::c_char as *mut std::os::raw::c_uchar;",
+        "sub_chunks": [],
+        "live_in": [
+          "mut j: i32"
+        ],
+        "live_out": [
+          "mut j: i32",
+          "mut p1: *mut u8",
+          "mut p2: *mut u8",
+          "mut p2step: i32",
+          "mut p1_save: *mut u8"
+        ]
+      },
+      {
+        "chunk_id": 1,
+        "span": "xzoom.rs:1265:5: 1390:10 (#0)",
+        "pieces": [
+          "xzoom.rs:1265:5: 1390:10 (#0)"
+        ],
+        "num_lines": 126,
+        "source": "if flipxy != 0 {\n            p2 =\n                &mut *(**ximage.as_mut_ptr().offset(0 as std::os::raw::c_int as\n                                                        isize)).data.offset((((**ximage.as_mut_ptr().offset(0\n                                                                                                                as\n                                                                                                                std::os::raw::c_int\n                                                                                                                as\n                                                                                                                isize)).xoffset\n                                                                                  +\n                                                                                  (if flipy\n                                                                                          !=\n                                                                                          0\n                                                                                      {\n                                                                                       j\n                                                                                   } else {\n                                                                                       (*width.as_mut_ptr().offset(0\n                                                                                                                       as\n                                                                                                                       std::os::raw::c_int\n                                                                                                                       as\n                                                                                                                       isize)\n                                                                                            -\n                                                                                            1\n                                                                                                as\n                                                                                                std::os::raw::c_int)\n                                                                                           -\n                                                                                           j\n                                                                                   }))\n                                                                                 as\n                                                                                 std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uchar>()\n                                                                                                                 as\n                                                                                                                 std::os::raw::c_ulong).wrapping_add((0\n                                                                                                                                                  as\n                                                                                                                                                  std::os::raw::c_int\n                                                                                                                                                  *\n                                                                                                                                                  (**ximage.as_mut_ptr().offset(0\n                                                                                                                                                                                    as\n                                                                                                                                                                                    std::os::raw::c_int\n                                                                                                                                                                                    as\n                                                                                                                                                                                    isize)).bytes_per_line)\n                                                                                                                                                 as\n                                                                                                                                                 std::os::raw::c_ulong)\n                                                                                as\n                                                                                isize)\n                    as *mut std::os::raw::c_char as *mut std::os::raw::c_uchar;\n            p2step =\n                ((*ximage[0 as std::os::raw::c_int as usize]).bytes_per_line as\n                     std::os::raw::c_ulong).wrapping_div(::std::mem::size_of::<std::os::raw::c_uchar>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            if flipx != 0 {\n                p2 =\n                    p2.offset((p2step *\n                                   (height[0 as std::os::raw::c_int as usize] -\n                                        1 as std::os::raw::c_int)) as isize);\n                p2step = -p2step\n            }\n            i = height[0 as std::os::raw::c_int as usize];\n            loop  {\n                let mut c: std::os::raw::c_uchar = *p2;\n                p2 = p2.offset(p2step as isize);\n                k = magx;\n                loop  {\n                    let fresh0 = p1;\n                    p1 = p1.offset(1);\n                    *fresh0 = c;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        } else if flipx != 0 {\n            p2 = p2.offset(width[0 as std::os::raw::c_int as usize] as isize);\n            i = width[0 as std::os::raw::c_int as usize];\n            loop  {\n                p2 = p2.offset(-1);\n                let mut c_0: std::os::raw::c_uchar = *p2;\n                k = magx;\n                loop  {\n                    let fresh1 = p1;\n                    p1 = p1.offset(1);\n                    *fresh1 = c_0;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        } else {\n            i = width[0 as std::os::raw::c_int as usize];\n            loop  {\n                let fresh2 = p2;\n                p2 = p2.offset(1);\n                let mut c_1: std::os::raw::c_uchar = *fresh2;\n                k = magx;\n                loop  {\n                    let fresh3 = p1;\n                    p1 = p1.offset(1);\n                    *fresh3 = c_1;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n                i -= 1;\n                if !(i > 0 as std::os::raw::c_int) { break ; }\n            }\n        }\n        /* draw vertical grid */\n        /* draw vertical grid */\n        /* draw vertical grid */\n        if gridy != 0 && magx >= 2 as std::os::raw::c_int {\n            p1 = p1_save.offset(-(1 as std::os::raw::c_int as isize));\n            i = magx;\n            k =\n                if flipxy != 0 {\n                    height[0 as std::os::raw::c_int as usize]\n                } else { width[0 as std::os::raw::c_int as usize] };\n            loop  {\n                p1 = p1.offset(i as isize);\n                *p1 =\n                    (*p1 as std::os::raw::c_int ^\n                         !(0 as std::os::raw::c_int as std::os::raw::c_uchar as std::os::raw::c_int))\n                        as std::os::raw::c_uchar;\n                k -= 1;\n                if !(k > 0 as std::os::raw::c_int) { break ; }\n            }\n        }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u8",
+          "mut p2: *mut u8",
+          "mut p2step: i32",
+          "mut p1_save: *mut u8"
+        ],
+        "live_out": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u8",
+          "mut p2: *mut u8",
+          "mut p2step: i32",
+          "mut p1_save: *mut u8"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "span": "xzoom.rs:1395:5: 1425:2 (#0)",
+        "pieces": [
+          "xzoom.rs:1395:5: 1425:2 (#0)"
+        ],
+        "num_lines": 46,
+        "source": "if magy > 1 as std::os::raw::c_int {\n            /* p1 point to begining of scanline j*magy in DST */\n            /* p1 point to begining of scanline j*magy in DST */\n            /* p1 point to begining of scanline j*magy in DST */\n            p1 = p1_save;\n            /* p2 points to begining of next line */\n            /* p2 points to begining of next line */\n            /* p2 points to begining of next line */\n            p2 = p1;\n            p2step =\n                ((*ximage[1 as std::os::raw::c_int as usize]).bytes_per_line as\n                     std::os::raw::c_ulong).wrapping_div(::std::mem::size_of::<std::os::raw::c_uchar>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            i =\n                (width[1 as std::os::raw::c_int as usize] as\n                     std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_uchar>()\n                                                     as std::os::raw::c_ulong) as\n                    std::os::raw::c_int;\n            k = magy - 1 as std::os::raw::c_int;\n            loop  {\n                p2 = p2.offset(p2step as isize);\n                memcpy(p2 as *mut std::os::raw::c_void, p1 as *const std::os::raw::c_void,\n                       i as std::os::raw::c_ulong);\n                k -= 1;\n                if !(k > 0 as std::os::raw::c_int) { break ; }\n            }\n            /* draw horizontal grid */\n            /* draw horizontal grid */\n            /* draw horizontal grid */\n            if gridx != 0 && magy >= 2 as std::os::raw::c_int {\n                k = width[1 as std::os::raw::c_int as usize];\n                loop  {\n                    let fresh4 = p2;\n                    p2 = p2.offset(1);\n                    *fresh4 =\n                        (*fresh4 as std::os::raw::c_int ^\n                             !(0 as std::os::raw::c_int as std::os::raw::c_uchar as\n                                   std::os::raw::c_int)) as std::os::raw::c_uchar;\n                    k -= 1;\n                    if !(k > 0 as std::os::raw::c_int) { break ; }\n                }\n            }\n        }\n        j -= 1;\n        if !(j >= 0 as std::os::raw::c_int) { break ; }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32",
+          "mut p1: *mut u8",
+          "mut p2: *mut u8",
+          "mut p2step: i32",
+          "mut p1_save: *mut u8"
+        ],
+        "live_out": []
+      },
+      {
+        "chunk_id": 3,
+        "span": "xzoom.rs:1165:5: 1428:3 (#0)",
+        "pieces": [
+          "xzoom.rs:1165:5: 1179:4 (#0)",
+          "xzoom.rs:1264:1: 1265:4 (#0)",
+          "xzoom.rs:1391:1: 1395:4 (#0)",
+          "xzoom.rs:1427:1: 1428:3 (#0)"
+        ],
+        "num_lines": 18,
+        "source": "let mut i: std::os::raw::c_int = 0;\n    let mut j: std::os::raw::c_int = 0;\n    let mut k: std::os::raw::c_int = 0;\n    /* copy scaled lines from SRC to DST */\n    /* copy scaled lines from SRC to DST */\n    /* copy scaled lines from SRC to DST */\n    j =\n        if flipxy != 0 {\n            (width[0 as std::os::raw::c_int as usize]) - 1 as std::os::raw::c_int\n        } else { (height[0 as std::os::raw::c_int as usize]) - 1 as std::os::raw::c_int };\n    loop  {\n       <<chunk 0>>       <<chunk 1>>        /* duplicate that line as needed */\n        /* duplicate that line as needed */\n        /* duplicate that line as needed */\n       <<chunk 2>>    };",
+        "sub_chunks": [
+          0,
+          1,
+          2
+        ],
+        "live_in": [],
+        "live_out": [
+          "mut i: i32",
+          "mut j: i32",
+          "mut k: i32"
+        ]
+      }
+    ]
+  },
+  {
+    "func_defid": "DefId(0:118 ~ c2rust_out[0636]::xzoom)",
+    "span": "xzoom.rs:1906:1: 2014:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1906:1: 2014:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 56,
+    "source": "pub unsafe extern \"C\" fn xzoom(mut buttonpressed: std::os::raw::c_int) {\n    let mut title: [std::os::raw::c_char; 80] = [0; 80];\n    XGetSubImage(dpy, (*scr).root, xgrab, ygrab,\n                 width[0 as std::os::raw::c_int as usize] as std::os::raw::c_uint,\n                 height[0 as std::os::raw::c_int as usize] as std::os::raw::c_uint,\n                 !(0 as std::os::raw::c_long) as std::os::raw::c_ulong, 2 as std::os::raw::c_int,\n                 ximage[0 as std::os::raw::c_int as usize], 0 as std::os::raw::c_int,\n                 0 as std::os::raw::c_int);\n    if depth == 8 as std::os::raw::c_int as std::os::raw::c_uint {\n        scale8();\n    } else if depth as std::os::raw::c_ulong <=\n                  (8 as std::os::raw::c_int as\n                       std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_short>()\n                                                       as std::os::raw::c_ulong) {\n        scale16();\n    } else if depth as std::os::raw::c_ulong <=\n                  (8 as std::os::raw::c_int as\n                       std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_int>()\n                                                       as std::os::raw::c_ulong) {\n        scale32();\n    }\n    XPutImage(dpy, win, gc, ximage[1 as std::os::raw::c_int as usize],\n              0 as std::os::raw::c_int, 0 as std::os::raw::c_int, 0 as std::os::raw::c_int,\n              0 as std::os::raw::c_int,\n              width[1 as std::os::raw::c_int as usize] as std::os::raw::c_uint,\n              height[1 as std::os::raw::c_int as usize] as std::os::raw::c_uint);\n    if set_title != 0 {\n        if magx == magy && flipx == 0 && flipy == 0 && flipxy == 0 {\n            sprintf(title.as_mut_ptr(),\n                    b\"%s x%d\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    progname, magx);\n        } else {\n            sprintf(title.as_mut_ptr(),\n                    b\"%s X %s%d%s Y %s%d\\x00\" as *const u8 as\n                        *const std::os::raw::c_char, progname,\n                    if flipx != 0 {\n                        b\"-\\x00\" as *const u8 as *const std::os::raw::c_char\n                    } else { b\"\\x00\" as *const u8 as *const std::os::raw::c_char },\n                    magx,\n                    if flipxy != 0 {\n                        b\" <=>\\x00\" as *const u8 as *const std::os::raw::c_char\n                    } else { b\";\\x00\" as *const u8 as *const std::os::raw::c_char },\n                    if flipy != 0 {\n                        b\"-\\x00\" as *const u8 as *const std::os::raw::c_char\n                    } else { b\"\\x00\" as *const u8 as *const std::os::raw::c_char },\n                    magy);\n        }\n        XChangeProperty(dpy, win, 39 as std::os::raw::c_int as Atom,\n                        31 as std::os::raw::c_int as Atom, 8 as std::os::raw::c_int,\n                        0 as std::os::raw::c_int,\n                        title.as_mut_ptr() as *mut std::os::raw::c_uchar,\n                        strlen(title.as_mut_ptr()) as std::os::raw::c_int);\n        set_title = 0 as std::os::raw::c_int\n    }\n    XSync(dpy, 0 as std::os::raw::c_int);\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2544:27: 2544:48 (#0)",
+        "source": "xzoom(buttonpressed);"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:978:1: 978:69 (#0)",
+        "source": "pub static mut scr: *mut Screen = 0 as *const Screen as *mut Screen;"
+      },
+      {
+        "span": "xzoom.rs:1038:1: 1038:95 (#0)",
+        "source": "pub static mut depth: std::os::raw::c_uint = 0 as std::os::raw::c_int as std::os::raw::c_uint;"
+      },
+      {
+        "span": "xzoom.rs:1040:1: 1041:44 (#0)",
+        "source": "pub static mut ximage: [*mut XImage; 2] =\n    [0 as *const XImage as *mut XImage; 2];"
+      },
+      {
+        "span": "xzoom.rs:1006:1: 1006:47 (#0)",
+        "source": "pub static mut ygrab: std::os::raw::c_int = 0;"
+      },
+      {
+        "span": "xzoom.rs:1032:1: 1033:60 (#0)",
+        "source": "pub static mut width: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:998:1: 999:67 (#0)",
+        "source": "pub static mut progname: *mut std::os::raw::c_char =\n    0 as *const std::os::raw::c_char as *mut std::os::raw::c_char;"
+      },
+      {
+        "span": "xzoom.rs:1011:1: 1011:69 (#0)",
+        "source": "pub static mut magy: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1035:1: 1036:60 (#0)",
+        "source": "pub static mut height: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1009:1: 1009:69 (#0)",
+        "source": "pub static mut magx: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:980:1: 980:32 (#0)",
+        "source": "pub static mut win: Window = 0;"
+      },
+      {
+        "span": "xzoom.rs:992:1: 992:55 (#0)",
+        "source": "pub static mut gc: GC = 0 as *const _XGC as *mut _XGC;"
+      },
+      {
+        "span": "xzoom.rs:1001:1: 1001:51 (#0)",
+        "source": "pub static mut set_title: std::os::raw::c_int = 0;"
+      },
+      {
+        "span": "xzoom.rs:976:1: 976:72 (#0)",
+        "source": "pub static mut dpy: *mut Display = 0 as *const Display as *mut Display;"
+      },
+      {
+        "span": "xzoom.rs:1004:1: 1004:47 (#0)",
+        "source": "pub static mut xgrab: std::os::raw::c_int = 0;"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:111 ~ c2rust_out[0636]::allocate_images)",
+    "span": "xzoom.rs:1061:1: 1085:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1061:1: 1085:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 25,
+    "source": "pub unsafe extern \"C\" fn allocate_images() {\n    let mut i: std::os::raw::c_int = 0;\n    i = 0 as std::os::raw::c_int;\n    while i < 2 as std::os::raw::c_int {\n        let mut data: *mut std::os::raw::c_char = 0 as *mut std::os::raw::c_char;\n        data =\n            malloc(((*(dpy as _XPrivDisplay)).bitmap_unit / 8 as std::os::raw::c_int *\n                        width[i as usize] * height[i as usize]) as\n                       std::os::raw::c_ulong) as *mut std::os::raw::c_char;\n        ximage[i as usize] =\n            XCreateImage(dpy, (*scr).root_visual,\n                         (*scr).root_depth as std::os::raw::c_uint, 2 as std::os::raw::c_int,\n                         0 as std::os::raw::c_int, data,\n                         width[i as usize] as std::os::raw::c_uint,\n                         height[i as usize] as std::os::raw::c_uint,\n                         32 as std::os::raw::c_int, 0 as std::os::raw::c_int);\n        if ximage[i as usize].is_null() {\n            perror(b\"XCreateImage\\x00\" as *const u8 as *const std::os::raw::c_char);\n            exit(-(1 as std::os::raw::c_int));\n        }\n        i += 1\n        /* XSHM */\n    }\n    created_images = 1 as std::os::raw::c_int;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:129 ~ c2rust_out[0636]::resize)",
+        "span": "xzoom.rs:1149:9: 1149:27 (#0)",
+        "source": "allocate_images();"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:1044:1: 1044:79 (#0)",
+        "source": "pub static mut created_images: std::os::raw::c_int = 0 as std::os::raw::c_int;"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:112 ~ c2rust_out[0636]::destroy_images)",
+    "span": "xzoom.rs:1087:1: 1103:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1087:1: 1103:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 17,
+    "source": "pub unsafe extern \"C\" fn destroy_images() {\n    let mut i: std::os::raw::c_int = 0;\n    if created_images == 0 { return }\n    i = 0 as std::os::raw::c_int;\n    while i < 2 as std::os::raw::c_int {\n        free((*ximage[i as usize]).data as *mut std::os::raw::c_void);\n        /* and destroy image */\n        (*ximage[i as usize]).data =\n            0 as *mut std::os::raw::c_char; /* remove refrence to that address */\n        Some((**ximage.as_mut_ptr().offset(i as\n                                               isize)).f.destroy_image.expect(\"non-null function pointer\")).expect(\"non-null function pointer\")(ximage[i\n                                                                                                                                                           as\n                                                                                                                                                           usize]);\n        i += 1\n    }\n    created_images = 0 as std::os::raw::c_int;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:129 ~ c2rust_out[0636]::resize)",
+        "span": "xzoom.rs:1120:9: 1120:26 (#0)",
+        "source": "destroy_images();"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:1044:1: 1044:79 (#0)",
+        "source": "pub static mut created_images: std::os::raw::c_int = 0 as std::os::raw::c_int;"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:114 ~ c2rust_out[0636]::resize)",
+    "span": "xzoom.rs:1118:1: 1155:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1118:1: 1155:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 50,
+    "source": "pub unsafe extern \"C\" fn resize(mut new_width: std::os::raw::c_int,\n                                mut new_height: std::os::raw::c_int) {\n    destroy_images(); /* we can get rid of these */\n    /* find new dimensions for source */\n    if flipxy != 0 {\n        height[0 as std::os::raw::c_int as usize] =\n            (new_width + magx - 1 as std::os::raw::c_int) / magx;\n        width[0 as std::os::raw::c_int as usize] =\n            (new_height + magy - 1 as std::os::raw::c_int) / magy\n    } else {\n        width[0 as std::os::raw::c_int as usize] =\n            (new_width + magx - 1 as std::os::raw::c_int) / magx;\n        height[0 as std::os::raw::c_int as usize] =\n            (new_height + magy - 1 as std::os::raw::c_int) / magy\n    }\n    if width[0 as std::os::raw::c_int as usize] < 1 as std::os::raw::c_int {\n        width[0 as std::os::raw::c_int as usize] = 1 as std::os::raw::c_int\n    }\n    if width[0 as std::os::raw::c_int as usize] > (*scr).width {\n        width[0 as std::os::raw::c_int as usize] = (*scr).width\n    }\n    if height[0 as std::os::raw::c_int as usize] < 1 as std::os::raw::c_int {\n        height[0 as std::os::raw::c_int as usize] = 1 as std::os::raw::c_int\n    }\n    if height[0 as std::os::raw::c_int as usize] > (*scr).height {\n        height[0 as std::os::raw::c_int as usize] = (*scr).height\n    }\n    /* temporary, the dest image may be larger than the\n\t   actual window */\n    if flipxy != 0 {\n        width[1 as std::os::raw::c_int as usize] =\n            magx *\n                height[0 as std::os::raw::c_int as usize]; /* allocate new images */\n        height[1 as std::os::raw::c_int as usize] =\n            magy * width[0 as std::os::raw::c_int as usize]\n    } else {\n        width[1 as std::os::raw::c_int as usize] =\n            magx * width[0 as std::os::raw::c_int as usize];\n        height[1 as std::os::raw::c_int as usize] =\n            magy * height[0 as std::os::raw::c_int as usize]\n    }\n    allocate_images();\n    /* remember actual window size */\n    if width[1 as std::os::raw::c_int as usize] > new_width {\n        width[1 as std::os::raw::c_int as usize] = new_width\n    }\n    if height[1 as std::os::raw::c_int as usize] > new_height {\n        height[1 as std::os::raw::c_int as usize] = new_height\n    };\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2344:1: 2344:27 (#0)",
+        "source": "resize(width_1, height_1);"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:1011:1: 1011:69 (#0)",
+        "source": "pub static mut magy: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1009:1: 1009:69 (#0)",
+        "source": "pub static mut magx: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:978:1: 978:69 (#0)",
+        "source": "pub static mut scr: *mut Screen = 0 as *const Screen as *mut Screen;"
+      },
+      {
+        "span": "xzoom.rs:1032:1: 1033:60 (#0)",
+        "source": "pub static mut width: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1035:1: 1036:60 (#0)",
+        "source": "pub static mut height: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:113 ~ c2rust_out[0636]::Usage)",
+    "span": "xzoom.rs:1105:1: 1112:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1105:1: 1112:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 6,
+    "source": "pub unsafe extern \"C\" fn Usage() {\n    fprintf(stderr,\n            b\"Usage: %s [ args ]\\nCommand line args:\\n-display displayname\\n-mag magnification [ magnification ]\\n-geometry geometry\\n-source geometry\\n-dock\\n-x\\n-y\\n-xy\\n\\nWindow commands:\\n+: Zoom in\\n-: Zoom out\\nx: Flip right and left\\ny: Flip top and bottom\\nz: Rotate 90 degrees counter-clockwize\\nw: Next \\'+\\' or \\'-\\' only change width scaling\\nh: Next \\'+\\' or \\'-\\' only change height scaling\\nd: Change delay between frames\\nq: Quit\\nArrow keys: Scroll in direction of arrow\\nMouse button drag: Set top-left corner of viewed area\\n\\x00\"\n                as *const u8 as *const std::os::raw::c_char, progname);\n    exit(1 as std::os::raw::c_int);\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2177:50: 2177:58 (#0)",
+        "source": "Usage();"
+      },
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2111:51: 2111:59 (#0)",
+        "source": "Usage();"
+      },
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2184:50: 2184:58 (#0)",
+        "source": "Usage();"
+      },
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2188:17: 2188:25 (#0)",
+        "source": "Usage();"
+      },
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2232:9: 2232:17 (#0)",
+        "source": "Usage();"
+      },
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2195:18: 2195:26 (#0)",
+        "source": "Usage();"
+      },
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2137:50: 2137:58 (#0)",
+        "source": "Usage();"
+      },
+      {
+        "caller": "DefId(0:136 ~ c2rust_out[0636]::main_0)",
+        "span": "xzoom.rs:2157:50: 2157:58 (#0)",
+        "source": "Usage();"
+      }
+    ],
+    "globals": [],
+    "imports": [
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:121 ~ c2rust_out[0636]::main_0)",
+    "span": "xzoom.rs:2016:1: 2549:2 (#0)",
+    "pieces": [
+      "xzoom.rs:2016:1: 2018:4 (#0)",
+      "xzoom.rs:2082:1: 2082:4 (#0)",
+      "xzoom.rs:2228:1: 2228:4 (#0)",
+      "xzoom.rs:2549:1: 2549:2 (#0)"
+    ],
+    "sub_chunks": [
+      2,
+      3,
+      4
+    ],
+    "num_lines": 6,
+    "source": "unsafe fn main_0(mut argc: std::os::raw::c_int, mut argv: *mut *mut std::os::raw::c_char)\n -> std::os::raw::c_int {\n   <<chunk 2>>   <<chunk 3>>   <<chunk 4>>}",
+    "calls": [
+      {
+        "caller": "DefId(0:139 ~ c2rust_out[0636]::main)",
+        "span": "xzoom.rs:2561:19: 2561:61 (#0)",
+        "source": "unsafe { main_0(argc, argv.as_mut_ptr()) }"
+      }
+    ],
+    "globals": [
+      {
+        "span": "xzoom.rs:1035:1: 1036:60 (#0)",
+        "source": "pub static mut height: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:992:1: 992:55 (#0)",
+        "source": "pub static mut gc: GC = 0 as *const _XGC as *mut _XGC;"
+      },
+      {
+        "span": "xzoom.rs:1019:1: 1019:70 (#0)",
+        "source": "pub static mut flipy: std::os::raw::c_int = 0 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:994:1: 994:40 (#0)",
+        "source": "pub static mut when_button: Cursor = 0;"
+      },
+      {
+        "span": "xzoom.rs:1006:1: 1006:47 (#0)",
+        "source": "pub static mut ygrab: std::os::raw::c_int = 0;"
+      },
+      {
+        "span": "xzoom.rs:998:1: 999:67 (#0)",
+        "source": "pub static mut progname: *mut std::os::raw::c_char =\n    0 as *const std::os::raw::c_char as *mut std::os::raw::c_char;"
+      },
+      {
+        "span": "xzoom.rs:1032:1: 1033:60 (#0)",
+        "source": "pub static mut width: [std::os::raw::c_int; 2] =\n    [0 as std::os::raw::c_int, 256 as std::os::raw::c_int];"
+      },
+      {
+        "span": "xzoom.rs:1009:1: 1009:69 (#0)",
+        "source": "pub static mut magx: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:978:1: 978:69 (#0)",
+        "source": "pub static mut scr: *mut Screen = 0 as *const Screen as *mut Screen;"
+      },
+      {
+        "span": "xzoom.rs:1016:1: 1016:70 (#0)",
+        "source": "pub static mut flipx: std::os::raw::c_int = 0 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:1052:1: 1052:75 (#0)",
+        "source": "pub static mut delay: std::os::raw::c_int = 200000 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:976:1: 976:72 (#0)",
+        "source": "pub static mut dpy: *mut Display = 0 as *const Display as *mut Display;"
+      },
+      {
+        "span": "xzoom.rs:1038:1: 1038:95 (#0)",
+        "source": "pub static mut depth: std::os::raw::c_uint = 0 as std::os::raw::c_int as std::os::raw::c_uint;"
+      },
+      {
+        "span": "xzoom.rs:984:1: 984:39 (#0)",
+        "source": "pub static mut wm_protocols: Atom = 0;"
+      },
+      {
+        "span": "xzoom.rs:1013:1: 1013:71 (#0)",
+        "source": "pub static mut flipxy: std::os::raw::c_int = 0 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:988:1: 988:40 (#0)",
+        "source": "pub static mut wm_windowtype: Atom = 0;"
+      },
+      {
+        "span": "xzoom.rs:986:1: 986:34 (#0)",
+        "source": "pub static mut wm_dock: Atom = 0;"
+      },
+      {
+        "span": "xzoom.rs:990:1: 990:48 (#0)",
+        "source": "pub static mut status: std::os::raw::c_int = 0;"
+      },
+      {
+        "span": "xzoom.rs:1004:1: 1004:47 (#0)",
+        "source": "pub static mut xgrab: std::os::raw::c_int = 0;"
+      },
+      {
+        "span": "xzoom.rs:980:1: 980:32 (#0)",
+        "source": "pub static mut win: Window = 0;"
+      },
+      {
+        "span": "xzoom.rs:982:1: 982:43 (#0)",
+        "source": "pub static mut wm_delete_window: Atom = 0;"
+      },
+      {
+        "span": "xzoom.rs:1001:1: 1001:51 (#0)",
+        "source": "pub static mut set_title: std::os::raw::c_int = 0;"
+      },
+      {
+        "span": "xzoom.rs:1011:1: 1011:69 (#0)",
+        "source": "pub static mut magy: std::os::raw::c_int = 2 as std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:996:1: 996:38 (#0)",
+        "source": "pub static mut crosshair: Cursor = 0;"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      }
+    ],
+    "chunks": [
+      {
+        "chunk_id": 0,
+        "span": "xzoom.rs:2381:13: 2499:2 (#0)",
+        "pieces": [
+          "xzoom.rs:2381:13: 2499:2 (#0)"
+        ],
+        "num_lines": 122,
+        "source": "match XKeycodeToKeysym(dpy, event.xkey.keycode as KeyCode,\n                                           0 as std::os::raw::c_int) {\n                        65507 | 65508 => { scroll = 10 as std::os::raw::c_int }\n                        43 | 61 | 65451 => {\n                            if yzoom_flag == 0 { magx += 1 }\n                            if xzoom_flag == 0 { magy += 1 }\n                            yzoom_flag = 0 as std::os::raw::c_int;\n                            xzoom_flag = yzoom_flag;\n                            resize(width[1 as std::os::raw::c_int as usize],\n                                   height[1 as std::os::raw::c_int as usize]);\n                            set_title = 1 as std::os::raw::c_int\n                        }\n                        45 | 65453 => {\n                            if yzoom_flag == 0 { magx -= 1 }\n                            if xzoom_flag == 0 { magy -= 1 }\n                            yzoom_flag = 0 as std::os::raw::c_int;\n                            xzoom_flag = yzoom_flag;\n                            if magx < 1 as std::os::raw::c_int {\n                                magx = 1 as std::os::raw::c_int\n                            }\n                            if magy < 1 as std::os::raw::c_int {\n                                magy = 1 as std::os::raw::c_int\n                            }\n                            resize(width[1 as std::os::raw::c_int as usize],\n                                   height[1 as std::os::raw::c_int as usize]);\n                            set_title = 1 as std::os::raw::c_int\n                        }\n                        65361 | 65430 => {\n                            if flipxy != 0 {\n                                if flipx != 0 {\n                                    ygrab += scroll\n                                } else { ygrab -= scroll }\n                            } else if flipx != 0 {\n                                xgrab += scroll\n                            } else { xgrab -= scroll }\n                        }\n                        65363 | 65432 => {\n                            if flipxy != 0 {\n                                if flipx != 0 {\n                                    ygrab -= scroll\n                                } else { ygrab += scroll }\n                            } else if flipx != 0 {\n                                xgrab -= scroll\n                            } else { xgrab += scroll }\n                        }\n                        65362 | 65431 => {\n                            if flipxy != 0 {\n                                if flipy != 0 {\n                                    xgrab -= scroll\n                                } else { xgrab += scroll }\n                            } else if flipy != 0 {\n                                ygrab += scroll\n                            } else { ygrab -= scroll }\n                        }\n                        65364 | 65433 => {\n                            if flipxy != 0 {\n                                if flipy != 0 {\n                                    xgrab += scroll\n                                } else { xgrab -= scroll }\n                            } else if flipy != 0 {\n                                ygrab -= scroll\n                            } else { ygrab += scroll }\n                        }\n                        120 => {\n                            flipx = (flipx == 0) as std::os::raw::c_int;\n                            set_title = 1 as std::os::raw::c_int\n                        }\n                        121 => {\n                            flipy = (flipy == 0) as std::os::raw::c_int;\n                            set_title = 1 as std::os::raw::c_int\n                        }\n                        122 => {\n                            if flipx ^ flipy ^ flipxy != 0 {\n                                flipx = (flipx == 0) as std::os::raw::c_int;\n                                flipy = (flipy == 0) as std::os::raw::c_int\n                            }\n                            flipxy = (flipxy == 0) as std::os::raw::c_int;\n                            resize(width[1 as std::os::raw::c_int as usize],\n                                   height[1 as std::os::raw::c_int as usize]);\n                            set_title = 1 as std::os::raw::c_int\n                        }\n                        119 => {\n                            xzoom_flag = 1 as std::os::raw::c_int;\n                            yzoom_flag = 0 as std::os::raw::c_int\n                        }\n                        104 => {\n                            yzoom_flag = 1 as std::os::raw::c_int;\n                            xzoom_flag = 0 as std::os::raw::c_int\n                        }\n                        103 => {\n                            gridx = (gridx == 0) as std::os::raw::c_int;\n                            gridy = (gridy == 0) as std::os::raw::c_int\n                        }\n                        100 => {\n                            delay_index += 1;\n                            if delay_index >= 5 as std::os::raw::c_int {\n                                delay_index = 0 as std::os::raw::c_int\n                            }\n                            delay = delays[delay_index as usize];\n                            sprintf(title.as_mut_ptr(),\n                                    b\"delay = %d ms\\x00\" as *const u8 as\n                                        *const std::os::raw::c_char,\n                                    delay / 1000 as std::os::raw::c_int);\n                            XChangeProperty(dpy, win,\n                                            39 as std::os::raw::c_int as Atom,\n                                            31 as std::os::raw::c_int as Atom,\n                                            8 as std::os::raw::c_int,\n                                            0 as std::os::raw::c_int,\n                                            title.as_mut_ptr() as\n                                                *mut std::os::raw::c_uchar,\n                                            strlen(title.as_mut_ptr()) as\n                                                std::os::raw::c_int);\n                            signal(14 as std::os::raw::c_int,\n                                   Some(timeout_func as\n                                            unsafe extern \"C\" fn(_:\n                                                                     std::os::raw::c_int)\n                                                -> ()));\n                            alarm(2 as std::os::raw::c_int as std::os::raw::c_uint);\n                        }\n                        113 => { exit(0 as std::os::raw::c_int); }\n                        _ => { }\n                    }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut event: _XEvent",
+          "mut scroll: i32",
+          "mut title: [i8; 80]"
+        ],
+        "live_out": [
+          "mut event: _XEvent",
+          "mut scroll: i32",
+          "mut title: [i8; 80]"
+        ]
+      },
+      {
+        "chunk_id": 1,
+        "span": "xzoom.rs:2356:13: 2541:7 (#0)",
+        "pieces": [
+          "xzoom.rs:2356:13: 2381:12 (#0)",
+          "xzoom.rs:2501:1: 2541:7 (#0)"
+        ],
+        "num_lines": 69,
+        "source": "XNextEvent(dpy, &mut event);\n            match event.type_0 {\n                33 => {\n                    if event.xclient.message_type == wm_protocols &&\n                           event.xclient.data.l[0 as std::os::raw::c_int as usize] as\n                               std::os::raw::c_ulong == wm_delete_window {\n                        exit(0 as std::os::raw::c_int);\n                    }\n                }\n                22 => {\n                    if event.xconfigure.width !=\n                           width[1 as std::os::raw::c_int as usize] ||\n                           event.xconfigure.height !=\n                               height[1 as std::os::raw::c_int as usize] {\n                        resize(event.xconfigure.width,\n                               event.xconfigure.height);\n                    }\n                }\n                15 => {\n                    /* VisibilityUnobscured, VisibilityPartiallyObscured, or VisibilityFullyObscured */\n                    visible =\n                        (event.xvisibility.state != 2 as std::os::raw::c_int) as\n                            std::os::raw::c_int\n                }\n                3 => {\n                    match XKeycodeToKeysym(dpy, event.xkey.keycode as KeyCode,\n                                           0 as std::os::raw::c_int) {\n                        65507 | 65508 => { scroll = 1 as std::os::raw::c_int }\n                        _ => { }\n                    }\n                }\n                2 => {\n                   <<chunk 0>>                }\n                4 => {\n                    xgrab = event.xbutton.x_root;\n                    ygrab = event.xbutton.y_root;\n                    XDefineCursor(dpy, win, when_button);\n                    buttonpressed = 1 as std::os::raw::c_int\n                }\n                5 => {\n                    /*\n\t\t\t\txgrab = event.xbutton.x_root - width[SRC]/2;\n\t\t\t\tygrab = event.xbutton.y_root - height[SRC]/2;\n\t\t\t\t*/\n                    XDefineCursor(dpy, win, crosshair);\n                    buttonpressed = 0 as std::os::raw::c_int\n                }\n                6 => {\n                    if buttonpressed != 0 {\n                        xgrab = event.xmotion.x_root;\n                        ygrab = event.xmotion.y_root\n                    }\n                }\n                21 | _ => { }\n            }\n            /* trying XShmGetImage when part of the rect is\n\t\t\t   not on the screen will fail LOUDLY..\n\t\t\t   we have to veryfy this after anything that may\n\t\t\t   may modified xgrab or ygrab or the size of\n\t\t\t   the source ximage */\n            if xgrab < 0 as std::os::raw::c_int { xgrab = 0 as std::os::raw::c_int }\n            if xgrab > (*scr).width - width[0 as std::os::raw::c_int as usize] {\n                xgrab = (*scr).width - width[0 as std::os::raw::c_int as usize]\n            }\n            if ygrab < 0 as std::os::raw::c_int { ygrab = 0 as std::os::raw::c_int }\n            if ygrab > (*scr).height - height[0 as std::os::raw::c_int as usize] {\n                ygrab = (*scr).height - height[0 as std::os::raw::c_int as usize]\n            }",
+        "sub_chunks": [
+          0
+        ],
+        "live_in": [
+          "mut event: _XEvent",
+          "mut buttonpressed: i32",
+          "mut visible: i32",
+          "mut scroll: i32",
+          "mut title: [i8; 80]"
+        ],
+        "live_out": [
+          "mut event: _XEvent",
+          "mut buttonpressed: i32",
+          "mut visible: i32",
+          "mut scroll: i32",
+          "mut title: [i8; 80]"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "span": "xzoom.rs:2018:5: 2081:74 (#0)",
+        "pieces": [
+          "xzoom.rs:2018:5: 2081:74 (#0)"
+        ],
+        "num_lines": 64,
+        "source": "let mut xswa: XSetWindowAttributes =\n        XSetWindowAttributes{background_pixmap: 0,\n                             background_pixel: 0,\n                             border_pixmap: 0,\n                             border_pixel: 0,\n                             bit_gravity: 0,\n                             win_gravity: 0,\n                             backing_store: 0,\n                             backing_planes: 0,\n                             backing_pixel: 0,\n                             save_under: 0,\n                             event_mask: 0,\n                             do_not_propagate_mask: 0,\n                             override_redirect: 0,\n                             colormap: 0,\n                             cursor: 0,};\n    let mut event: XEvent = _XEvent{type_0: 0,};\n    let mut str: XTextProperty =\n        XTextProperty{value: 0 as *mut std::os::raw::c_uchar,\n                      encoding: 0,\n                      format: 0,\n                      nitems: 0,};\n    let mut sizeh: *mut XSizeHints = 0 as *mut XSizeHints;\n    let mut ch: *mut XClassHint = 0 as *mut XClassHint;\n    let mut buttonpressed: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut visible: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut scroll: std::os::raw::c_int = 1 as std::os::raw::c_int;\n    let mut title: [std::os::raw::c_char; 80] = [0; 80];\n    let mut gcv: XGCValues =\n        XGCValues{function: 0,\n                  plane_mask: 0,\n                  foreground: 0,\n                  background: 0,\n                  line_width: 0,\n                  line_style: 0,\n                  cap_style: 0,\n                  join_style: 0,\n                  fill_style: 0,\n                  fill_rule: 0,\n                  arc_mode: 0,\n                  tile: 0,\n                  stipple: 0,\n                  ts_x_origin: 0,\n                  ts_y_origin: 0,\n                  font: 0,\n                  subwindow_mode: 0,\n                  graphics_exposures: 0,\n                  clip_x_origin: 0,\n                  clip_y_origin: 0,\n                  clip_mask: 0,\n                  dash_offset: 0,\n                  dashes: 0,};\n    let mut dpyname: *mut std::os::raw::c_char = 0 as *mut std::os::raw::c_char;\n    let mut source_geom_mask: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut dest_geom_mask: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut copy_from_src_mask: std::os::raw::c_int = 0;\n    let mut xpos: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut ypos: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut isdock: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    atexit(Some(destroy_images as unsafe extern \"C\" fn() -> ()));\n    progname = strrchr(*argv.offset(0 as std::os::raw::c_int as isize), '/' as i32);\n    if !progname.is_null() {\n        progname = progname.offset(1)\n    } else { progname = *argv.offset(0 as std::os::raw::c_int as isize) }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut argv: *mut *mut i8"
+        ],
+        "live_out": [
+          "mut argv: *mut *mut i8",
+          "mut xswa: XSetWindowAttributes",
+          "mut event: _XEvent",
+          "mut str: XTextProperty",
+          "mut sizeh: *mut XSizeHints",
+          "mut ch: *mut XClassHint",
+          "mut buttonpressed: i32",
+          "mut visible: i32",
+          "mut scroll: i32",
+          "mut title: [i8; 80]",
+          "mut gcv: XGCValues",
+          "mut dpyname: *mut i8",
+          "mut source_geom_mask: i32",
+          "mut dest_geom_mask: i32",
+          "mut copy_from_src_mask: i32",
+          "mut xpos: i32",
+          "mut ypos: i32",
+          "mut isdock: i32"
+        ]
+      },
+      {
+        "chunk_id": 3,
+        "span": "xzoom.rs:2082:5: 2227:6 (#0)",
+        "pieces": [
+          "xzoom.rs:2082:5: 2227:6 (#0)"
+        ],
+        "num_lines": 146,
+        "source": "loop \n         /* parse command line options */\n         {\n        argc -= 1;\n        if !(argc > 0 as std::os::raw::c_int) { break ; }\n        argv = argv.offset(1);\n        if *(*argv.offset(0 as std::os::raw::c_int as\n                              isize)).offset(0 as std::os::raw::c_int as isize) as\n               std::os::raw::c_int == '=' as i32 {\n            dest_geom_mask =\n                XParseGeometry(*argv.offset(0 as std::os::raw::c_int as isize),\n                               &mut xpos, &mut ypos,\n                               &mut *width.as_mut_ptr().offset(1 as\n                                                                   std::os::raw::c_int\n                                                                   as isize)\n                                   as *mut std::os::raw::c_int as *mut std::os::raw::c_uint,\n                               &mut *height.as_mut_ptr().offset(1 as\n                                                                    std::os::raw::c_int\n                                                                    as isize)\n                                   as *mut std::os::raw::c_int as *mut std::os::raw::c_uint)\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-mag\\x00\" as *const u8 as *const std::os::raw::c_char) == 0\n         {\n            argv = argv.offset(1);\n            argc -= 1;\n            magx =\n                if argc > 0 as std::os::raw::c_int {\n                    atoi(*argv.offset(0 as std::os::raw::c_int as isize))\n                } else { -(1 as std::os::raw::c_int) };\n            if magx <= 0 as std::os::raw::c_int { Usage(); }\n            magy =\n                if argc > 1 as std::os::raw::c_int {\n                    atoi(*argv.offset(1 as std::os::raw::c_int as isize))\n                } else { -(1 as std::os::raw::c_int) };\n            if magy <= 0 as std::os::raw::c_int {\n                magy = magx\n            } else { argv = argv.offset(1); argc -= 1 }\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-x\\x00\" as *const u8 as *const std::os::raw::c_char) == 0 {\n            flipx = 1 as std::os::raw::c_int\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-y\\x00\" as *const u8 as *const std::os::raw::c_char) == 0 {\n            flipy = 1 as std::os::raw::c_int\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-z\\x00\" as *const u8 as *const std::os::raw::c_char) == 0\n                      ||\n                      strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                             b\"-xy\\x00\" as *const u8 as *const std::os::raw::c_char)\n                          == 0 {\n            flipxy = 1 as std::os::raw::c_int\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-source\\x00\" as *const u8 as *const std::os::raw::c_char)\n                      == 0 {\n            argv = argv.offset(1);\n            argc -= 1;\n            if argc < 1 as std::os::raw::c_int { Usage(); }\n            source_geom_mask =\n                XParseGeometry(*argv.offset(0 as std::os::raw::c_int as isize),\n                               &mut xgrab, &mut ygrab,\n                               &mut *width.as_mut_ptr().offset(0 as\n                                                                   std::os::raw::c_int\n                                                                   as isize)\n                                   as *mut std::os::raw::c_int as *mut std::os::raw::c_uint,\n                               &mut *height.as_mut_ptr().offset(0 as\n                                                                    std::os::raw::c_int\n                                                                    as isize)\n                                   as *mut std::os::raw::c_int as *mut std::os::raw::c_uint)\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-dest\\x00\" as *const u8 as *const std::os::raw::c_char) ==\n                      0 ||\n                      strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                             b\"-geometry\\x00\" as *const u8 as\n                                 *const std::os::raw::c_char) == 0 {\n            argv = argv.offset(1);\n            argc -= 1;\n            if argc < 1 as std::os::raw::c_int { Usage(); }\n            dest_geom_mask =\n                XParseGeometry(*argv.offset(0 as std::os::raw::c_int as isize),\n                               &mut xpos, &mut ypos,\n                               &mut *width.as_mut_ptr().offset(1 as\n                                                                   std::os::raw::c_int\n                                                                   as isize)\n                                   as *mut std::os::raw::c_int as *mut std::os::raw::c_uint,\n                               &mut *height.as_mut_ptr().offset(1 as\n                                                                    std::os::raw::c_int\n                                                                    as isize)\n                                   as *mut std::os::raw::c_int as *mut std::os::raw::c_uint)\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-d\\x00\" as *const u8 as *const std::os::raw::c_char) == 0\n                      ||\n                      strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                             b\"-display\\x00\" as *const u8 as\n                                 *const std::os::raw::c_char) == 0 {\n            argv = argv.offset(1);\n            argc -= 1;\n            if argc < 1 as std::os::raw::c_int { Usage(); }\n            dpyname = *argv.offset(0 as std::os::raw::c_int as isize)\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-delay\\x00\" as *const u8 as *const std::os::raw::c_char) ==\n                      0 {\n            argv = argv.offset(1);\n            argc -= 1;\n            if argc < 1 as std::os::raw::c_int { Usage(); }\n            if sscanf(*argv.offset(0 as std::os::raw::c_int as isize),\n                      b\"%u\\x00\" as *const u8 as *const std::os::raw::c_char,\n                      &mut delay as *mut std::os::raw::c_int) != 1 as std::os::raw::c_int {\n                Usage();\n            }\n            delay *= 1000 as std::os::raw::c_int\n        } else if strcmp(*argv.offset(0 as std::os::raw::c_int as isize),\n                         b\"-dock\\x00\" as *const u8 as *const std::os::raw::c_char) ==\n                      0 {\n            isdock = 1 as std::os::raw::c_int\n        } else { Usage(); }\n    }\n    dpy = XOpenDisplay(dpyname);\n    if dpy.is_null() {\n        perror(b\"Cannot open display\\x00\" as *const u8 as\n                   *const std::os::raw::c_char);\n        exit(-(1 as std::os::raw::c_int));\n    }\n    /* Now, see if we have to calculate width[DST] and height[DST]\n\t   from the SRC parameters */\n    copy_from_src_mask = 0 as std::os::raw::c_int; /* resize etc.. */\n    if source_geom_mask & 0x4 as std::os::raw::c_int != 0 {\n        if flipxy != 0 {\n            height[1 as std::os::raw::c_int as usize] =\n                magy * width[0 as std::os::raw::c_int as usize]; /* commands */\n            copy_from_src_mask |= 0x8 as std::os::raw::c_int\n        } else {\n            width[1 as std::os::raw::c_int as usize] =\n                magx * width[0 as std::os::raw::c_int as usize];\n            copy_from_src_mask |= 0x4 as std::os::raw::c_int\n        }\n    }\n    if source_geom_mask & 0x8 as std::os::raw::c_int != 0 {\n        if flipxy != 0 {\n            width[1 as std::os::raw::c_int as usize] =\n                magx * height[0 as std::os::raw::c_int as usize];\n            copy_from_src_mask |= 0x4 as std::os::raw::c_int\n        } else {\n            height[1 as std::os::raw::c_int as usize] =\n                magy * height[0 as std::os::raw::c_int as usize];\n            copy_from_src_mask |= 0x8 as std::os::raw::c_int\n        }\n    }",
+        "sub_chunks": [],
+        "live_in": [
+          "mut argc: i32",
+          "mut argv: *mut *mut i8",
+          "mut dpyname: *mut i8",
+          "mut source_geom_mask: i32",
+          "mut dest_geom_mask: i32",
+          "mut copy_from_src_mask: i32",
+          "mut xpos: i32",
+          "mut ypos: i32",
+          "mut isdock: i32"
+        ],
+        "live_out": [
+          "mut argc: i32",
+          "mut argv: *mut *mut i8",
+          "mut dpyname: *mut i8",
+          "mut source_geom_mask: i32",
+          "mut dest_geom_mask: i32",
+          "mut copy_from_src_mask: i32",
+          "mut xpos: i32",
+          "mut ypos: i32",
+          "mut isdock: i32"
+        ]
+      },
+      {
+        "chunk_id": 4,
+        "span": "xzoom.rs:2228:5: 2548:7 (#0)",
+        "pieces": [
+          "xzoom.rs:2228:5: 2356:12 (#0)",
+          "xzoom.rs:2543:1: 2548:7 (#0)"
+        ],
+        "num_lines": 134,
+        "source": "if copy_from_src_mask & dest_geom_mask != 0 {\n        fprintf(stderr,\n                b\"Conflicting dimensions between source and dest geometry\\n\\x00\"\n                    as *const u8 as *const std::os::raw::c_char);\n        Usage();\n    }\n    scr =\n        &mut *(*(dpy as\n                     _XPrivDisplay)).screens.offset((*(dpy as\n                                                           _XPrivDisplay)).default_screen\n                                                        as isize) as\n            *mut Screen;\n    depth = (*scr).root_depth as std::os::raw::c_uint;\n    if depth < 8 as std::os::raw::c_int as std::os::raw::c_uint {\n        fprintf(stderr,\n                b\"%s: need at least 8 bits/pixel\\n\\x00\" as *const u8 as\n                    *const std::os::raw::c_char, progname);\n        exit(1 as std::os::raw::c_int);\n    }\n    if source_geom_mask & 0x10 as std::os::raw::c_int != 0 { xgrab += (*scr).width }\n    if source_geom_mask & 0x20 as std::os::raw::c_int != 0 { ygrab += (*scr).height }\n    if dest_geom_mask & 0x10 as std::os::raw::c_int != 0 { xpos += (*scr).width }\n    if dest_geom_mask & 0x20 as std::os::raw::c_int != 0 { ypos += (*scr).height }\n    printf(b\"=%dx%d+%d+%d\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           width[1 as std::os::raw::c_int as usize],\n           height[1 as std::os::raw::c_int as usize], xpos, ypos);\n    xswa.event_mask =\n        (1 as std::os::raw::c_long) << 2 as std::os::raw::c_int |\n            (1 as std::os::raw::c_long) << 3 as std::os::raw::c_int |\n            (1 as std::os::raw::c_long) << 13 as std::os::raw::c_int;\n    xswa.event_mask |= (1 as std::os::raw::c_long) << 17 as std::os::raw::c_int;\n    xswa.event_mask |=\n        (1 as std::os::raw::c_long) << 0 as std::os::raw::c_int |\n            (1 as std::os::raw::c_long) << 1 as std::os::raw::c_int;\n    xswa.event_mask |= (1 as std::os::raw::c_long) << 16 as std::os::raw::c_int;\n    xswa.background_pixel = (*scr).black_pixel;\n    win =\n        XCreateWindow(dpy, (*scr).root, xpos, ypos,\n                      width[1 as std::os::raw::c_int as usize] as std::os::raw::c_uint,\n                      height[1 as std::os::raw::c_int as usize] as std::os::raw::c_uint,\n                      0 as std::os::raw::c_int as std::os::raw::c_uint, (*scr).root_depth,\n                      1 as std::os::raw::c_int as std::os::raw::c_uint, (*scr).root_visual,\n                      ((1 as std::os::raw::c_long) << 11 as std::os::raw::c_int |\n                           (1 as std::os::raw::c_long) << 1 as std::os::raw::c_int) as\n                          std::os::raw::c_ulong, &mut xswa);\n    XChangeProperty(dpy, win, 37 as std::os::raw::c_int as Atom,\n                    31 as std::os::raw::c_int as Atom, 8 as std::os::raw::c_int,\n                    0 as std::os::raw::c_int, progname as *mut std::os::raw::c_uchar,\n                    strlen(progname) as std::os::raw::c_int);\n    if isdock == 0 {\n        sizeh = XAllocSizeHints();\n        (*sizeh).flags =\n            (1 as std::os::raw::c_long) << 5 as std::os::raw::c_int |\n                (1 as std::os::raw::c_long) << 4 as std::os::raw::c_int;\n        (*sizeh).max_width = width[1 as std::os::raw::c_int as usize];\n        (*sizeh).min_width = (*sizeh).max_width;\n        (*sizeh).max_height = height[1 as std::os::raw::c_int as usize];\n        (*sizeh).min_height = (*sizeh).max_height\n    }\n    XStringListToTextProperty(&mut progname, 1 as std::os::raw::c_int, &mut str);\n    ch = XAllocClassHint();\n    (*ch).res_class = progname;\n    (*ch).res_name = progname;\n    XSetWMProperties(dpy, win, &mut str, &mut str,\n                     0 as *mut *mut std::os::raw::c_char, 0 as std::os::raw::c_int, sizeh,\n                     0 as *mut XWMHints, ch);\n    if isdock != 0 {\n        wm_windowtype =\n            XInternAtom(dpy,\n                        b\"_NET_WM_WINDOW_TYPE\\x00\" as *const u8 as\n                            *const std::os::raw::c_char, 0 as std::os::raw::c_int);\n        wm_dock =\n            XInternAtom(dpy,\n                        b\"_NET_WM_WINDOW_TYPE_DOCK\\x00\" as *const u8 as\n                            *const std::os::raw::c_char, 0 as std::os::raw::c_int);\n        XChangeProperty(dpy, win, wm_windowtype, 4 as std::os::raw::c_int as Atom,\n                        32 as std::os::raw::c_int, 0 as std::os::raw::c_int,\n                        &mut wm_dock as *mut Atom as *mut std::os::raw::c_uchar,\n                        1 as std::os::raw::c_int);\n    }\n    /*\n\tXChangeProperty(dpy, win, XA_WM_NAME, XA_STRING, 8,\n\t\t\tPropModeReplace,\n\t\t\t(unsigned char *)progname, strlen(progname));\n\t*/\n    /* **\t20020213\n\t\tcode added by <tmancill@debian.org> to handle\n\t\twindow manager \"close\" event\n\t***/\n    wm_delete_window =\n        XInternAtom(dpy,\n                    b\"WM_DELETE_WINDOW\\x00\" as *const u8 as\n                        *const std::os::raw::c_char, 0 as std::os::raw::c_int);\n    wm_protocols =\n        XInternAtom(dpy,\n                    b\"WM_PROTOCOLS\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    0 as std::os::raw::c_int);\n    status =\n        XSetWMProtocols(dpy, win, &mut wm_delete_window, 1 as std::os::raw::c_int);\n    set_title = 1 as std::os::raw::c_int;\n    status = XMapWindow(dpy, win);\n    gcv.plane_mask = !(0 as std::os::raw::c_long) as std::os::raw::c_ulong;\n    gcv.subwindow_mode = 1 as std::os::raw::c_int;\n    gcv.function = 0x3 as std::os::raw::c_int;\n    gcv.foreground = (*scr).white_pixel;\n    gcv.background = (*scr).black_pixel;\n    gc =\n        XCreateGC(dpy, (*scr).root,\n                  ((1 as std::os::raw::c_long) << 0 as std::os::raw::c_int |\n                       (1 as std::os::raw::c_long) << 1 as std::os::raw::c_int |\n                       (1 as std::os::raw::c_long) << 15 as std::os::raw::c_int |\n                       (1 as std::os::raw::c_long) << 2 as std::os::raw::c_int |\n                       (1 as std::os::raw::c_long) << 3 as std::os::raw::c_int) as\n                      std::os::raw::c_ulong, &mut gcv);\n    resize(width[1 as std::os::raw::c_int as usize],\n           height[1 as std::os::raw::c_int as usize]);\n    when_button = XCreateFontCursor(dpy, 144 as std::os::raw::c_int as std::os::raw::c_uint);\n    crosshair = XCreateFontCursor(dpy, 34 as std::os::raw::c_int as std::os::raw::c_uint);\n    XDefineCursor(dpy, win, crosshair);\n    loop  {\n        /* ****\n\t\told event loop updated to support WM messages\n\t\twhile(unmapped?\n\t\t\t(XWindowEvent(dpy, win, (long)-1, &event), 1):\n\t\t\tXCheckWindowEvent(dpy, win, (long)-1, &event)) {\n\t\t******/\n        while XPending(dpy) != 0 {\n           <<chunk 1>>        }\n        if visible != 0 { xzoom(buttonpressed); }\n        if buttonpressed == 0 && delay > 0 as std::os::raw::c_int {\n            usleep(delay as __useconds_t);\n        }\n    };",
+        "sub_chunks": [
+          1
+        ],
+        "live_in": [
+          "mut xswa: XSetWindowAttributes",
+          "mut event: _XEvent",
+          "mut str: XTextProperty",
+          "mut sizeh: *mut XSizeHints",
+          "mut ch: *mut XClassHint",
+          "mut buttonpressed: i32",
+          "mut visible: i32",
+          "mut scroll: i32",
+          "mut title: [i8; 80]",
+          "mut gcv: XGCValues",
+          "mut source_geom_mask: i32",
+          "mut dest_geom_mask: i32",
+          "mut copy_from_src_mask: i32",
+          "mut xpos: i32",
+          "mut ypos: i32",
+          "mut isdock: i32"
+        ],
+        "live_out": [
+          "mut xswa: XSetWindowAttributes",
+          "mut event: _XEvent",
+          "mut str: XTextProperty",
+          "mut sizeh: *mut XSizeHints",
+          "mut ch: *mut XClassHint",
+          "mut buttonpressed: i32",
+          "mut visible: i32",
+          "mut scroll: i32",
+          "mut title: [i8; 80]",
+          "mut gcv: XGCValues",
+          "mut source_geom_mask: i32",
+          "mut dest_geom_mask: i32",
+          "mut copy_from_src_mask: i32",
+          "mut xpos: i32",
+          "mut ypos: i32",
+          "mut isdock: i32",
+          "width_1: i32",
+          "height_1: i32"
+        ]
+      }
+    ]
+  },
+  {
+    "func_defid": "DefId(0:110 ~ c2rust_out[0636]::timeout_func)",
+    "span": "xzoom.rs:1055:1: 1058:2 (#0)",
+    "pieces": [
+      "xzoom.rs:1055:1: 1058:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 5,
+    "source": "pub unsafe extern \"C\" fn timeout_func(mut signum: std::os::raw::c_int) {\n    set_title = 1 as std::os::raw::c_int;\n    signum = signum;\n    /* UNUSED */\n}",
+    "calls": [],
+    "globals": [
+      {
+        "span": "xzoom.rs:1001:1: 1001:51 (#0)",
+        "source": "pub static mut set_title: std::os::raw::c_int = 0;"
+      }
+    ],
+    "imports": [
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:124 ~ c2rust_out[0636]::main)",
+    "span": "xzoom.rs:2550:1: 2562:2 (#0)",
+    "pieces": [
+      "xzoom.rs:2550:1: 2562:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 12,
+    "source": "pub fn main() {\n    let mut args: Vec<*mut std::os::raw::c_char> = Vec::new();\n    for arg in ::std::env::args() {\n        args.push(::std::ffi::CString::new(arg).expect(\"Failed to convert argument into CString.\").into_raw());\n    };\n    args.push(::std::ptr::null_mut());\n    unsafe {\n        ::std::process::exit(main_0((args.len() - 1) as std::os::raw::c_int,\n                                    args.as_mut_ptr() as\n                                        *mut *mut std::os::raw::c_char) as i32)\n    }\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [
+      {
+        "span": "xzoom.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "xzoom.rs:21:1: 21:20 (#0)",
+        "source": "use std::ffi::CStr;"
+      },
+      {
+        "span": "xzoom.rs:19:1: 19:25 (#0)",
+        "source": "use std::os::raw::c_int;"
+      },
+      {
+        "span": "xzoom.rs:22:1: 22:18 (#0)",
+        "source": "use std::process;"
+      },
+      {
+        "span": "xzoom.rs:24:1: 24:16 (#0)",
+        "source": "use std::slice;"
+      }
+    ],
+    "chunks": []
+  }
+]

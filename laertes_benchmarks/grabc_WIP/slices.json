@@ -1,0 +1,220 @@
+[
+  {
+    "func_defid": "DefId(0:51 ~ c2rust_out[0636]::findSubWindow)",
+    "span": "grabc.rs:906:1: 933:2 (#0)",
+    "pieces": [
+      "grabc.rs:906:1: 933:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 31,
+    "source": "unsafe extern \"C\" fn findSubWindow(mut display: *mut Display,\n                                   mut top_window: Window,\n                                   mut window_to_check: Window,\n                                   mut x: *mut std::os::raw::c_int,\n                                   mut y: *mut std::os::raw::c_int) -> Window {\n    let mut newx: std::os::raw::c_int = 0;\n    let mut newy: std::os::raw::c_int = 0;\n    let mut window: Window = 0;\n    if top_window == 0 as *mut std::os::raw::c_void as Window {\n        return 0 as *mut std::os::raw::c_void as Window\n    }\n    if window_to_check == 0 as *mut std::os::raw::c_void as Window {\n        return 0 as *mut std::os::raw::c_void as Window\n    }\n    /* initialize automatics */\n    window = window_to_check;\n    while XTranslateCoordinates(display, top_window, window_to_check, *x, *y,\n                                &mut newx, &mut newy, &mut window) !=\n              0 as std::os::raw::c_int && window != 0 as *mut std::os::raw::c_void as Window {\n        if window != 0 as *mut std::os::raw::c_void as Window {\n            top_window = window_to_check;\n            window_to_check = window;\n            *x = newx;\n            *y = newy\n        }\n    }\n    if window == 0 as *mut std::os::raw::c_void as Window { window = window_to_check }\n    *x = newx;\n    *y = newy;\n    return window;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:56 ~ c2rust_out[0636]::selectWindow)",
+        "span": "grabc.rs:885:17: 885:138 (#0)",
+        "source": "target_window = findSubWindow(display, root_window, event.xbutton.subwindow, &mut event.xbutton.x, &mut event.xbutton.y);"
+      }
+    ],
+    "globals": [],
+    "imports": [
+      {
+        "span": "grabc.rs:15:1: 15:27 (#0)",
+        "source": "use std::default::Default;"
+      },
+      {
+        "span": "grabc.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "grabc.rs:15:5: 15:26 (#0)",
+        "source": "std::default::Default"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:50 ~ c2rust_out[0636]::selectWindow)",
+    "span": "grabc.rs:864:1: 903:2 (#0)",
+    "pieces": [
+      "grabc.rs:864:1: 903:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 54,
+    "source": "unsafe extern \"C\" fn selectWindow(mut display: *mut Display,\n                                  mut x: *mut std::os::raw::c_int,\n                                  mut y: *mut std::os::raw::c_int) -> Window {\n    let mut target_cursor: Cursor = 0;\n    let mut status: std::os::raw::c_int = 0;\n    let mut target_window: Window = 0;\n    let mut root_window: Window = 0;\n    let mut event: XEvent = _XEvent{type_0: 0,};\n    target_window = 0 as *mut std::os::raw::c_void as Window;\n    if cross_cursor == 0 as *mut std::os::raw::c_void as Cursor {\n        cross_cursor =\n            XCreateFontCursor(display, 130 as std::os::raw::c_int as std::os::raw::c_uint);\n        if cross_cursor == 0 as *mut std::os::raw::c_void as Cursor {\n            fprintf(stderr,\n                    b\"Failed to create Cross Cursor!\\n\\x00\" as *const u8 as\n                        *const std::os::raw::c_char);\n            return 0 as *mut std::os::raw::c_void as Window\n        }\n    }\n    target_cursor = cross_cursor;\n    root_window = XRootWindow(display, XDefaultScreen(display));\n    status =\n        XGrabPointer(display, root_window, 0 as std::os::raw::c_int,\n                     ((1 as std::os::raw::c_long) << 2 as std::os::raw::c_int) as\n                         std::os::raw::c_uint, 0 as std::os::raw::c_int, 1 as std::os::raw::c_int,\n                     root_window, target_cursor, 0 as std::os::raw::c_long as Time);\n    if status == 0 as std::os::raw::c_int {\n        XAllowEvents(display, 1 as std::os::raw::c_int, 0 as std::os::raw::c_long as Time);\n        XWindowEvent(display, root_window,\n                     (1 as std::os::raw::c_long) << 2 as std::os::raw::c_int, &mut event);\n        if event.type_0 == 4 as std::os::raw::c_int {\n            target_window =\n                findSubWindow(display, root_window, event.xbutton.subwindow,\n                              &mut event.xbutton.x, &mut event.xbutton.y);\n            if target_window == 0 as *mut std::os::raw::c_void as Window {\n                fprintf(stderr,\n                        b\"Failed to get target window, getting root window!\\n\\x00\"\n                            as *const u8 as *const std::os::raw::c_char);\n                target_window = root_window\n            }\n            XUngrabPointer(display, 0 as std::os::raw::c_long as Time);\n        }\n    } else {\n        fprintf(stderr,\n                b\"Failed to grab mouse!\\n\\x00\" as *const u8 as\n                    *const std::os::raw::c_char);\n        exit(1 as std::os::raw::c_int);\n    }\n    /* free things we do not need, always a good practice */\n    XFreeCursor(display, cross_cursor);\n    *x = event.xbutton.x;\n    *y = event.xbutton.y;\n    return target_window;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:59 ~ c2rust_out[0636]::getWindowColor)",
+        "span": "grabc.rs:946:25: 946:73 (#0)",
+        "source": "unsafe { selectWindow(display, &mut x, &mut y) }"
+      }
+    ],
+    "globals": [],
+    "imports": [
+      {
+        "span": "grabc.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "grabc.rs:15:1: 15:27 (#0)",
+        "source": "use std::default::Default;"
+      },
+      {
+        "span": "grabc.rs:15:5: 15:26 (#0)",
+        "source": "std::default::Default"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:52 ~ c2rust_out[0636]::getWindowColor)",
+    "span": "grabc.rs:942:1: 969:2 (#0)",
+    "pieces": [
+      "grabc.rs:942:1: 969:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 30,
+    "source": "unsafe extern \"C\" fn getWindowColor(mut display: *mut Display,\n                                    mut color: *mut XColor) -> std::os::raw::c_int {\n    let mut root_window: Window = 0;\n    let mut target_window: Window = 0;\n    let mut ximage: *mut XImage = 0 as *mut XImage;\n    let mut x: std::os::raw::c_int = 0;\n    let mut y: std::os::raw::c_int = 0;\n    let mut status: std::os::raw::c_int = 0;\n    root_window = XRootWindow(display, XDefaultScreen(display));\n    target_window = selectWindow(display, &mut x, &mut y);\n    if target_window == 0 as *mut std::os::raw::c_void as Window {\n        return 0 as std::os::raw::c_int\n    }\n    ximage =\n        XGetImage(display, target_window, x, y,\n                  1 as std::os::raw::c_int as std::os::raw::c_uint,\n                  1 as std::os::raw::c_int as std::os::raw::c_uint,\n                  !(0 as std::os::raw::c_long) as std::os::raw::c_ulong, 2 as std::os::raw::c_int);\n    if ximage.is_null() { return 0 as std::os::raw::c_int }\n    (*color).pixel =\n        Some((*ximage).f.get_pixel.expect(\"non-null function pointer\")).expect(\"non-null function pointer\")(ximage,\n                                                                                                            0\n                                                                                                                as\n                                                                                                                std::os::raw::c_int,\n                                                                                                            0\n                                                                                                                as\n                                                                                                                std::os::raw::c_int);\n    Some((*ximage).f.destroy_image.expect(\"non-null function pointer\")).expect(\"non-null function pointer\")(ximage);\n    return 1 as std::os::raw::c_int;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:54 ~ c2rust_out[0636]::main_0)",
+        "span": "grabc.rs:810:5: 810:54 (#0)",
+        "source": "let status = getWindowColor(display, &mut color);"
+      }
+    ],
+    "globals": [],
+    "imports": [
+      {
+        "span": "grabc.rs:15:5: 15:26 (#0)",
+        "source": "std::default::Default"
+      },
+      {
+        "span": "grabc.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "grabc.rs:15:1: 15:27 (#0)",
+        "source": "use std::default::Default;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:48 ~ c2rust_out[0636]::main_0)",
+    "span": "grabc.rs:786:1: 827:2 (#0)",
+    "pieces": [
+      "grabc.rs:786:1: 827:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 61,
+    "source": "unsafe fn main_0(mut argc: std::os::raw::c_int, mut argv: *mut *mut std::os::raw::c_char)\n -> std::os::raw::c_int {\n    let mut display: *mut Display = 0 as *mut Display;\n    let mut status: std::os::raw::c_int = 0;\n    let mut color: XColor =\n        XColor{pixel: 0, red: 0, green: 0, blue: 0, flags: 0, pad: 0,};\n    let mut cmap: Colormap = 0;\n    let mut i: std::os::raw::c_int = 0;\n    let mut r: std::os::raw::c_int = 0;\n    let mut g: std::os::raw::c_int = 0;\n    let mut b: std::os::raw::c_int = 0;\n    i = 1 as std::os::raw::c_int;\n    while i < argc {\n        if strncmp(*argv.offset(i as isize),\n                   b\"-h\\x00\" as *const u8 as *const std::os::raw::c_char,\n                   2 as std::os::raw::c_int as std::os::raw::c_ulong) == 0 as std::os::raw::c_int {\n            fprintf(stderr,\n                    b\"grabc 1.1 by Muhammad A Muquit\\n\\x00\" as *const u8 as\n                        *const std::os::raw::c_char);\n            exit(1 as std::os::raw::c_int);\n        }\n        i += 1\n    }\n    display = XOpenDisplay(0 as *mut std::os::raw::c_void as *mut std::os::raw::c_char);\n    cmap =\n        (*(*(display as\n                 _XPrivDisplay)).screens.offset((*(display as\n                                                       _XPrivDisplay)).default_screen\n                                                    as isize)).cmap;\n    XSetErrorHandler(Some(MXError as\n                              unsafe extern \"C\" fn(_: *mut Display,\n                                                   _: *mut XErrorEvent)\n                                  -> std::os::raw::c_int));\n    if display.is_null() {\n        fprintf(stderr,\n                b\"Failed to open local DISPLAY!\\'n\\x00\" as *const u8 as\n                    *const std::os::raw::c_char);\n        exit(1 as std::os::raw::c_int);\n    }\n    status = getWindowColor(display, &mut color);\n    if status == 1 as std::os::raw::c_int {\n        XQueryColor(display, cmap, &mut color);\n        r = color.red as std::os::raw::c_int >> 8 as std::os::raw::c_int;\n        g = color.green as std::os::raw::c_int >> 8 as std::os::raw::c_int;\n        b = color.blue as std::os::raw::c_int >> 8 as std::os::raw::c_int;\n        fprintf(stdout,\n                b\"#%02x%02x%02x\\n\\x00\" as *const u8 as *const std::os::raw::c_char, r,\n                g, b);\n        fflush(stdout);\n        /*\n        ** write the values in decimal on stderr\n        */\n        fprintf(stderr, b\"%d,%d,%d\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n                r, g, b);\n    } else {\n        fprintf(stderr,\n                b\"Failed to grab color!\\n\\x00\" as *const u8 as\n                    *const std::os::raw::c_char);\n    }\n    return 0 as std::os::raw::c_int;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:61 ~ c2rust_out[0636]::main)",
+        "span": "grabc.rs:1016:5: 1016:61 (#0)",
+        "source": "::std::process::exit(main_0(argc, argv_strings) as i32);"
+      }
+    ],
+    "globals": [],
+    "imports": [
+      {
+        "span": "grabc.rs:15:1: 15:27 (#0)",
+        "source": "use std::default::Default;"
+      },
+      {
+        "span": "grabc.rs:15:5: 15:26 (#0)",
+        "source": "std::default::Default"
+      },
+      {
+        "span": "grabc.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:54 ~ c2rust_out[0636]::main)",
+    "span": "grabc.rs:999:1: 1017:2 (#0)",
+    "pieces": [
+      "grabc.rs:999:1: 1017:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 12,
+    "source": "pub fn main() {\n    let mut args: Vec<*mut std::os::raw::c_char> = Vec::new();\n    for arg in ::std::env::args() {\n        args.push(::std::ffi::CString::new(arg).expect(\"Failed to convert argument into CString.\").into_raw());\n    };\n    args.push(::std::ptr::null_mut());\n    unsafe {\n        ::std::process::exit(main_0((args.len() - 1) as std::os::raw::c_int,\n                                    args.as_mut_ptr() as\n                                        *mut *mut std::os::raw::c_char) as i32)\n    }\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [
+      {
+        "span": "grabc.rs:15:5: 15:26 (#0)",
+        "source": "std::default::Default"
+      },
+      {
+        "span": "grabc.rs:15:1: 15:27 (#0)",
+        "source": "use std::default::Default;"
+      },
+      {
+        "span": "grabc.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:55 ~ c2rust_out[0636]::run_static_initializers)",
+    "span": "grabc.rs:1019:1: 1021:2 (#0)",
+    "pieces": [
+      "grabc.rs:1019:1: 1021:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 3,
+    "source": "unsafe extern \"C\" fn run_static_initializers() {\n    cross_cursor = 0 as *const std::os::raw::c_void as *mut std::os::raw::c_void as Cursor\n}",
+    "calls": [],
+    "globals": [
+      {
+        "span": "grabc.rs:830:1: 830:37 (#0)",
+        "source": "static mut cross_cursor: Cursor = 0;"
+      }
+    ],
+    "imports": [
+      {
+        "span": "grabc.rs:15:5: 15:26 (#0)",
+        "source": "std::default::Default"
+      },
+      {
+        "span": "grabc.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      },
+      {
+        "span": "grabc.rs:15:1: 15:27 (#0)",
+        "source": "use std::default::Default;"
+      }
+    ],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:53 ~ c2rust_out[0636]::MXError)",
+    "span": "grabc.rs:972:1: 997:2 (#0)",
+    "pieces": [
+      "grabc.rs:972:1: 997:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 30,
+    "source": "unsafe extern \"C\" fn MXError(mut display: *mut Display,\n                             mut error: *mut XErrorEvent) -> std::os::raw::c_int {\n    let mut xerrcode: std::os::raw::c_int = 0;\n    xerrcode = (*error).error_code as std::os::raw::c_int;\n    if xerrcode == 11 as std::os::raw::c_int ||\n           xerrcode == 10 as std::os::raw::c_int &&\n               (*error).request_code as std::os::raw::c_int == 88 as std::os::raw::c_int {\n        return 0 as std::os::raw::c_int\n    } else {\n        match (*error).request_code as std::os::raw::c_int {\n            14 => {\n                if (*error).error_code as std::os::raw::c_int == 9 as std::os::raw::c_int {\n                    return 0 as std::os::raw::c_int\n                }\n            }\n            3 | 15 => {\n                if (*error).error_code as std::os::raw::c_int == 3 as std::os::raw::c_int {\n                    return 0 as std::os::raw::c_int\n                }\n            }\n            91 => {\n                if (*error).error_code as std::os::raw::c_int == 2 as std::os::raw::c_int {\n                    return 0 as std::os::raw::c_int\n                }\n            }\n            _ => { }\n        }\n    }\n    return 1 as std::os::raw::c_int;\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [
+      {
+        "span": "grabc.rs:15:1: 15:27 (#0)",
+        "source": "use std::default::Default;"
+      },
+      {
+        "span": "grabc.rs:15:5: 15:26 (#0)",
+        "source": "std::default::Default"
+      },
+      {
+        "span": "grabc.rs:17:1: 17:23 (#0)",
+        "source": "use std::ffi::CString;"
+      }
+    ],
+    "chunks": []
+  }
+]

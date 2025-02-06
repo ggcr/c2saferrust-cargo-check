@@ -1,0 +1,221 @@
+grabc.rs:1658:1: 1715:2
+unsafe fn main_0(mut argc: std::os::raw::c_int, mut argv: * mut * mut std::os::raw::c_char)
+ -> std::os::raw::c_int {
+    let mut display: * mut crate::_XDisplay = 0 as *mut Display;
+    let mut status: i32 = 0;
+    let mut color: crate::XColor =
+        XColor{pixel: 0, red: 0, green: 0, blue: 0, flags: 0, pad: 0,};
+    let mut cmap: u64 = 0;
+    let mut i: i32 = 0;
+    let mut r: i32 = 0;
+    let mut g: i32 = 0;
+    let mut b: i32 = 0;
+    i = 1 as std::os::raw::c_int;
+    while i < argc {
+        if strncmp(*argv.offset(i as isize),
+                   b"-h\x00" as *const u8 as *const std::os::raw::c_char,
+                   2 as std::os::raw::c_int as std::os::raw::c_ulong) == 0 as std::os::raw::c_int {
+            fprintf(stderr,
+                    b"grabc 1.1 by Muhammad A Muquit\n\x00" as *const u8 as
+                        *const std::os::raw::c_char);
+            exit(1 as std::os::raw::c_int);
+        }
+        i += 1
+    }
+    display = XOpenDisplay(0 as *mut std::os::raw::c_void as *mut std::os::raw::c_char);
+    cmap =
+        (*(*(display as
+                 _XPrivDisplay)).screens.offset((*(display as
+                                                       _XPrivDisplay)).default_screen
+                                                    as isize)).cmap;
+    XSetErrorHandler(Some(MXError));
+    if display.is_null() {
+        fprintf(stderr,
+                b"Failed to open local DISPLAY!\'n\x00" as *const u8 as
+                    *const std::os::raw::c_char);
+        exit(1 as std::os::raw::c_int);
+    }
+    status = getWindowColor(display, Some(&mut color));
+    if status == 1 as std::os::raw::c_int {
+        XQueryColor(display, cmap, &mut color);
+        r = color.red as std::os::raw::c_int >> 8 as std::os::raw::c_int;
+        g = color.green as std::os::raw::c_int >> 8 as std::os::raw::c_int;
+        b = color.blue as std::os::raw::c_int >> 8 as std::os::raw::c_int;
+        fprintf(stdout,
+                b"#%02x%02x%02x\n\x00" as *const u8 as *const std::os::raw::c_char, r,
+                g, b);
+        fflush(stdout);
+        /*
+        ** write the values in decimal on stderr
+        */
+        fprintf(stderr, b"%d,%d,%d\n\x00" as *const u8 as *const std::os::raw::c_char,
+                r, g, b);
+    } else {
+        fprintf(stderr,
+                b"Failed to grab color!\n\x00" as *const u8 as
+                    *const std::os::raw::c_char);
+    }
+    return 0 as std::os::raw::c_int;
+}
+grabc.rs:1717:53: 1718:19
+unsafe fn laertes_init_cross_cursor() {
+cross_cursor = 0;}
+grabc.rs:1752:1: 1805:2
+unsafe extern "C" fn selectWindow<'a1, 'a2>(mut display: * mut crate::_XDisplay,
+                                  mut x: Option<&'a1 mut std::os::raw::c_int>,
+                                  mut y: Option<&'a2 mut std::os::raw::c_int>) -> std::os::raw::c_ulong {
+    let mut target_cursor: u64 = 0;
+    let mut status: i32 = 0;
+    let mut target_window: u64 = 0;
+    let mut root_window: u64 = 0;
+    let mut event: crate::_XEvent = _XEvent{type_0: 0,};
+    target_window = 0 as *mut std::os::raw::c_void as Window;
+    if cross_cursor == 0 as *mut std::os::raw::c_void as Cursor {
+        cross_cursor =
+            XCreateFontCursor(display, 130 as std::os::raw::c_int as std::os::raw::c_uint);
+        if cross_cursor == 0 as *mut std::os::raw::c_void as Cursor {
+            fprintf(stderr,
+                    b"Failed to create Cross Cursor!\n\x00" as *const u8 as
+                        *const std::os::raw::c_char);
+            return 0 as *mut std::os::raw::c_void as Window
+        }
+    }
+    target_cursor = cross_cursor;
+    root_window = XRootWindow(display, XDefaultScreen(display));
+    status =
+        XGrabPointer(display, root_window, 0 as std::os::raw::c_int,
+                     ((1 as std::os::raw::c_long) << 2 as std::os::raw::c_int) as
+                         std::os::raw::c_uint, 0 as std::os::raw::c_int, 1 as std::os::raw::c_int,
+                     root_window, target_cursor, 0 as std::os::raw::c_long as Time);
+    if status == 0 as std::os::raw::c_int {
+        XAllowEvents(display, 1 as std::os::raw::c_int, 0 as std::os::raw::c_long as Time);
+        XWindowEvent(display, root_window,
+                     (1 as std::os::raw::c_long) << 2 as std::os::raw::c_int, &mut event);
+        if event.type_0 == 4 as std::os::raw::c_int {
+            target_window =
+                findSubWindow(display, root_window, event.xbutton.subwindow,
+                              Some(&mut event.xbutton.x), Some(&mut event.xbutton.y));
+            if target_window == 0 as *mut std::os::raw::c_void as Window {
+                fprintf(stderr,
+                        b"Failed to get target window, getting root window!\n\x00"
+                            as *const u8 as *const std::os::raw::c_char);
+                target_window = root_window
+            }
+            XUngrabPointer(display, 0 as std::os::raw::c_long as Time);
+        }
+    } else {
+        fprintf(stderr,
+                b"Failed to grab mouse!\n\x00" as *const u8 as
+                    *const std::os::raw::c_char);
+        exit(1 as std::os::raw::c_int);
+    }
+    /* free things we do not need, always a good practice */
+    XFreeCursor(display, cross_cursor);
+    *(borrow_mut(&mut x)).unwrap() = event.xbutton.x;
+    *(borrow_mut(&mut y)).unwrap() = event.xbutton.y;
+    return target_window;
+}
+grabc.rs:1807:1: 1837:2
+unsafe extern "C" fn findSubWindow<'a1, 'a2>(mut display: * mut crate::_XDisplay,
+                                   mut top_window: std::os::raw::c_ulong,
+                                   mut window_to_check: std::os::raw::c_ulong,
+                                   mut x: Option<&'a1 mut std::os::raw::c_int>,
+                                   mut y: Option<&'a2 mut std::os::raw::c_int>) -> std::os::raw::c_ulong {
+    let mut newx: i32 = 0;
+    let mut newy: i32 = 0;
+    let mut window: u64 = 0;
+    if top_window == 0 as *mut std::os::raw::c_void as Window {
+        return 0 as *mut std::os::raw::c_void as Window
+    }
+    if window_to_check == 0 as *mut std::os::raw::c_void as Window {
+        return 0 as *mut std::os::raw::c_void as Window
+    }
+    /* initialize automatics */
+    window = window_to_check;
+    while XTranslateCoordinates(display, top_window, window_to_check, *(borrow_mut(&mut x)).unwrap(), *(borrow_mut(&mut y)).unwrap(),
+                                &mut newx, &mut newy, &mut window) !=
+              0 as std::os::raw::c_int && window != 0 as *mut std::os::raw::c_void as Window {
+        if window != 0 as *mut std::os::raw::c_void as Window {
+            top_window = window_to_check;
+            window_to_check = window;
+            *(borrow_mut(&mut x)).unwrap() = newx;
+            *(borrow_mut(&mut y)).unwrap() = newy
+        }
+    }
+    if window == 0 as *mut std::os::raw::c_void as Window { window = window_to_check }
+    *(borrow_mut(&mut x)).unwrap() = newx;
+    *(borrow_mut(&mut y)).unwrap() = newy;
+    return window;
+}
+grabc.rs:1845:1: 1874:2
+unsafe extern "C" fn getWindowColor<'a1>(mut display: * mut crate::_XDisplay,
+                                    mut color: Option<&'a1 mut crate::XColor>) -> std::os::raw::c_int {
+    let mut root_window: u64 = 0;
+    let mut target_window: u64 = 0;
+    let mut ximage: * mut crate::_XImage = 0 as *mut XImage;
+    let mut x: i32 = 0;
+    let mut y: i32 = 0;
+    let mut status: i32 = 0;
+    root_window = XRootWindow(display, XDefaultScreen(display));
+    target_window = selectWindow(display, Some(&mut x), Some(&mut y));
+    if target_window == 0 as *mut std::os::raw::c_void as Window {
+        return 0 as std::os::raw::c_int
+    }
+    ximage =
+        XGetImage(display, target_window, x, y,
+                  1 as std::os::raw::c_int as std::os::raw::c_uint,
+                  1 as std::os::raw::c_int as std::os::raw::c_uint,
+                  !(0 as std::os::raw::c_long) as std::os::raw::c_ulong, 2 as std::os::raw::c_int);
+    if ximage.is_null() { return 0 as std::os::raw::c_int }
+    (*(borrow_mut(&mut color)).unwrap()).pixel =
+        Some((*ximage).f.get_pixel.expect("non-null function pointer")).expect("non-null function pointer")(ximage,
+                                                                                                            0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int,
+                                                                                                            0
+                                                                                                                as
+                                                                                                                std::os::raw::c_int);
+    Some((*ximage).f.destroy_image.expect("non-null function pointer")).expect("non-null function pointer")(ximage);
+    return 1 as std::os::raw::c_int;
+}
+grabc.rs:1876:1: 1905:2
+unsafe extern "C" fn MXError(mut display: * mut crate::_XDisplay,
+                             mut error: * mut crate::XErrorEvent) -> std::os::raw::c_int {
+    let mut xerrcode: i32 = 0;
+    xerrcode = (*error).error_code as std::os::raw::c_int;
+    if xerrcode == 11 as std::os::raw::c_int ||
+           xerrcode == 10 as std::os::raw::c_int &&
+               (*error).request_code as std::os::raw::c_int == 88 as std::os::raw::c_int {
+        return 0 as std::os::raw::c_int
+    } else {
+        match (*error).request_code as std::os::raw::c_int {
+            14 => {
+                if (*error).error_code as std::os::raw::c_int == 9 as std::os::raw::c_int {
+                    return 0 as std::os::raw::c_int
+                }
+            }
+            3 | 15 => {
+                if (*error).error_code as std::os::raw::c_int == 3 as std::os::raw::c_int {
+                    return 0 as std::os::raw::c_int
+                }
+            }
+            91 => {
+                if (*error).error_code as std::os::raw::c_int == 2 as std::os::raw::c_int {
+                    return 0 as std::os::raw::c_int
+                }
+            }
+            _ => { }
+        }
+    }
+    return 1 as std::os::raw::c_int;
+}
+grabc.rs:1912:5: 1916:6
+unsafe {
+        ::std::process::exit(main_0((args.len() - 1) as std::os::raw::c_int,
+                                    args.as_mut_ptr() as
+                                        *mut *mut std::os::raw::c_char) as i32)
+    }
+grabc.rs:1918:1: 1920:2
+unsafe extern "C" fn run_static_initializers() {
+    cross_cursor = 0 as *const std::os::raw::c_void as *mut std::os::raw::c_void as Cursor
+}

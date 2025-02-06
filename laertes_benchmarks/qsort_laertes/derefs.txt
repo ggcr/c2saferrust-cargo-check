@@ -1,0 +1,12 @@
+qsort.rs:17:26: 17:52
+*arr.offset(high as isize)
+qsort.rs:21:12: 21:35
+*arr.offset(j as isize)
+qsort.rs:23:28: 23:51
+*arr.offset(i as isize)
+qsort.rs:23:64: 23:87
+*arr.offset(j as isize)
+qsort.rs:27:20: 27:72
+*arr.offset((i + 1 as std::os::raw::c_int) as isize)
+qsort.rs:28:20: 28:46
+*arr.offset(high as isize)

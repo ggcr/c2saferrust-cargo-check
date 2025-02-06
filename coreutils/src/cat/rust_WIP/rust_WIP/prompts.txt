@@ -1,0 +1,24 @@
+DefId(0:218 ~ rust[fc84]::src::fpurge::fpurge)
+Chunk root
+Here is a function:
+```rust
+pub unsafe extern "C" fn fpurge(mut fp: *mut FILE) -> libc::c_int {
+    __fpurge(fp);
+    return 0 as libc::c_int;
+}
+```
+
+
+The file contains the following imports:
+```rust
+use ::libc;
+```
+Convert the function to idiomatic Rust, meaning Rust code that does not make use of features like unsafe, raw pointers, and the C API whenever possible. Do not change the function name.
+
+Follow the following format for your output: Place the function translation between the tags <FUNC> and </FUNC>. 
+
+
+Any functions or variables without definitions are defined elsewhere in the code. Do not attempt to redefine them or import them.
+If you are using any new functions and you need new imports for those, place them between the tags <IMPORTS> and </IMPORTS>. This should be only *new* imports. Do not include existing imports.
+DO NOT include markdown characters like "```" or "```rust" in your translation.
+----------------------------------------------------------------

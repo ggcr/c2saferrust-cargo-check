@@ -1,0 +1,67 @@
+[
+  {
+    "func_defid": "DefId(0:3 ~ c2rust_out[0636]::swap)",
+    "span": "qsort.rs:10:1: 14:2 (#0)",
+    "pieces": [
+      "qsort.rs:10:1: 14:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 6,
+    "source": "pub unsafe extern \"C\" fn swap(mut a: *mut std::os::raw::c_int,\n                              mut b: *mut std::os::raw::c_int) {\n    let mut t: std::os::raw::c_int = *a;\n    *a = *b;\n    *b = t;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:4 ~ c2rust_out[0636]::partition)",
+        "span": "qsort.rs:32:1: 32:82 (#0)",
+        "source": "swap(&mut (*arr.offset(a_index as isize)), &mut (*arr.offset(b_index as isize)));"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:4 ~ c2rust_out[0636]::partition)",
+    "span": "qsort.rs:17:1: 34:2 (#0)",
+    "pieces": [
+      "qsort.rs:17:1: 34:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 17,
+    "source": "pub unsafe extern \"C\" fn partition(mut arr: *mut std::os::raw::c_int,\n                                   mut low: std::os::raw::c_int,\n                                   mut high: std::os::raw::c_int) -> std::os::raw::c_int {\n    let mut pivot: std::os::raw::c_int = *arr.offset(high as isize);\n    let mut i: std::os::raw::c_int = low - 1 as std::os::raw::c_int;\n    let mut j: std::os::raw::c_int = low;\n    while j <= high - 1 as std::os::raw::c_int {\n        if *arr.offset(j as isize) <= pivot {\n            i += 1;\n            swap(&mut *arr.offset(i as isize), &mut *arr.offset(j as isize));\n        }\n        j += 1\n    }\n    swap(&mut *arr.offset((i + 1 as std::os::raw::c_int) as isize),\n         &mut *arr.offset(high as isize));\n    return i + 1 as std::os::raw::c_int;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:5 ~ c2rust_out[0636]::quickSort)",
+        "span": "qsort.rs:38:17: 38:80 (#0)",
+        "source": "unsafe { partition(arr.as_mut_ptr(), low as i32, high as i32) }"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:5 ~ c2rust_out[0636]::quickSort)",
+    "span": "qsort.rs:36:1: 42:2 (#0)",
+    "pieces": [
+      "qsort.rs:36:1: 42:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 9,
+    "source": "pub unsafe extern \"C\" fn quickSort(mut arr: *mut std::os::raw::c_int,\n                                   mut low: std::os::raw::c_int,\n                                   mut high: std::os::raw::c_int) {\n    if low < high {\n        let mut i: std::os::raw::c_int = partition(arr, low, high);\n        quickSort(arr, low, i - 1 as std::os::raw::c_int);\n        quickSort(arr, i + 1 as std::os::raw::c_int, high);\n    };\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:5 ~ c2rust_out[0636]::quickSort)",
+        "span": "qsort.rs:39:9: 39:48 (#0)",
+        "source": "quickSort(arr, low, i.wrapping_sub(1));"
+      },
+      {
+        "caller": "DefId(0:5 ~ c2rust_out[0636]::quickSort)",
+        "span": "qsort.rs:40:9: 40:37 (#0)",
+        "source": "quickSort(arr, i + 1, high);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  }
+]

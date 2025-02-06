@@ -1,0 +1,4 @@
+test.rs:419:13: 419:20
+*fresh0
+test.rs:489:13: 489:20
+*fresh1

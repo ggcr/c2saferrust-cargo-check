@@ -1,0 +1,611 @@
+[
+  {
+    "func_defid": "DefId(0:16 ~ c2rust_out[0636]::strdup)",
+    "span": "test.rs:56:1: 65:2 (#0)",
+    "pieces": [
+      "test.rs:56:1: 65:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 10,
+    "source": "pub unsafe extern \"C\" fn strdup(mut str: *const std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut n: std::os::raw::c_int =\n        strlen(str).wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as\n            std::os::raw::c_int;\n    let mut dup: *mut std::os::raw::c_char =\n        malloc(n as std::os::raw::c_ulong) as *mut std::os::raw::c_char;\n    if !dup.is_null() { strcpy(dup, str); }\n    return dup;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:28 ~ c2rust_out[0636]::url_get_hostname)",
+        "span": "test.rs:499:5: 499:72 (#0)",
+        "source": "let mut tmp_protocol: *mut std::os::raw::c_char = strdup(protocol);"
+      },
+      {
+        "caller": "DefId(0:24 ~ c2rust_out[0636]::get_part)",
+        "span": "test.rs:439:5: 439:62 (#0)",
+        "source": "let mut fmt_url: *mut std::os::raw::c_char = strdup(url);"
+      },
+      {
+        "caller": "DefId(0:24 ~ c2rust_out[0636]::get_part)",
+        "span": "test.rs:438:5: 438:62 (#0)",
+        "source": "let mut tmp_url: *mut std::os::raw::c_char = strdup(url);"
+      },
+      {
+        "caller": "DefId(0:26 ~ c2rust_out[0636]::url_is_ssh)",
+        "span": "test.rs:475:5: 475:23 (#0)",
+        "source": "str = strdup(str);"
+      },
+      {
+        "caller": "DefId(0:20 ~ c2rust_out[0636]::strff)",
+        "span": "test.rs:401:5: 401:24 (#0)",
+        "source": "return strdup(ptr);"
+      },
+      {
+        "caller": "DefId(0:24 ~ c2rust_out[0636]::get_part)",
+        "span": "test.rs:451:57: 454:6 (#0)",
+        "source": "{\n        has = 1 as std::os::raw::c_int != 0;\n        ret = strdup(tmp)\n    }"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:277:5: 277:62 (#0)",
+        "source": "let mut tmp_url: *mut std::os::raw::c_char = strdup(url);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:350:5: 350:29 (#0)",
+        "source": "tmp_path = strdup(path);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:312:5: 312:72 (#0)",
+        "source": "let mut tmp_hostname: *mut std::os::raw::c_char = strdup(hostname);"
+      },
+      {
+        "caller": "DefId(0:25 ~ c2rust_out[0636]::strrwd)",
+        "span": "test.rs:471:5: 471:24 (#0)",
+        "source": "return strdup(ptr);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:25 ~ c2rust_out[0636]::strrwd)",
+    "span": "test.rs:461:1: 472:2 (#0)",
+    "pieces": [
+      "test.rs:461:1: 472:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 12,
+    "source": "unsafe extern \"C\" fn strrwd(mut ptr: *mut std::os::raw::c_char, mut n: std::os::raw::c_int)\n -> *mut std::os::raw::c_char {\n    let mut y: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut i: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    while i < n {\n        let fresh1 = ptr;\n        ptr = ptr.offset(-1);\n        y = *fresh1 as std::os::raw::c_int;\n        i += 1\n    }\n    return strdup(ptr);\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:32 ~ c2rust_out[0636]::url_get_search)",
+        "span": "test.rs:598:5: 598:74 (#0)",
+        "source": "tmp_path = strrwd(tmp_path, strlen(pathname) as std::os::raw::c_int);"
+      },
+      {
+        "caller": "DefId(0:24 ~ c2rust_out[0636]::get_part)",
+        "span": "test.rs:455:5: 455:34 (#0)",
+        "source": "fmt_url = strrwd(fmt_url, l);"
+      },
+      {
+        "caller": "DefId(0:34 ~ c2rust_out[0636]::url_get_hash)",
+        "span": "test.rs:633:5: 633:60 (#0)",
+        "source": "tmp_path = strrwd(tmp_path, pathname_len + search_len);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:20 ~ c2rust_out[0636]::strff)",
+    "span": "test.rs:391:1: 402:2 (#0)",
+    "pieces": [
+      "test.rs:391:1: 402:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 12,
+    "source": "unsafe extern \"C\" fn strff(mut ptr: *mut std::os::raw::c_char, mut n: std::os::raw::c_int)\n -> *mut std::os::raw::c_char {\n    let mut y: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    let mut i: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    while i < n {\n        let fresh0 = ptr;\n        ptr = ptr.offset(1);\n        y = *fresh0 as std::os::raw::c_int;\n        i += 1\n    }\n    return strdup(ptr);\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:35 ~ c2rust_out[0636]::url_get_port)",
+        "span": "test.rs:649:5: 652:40 (#0)",
+        "source": "let mut tmp_hostname: *mut std::os::raw::c_char =\n        strff(hostname,\n              strlen(host).wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as\n                  std::os::raw::c_int);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:359:5: 359:46 (#0)",
+        "source": "tmp_path = strff(tmp_path, pathname_len);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:376:5: 376:55 (#0)",
+        "source": "tmp_path = strff(path, pathname_len + search_len);"
+      },
+      {
+        "caller": "DefId(0:32 ~ c2rust_out[0636]::url_get_search)",
+        "span": "test.rs:593:5: 594:62 (#0)",
+        "source": "let mut tmp_path: *mut std::os::raw::c_char =\n        strff(path, strlen(pathname) as std::os::raw::c_int);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:385:5: 385:73 (#0)",
+        "source": "tmp_hostname = strff(hostname, host_len + 1 as std::os::raw::c_int);"
+      },
+      {
+        "caller": "DefId(0:34 ~ c2rust_out[0636]::url_get_hash)",
+        "span": "test.rs:629:5: 630:48 (#0)",
+        "source": "let mut tmp_path: *mut std::os::raw::c_char =\n        strff(path, pathname_len + search_len);"
+      },
+      {
+        "caller": "DefId(0:24 ~ c2rust_out[0636]::get_part)",
+        "span": "test.rs:449:5: 449:33 (#0)",
+        "source": "fmt_url = strff(fmt_url, l);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:24 ~ c2rust_out[0636]::get_part)",
+    "span": "test.rs:431:1: 460:2 (#0)",
+    "pieces": [
+      "test.rs:431:1: 460:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 30,
+    "source": "unsafe extern \"C\" fn get_part(mut url: *mut std::os::raw::c_char,\n                              mut format: *const std::os::raw::c_char,\n                              mut l: std::os::raw::c_int) -> *mut std::os::raw::c_char {\n    let mut has: bool = 0 as std::os::raw::c_int != 0;\n    let mut tmp: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    let mut tmp_url: *mut std::os::raw::c_char = strdup(url);\n    let mut fmt_url: *mut std::os::raw::c_char = strdup(url);\n    let mut ret: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if tmp.is_null() || tmp_url.is_null() || fmt_url.is_null() ||\n           ret.is_null() {\n        return 0 as *mut std::os::raw::c_char\n    }\n    strcpy(tmp, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    strcpy(fmt_url, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    fmt_url = strff(fmt_url, l);\n    sscanf(fmt_url, format, tmp);\n    if 0 as std::os::raw::c_int != strcmp(tmp, tmp_url) {\n        has = 1 as std::os::raw::c_int != 0;\n        ret = strdup(tmp)\n    }\n    fmt_url = strrwd(fmt_url, l);\n    free(tmp as *mut std::os::raw::c_void);\n    free(tmp_url as *mut std::os::raw::c_void);\n    free(fmt_url as *mut std::os::raw::c_void);\n    return if has as std::os::raw::c_int != 0 { ret } else { 0 as *mut std::os::raw::c_char };\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:27 ~ c2rust_out[0636]::url_get_auth)",
+        "span": "test.rs:492:5: 492:87 (#0)",
+        "source": "return get_part(url, b\"%[^@]\\x00\" as *const u8 as *const std::os::raw::c_char, l);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:325:47: 328:10 (#0)",
+        "source": "{\n            get_part(tmp_url, b\":%s\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len + hostname_len)\n        }"
+      },
+      {
+        "caller": "DefId(0:28 ~ c2rust_out[0636]::url_get_hostname)",
+        "span": "test.rs:515:65: 517:10 (#0)",
+        "source": "{\n            get_part(url, b\"%[^:]\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        }"
+      },
+      {
+        "caller": "DefId(0:31 ~ c2rust_out[0636]::url_get_path)",
+        "span": "test.rs:565:16: 567:10 (#0)",
+        "source": "{\n            get_part(url, b\"/%s\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        }"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:328:16: 331:10 (#0)",
+        "source": "{\n            get_part(tmp_url, b\"/%s\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len + hostname_len)\n        }"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:301:47: 305:10 (#0)",
+        "source": "{\n            get_part(tmp_url,\n                     b\"%[^:]\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len)\n        }"
+      },
+      {
+        "caller": "DefId(0:28 ~ c2rust_out[0636]::url_get_hostname)",
+        "span": "test.rs:517:16: 519:10 (#0)",
+        "source": "{\n            get_part(url, b\"%[^/]\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        }"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:305:16: 309:10 (#0)",
+        "source": "{\n            get_part(tmp_url,\n                     b\"%[^/]\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len)\n        }"
+      },
+      {
+        "caller": "DefId(0:31 ~ c2rust_out[0636]::url_get_path)",
+        "span": "test.rs:563:47: 565:10 (#0)",
+        "source": "{\n            get_part(url, b\":%s\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        }"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:291:9: 294:36 (#0)",
+        "source": "auth =\n            get_part(tmp_url,\n                     b\"%[^@]\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:21 ~ c2rust_out[0636]::url_get_protocol)",
+    "span": "test.rs:404:1: 415:2 (#0)",
+    "pieces": [
+      "test.rs:404:1: 415:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 12,
+    "source": "pub unsafe extern \"C\" fn url_get_protocol(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut protocol: *mut std::os::raw::c_char =\n        malloc((16 as std::os::raw::c_int as\n                    std::os::raw::c_ulong).wrapping_mul(::std::mem::size_of::<std::os::raw::c_char>()\n                                                    as std::os::raw::c_ulong)) as\n            *mut std::os::raw::c_char;\n    if protocol.is_null() { return 0 as *mut std::os::raw::c_char }\n    sscanf(url, b\"%[^://]\\x00\" as *const u8 as *const std::os::raw::c_char, protocol);\n    if url_is_protocol(protocol) { return protocol }\n    return 0 as *mut std::os::raw::c_char;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:31 ~ c2rust_out[0636]::url_get_path)",
+        "span": "test.rs:553:5: 553:73 (#0)",
+        "source": "let mut protocol: *mut std::os::raw::c_char = url_get_protocol(url);"
+      },
+      {
+        "caller": "DefId(0:27 ~ c2rust_out[0636]::url_get_auth)",
+        "span": "test.rs:488:5: 488:73 (#0)",
+        "source": "let mut protocol: *mut std::os::raw::c_char = url_get_protocol(url);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:279:5: 279:77 (#0)",
+        "source": "let mut protocol: *mut std::os::raw::c_char = url_get_protocol(tmp_url);"
+      },
+      {
+        "caller": "DefId(0:28 ~ c2rust_out[0636]::url_get_hostname)",
+        "span": "test.rs:498:5: 498:73 (#0)",
+        "source": "let mut protocol: *mut std::os::raw::c_char = url_get_protocol(url);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:27 ~ c2rust_out[0636]::url_get_auth)",
+    "span": "test.rs:486:1: 493:2 (#0)",
+    "pieces": [
+      "test.rs:486:1: 493:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 8,
+    "source": "pub unsafe extern \"C\" fn url_get_auth(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut protocol: *mut std::os::raw::c_char = url_get_protocol(url);\n    if protocol.is_null() { return 0 as *mut std::os::raw::c_char }\n    let mut l: std::os::raw::c_int =\n        strlen(protocol) as std::os::raw::c_int + 3 as std::os::raw::c_int;\n    return get_part(url, b\"%[^@]\\x00\" as *const u8 as *const std::os::raw::c_char, l);\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:28 ~ c2rust_out[0636]::url_get_hostname)",
+        "span": "test.rs:500:5: 500:65 (#0)",
+        "source": "let mut auth: *mut std::os::raw::c_char = url_get_auth(url);"
+      },
+      {
+        "caller": "DefId(0:31 ~ c2rust_out[0636]::url_get_path)",
+        "span": "test.rs:554:5: 554:65 (#0)",
+        "source": "let mut auth: *mut std::os::raw::c_char = url_get_auth(url);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:26 ~ c2rust_out[0636]::url_is_ssh)",
+    "span": "test.rs:474:1: 484:2 (#0)",
+    "pieces": [
+      "test.rs:474:1: 484:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 11,
+    "source": "pub unsafe extern \"C\" fn url_is_ssh(mut str: *mut std::os::raw::c_char) -> bool {\n    str = strdup(str);\n    if 0 as std::os::raw::c_int ==\n           strcmp(str, b\"ssh\\x00\" as *const u8 as *const std::os::raw::c_char) ||\n           0 as std::os::raw::c_int ==\n               strcmp(str, b\"git\\x00\" as *const u8 as *const std::os::raw::c_char) {\n        free(str as *mut std::os::raw::c_void);\n        return 1 as std::os::raw::c_int != 0\n    }\n    return 0 as std::os::raw::c_int != 0;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:31 ~ c2rust_out[0636]::url_get_path)",
+        "span": "test.rs:559:5: 559:49 (#0)",
+        "source": "let mut is_ssh: bool = url_is_ssh(protocol);"
+      },
+      {
+        "caller": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+        "span": "test.rs:284:5: 284:35 (#0)",
+        "source": "is_ssh = url_is_ssh(protocol);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:28 ~ c2rust_out[0636]::url_get_hostname)",
+    "span": "test.rs:495:1: 522:2 (#0)",
+    "pieces": [
+      "test.rs:495:1: 522:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 28,
+    "source": "pub unsafe extern \"C\" fn url_get_hostname(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut l: std::os::raw::c_int = 3 as std::os::raw::c_int;\n    let mut protocol: *mut std::os::raw::c_char = url_get_protocol(url);\n    let mut tmp_protocol: *mut std::os::raw::c_char = strdup(protocol);\n    let mut auth: *mut std::os::raw::c_char = url_get_auth(url);\n    if protocol.is_null() { return 0 as *mut std::os::raw::c_char }\n    if !auth.is_null() {\n        l =\n            (l as\n                 std::os::raw::c_ulong).wrapping_add(strlen(auth).wrapping_add(1 as\n                                                                           std::os::raw::c_int\n                                                                           as\n                                                                           std::os::raw::c_ulong))\n                as std::os::raw::c_int as std::os::raw::c_int\n    }\n    if !auth.is_null() { free(auth as *mut std::os::raw::c_void); }\n    l += strlen(protocol) as std::os::raw::c_int;\n    free(protocol as *mut std::os::raw::c_void);\n    let mut hostname: *mut std::os::raw::c_char =\n        if url_is_ssh(tmp_protocol) as std::os::raw::c_int != 0 {\n            get_part(url, b\"%[^:]\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        } else {\n            get_part(url, b\"%[^/]\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        };\n    free(tmp_protocol as *mut std::os::raw::c_void);\n    return hostname;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:31 ~ c2rust_out[0636]::url_get_path)",
+        "span": "test.rs:555:5: 555:73 (#0)",
+        "source": "let mut hostname: *mut std::os::raw::c_char = url_get_hostname(url);"
+      },
+      {
+        "caller": "DefId(0:35 ~ c2rust_out[0636]::url_get_port)",
+        "span": "test.rs:646:5: 646:73 (#0)",
+        "source": "let mut hostname: *mut std::os::raw::c_char = url_get_hostname(url);"
+      },
+      {
+        "caller": "DefId(0:29 ~ c2rust_out[0636]::url_get_host)",
+        "span": "test.rs:529:5: 529:73 (#0)",
+        "source": "let mut hostname: *mut std::os::raw::c_char = url_get_hostname(url);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:31 ~ c2rust_out[0636]::url_get_path)",
+    "span": "test.rs:549:1: 583:2 (#0)",
+    "pieces": [
+      "test.rs:549:1: 583:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 35,
+    "source": "pub unsafe extern \"C\" fn url_get_path(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut l: std::os::raw::c_int = 3 as std::os::raw::c_int;\n    let mut tmp_path: *mut std::os::raw::c_char = 0 as *mut std::os::raw::c_char;\n    let mut protocol: *mut std::os::raw::c_char = url_get_protocol(url);\n    let mut auth: *mut std::os::raw::c_char = url_get_auth(url);\n    let mut hostname: *mut std::os::raw::c_char = url_get_hostname(url);\n    if protocol.is_null() || hostname.is_null() {\n        return 0 as *mut std::os::raw::c_char\n    }\n    let mut is_ssh: bool = url_is_ssh(protocol);\n    l += strlen(protocol) as std::os::raw::c_int + strlen(hostname) as std::os::raw::c_int;\n    if !auth.is_null() { l += strlen(auth) as std::os::raw::c_int + 1 as std::os::raw::c_int }\n    tmp_path =\n        if is_ssh as std::os::raw::c_int != 0 {\n            get_part(url, b\":%s\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        } else {\n            get_part(url, b\"/%s\\x00\" as *const u8 as *const std::os::raw::c_char, l)\n        };\n    let mut fmt: *mut std::os::raw::c_char =\n        if is_ssh as std::os::raw::c_int != 0 {\n            b\"%s\\x00\" as *const u8 as *const std::os::raw::c_char\n        } else { b\"/%s\\x00\" as *const u8 as *const std::os::raw::c_char } as\n            *mut std::os::raw::c_char;\n    let mut path: *mut std::os::raw::c_char =\n        malloc(strlen(tmp_path).wrapping_mul(::std::mem::size_of::<std::os::raw::c_char>()\n                                                 as std::os::raw::c_ulong)) as\n            *mut std::os::raw::c_char;\n    sprintf(path, fmt, tmp_path);\n    if !auth.is_null() { free(auth as *mut std::os::raw::c_void); }\n    free(protocol as *mut std::os::raw::c_void);\n    free(hostname as *mut std::os::raw::c_void);\n    free(tmp_path as *mut std::os::raw::c_void);\n    return path;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:30 ~ c2rust_out[0636]::url_get_pathname)",
+        "span": "test.rs:538:5: 538:65 (#0)",
+        "source": "let mut path: *mut std::os::raw::c_char = url_get_path(url);"
+      },
+      {
+        "caller": "DefId(0:34 ~ c2rust_out[0636]::url_get_hash)",
+        "span": "test.rs:622:5: 622:65 (#0)",
+        "source": "let mut path: *mut std::os::raw::c_char = url_get_path(url);"
+      },
+      {
+        "caller": "DefId(0:32 ~ c2rust_out[0636]::url_get_search)",
+        "span": "test.rs:587:5: 587:65 (#0)",
+        "source": "let mut path: *mut std::os::raw::c_char = url_get_path(url);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:30 ~ c2rust_out[0636]::url_get_pathname)",
+    "span": "test.rs:536:1: 547:2 (#0)",
+    "pieces": [
+      "test.rs:536:1: 547:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 12,
+    "source": "pub unsafe extern \"C\" fn url_get_pathname(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut path: *mut std::os::raw::c_char = url_get_path(url);\n    let mut pathname: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if path.is_null() || pathname.is_null() { return 0 as *mut std::os::raw::c_char }\n    strcat(pathname, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    sscanf(path, b\"%[^?]\\x00\" as *const u8 as *const std::os::raw::c_char, pathname);\n    free(path as *mut std::os::raw::c_void);\n    return pathname;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:32 ~ c2rust_out[0636]::url_get_search)",
+        "span": "test.rs:588:5: 588:73 (#0)",
+        "source": "let mut pathname: *mut std::os::raw::c_char = url_get_pathname(url);"
+      },
+      {
+        "caller": "DefId(0:34 ~ c2rust_out[0636]::url_get_hash)",
+        "span": "test.rs:624:5: 624:73 (#0)",
+        "source": "let mut pathname: *mut std::os::raw::c_char = url_get_pathname(url);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:32 ~ c2rust_out[0636]::url_get_search)",
+    "span": "test.rs:585:1: 602:2 (#0)",
+    "pieces": [
+      "test.rs:585:1: 602:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 18,
+    "source": "pub unsafe extern \"C\" fn url_get_search(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut path: *mut std::os::raw::c_char = url_get_path(url);\n    let mut pathname: *mut std::os::raw::c_char = url_get_pathname(url);\n    let mut search: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if path.is_null() || search.is_null() { return 0 as *mut std::os::raw::c_char }\n    let mut tmp_path: *mut std::os::raw::c_char =\n        strff(path, strlen(pathname) as std::os::raw::c_int);\n    strcat(search, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    sscanf(tmp_path, b\"%[^#]\\x00\" as *const u8 as *const std::os::raw::c_char,\n           search);\n    tmp_path = strrwd(tmp_path, strlen(pathname) as std::os::raw::c_int);\n    free(path as *mut std::os::raw::c_void);\n    free(pathname as *mut std::os::raw::c_void);\n    return search;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:34 ~ c2rust_out[0636]::url_get_hash)",
+        "span": "test.rs:626:5: 626:69 (#0)",
+        "source": "let mut search: *mut std::os::raw::c_char = url_get_search(url);"
+      },
+      {
+        "caller": "DefId(0:33 ~ c2rust_out[0636]::url_get_query)",
+        "span": "test.rs:606:5: 606:69 (#0)",
+        "source": "let mut search: *mut std::os::raw::c_char = url_get_search(url);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:29 ~ c2rust_out[0636]::url_get_host)",
+    "span": "test.rs:524:1: 534:2 (#0)",
+    "pieces": [
+      "test.rs:524:1: 534:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 11,
+    "source": "pub unsafe extern \"C\" fn url_get_host(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut host: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    let mut hostname: *mut std::os::raw::c_char = url_get_hostname(url);\n    if host.is_null() || hostname.is_null() { return 0 as *mut std::os::raw::c_char }\n    sscanf(hostname, b\"%[^:]\\x00\" as *const u8 as *const std::os::raw::c_char, host);\n    free(hostname as *mut std::os::raw::c_void);\n    return host;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:35 ~ c2rust_out[0636]::url_get_port)",
+        "span": "test.rs:647:5: 647:65 (#0)",
+        "source": "let mut host: *mut std::os::raw::c_char = url_get_host(url);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:35 ~ c2rust_out[0636]::url_get_port)",
+    "span": "test.rs:641:1: 657:2 (#0)",
+    "pieces": [
+      "test.rs:641:1: 657:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 17,
+    "source": "pub unsafe extern \"C\" fn url_get_port(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut port: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    let mut hostname: *mut std::os::raw::c_char = url_get_hostname(url);\n    let mut host: *mut std::os::raw::c_char = url_get_host(url);\n    if port.is_null() || hostname.is_null() { return 0 as *mut std::os::raw::c_char }\n    let mut tmp_hostname: *mut std::os::raw::c_char =\n        strff(hostname,\n              strlen(host).wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as\n                  std::os::raw::c_int);\n    sscanf(tmp_hostname, b\"%s\\x00\" as *const u8 as *const std::os::raw::c_char, port);\n    free(hostname as *mut std::os::raw::c_void);\n    free(tmp_hostname as *mut std::os::raw::c_void);\n    return port;\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:19 ~ c2rust_out[0636]::url_parse)",
+    "span": "test.rs:269:1: 390:2 (#0)",
+    "pieces": [
+      "test.rs:269:1: 390:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 122,
+    "source": "pub unsafe extern \"C\" fn url_parse(mut url: *mut std::os::raw::c_char)\n -> *mut url_data_t {\n    let mut data: *mut url_data_t =\n        malloc(::std::mem::size_of::<url_data_t>() as std::os::raw::c_ulong) as\n            *mut url_data_t;\n    if data.is_null() { return 0 as *mut url_data_t }\n    (*data).href = url;\n    let mut tmp: *mut std::os::raw::c_char = 0 as *mut std::os::raw::c_char;\n    let mut tmp_url: *mut std::os::raw::c_char = strdup(url);\n    let mut is_ssh: bool = 0 as std::os::raw::c_int != 0;\n    let mut protocol: *mut std::os::raw::c_char = url_get_protocol(tmp_url);\n    if protocol.is_null() { return 0 as *mut url_data_t }\n    let mut protocol_len: std::os::raw::c_int =\n        strlen(protocol) as std::os::raw::c_int + 3 as std::os::raw::c_int;\n    (*data).protocol = protocol;\n    is_ssh = url_is_ssh(protocol);\n    let mut auth: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    let mut auth_len: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    tmp = strstr(tmp_url, b\"@\\x00\" as *const u8 as *const std::os::raw::c_char);\n    if !tmp.is_null() {\n        auth =\n            get_part(tmp_url,\n                     b\"%[^@]\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len);\n        auth_len = strlen(auth) as std::os::raw::c_int;\n        if !auth.is_null() { auth_len += 1 }\n    }\n    (*data).auth = auth;\n    let mut hostname: *mut std::os::raw::c_char = 0 as *mut std::os::raw::c_char;\n    hostname =\n        if is_ssh as std::os::raw::c_int != 0 {\n            get_part(tmp_url,\n                     b\"%[^:]\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len)\n        } else {\n            get_part(tmp_url,\n                     b\"%[^/]\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len)\n        };\n    if hostname.is_null() { return 0 as *mut url_data_t }\n    let mut hostname_len: std::os::raw::c_int = strlen(hostname) as std::os::raw::c_int;\n    let mut tmp_hostname: *mut std::os::raw::c_char = strdup(hostname);\n    (*data).hostname = hostname;\n    let mut host: *mut std::os::raw::c_char =\n        malloc(strlen(tmp_hostname).wrapping_mul(::std::mem::size_of::<std::os::raw::c_char>()\n                                                     as std::os::raw::c_ulong)) as\n            *mut std::os::raw::c_char;\n    sscanf(tmp_hostname, b\"%[^:]\\x00\" as *const u8 as *const std::os::raw::c_char,\n           host);\n    if host.is_null() { return 0 as *mut url_data_t }\n    let mut host_len: std::os::raw::c_int = strlen(host) as std::os::raw::c_int;\n    (*data).host = host;\n    let mut tmp_path: *mut std::os::raw::c_char = 0 as *mut std::os::raw::c_char;\n    tmp_path =\n        if is_ssh as std::os::raw::c_int != 0 {\n            get_part(tmp_url, b\":%s\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len + hostname_len)\n        } else {\n            get_part(tmp_url, b\"/%s\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     protocol_len + auth_len + hostname_len)\n        };\n    let mut path: *mut std::os::raw::c_char =\n        malloc(strlen(tmp_path).wrapping_mul(::std::mem::size_of::<std::os::raw::c_char>()\n                                                 as std::os::raw::c_ulong)) as\n            *mut std::os::raw::c_char;\n    if path.is_null() { return 0 as *mut url_data_t }\n    let mut fmt: *mut std::os::raw::c_char =\n        if is_ssh as std::os::raw::c_int != 0 {\n            b\"%s\\x00\" as *const u8 as *const std::os::raw::c_char\n        } else { b\"/%s\\x00\" as *const u8 as *const std::os::raw::c_char } as\n            *mut std::os::raw::c_char;\n    sprintf(path, fmt, tmp_path);\n    (*data).path = path;\n    free(tmp_path as *mut std::os::raw::c_void);\n    let mut pathname: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if pathname.is_null() { return 0 as *mut url_data_t }\n    strcat(pathname, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    tmp_path = strdup(path);\n    sscanf(tmp_path, b\"%[^? | ^#]\\x00\" as *const u8 as *const std::os::raw::c_char,\n           pathname);\n    let mut pathname_len: std::os::raw::c_int = strlen(pathname) as std::os::raw::c_int;\n    (*data).pathname = pathname;\n    let mut search: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<*mut std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if search.is_null() { return 0 as *mut url_data_t }\n    tmp_path = strff(tmp_path, pathname_len);\n    strcat(search, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    sscanf(tmp_path, b\"%[^#]\\x00\" as *const u8 as *const std::os::raw::c_char,\n           search);\n    (*data).search = search;\n    let mut search_len: std::os::raw::c_int = strlen(search) as std::os::raw::c_int;\n    free(tmp_path as *mut std::os::raw::c_void);\n    let mut query: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if query.is_null() { return 0 as *mut url_data_t }\n    sscanf(search, b\"?%s\\x00\" as *const u8 as *const std::os::raw::c_char, query);\n    (*data).query = query;\n    let mut hash: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if hash.is_null() { return 0 as *mut url_data_t }\n    tmp_path = strff(path, pathname_len + search_len);\n    strcat(hash, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    sscanf(tmp_path, b\"%s\\x00\" as *const u8 as *const std::os::raw::c_char, hash);\n    (*data).hash = hash;\n    free(tmp_path as *mut std::os::raw::c_void);\n    let mut port: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if port.is_null() { return 0 as *mut url_data_t }\n    tmp_hostname = strff(hostname, host_len + 1 as std::os::raw::c_int);\n    sscanf(tmp_hostname, b\"%s\\x00\" as *const u8 as *const std::os::raw::c_char, port);\n    (*data).port = port;\n    free(tmp_hostname as *mut std::os::raw::c_void);\n    return data;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:39 ~ c2rust_out[0636]::main_0)",
+        "span": "test.rs:717:5: 717:54 (#0)",
+        "source": "let mut parsed: *mut url_data_t = url_parse(url);"
+      },
+      {
+        "caller": "DefId(0:39 ~ c2rust_out[0636]::main_0)",
+        "span": "test.rs:718:5: 718:60 (#0)",
+        "source": "let mut gh_parsed: *mut url_data_t = url_parse(gh_url);"
+      },
+      {
+        "caller": "DefId(0:37 ~ c2rust_out[0636]::url_inspect)",
+        "span": "test.rs:681:5: 681:38 (#0)",
+        "source": "url_data_inspect(url_parse(url));"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:38 ~ c2rust_out[0636]::url_data_inspect)",
+    "span": "test.rs:684:1: 708:2 (#0)",
+    "pieces": [
+      "test.rs:684:1: 708:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 25,
+    "source": "pub unsafe extern \"C\" fn url_data_inspect(mut data: *mut url_data_t) {\n    printf(b\"#url =>\\n\\x00\" as *const u8 as *const std::os::raw::c_char);\n    printf(b\"    .href: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).href);\n    printf(b\"    .protocol: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).protocol);\n    printf(b\"    .host: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).host);\n    printf(b\"    .auth: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).auth);\n    printf(b\"    .hostname: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).hostname);\n    printf(b\"    .pathname: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).pathname);\n    printf(b\"    .search: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).search);\n    printf(b\"    .path: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).path);\n    printf(b\"    .hash: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).hash);\n    printf(b\"    .query: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).query);\n    printf(b\"    .port: \\\"%s\\\"\\n\\x00\" as *const u8 as *const std::os::raw::c_char,\n           (*data).port);\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:37 ~ c2rust_out[0636]::url_inspect)",
+        "span": "test.rs:681:5: 681:38 (#0)",
+        "source": "url_data_inspect(url_parse(url));"
+      },
+      {
+        "caller": "DefId(0:39 ~ c2rust_out[0636]::main_0)",
+        "span": "test.rs:734:5: 734:33 (#0)",
+        "source": "url_data_inspect(gh_parsed);"
+      },
+      {
+        "caller": "DefId(0:39 ~ c2rust_out[0636]::main_0)",
+        "span": "test.rs:733:5: 733:30 (#0)",
+        "source": "url_data_inspect(parsed);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:37 ~ c2rust_out[0636]::url_inspect)",
+    "span": "test.rs:680:1: 682:2 (#0)",
+    "pieces": [
+      "test.rs:680:1: 682:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 3,
+    "source": "pub unsafe extern \"C\" fn url_inspect(mut url: *mut std::os::raw::c_char) {\n    url_data_inspect(url_parse(url));\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:36 ~ c2rust_out[0636]::url_free)",
+    "span": "test.rs:659:1: 678:2 (#0)",
+    "pieces": [
+      "test.rs:659:1: 678:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 20,
+    "source": "pub unsafe extern \"C\" fn url_free(mut data: *mut url_data_t) {\n    if data.is_null() { return }\n    if !(*data).auth.is_null() { free((*data).auth as *mut std::os::raw::c_void); }\n    if !(*data).protocol.is_null() {\n        free((*data).protocol as *mut std::os::raw::c_void);\n    }\n    if !(*data).hostname.is_null() {\n        free((*data).hostname as *mut std::os::raw::c_void);\n    }\n    if !(*data).host.is_null() { free((*data).host as *mut std::os::raw::c_void); }\n    if !(*data).pathname.is_null() {\n        free((*data).pathname as *mut std::os::raw::c_void);\n    }\n    if !(*data).path.is_null() { free((*data).path as *mut std::os::raw::c_void); }\n    if !(*data).hash.is_null() { free((*data).hash as *mut std::os::raw::c_void); }\n    if !(*data).search.is_null() {\n        free((*data).search as *mut std::os::raw::c_void);\n    }\n    if !(*data).query.is_null() { free((*data).query as *mut std::os::raw::c_void); };\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:39 ~ c2rust_out[0636]::main_0)",
+        "span": "test.rs:1115:5: 1115:22 (#0)",
+        "source": "url_free(parsed);"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:39 ~ c2rust_out[0636]::main_0)",
+    "span": "test.rs:709:1: 1117:2 (#0)",
+    "pieces": [
+      "test.rs:709:1: 1117:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 409,
+    "source": "unsafe fn main_0() -> std::os::raw::c_int {\n    //url_inspect(\"https://google.com/search?q=github\");\n    let mut gh_url: *mut std::os::raw::c_char =\n        b\"git://git@github.com:jwerle/url.h.git\\x00\" as *const u8 as\n            *const std::os::raw::c_char as *mut std::os::raw::c_char;\n    let mut url: *mut std::os::raw::c_char =\n        b\"http://user:pass@subdomain.host.com:8080/p/a/t/h?query=string#hash\\x00\"\n            as *const u8 as *const std::os::raw::c_char as *mut std::os::raw::c_char;\n    let mut parsed: *mut url_data_t = url_parse(url);\n    let mut gh_parsed: *mut url_data_t = url_parse(gh_url);\n    if parsed.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     15 as std::os::raw::c_int,\n                     b\"parsed\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if gh_parsed.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     16 as std::os::raw::c_int,\n                     b\"gh_parsed\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    url_data_inspect(parsed);\n    url_data_inspect(gh_parsed);\n    if (*parsed).href.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     21 as std::os::raw::c_int,\n                     b\"parsed->href\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).auth.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     22 as std::os::raw::c_int,\n                     b\"parsed->auth\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).protocol.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     23 as std::os::raw::c_int,\n                     b\"parsed->protocol\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).port.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     24 as std::os::raw::c_int,\n                     b\"parsed->port\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).hostname.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     25 as std::os::raw::c_int,\n                     b\"parsed->hostname\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).host.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     26 as std::os::raw::c_int,\n                     b\"parsed->host\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).pathname.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     27 as std::os::raw::c_int,\n                     b\"parsed->pathname\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).path.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     28 as std::os::raw::c_int,\n                     b\"parsed->path\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).hash.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     29 as std::os::raw::c_int,\n                     b\"parsed->hash\\x00\" as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).search.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     30 as std::os::raw::c_int,\n                     b\"parsed->search\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*parsed).query.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     31 as std::os::raw::c_int,\n                     b\"parsed->query\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*gh_parsed).href.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     33 as std::os::raw::c_int,\n                     b\"gh_parsed->href\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*gh_parsed).protocol.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     34 as std::os::raw::c_int,\n                     b\"gh_parsed->protocol\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*gh_parsed).host.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     35 as std::os::raw::c_int,\n                     b\"gh_parsed->host\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*gh_parsed).auth.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     36 as std::os::raw::c_int,\n                     b\"gh_parsed->auth\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*gh_parsed).hostname.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     37 as std::os::raw::c_int,\n                     b\"gh_parsed->hostname\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*gh_parsed).pathname.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     38 as std::os::raw::c_int,\n                     b\"gh_parsed->pathname\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if (*gh_parsed).path.is_null() as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     39 as std::os::raw::c_int,\n                     b\"gh_parsed->path\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !url_is_protocol(b\"http\\x00\" as *const u8 as *const std::os::raw::c_char as\n                            *mut std::os::raw::c_char) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     41 as std::os::raw::c_int,\n                     b\"url_is_protocol(\\\"http\\\")\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !url_is_protocol(b\"https\\x00\" as *const u8 as *const std::os::raw::c_char as\n                            *mut std::os::raw::c_char) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     42 as std::os::raw::c_int,\n                     b\"url_is_protocol(\\\"https\\\")\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !url_is_protocol(b\"git\\x00\" as *const u8 as *const std::os::raw::c_char as\n                            *mut std::os::raw::c_char) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     43 as std::os::raw::c_int,\n                     b\"url_is_protocol(\\\"git\\\")\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !url_is_protocol(b\"ssh\\x00\" as *const u8 as *const std::os::raw::c_char as\n                            *mut std::os::raw::c_char) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     44 as std::os::raw::c_int,\n                     b\"url_is_protocol(\\\"ssh\\\")\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !url_is_protocol(b\"sftp\\x00\" as *const u8 as *const std::os::raw::c_char as\n                            *mut std::os::raw::c_char) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     45 as std::os::raw::c_int,\n                     b\"url_is_protocol(\\\"sftp\\\")\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !url_is_protocol(b\"ftp\\x00\" as *const u8 as *const std::os::raw::c_char as\n                            *mut std::os::raw::c_char) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     46 as std::os::raw::c_int,\n                     b\"url_is_protocol(\\\"ftp\\\")\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !url_is_protocol(b\"javascript\\x00\" as *const u8 as *const std::os::raw::c_char\n                            as *mut std::os::raw::c_char) as std::os::raw::c_int as\n           std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     47 as std::os::raw::c_int,\n                     b\"url_is_protocol(\\\"javascript\\\")\\x00\" as *const u8 as\n                         *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"http\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_protocol(url))) as std::os::raw::c_int as std::os::raw::c_long !=\n           0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     49 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"http\\\", url_get_protocol(url))\\x00\" as\n                         *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"user:pass\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_auth(url))) as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     50 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"user:pass\\\", url_get_auth(url))\\x00\" as\n                         *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"subdomain.host.com:8080\\x00\" as *const u8 as\n                        *const std::os::raw::c_char, url_get_hostname(url))) as\n           std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     51 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"subdomain.host.com:8080\\\", url_get_hostname(url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"subdomain.host.com\\x00\" as *const u8 as\n                        *const std::os::raw::c_char, url_get_host(url))) as\n           std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     52 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"subdomain.host.com\\\", url_get_host(url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"/p/a/t/h\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_pathname(url))) as std::os::raw::c_int as std::os::raw::c_long !=\n           0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     53 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"/p/a/t/h\\\", url_get_pathname(url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"/p/a/t/h?query=string#hash\\x00\" as *const u8 as\n                        *const std::os::raw::c_char, url_get_path(url))) as\n           std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     54 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"/p/a/t/h?query=string#hash\\\", url_get_path(url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"?query=string\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_search(url))) as std::os::raw::c_int as std::os::raw::c_long != 0\n       {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     55 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"?query=string\\\", url_get_search(url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"query=string\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_query(url))) as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     56 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"query=string\\\", url_get_query(url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"#hash\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_hash(url))) as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     57 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"#hash\\\", url_get_hash(url))\\x00\" as\n                         *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"8080\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_port(url))) as std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     58 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"8080\\\", url_get_port(url))\\x00\" as\n                         *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"git\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_protocol(gh_url))) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     60 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"git\\\", url_get_protocol(gh_url))\\x00\" as\n                         *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"github.com\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_host(gh_url))) as std::os::raw::c_int as std::os::raw::c_long != 0\n       {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     61 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"github.com\\\", url_get_host(gh_url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"github.com\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_hostname(gh_url))) as std::os::raw::c_int as std::os::raw::c_long\n           != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     62 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"github.com\\\", url_get_hostname(gh_url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"git\\x00\" as *const u8 as *const std::os::raw::c_char,\n                    url_get_auth(gh_url))) as std::os::raw::c_int as std::os::raw::c_long != 0\n       {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     63 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"git\\\", url_get_auth(gh_url))\\x00\" as\n                         *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"jwerle/url.h.git\\x00\" as *const u8 as\n                        *const std::os::raw::c_char, url_get_pathname(gh_url))) as\n           std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     64 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"jwerle/url.h.git\\\", url_get_pathname(gh_url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    if !(0 as std::os::raw::c_int ==\n             strcmp(b\"jwerle/url.h.git\\x00\" as *const u8 as\n                        *const std::os::raw::c_char, url_get_path(gh_url))) as\n           std::os::raw::c_int as std::os::raw::c_long != 0 {\n        __assert_rtn((*::std::mem::transmute::<&[u8; 5],\n                                               &[std::os::raw::c_char; 5]>(b\"main\\x00\")).as_ptr(),\n                     b\"test.c\\x00\" as *const u8 as *const std::os::raw::c_char,\n                     65 as std::os::raw::c_int,\n                     b\"0 == strcmp(\\\"jwerle/url.h.git\\\", url_get_path(gh_url))\\x00\"\n                         as *const u8 as *const std::os::raw::c_char);\n    } else { };\n    url_free(parsed);\n    return 0 as std::os::raw::c_int;\n}",
+    "calls": [
+      {
+        "caller": "DefId(0:126 ~ c2rust_out[0636]::main)",
+        "span": "test.rs:1118:17: 1118:65 (#0)",
+        "source": "unsafe { ::std::process::exit(main_0() as i32) }"
+      }
+    ],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:126 ~ c2rust_out[0636]::main)",
+    "span": "test.rs:1118:1: 1118:67 (#0)",
+    "pieces": [
+      "test.rs:1118:1: 1118:67 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 1,
+    "source": "pub fn main() { unsafe { ::std::process::exit(main_0() as i32) } }",
+    "calls": [],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:22 ~ c2rust_out[0636]::url_is_protocol)",
+    "span": "test.rs:417:1: 430:2 (#0)",
+    "pieces": [
+      "test.rs:417:1: 430:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 14,
+    "source": "pub unsafe extern \"C\" fn url_is_protocol(mut str: *mut std::os::raw::c_char) -> bool {\n    let mut count: std::os::raw::c_int =\n        (::std::mem::size_of::<[*mut std::os::raw::c_char; 177]>() as\n             std::os::raw::c_ulong).wrapping_div(::std::mem::size_of::<*mut std::os::raw::c_char>()\n                                             as std::os::raw::c_ulong) as std::os::raw::c_int;\n    let mut i: std::os::raw::c_int = 0 as std::os::raw::c_int;\n    while i < count {\n        if 0 as std::os::raw::c_int == strcmp(URL_SCHEMES[i as usize], str) {\n            return 1 as std::os::raw::c_int != 0\n        }\n        i += 1\n    }\n    return 0 as std::os::raw::c_int != 0;\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:34 ~ c2rust_out[0636]::url_get_hash)",
+    "span": "test.rs:616:1: 639:2 (#0)",
+    "pieces": [
+      "test.rs:616:1: 639:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 24,
+    "source": "pub unsafe extern \"C\" fn url_get_hash(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut hash: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if hash.is_null() { return 0 as *mut std::os::raw::c_char }\n    let mut path: *mut std::os::raw::c_char = url_get_path(url);\n    if path.is_null() { return 0 as *mut std::os::raw::c_char }\n    let mut pathname: *mut std::os::raw::c_char = url_get_pathname(url);\n    if pathname.is_null() { return 0 as *mut std::os::raw::c_char }\n    let mut search: *mut std::os::raw::c_char = url_get_search(url);\n    let mut pathname_len: std::os::raw::c_int = strlen(pathname) as std::os::raw::c_int;\n    let mut search_len: std::os::raw::c_int = strlen(search) as std::os::raw::c_int;\n    let mut tmp_path: *mut std::os::raw::c_char =\n        strff(path, pathname_len + search_len);\n    strcat(hash, b\"\\x00\" as *const u8 as *const std::os::raw::c_char);\n    sscanf(tmp_path, b\"%s\\x00\" as *const u8 as *const std::os::raw::c_char, hash);\n    tmp_path = strrwd(tmp_path, pathname_len + search_len);\n    free(tmp_path as *mut std::os::raw::c_void);\n    free(pathname as *mut std::os::raw::c_void);\n    free(path as *mut std::os::raw::c_void);\n    if !search.is_null() { free(search as *mut std::os::raw::c_void); }\n    return hash;\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  },
+  {
+    "func_defid": "DefId(0:33 ~ c2rust_out[0636]::url_get_query)",
+    "span": "test.rs:604:1: 614:2 (#0)",
+    "pieces": [
+      "test.rs:604:1: 614:2 (#0)"
+    ],
+    "sub_chunks": [],
+    "num_lines": 11,
+    "source": "pub unsafe extern \"C\" fn url_get_query(mut url: *mut std::os::raw::c_char)\n -> *mut std::os::raw::c_char {\n    let mut search: *mut std::os::raw::c_char = url_get_search(url);\n    let mut query: *mut std::os::raw::c_char =\n        malloc(::std::mem::size_of::<std::os::raw::c_char>() as std::os::raw::c_ulong) as\n            *mut std::os::raw::c_char;\n    if search.is_null() { return 0 as *mut std::os::raw::c_char }\n    sscanf(search, b\"?%s\\x00\" as *const u8 as *const std::os::raw::c_char, query);\n    free(search as *mut std::os::raw::c_void);\n    return query;\n}",
+    "calls": [],
+    "globals": [],
+    "imports": [],
+    "chunks": []
+  }
+]

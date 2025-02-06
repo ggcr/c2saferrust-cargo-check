@@ -1,0 +1,58 @@
+xzoom.rs:1048:13: 1048:21
+mut data
+xzoom.rs:1167:13: 1167:19
+mut p1
+xzoom.rs:1168:13: 1168:19
+mut p2
+xzoom.rs:1170:13: 1170:24
+mut p1_save
+xzoom.rs:1314:25: 1314:31
+fresh0
+xzoom.rs:1331:25: 1331:31
+fresh1
+xzoom.rs:1343:21: 1343:27
+fresh2
+xzoom.rs:1348:25: 1348:31
+fresh3
+xzoom.rs:1414:25: 1414:31
+fresh4
+xzoom.rs:1439:13: 1439:19
+mut p1
+xzoom.rs:1440:13: 1440:19
+mut p2
+xzoom.rs:1442:13: 1442:24
+mut p1_save
+xzoom.rs:1577:25: 1577:31
+fresh5
+xzoom.rs:1594:25: 1594:31
+fresh6
+xzoom.rs:1606:21: 1606:27
+fresh7
+xzoom.rs:1611:25: 1611:31
+fresh8
+xzoom.rs:1662:25: 1662:31
+fresh9
+xzoom.rs:1687:13: 1687:19
+mut p1
+xzoom.rs:1688:13: 1688:19
+mut p2
+xzoom.rs:1690:13: 1690:24
+mut p1_save
+xzoom.rs:1825:25: 1825:32
+fresh10
+xzoom.rs:1842:25: 1842:32
+fresh11
+xzoom.rs:1854:21: 1854:28
+fresh12
+xzoom.rs:1859:25: 1859:32
+fresh13
+xzoom.rs:1907:25: 1907:32
+fresh14
+xzoom.rs:1976:49: 1976:57
+mut argv
+xzoom.rs:2000:9: 2000:18
+mut sizeh
+xzoom.rs:2001:9: 2001:15
+mut ch
+xzoom.rs:2030:9: 2030:20
+mut dpyname

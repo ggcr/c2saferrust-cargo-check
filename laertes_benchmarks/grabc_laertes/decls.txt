@@ -1,0 +1,16 @@
+grabc.rs:1657:49: 1657:57
+mut argv
+grabc.rs:1659:9: 1659:20
+mut display
+grabc.rs:1751:45: 1751:56
+mut display
+grabc.rs:1806:46: 1806:57
+mut display
+grabc.rs:1844:42: 1844:53
+mut display
+grabc.rs:1848:9: 1848:19
+mut ximage
+grabc.rs:1875:30: 1875:41
+mut display
+grabc.rs:1876:30: 1876:39
+mut error

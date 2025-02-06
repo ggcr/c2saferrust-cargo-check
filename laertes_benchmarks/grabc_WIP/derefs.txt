@@ -1,0 +1,47 @@
+grabc.rs:789:20: 789:44
+*argv.offset(i as isize)
+grabc.rs:801:9: 804:63
+(*(*(display as
+                 _XPrivDisplay)).screens.offset((*(display as
+                                                       _XPrivDisplay)).default_screen
+                                                    as isize))
+grabc.rs:801:11: 802:33
+(*(display as
+                 _XPrivDisplay))
+grabc.rs:802:49: 803:71
+(*(display as
+                                                       _XPrivDisplay))
+grabc.rs:922:5: 922:7
+*x
+grabc.rs:923:5: 923:7
+*y
+grabc.rs:943:71: 943:73
+*x
+grabc.rs:943:75: 943:77
+*y
+grabc.rs:949:13: 949:15
+*x
+grabc.rs:950:13: 950:15
+*y
+grabc.rs:954:5: 954:7
+*x
+grabc.rs:955:5: 955:7
+*y
+grabc.rs:985:14: 985:23
+(*ximage)
+grabc.rs:984:5: 984:13
+(*color)
+grabc.rs:992:10: 992:19
+(*ximage)
+grabc.rs:999:16: 999:24
+(*error)
+grabc.rs:1002:16: 1002:24
+(*error)
+grabc.rs:1005:15: 1005:23
+(*error)
+grabc.rs:1007:20: 1007:28
+(*error)
+grabc.rs:1012:20: 1012:28
+(*error)
+grabc.rs:1017:20: 1017:28
+(*error)

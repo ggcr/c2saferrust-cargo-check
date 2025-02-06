@@ -1,0 +1,1861 @@
+src/autolink.rs:104:17: 105:77
+*(*__ctype_b_loc()).offset(*link.offset(len as isize) as
+                                               std::os::raw::c_int as isize)
+src/autolink.rs:104:18: 104:36
+(*__ctype_b_loc())
+src/autolink.rs:104:44: 104:70
+*link.offset(len as isize)
+src/autolink.rs:109:21: 109:47
+*link.offset(len as isize)
+src/autolink.rs:110:21: 110:47
+*link.offset(len as isize)
+src/autolink.rs:111:21: 111:47
+*link.offset(len as isize)
+src/autolink.rs:127:12: 127:36
+*data.offset(i as isize)
+src/autolink.rs:134:13: 135:84
+*data.offset(link_end.wrapping_sub(1 as std::os::raw::c_int as
+                                                   std::os::raw::c_ulong) as isize)
+src/autolink.rs:145:23: 147:83
+*(*__ctype_b_loc()).offset(*data.offset(new_end as
+                                                                  isize) as
+                                                     std::os::raw::c_int as isize)
+src/autolink.rs:145:24: 145:42
+(*__ctype_b_loc())
+src/autolink.rs:145:50: 146:73
+*data.offset(new_end as
+                                                                  isize)
+src/autolink.rs:155:20: 155:50
+*data.offset(new_end as isize)
+src/autolink.rs:165:9: 166:35
+*data.offset(link_end.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                         as isize)
+src/autolink.rs:199:16: 199:42
+*data.offset(i_0 as isize)
+src/autolink.rs:202:23: 202:49
+*data.offset(i_0 as isize)
+src/autolink.rs:228:12: 228:62
+*data.offset(-(1 as std::os::raw::c_int) as isize)
+src/autolink.rs:235:13: 235:63
+*data.offset(-(2 as std::os::raw::c_int) as isize)
+src/autolink.rs:238:19: 238:87
+*(*__ctype_b_loc()).offset(boundary as std::os::raw::c_int as isize)
+src/autolink.rs:238:20: 238:38
+(*__ctype_b_loc())
+src/autolink.rs:242:23: 243:60
+*(*__ctype_b_loc()).offset(boundary as std::os::raw::c_int as
+                                                     isize)
+src/autolink.rs:242:24: 242:42
+(*__ctype_b_loc())
+src/autolink.rs:262:16: 262:66
+*data.offset(-(2 as std::os::raw::c_int) as isize)
+src/autolink.rs:264:20: 264:70
+*data.offset(-(3 as std::os::raw::c_int) as isize)
+src/autolink.rs:277:8: 278:68
+*(*__ctype_b_loc()).offset(*data.offset(0 as std::os::raw::c_int as isize) as
+                                      std::os::raw::c_int as isize)
+src/autolink.rs:277:9: 277:27
+(*__ctype_b_loc())
+src/autolink.rs:277:35: 277:82
+*data.offset(0 as std::os::raw::c_int as isize)
+src/autolink.rs:284:12: 284:36
+*data.offset(i as isize)
+src/autolink.rs:286:19: 287:79
+*(*__ctype_b_loc()).offset(*data.offset(i as isize) as
+                                                 std::os::raw::c_int as isize)
+src/autolink.rs:286:20: 286:38
+(*__ctype_b_loc())
+src/autolink.rs:286:46: 286:70
+*data.offset(i as isize)
+src/autolink.rs:291:23: 291:47
+*data.offset(i as isize)
+src/autolink.rs:317:12: 319:52
+*(*__ctype_b_loc()).offset(*data.offset(-(1 as std::os::raw::c_int) as
+                                                       isize) as std::os::raw::c_int
+                                          as isize)
+src/autolink.rs:317:13: 317:31
+(*__ctype_b_loc())
+src/autolink.rs:317:39: 318:62
+*data.offset(-(1 as std::os::raw::c_int) as
+                                                       isize)
+src/autolink.rs:322:12: 324:52
+*(*__ctype_b_loc()).offset(*data.offset(-(1 as std::os::raw::c_int) as
+                                                       isize) as std::os::raw::c_int
+                                          as isize)
+src/autolink.rs:322:13: 322:31
+(*__ctype_b_loc())
+src/autolink.rs:322:39: 323:62
+*data.offset(-(1 as std::os::raw::c_int) as
+                                                       isize)
+src/autolink.rs:341:15: 342:75
+*(*__ctype_b_loc()).offset(*data.offset(link_end as isize) as
+                                             std::os::raw::c_int as isize)
+src/autolink.rs:341:16: 341:34
+(*__ctype_b_loc())
+src/autolink.rs:341:42: 341:73
+*data.offset(link_end as isize)
+src/autolink.rs:353:5: 353:14
+*rewind_p
+src/autolink.rs:371:13: 374:39
+*data.offset(rewind.wrapping_neg().wrapping_sub(1 as std::os::raw::c_int
+                                                                as
+                                                                std::os::raw::c_ulong)
+                             as isize)
+src/autolink.rs:376:14: 376:75
+*(*__ctype_b_loc()).offset(c as std::os::raw::c_int as isize)
+src/autolink.rs:376:15: 376:33
+(*__ctype_b_loc())
+src/autolink.rs:392:32: 392:63
+*data.offset(link_end as isize)
+src/autolink.rs:393:14: 393:77
+*(*__ctype_b_loc()).offset(c_0 as std::os::raw::c_int as isize)
+src/autolink.rs:393:15: 393:33
+(*__ctype_b_loc())
+src/autolink.rs:421:5: 421:14
+*rewind_p
+src/autolink.rs:435:12: 435:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/autolink.rs:437:12: 437:59
+*data.offset(2 as std::os::raw::c_int as isize)
+src/autolink.rs:442:15: 448:75
+*(*__ctype_b_loc()).offset(*data.offset(rewind.wrapping_neg().wrapping_sub(1
+                                                                                             as
+                                                                                             std::os::raw::c_int
+                                                                                             as
+                                                                                             std::os::raw::c_ulong)
+                                                          as isize) as
+                                             std::os::raw::c_int as isize)
+src/autolink.rs:442:16: 442:34
+(*__ctype_b_loc())
+src/autolink.rs:442:42: 447:68
+*data.offset(rewind.wrapping_neg().wrapping_sub(1
+                                                                                             as
+                                                                                             std::os::raw::c_int
+                                                                                             as
+                                                                                             std::os::raw::c_ulong)
+                                                          as isize)
+src/autolink.rs:472:15: 473:75
+*(*__ctype_b_loc()).offset(*data.offset(link_end as isize) as
+                                             std::os::raw::c_int as isize)
+src/autolink.rs:472:16: 472:34
+(*__ctype_b_loc())
+src/autolink.rs:472:42: 472:73
+*data.offset(link_end as isize)
+src/autolink.rs:485:5: 485:14
+*rewind_p
+src/autolink.rs:560:16: 561:76
+*(*__ctype_b_loc()).offset(*data.offset(link_end as isize) as
+                                              std::os::raw::c_int as isize)
+src/autolink.rs:560:17: 560:35
+(*__ctype_b_loc())
+src/autolink.rs:560:43: 560:74
+*data.offset(link_end as isize)
+src/autolink.rs:574:20: 575:83
+*(*__ctype_b_loc()).offset(*data.offset(link_end as isize)
+                                                  as std::os::raw::c_int as isize)
+src/autolink.rs:574:21: 574:39
+(*__ctype_b_loc())
+src/autolink.rs:574:47: 574:78
+*data.offset(link_end as isize)
+src/autolink.rs:579:24: 579:55
+*data.offset(link_end as isize)
+src/autolink.rs:591:19: 591:50
+*data.offset(link_end as isize)
+src/autolink.rs:594:27: 594:58
+*data.offset(link_end as isize)
+src/autolink.rs:605:12: 605:43
+*data.offset(link_end as isize)
+src/autolink.rs:607:20: 608:83
+*(*__ctype_b_loc()).offset(*data.offset(link_end as isize)
+                                                  as std::os::raw::c_int as isize)
+src/autolink.rs:607:21: 607:39
+(*__ctype_b_loc())
+src/autolink.rs:607:47: 607:78
+*data.offset(link_end as isize)
+src/autolink.rs:612:24: 612:55
+*data.offset(link_end as isize)
+src/autolink.rs:614:24: 614:55
+*data.offset(link_end as isize)
+src/autolink.rs:616:24: 616:55
+*data.offset(link_end as isize)
+src/autolink.rs:628:5: 628:14
+*no_slash
+src/autolink.rs:629:5: 629:14
+*rewind_p
+src/autolink.rs:652:8: 653:68
+*(*__ctype_b_loc()).offset(*data.offset(link_end as isize) as
+                                      std::os::raw::c_int as isize)
+src/autolink.rs:652:9: 652:27
+(*__ctype_b_loc())
+src/autolink.rs:652:35: 652:66
+*data.offset(link_end as isize)
+src/autolink.rs:655:12: 655:43
+*data.offset(link_end as isize)
+src/autolink.rs:656:12: 656:43
+*data.offset(link_end as isize)
+src/autolink.rs:665:16: 666:76
+*(*__ctype_b_loc()).offset(*data.offset(link_end as isize) as
+                                              std::os::raw::c_int as isize)
+src/autolink.rs:665:17: 665:35
+(*__ctype_b_loc())
+src/autolink.rs:665:43: 665:74
+*data.offset(link_end as isize)
+src/autolink.rs:670:20: 670:51
+*data.offset(link_end as isize)
+src/autolink.rs:672:20: 672:51
+*data.offset(link_end as isize)
+src/autolink.rs:674:20: 674:51
+*data.offset(link_end as isize)
+src/autolink.rs:681:5: 681:14
+*no_slash
+src/autolink.rs:682:5: 682:14
+*rewind_p
+src/buffer.rs:35:15: 35:21
+(*buf)
+src/buffer.rs:36:12: 36:38
+*prefix.offset(i as isize)
+src/buffer.rs:39:12: 39:43
+*(*buf).data.offset(i as isize)
+src/buffer.rs:39:13: 39:19
+(*buf)
+src/buffer.rs:40:16: 40:42
+*prefix.offset(i as isize)
+src/buffer.rs:41:20: 41:51
+*(*buf).data.offset(i as isize)
+src/buffer.rs:41:21: 41:27
+(*buf)
+src/buffer.rs:42:24: 42:50
+*prefix.offset(i as isize)
+src/buffer.rs:59:8: 59:14
+(*buf)
+src/buffer.rs:60:14: 60:20
+(*buf)
+src/buffer.rs:60:40: 60:46
+(*buf)
+src/buffer.rs:63:60: 63:66
+(*buf)
+src/buffer.rs:66:23: 66:29
+(*buf)
+src/buffer.rs:68:5: 68:11
+(*buf)
+src/buffer.rs:69:5: 69:11
+(*buf)
+src/buffer.rs:78:9: 78:15
+(*ret)
+src/buffer.rs:79:9: 79:15
+(*ret)
+src/buffer.rs:80:23: 80:29
+(*ret)
+src/buffer.rs:80:9: 80:15
+(*ret)
+src/buffer.rs:81:9: 81:15
+(*ret)
+src/buffer.rs:88:8: 88:14
+(*buf)
+src/buffer.rs:88:22: 88:28
+(*buf)
+src/buffer.rs:89:12: 89:53
+*(*buf).data.offset((*buf).size as isize)
+src/buffer.rs:89:13: 89:19
+(*buf)
+src/buffer.rs:89:32: 89:38
+(*buf)
+src/buffer.rs:91:16: 91:22
+(*buf)
+src/buffer.rs:93:8: 93:14
+(*buf)
+src/buffer.rs:94:12: 94:18
+(*buf)
+src/buffer.rs:96:20: 96:26
+(*buf)
+src/buffer.rs:99:9: 99:50
+*(*buf).data.offset((*buf).size as isize)
+src/buffer.rs:99:10: 99:16
+(*buf)
+src/buffer.rs:99:29: 99:35
+(*buf)
+src/buffer.rs:101:16: 101:22
+(*buf)
+src/buffer.rs:110:8: 110:14
+(*buf)
+src/buffer.rs:110:40: 110:46
+(*buf)
+src/buffer.rs:111:25: 111:31
+(*buf)
+src/buffer.rs:114:12: 114:18
+(*buf)
+src/buffer.rs:114:31: 114:37
+(*buf)
+src/buffer.rs:117:10: 117:16
+(*buf)
+src/buffer.rs:116:5: 116:11
+(*buf)
+src/buffer.rs:128:8: 128:14
+(*buf)
+src/buffer.rs:129:12: 129:18
+(*buf)
+src/buffer.rs:131:20: 131:26
+(*buf)
+src/buffer.rs:136:5: 136:46
+*(*buf).data.offset((*buf).size as isize)
+src/buffer.rs:136:6: 136:12
+(*buf)
+src/buffer.rs:136:25: 136:31
+(*buf)
+src/buffer.rs:138:10: 138:16
+(*buf)
+src/buffer.rs:137:5: 137:11
+(*buf)
+src/buffer.rs:146:10: 146:16
+(*buf)
+src/buffer.rs:153:10: 153:16
+(*buf)
+src/buffer.rs:154:5: 154:11
+(*buf)
+src/buffer.rs:155:5: 155:11
+(*buf)
+src/buffer.rs:156:19: 156:25
+(*buf)
+src/buffer.rs:156:5: 156:11
+(*buf)
+src/buffer.rs:161:15: 161:21
+(*buf)
+src/buffer.rs:161:29: 161:35
+(*buf)
+src/buffer.rs:163:10: 163:16
+(*buf)
+src/buffer.rs:162:5: 162:11
+(*buf)
+src/buffer.rs:164:13: 164:19
+(*buf)
+src/buffer.rs:165:13: 165:19
+(*buf)
+src/buffer.rs:166:13: 166:19
+(*buf)
+src/buffer.rs:173:8: 173:14
+(*buf)
+src/buffer.rs:177:5: 177:11
+(*buf)
+src/markdown.rs:594:30: 594:76
+*str.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:601:21: 601:67
+*str.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:654:17: 654:21
+*str
+src/markdown.rs:655:21: 655:23
+*s
+src/markdown.rs:658:20: 658:43
+*s.offset(len as isize)
+src/markdown.rs:973:47: 974:69
+*str.offset(6 as std::os::raw::c_int as
+                                                              isize)
+src/markdown.rs:985:47: 986:69
+*str.offset(5 as std::os::raw::c_int as
+                                                              isize)
+src/markdown.rs:998:47: 999:69
+*str.offset(4 as std::os::raw::c_int as
+                                                              isize)
+src/markdown.rs:1011:47: 1012:69
+*str.offset(3 as std::os::raw::c_int as
+                                                              isize)
+src/markdown.rs:1024:48: 1025:70
+*str.offset(2 as std::os::raw::c_int as
+                                                               isize)
+src/markdown.rs:1035:39: 1035:85
+*str.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:1821:16: 1821:20
+*str
+src/markdown.rs:1821:47: 1821:49
+*s
+src/markdown.rs:1826:20: 1826:43
+*s.offset(len as isize)
+src/markdown.rs:1893:14: 1893:69
+*(*rndr).work_bufs.as_mut_ptr().offset(type_0 as isize)
+src/markdown.rs:1893:15: 1893:22
+(*rndr)
+src/markdown.rs:1895:8: 1895:15
+(*pool)
+src/markdown.rs:1895:23: 1895:30
+(*pool)
+src/markdown.rs:1896:13: 1896:58
+(*(*pool).item.offset((*pool).size as isize))
+src/markdown.rs:1896:15: 1896:22
+(*pool)
+src/markdown.rs:1896:35: 1896:42
+(*pool)
+src/markdown.rs:1897:22: 1897:29
+(*pool)
+src/markdown.rs:1898:24: 1898:31
+(*pool)
+src/markdown.rs:1898:9: 1898:16
+(*pool)
+src/markdown.rs:1899:16: 1899:53
+*(*pool).item.offset(fresh0 as isize)
+src/markdown.rs:1899:17: 1899:24
+(*pool)
+src/markdown.rs:1900:9: 1900:16
+(*work)
+src/markdown.rs:1911:9: 1911:16
+(*rndr)
+src/markdown.rs:1910:5: 1910:12
+(*rndr)
+src/markdown.rs:1916:15: 1916:21
+(*src)
+src/markdown.rs:1918:19: 1918:25
+(*src)
+src/markdown.rs:1919:19: 1919:50
+*(*src).data.offset(i as isize)
+src/markdown.rs:1919:20: 1919:26
+(*src)
+src/markdown.rs:1925:20: 1925:26
+(*src)
+src/markdown.rs:1928:81: 1928:87
+(*src)
+src/markdown.rs:1932:17: 1934:47
+*(*src).data.offset(i.wrapping_add(1 as std::os::raw::c_int as
+                                                       std::os::raw::c_ulong) as
+                                        isize)
+src/markdown.rs:1932:18: 1932:24
+(*src)
+src/markdown.rs:1949:22: 1949:50
+*link_ref.offset(i as isize)
+src/markdown.rs:1969:5: 1969:13
+(*ref_0)
+src/markdown.rs:1971:9: 1973:38
+*references.offset((*ref_0).id.wrapping_rem(8 as std::os::raw::c_int as
+                                                        std::os::raw::c_uint) as
+                               isize)
+src/markdown.rs:1971:28: 1971:36
+(*ref_0)
+src/markdown.rs:1970:5: 1970:13
+(*ref_0)
+src/markdown.rs:1975:9: 1977:38
+*references.offset((*ref_0).id.wrapping_rem(8 as std::os::raw::c_int as
+                                                        std::os::raw::c_uint) as
+                               isize)
+src/markdown.rs:1975:28: 1975:36
+(*ref_0)
+src/markdown.rs:1987:9: 1988:41
+*references.offset(hash.wrapping_rem(8 as std::os::raw::c_int as std::os::raw::c_uint)
+                               as isize)
+src/markdown.rs:1990:12: 1990:20
+(*ref_0)
+src/markdown.rs:1991:17: 1991:25
+(*ref_0)
+src/markdown.rs:1999:36: 1999:66
+*references.offset(i as isize)
+src/markdown.rs:2002:20: 2002:24
+(*r)
+src/markdown.rs:2003:24: 2003:28
+(*r)
+src/markdown.rs:2004:24: 2004:28
+(*r)
+src/markdown.rs:2038:14: 2039:74
+*(*__ctype_b_loc()).offset(*data.offset(i as isize) as
+                                            std::os::raw::c_int as isize)
+src/markdown.rs:2038:15: 2038:33
+(*__ctype_b_loc())
+src/markdown.rs:2038:41: 2038:65
+*data.offset(i as isize)
+src/markdown.rs:2043:19: 2043:43
+*data.offset(i as isize)
+src/markdown.rs:2069:8: 2069:55
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:2073:12: 2073:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2077:8: 2078:45
+*(*__ctype_b_loc()).offset(*data.offset(i as isize) as std::os::raw::c_int as
+                                      isize)
+src/markdown.rs:2077:9: 2077:27
+(*__ctype_b_loc())
+src/markdown.rs:2077:35: 2077:59
+*data.offset(i as isize)
+src/markdown.rs:2083:5: 2083:14
+*autolink
+src/markdown.rs:2086:16: 2087:76
+*(*__ctype_b_loc()).offset(*data.offset(i as isize) as
+                                              std::os::raw::c_int as isize)
+src/markdown.rs:2086:17: 2086:35
+(*__ctype_b_loc())
+src/markdown.rs:2086:43: 2086:67
+*data.offset(i as isize)
+src/markdown.rs:2090:25: 2090:49
+*data.offset(i as isize)
+src/markdown.rs:2091:23: 2091:47
+*data.offset(i as isize)
+src/markdown.rs:2092:20: 2092:44
+*data.offset(i as isize)
+src/markdown.rs:2096:12: 2096:36
+*data.offset(i as isize)
+src/markdown.rs:2099:13: 2099:22
+*autolink
+src/markdown.rs:2104:12: 2104:36
+*data.offset(i as isize)
+src/markdown.rs:2105:9: 2105:18
+*autolink
+src/markdown.rs:2110:9: 2110:18
+*autolink
+src/markdown.rs:2111:15: 2111:24
+*autolink
+src/markdown.rs:2114:16: 2114:40
+*data.offset(i as isize)
+src/markdown.rs:2121:20: 2121:44
+*data.offset(i as isize)
+src/markdown.rs:2122:24: 2122:48
+*data.offset(i as isize)
+src/markdown.rs:2124:24: 2124:48
+*data.offset(i as isize)
+src/markdown.rs:2126:24: 2126:48
+*data.offset(i as isize)
+src/markdown.rs:2128:24: 2128:48
+*data.offset(i as isize)
+src/markdown.rs:2136:21: 2136:45
+*data.offset(i as isize)
+src/markdown.rs:2140:9: 2140:18
+*autolink
+src/markdown.rs:2143:23: 2143:47
+*data.offset(i as isize)
+src/markdown.rs:2166:8: 2166:15
+(*rndr)
+src/markdown.rs:2167:55: 2167:62
+(*rndr)
+src/markdown.rs:2171:14: 2171:21
+(*rndr)
+src/markdown.rs:2179:27: 2179:34
+(*rndr)
+src/markdown.rs:2179:47: 2179:73
+*data.offset(end as isize)
+src/markdown.rs:2185:12: 2185:19
+(*rndr)
+src/markdown.rs:2188:13: 2188:20
+(*rndr)
+src/markdown.rs:2190:72: 2190:79
+(*rndr)
+src/markdown.rs:2223:19: 2223:43
+*data.offset(i as isize)
+src/markdown.rs:2224:22: 2224:46
+*data.offset(i as isize)
+src/markdown.rs:2225:19: 2225:43
+*data.offset(i as isize)
+src/markdown.rs:2230:16: 2230:40
+*data.offset(i as isize)
+src/markdown.rs:2231:16: 2232:42
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:2235:12: 2235:36
+*data.offset(i as isize)
+src/markdown.rs:2240:16: 2241:42
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:2243:19: 2243:43
+*data.offset(i as isize)
+src/markdown.rs:2249:23: 2249:47
+*data.offset(i as isize)
+src/markdown.rs:2258:24: 2258:48
+*data.offset(i as isize)
+src/markdown.rs:2262:20: 2262:44
+*data.offset(i as isize)
+src/markdown.rs:2270:18: 2270:42
+*data.offset(i as isize)
+src/markdown.rs:2277:23: 2277:47
+*data.offset(i as isize)
+src/markdown.rs:2279:24: 2279:48
+*data.offset(i as isize)
+src/markdown.rs:2287:24: 2287:48
+*data.offset(i as isize)
+src/markdown.rs:2289:28: 2289:52
+*data.offset(i as isize)
+src/markdown.rs:2294:19: 2294:43
+*data.offset(i as isize)
+src/markdown.rs:2301:23: 2301:47
+*data.offset(i as isize)
+src/markdown.rs:2304:24: 2304:48
+*data.offset(i as isize)
+src/markdown.rs:2325:8: 2325:15
+(*rndr)
+src/markdown.rs:2328:12: 2328:59
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:2330:12: 2330:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2340:14: 2340:38
+*data.offset(i as isize)
+src/markdown.rs:2341:27: 2343:50
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as
+                                                          std::os::raw::c_ulong) as
+                                           isize)
+src/markdown.rs:2346:12: 2346:19
+(*rndr)
+src/markdown.rs:2350:31: 2352:57
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as
+                                                              std::os::raw::c_ulong)
+                                               as isize)
+src/markdown.rs:2354:22: 2360:82
+*(*__ctype_b_loc()).offset(*data.offset(i.wrapping_add(1
+                                                                                as
+                                                                                std::os::raw::c_int
+                                                                                as
+                                                                                std::os::raw::c_ulong)
+                                                                 as isize) as
+                                                    std::os::raw::c_int as isize)
+src/markdown.rs:2354:23: 2354:41
+(*__ctype_b_loc())
+src/markdown.rs:2354:49: 2359:75
+*data.offset(i.wrapping_add(1
+                                                                                as
+                                                                                std::os::raw::c_int
+                                                                                as
+                                                                                std::os::raw::c_ulong)
+                                                                 as isize)
+src/markdown.rs:2370:13: 2370:20
+(*rndr)
+src/markdown.rs:2371:69: 2371:76
+(*rndr)
+src/markdown.rs:2393:13: 2393:20
+(*rndr)
+src/markdown.rs:2394:18: 2394:25
+(*rndr)
+src/markdown.rs:2402:16: 2402:40
+*data.offset(i as isize)
+src/markdown.rs:2403:16: 2404:42
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:2406:25: 2408:48
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as
+                                                        std::os::raw::c_ulong) as
+                                         isize)
+src/markdown.rs:2413:67: 2413:74
+(*rndr)
+src/markdown.rs:2437:12: 2437:36
+*data.offset(i as isize)
+src/markdown.rs:2438:25: 2440:48
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as
+                                                        std::os::raw::c_ulong) as
+                                         isize)
+src/markdown.rs:2444:16: 2445:42
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:2447:16: 2448:42
+*data.offset(i.wrapping_add(2 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:2449:19: 2449:26
+(*rndr)
+src/markdown.rs:2454:17: 2454:24
+(*rndr)
+src/markdown.rs:2456:80: 2456:87
+(*rndr)
+src/markdown.rs:2462:23: 2463:87
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as
+                                                      std::os::raw::c_ulong) as isize)
+src/markdown.rs:2504:21: 2504:28
+(*rndr)
+src/markdown.rs:2512:24: 2512:48
+*data.offset(i as isize)
+src/markdown.rs:2514:16: 2515:42
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:2521:67: 2521:74
+(*rndr)
+src/markdown.rs:2537:26: 2537:73
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:2541:12: 2541:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2543:21: 2543:68
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:2559:12: 2559:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2564:25: 2564:72
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2579:12: 2579:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2581:12: 2581:59
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:2583:21: 2583:68
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:2598:12: 2598:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2600:12: 2600:59
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:2602:12: 2602:59
+*data.offset(3 as std::os::raw::c_int as isize)
+src/markdown.rs:2605:25: 2605:72
+*data.offset(3 as std::os::raw::c_int as isize)
+src/markdown.rs:2629:12: 2629:62
+*data.offset(-(1 as std::os::raw::c_int) as isize)
+src/markdown.rs:2631:12: 2631:62
+*data.offset(-(2 as std::os::raw::c_int) as isize)
+src/markdown.rs:2636:11: 2636:16
+(*ob)
+src/markdown.rs:2637:15: 2639:44
+*(*ob).data.offset((*ob).size.wrapping_sub(1 as std::os::raw::c_int as
+                                                             std::os::raw::c_ulong) as
+                                     isize)
+src/markdown.rs:2637:16: 2637:21
+(*ob)
+src/markdown.rs:2637:34: 2637:39
+(*ob)
+src/markdown.rs:2640:22: 2640:27
+(*ob)
+src/markdown.rs:2640:9: 2640:14
+(*ob)
+src/markdown.rs:2642:15: 2642:22
+(*rndr)
+src/markdown.rs:2643:72: 2643:79
+(*rndr)
+src/markdown.rs:2661:24: 2661:49
+*data.offset(nb as isize)
+src/markdown.rs:2669:12: 2669:38
+*data.offset(end as isize)
+src/markdown.rs:2678:15: 2678:45
+*data.offset(f_begin as isize)
+src/markdown.rs:2683:15: 2684:83
+*data.offset(f_end.wrapping_sub(1 as std::os::raw::c_int as
+                                                  std::os::raw::c_ulong) as isize)
+src/markdown.rs:2699:12: 2699:19
+(*rndr)
+src/markdown.rs:2701:68: 2701:75
+(*rndr)
+src/markdown.rs:2705:15: 2705:22
+(*rndr)
+src/markdown.rs:2708:71: 2708:78
+(*rndr)
+src/markdown.rs:2733:19: 2733:66
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2737:12: 2737:19
+(*rndr)
+src/markdown.rs:2740:13: 2740:20
+(*rndr)
+src/markdown.rs:2742:72: 2742:79
+(*rndr)
+src/markdown.rs:2745:21: 2745:68
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:2748:21: 2748:68
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:2774:22: 2774:48
+*data.offset(end as isize)
+src/markdown.rs:2779:20: 2779:46
+*data.offset(end as isize)
+src/markdown.rs:2785:39: 2785:65
+*data.offset(end as isize)
+src/markdown.rs:2787:16: 2787:77
+*(*__ctype_b_loc()).offset(c as std::os::raw::c_int as isize)
+src/markdown.rs:2787:17: 2787:35
+(*__ctype_b_loc())
+src/markdown.rs:2794:16: 2794:77
+*(*__ctype_b_loc()).offset(c as std::os::raw::c_int as isize)
+src/markdown.rs:2794:17: 2794:35
+(*__ctype_b_loc())
+src/markdown.rs:2800:19: 2800:80
+*(*__ctype_b_loc()).offset(c as std::os::raw::c_int as isize)
+src/markdown.rs:2800:20: 2800:38
+(*__ctype_b_loc())
+src/markdown.rs:2810:12: 2810:38
+*data.offset(end as isize)
+src/markdown.rs:2834:8: 2834:15
+(*rndr)
+src/markdown.rs:2837:9: 2837:16
+(*rndr)
+src/markdown.rs:2838:63: 2838:70
+(*rndr)
+src/markdown.rs:2869:12: 2869:19
+(*rndr)
+src/markdown.rs:2877:17: 2877:24
+(*rndr)
+src/markdown.rs:2880:73: 2880:80
+(*rndr)
+src/markdown.rs:2882:19: 2882:26
+(*rndr)
+src/markdown.rs:2884:17: 2884:24
+(*rndr)
+src/markdown.rs:2886:77: 2886:84
+(*rndr)
+src/markdown.rs:2902:8: 2902:15
+(*rndr)
+src/markdown.rs:2902:37: 2902:44
+(*rndr)
+src/markdown.rs:2917:26: 2917:33
+(*link)
+src/markdown.rs:2917:71: 2917:78
+(*link)
+src/markdown.rs:2918:25: 2918:30
+(*ob)
+src/markdown.rs:2919:12: 2919:19
+(*rndr)
+src/markdown.rs:2921:13: 2921:20
+(*rndr)
+src/markdown.rs:2923:72: 2923:79
+(*rndr)
+src/markdown.rs:2924:13: 2924:20
+(*rndr)
+src/markdown.rs:2928:65: 2928:72
+(*rndr)
+src/markdown.rs:2931:13: 2931:20
+(*rndr)
+src/markdown.rs:2935:65: 2935:72
+(*rndr)
+src/markdown.rs:2959:8: 2959:15
+(*rndr)
+src/markdown.rs:2959:41: 2959:48
+(*rndr)
+src/markdown.rs:2975:26: 2975:33
+(*link)
+src/markdown.rs:2975:71: 2975:78
+(*link)
+src/markdown.rs:2976:25: 2976:30
+(*ob)
+src/markdown.rs:2977:12: 2977:19
+(*rndr)
+src/markdown.rs:2979:13: 2979:20
+(*rndr)
+src/markdown.rs:2981:72: 2981:79
+(*rndr)
+src/markdown.rs:2982:13: 2982:20
+(*rndr)
+src/markdown.rs:2986:65: 2986:72
+(*rndr)
+src/markdown.rs:2989:13: 2989:20
+(*rndr)
+src/markdown.rs:2993:65: 2993:72
+(*rndr)
+src/markdown.rs:3009:8: 3009:15
+(*rndr)
+src/markdown.rs:3009:41: 3009:48
+(*rndr)
+src/markdown.rs:3017:25: 3017:30
+(*ob)
+src/markdown.rs:3018:9: 3018:16
+(*rndr)
+src/markdown.rs:3020:65: 3020:72
+(*rndr)
+src/markdown.rs:3034:8: 3034:15
+(*rndr)
+src/markdown.rs:3034:41: 3034:48
+(*rndr)
+src/markdown.rs:3042:25: 3042:30
+(*ob)
+src/markdown.rs:3043:9: 3043:16
+(*rndr)
+src/markdown.rs:3045:65: 3045:72
+(*rndr)
+src/markdown.rs:3058:14: 3058:64
+*data.offset(-(1 as std::os::raw::c_int) as isize)
+src/markdown.rs:3072:9: 3072:16
+(*rndr)
+src/markdown.rs:3078:25: 3078:32
+(*rndr)
+src/markdown.rs:3079:29: 3079:36
+(*rndr)
+src/markdown.rs:3083:16: 3083:40
+*data.offset(i as isize)
+src/markdown.rs:3085:25: 3087:48
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as
+                                                        std::os::raw::c_ulong) as
+                                         isize)
+src/markdown.rs:3089:20: 3089:44
+*data.offset(i as isize)
+src/markdown.rs:3091:27: 3091:51
+*data.offset(i as isize)
+src/markdown.rs:3105:32: 3105:56
+*data.offset(i as isize)
+src/markdown.rs:3110:20: 3110:44
+*data.offset(i as isize)
+src/markdown.rs:3114:36: 3114:60
+*data.offset(i as isize)
+src/markdown.rs:3121:24: 3121:48
+*data.offset(i as isize)
+src/markdown.rs:3130:28: 3130:52
+*data.offset(i as isize)
+src/markdown.rs:3135:41: 3139:67
+*data.offset(i.wrapping_sub(1 as
+                                                                        std::os::raw::c_int
+                                                                        as
+                                                                        std::os::raw::c_ulong)
+                                                         as isize)
+src/markdown.rs:3141:33: 3141:57
+*data.offset(i as isize)
+src/markdown.rs:3143:37: 3143:61
+*data.offset(i as isize)
+src/markdown.rs:3155:24: 3155:48
+*data.offset(i as isize)
+src/markdown.rs:3157:28: 3157:52
+*data.offset(i as isize)
+src/markdown.rs:3159:33: 3159:57
+*data.offset(i as isize)
+src/markdown.rs:3164:32: 3164:56
+*data.offset(i as isize)
+src/markdown.rs:3173:39: 3173:63
+*data.offset(i as isize)
+src/markdown.rs:3178:36: 3178:60
+*data.offset(i as isize)
+src/markdown.rs:3193:48: 3193:78
+*data.offset(title_e as isize)
+src/markdown.rs:3198:32: 3198:62
+*data.offset(title_e as isize)
+src/markdown.rs:3200:36: 3200:66
+*data.offset(title_e as isize)
+src/markdown.rs:3214:48: 3219:74
+*data.offset(link_e.wrapping_sub(1
+                                                                                    as
+                                                                                    std::os::raw::c_int
+                                                                                    as
+                                                                                    std::os::raw::c_ulong)
+                                                                as isize)
+src/markdown.rs:3224:32: 3224:61
+*data.offset(link_b as isize)
+src/markdown.rs:3228:32: 3232:58
+*data.offset(link_e.wrapping_sub(1 as
+                                                                    std::os::raw::c_int
+                                                                    as
+                                                                    std::os::raw::c_ulong)
+                                                as isize)
+src/markdown.rs:3257:27: 3257:51
+*data.offset(i as isize)
+src/markdown.rs:3274:27: 3274:51
+*data.offset(i as isize)
+src/markdown.rs:3290:36: 3290:60
+*data.offset(j as isize)
+src/markdown.rs:3293:45: 3293:69
+*data.offset(j as isize)
+src/markdown.rs:3295:43: 3299:69
+*data.offset(j.wrapping_sub(1 as
+                                                                          std::os::raw::c_int
+                                                                          as
+                                                                          std::os::raw::c_ulong)
+                                                           as isize)
+src/markdown.rs:3305:39: 3305:43
+(*b)
+src/markdown.rs:3306:39: 3306:43
+(*b)
+src/markdown.rs:3318:39: 3318:46
+(*rndr)
+src/markdown.rs:3324:32: 3324:37
+(*lr)
+src/markdown.rs:3325:33: 3325:38
+(*lr)
+src/markdown.rs:3349:28: 3349:54
+*data.offset(j_0 as isize)
+src/markdown.rs:3352:37: 3352:63
+*data.offset(j_0 as isize)
+src/markdown.rs:3354:35: 3358:61
+*data.offset(j_0.wrapping_sub(1 as
+                                                                    std::os::raw::c_int
+                                                                    as
+                                                                    std::os::raw::c_ulong)
+                                                   as isize)
+src/markdown.rs:3364:33: 3364:39
+(*b_0)
+src/markdown.rs:3365:33: 3365:39
+(*b_0)
+src/markdown.rs:3373:35: 3373:42
+(*rndr)
+src/markdown.rs:3379:28: 3379:35
+(*lr_0)
+src/markdown.rs:3380:29: 3380:36
+(*lr_0)
+src/markdown.rs:3401:29: 3401:36
+(*rndr)
+src/markdown.rs:3408:29: 3408:36
+(*rndr)
+src/markdown.rs:3416:32: 3416:37
+(*ob)
+src/markdown.rs:3417:36: 3422:68
+*(*ob).data.offset((*ob).size.wrapping_sub(1
+                                                                                  as
+                                                                                  std::os::raw::c_int
+                                                                                  as
+                                                                                  std::os::raw::c_ulong)
+                                                          as isize)
+src/markdown.rs:3417:37: 3417:42
+(*ob)
+src/markdown.rs:3417:55: 3417:60
+(*ob)
+src/markdown.rs:3425:38: 3425:43
+(*ob)
+src/markdown.rs:3424:33: 3424:38
+(*ob)
+src/markdown.rs:3433:33: 3433:40
+(*rndr)
+src/markdown.rs:3437:86: 3437:93
+(*rndr)
+src/markdown.rs:3440:33: 3440:40
+(*rndr)
+src/markdown.rs:3444:85: 3444:92
+(*rndr)
+src/markdown.rs:3452:5: 3452:12
+(*rndr)
+src/markdown.rs:3465:8: 3465:15
+(*rndr)
+src/markdown.rs:3469:8: 3469:55
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:3473:19: 3473:49
+*data.offset(sup_len as isize)
+src/markdown.rs:3475:19: 3477:42
+*data.offset(sup_len.wrapping_sub(1 as std::os::raw::c_int as
+                                                        std::os::raw::c_ulong) as
+                                   isize)
+src/markdown.rs:3485:28: 3485:58
+*data.offset(sup_len as isize)
+src/markdown.rs:3498:5: 3498:12
+(*rndr)
+src/markdown.rs:3499:64: 3499:71
+(*rndr)
+src/markdown.rs:3513:23: 3513:47
+*data.offset(i as isize)
+src/markdown.rs:3514:12: 3514:36
+*data.offset(i as isize)
+src/markdown.rs:3529:8: 3529:55
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:3531:12: 3531:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:3534:16: 3534:63
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:3542:12: 3542:36
+*data.offset(i as isize)
+src/markdown.rs:3543:16: 3543:40
+*data.offset(i as isize)
+src/markdown.rs:3544:16: 3544:40
+*data.offset(i as isize)
+src/markdown.rs:3547:9: 3547:33
+*data.offset(i as isize)
+src/markdown.rs:3549:23: 3549:47
+*data.offset(i as isize)
+src/markdown.rs:3550:12: 3550:36
+*data.offset(i as isize)
+src/markdown.rs:3552:19: 3552:43
+*data.offset(i as isize)
+src/markdown.rs:3570:8: 3570:55
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:3572:12: 3572:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:3575:16: 3575:63
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:3583:14: 3583:38
+*data.offset(i as isize)
+src/markdown.rs:3584:18: 3584:42
+*data.offset(i as isize)
+src/markdown.rs:3587:9: 3587:33
+*data.offset(i as isize)
+src/markdown.rs:3590:15: 3590:39
+*data.offset(i as isize)
+src/markdown.rs:3609:23: 3609:47
+*data.offset(i as isize)
+src/markdown.rs:3613:20: 3613:44
+*data.offset(i as isize)
+src/markdown.rs:3617:19: 3617:43
+*data.offset(i as isize)
+src/markdown.rs:3618:19: 3618:43
+*data.offset(i as isize)
+src/markdown.rs:3622:25: 3622:49
+*data.offset(i as isize)
+src/markdown.rs:3629:28: 3629:80
+*syn_start.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:3635:28: 3639:59
+*syn_start.offset(syn_len.wrapping_sub(1 as
+                                                                      std::os::raw::c_int
+                                                                      as
+                                                                      std::os::raw::c_ulong)
+                                                 as isize)
+src/markdown.rs:3646:28: 3646:52
+*data.offset(i as isize)
+src/markdown.rs:3652:9: 3652:18
+(*syntax)
+src/markdown.rs:3653:9: 3653:18
+(*syntax)
+src/markdown.rs:3655:23: 3655:47
+*data.offset(i as isize)
+src/markdown.rs:3656:21: 3656:45
+*data.offset(i as isize)
+src/markdown.rs:3667:8: 3667:55
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:3670:8: 3670:15
+(*rndr)
+src/markdown.rs:3674:19: 3674:47
+*data.offset(level as isize)
+src/markdown.rs:3678:16: 3678:44
+*data.offset(level as isize)
+src/markdown.rs:3689:8: 3689:32
+*data.offset(i as isize)
+src/markdown.rs:3692:19: 3692:43
+*data.offset(i as isize)
+src/markdown.rs:3696:19: 3696:43
+*data.offset(i as isize)
+src/markdown.rs:3700:23: 3700:47
+*data.offset(i as isize)
+src/markdown.rs:3705:8: 3705:32
+*data.offset(i as isize)
+src/markdown.rs:3708:19: 3708:43
+*data.offset(i as isize)
+src/markdown.rs:3712:19: 3712:43
+*data.offset(i as isize)
+src/markdown.rs:3716:23: 3716:47
+*data.offset(i as isize)
+src/markdown.rs:3725:23: 3725:47
+*data.offset(i as isize)
+src/markdown.rs:3736:20: 3736:44
+*data.offset(i as isize)
+src/markdown.rs:3739:20: 3739:44
+*data.offset(i as isize)
+src/markdown.rs:3742:20: 3742:44
+*data.offset(i as isize)
+src/markdown.rs:3745:20: 3745:44
+*data.offset(i as isize)
+src/markdown.rs:3747:17: 3748:43
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                 as isize)
+src/markdown.rs:3750:16: 3751:42
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:3761:20: 3761:44
+*data.offset(i as isize)
+src/markdown.rs:3764:20: 3764:44
+*data.offset(i as isize)
+src/markdown.rs:3767:20: 3767:44
+*data.offset(i as isize)
+src/markdown.rs:3771:12: 3771:36
+*data.offset(i as isize)
+src/markdown.rs:3772:12: 3773:35
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as
+                            isize)
+src/markdown.rs:3784:16: 3784:66
+*data.offset(i.wrapping_add(spoilerspan) as isize)
+src/markdown.rs:3789:16: 3790:42
+*data.offset(i.wrapping_add(2 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:3801:12: 3801:59
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:3803:12: 3803:59
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:3805:12: 3805:59
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:3807:12: 3807:59
+*data.offset(3 as std::os::raw::c_int as isize)
+src/markdown.rs:3817:20: 3817:44
+*data.offset(i as isize)
+src/markdown.rs:3820:20: 3820:44
+*data.offset(i as isize)
+src/markdown.rs:3823:20: 3823:44
+*data.offset(i as isize)
+src/markdown.rs:3826:22: 3826:46
+*data.offset(i as isize)
+src/markdown.rs:3827:12: 3827:36
+*data.offset(i as isize)
+src/markdown.rs:3830:23: 3830:47
+*data.offset(i as isize)
+src/markdown.rs:3831:15: 3831:39
+*data.offset(i as isize)
+src/markdown.rs:3835:12: 3835:36
+*data.offset(i as isize)
+src/markdown.rs:3836:12: 3837:35
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as
+                            isize)
+src/markdown.rs:3850:20: 3850:44
+*data.offset(i as isize)
+src/markdown.rs:3853:20: 3853:44
+*data.offset(i as isize)
+src/markdown.rs:3856:20: 3856:44
+*data.offset(i as isize)
+src/markdown.rs:3860:12: 3860:36
+*data.offset(i as isize)
+src/markdown.rs:3861:16: 3861:40
+*data.offset(i as isize)
+src/markdown.rs:3862:16: 3862:40
+*data.offset(i as isize)
+src/markdown.rs:3863:12: 3864:35
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as
+                            isize)
+src/markdown.rs:3889:19: 3890:85
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as
+                                                    std::os::raw::c_ulong) as isize)
+src/markdown.rs:3929:8: 3929:15
+(*rndr)
+src/markdown.rs:3930:9: 3930:16
+(*rndr)
+src/markdown.rs:3931:67: 3931:74
+(*rndr)
+src/markdown.rs:3952:19: 3953:85
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as
+                                                    std::os::raw::c_ulong) as isize)
+src/markdown.rs:3994:8: 3994:15
+(*rndr)
+src/markdown.rs:3995:9: 3995:16
+(*rndr)
+src/markdown.rs:3996:69: 3996:76
+(*rndr)
+src/markdown.rs:4021:19: 4022:85
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as
+                                                    std::os::raw::c_ulong) as isize)
+src/markdown.rs:4056:20: 4056:27
+(*rndr)
+src/markdown.rs:4059:24: 4060:84
+*(*__ctype_b_loc()).offset(*data.offset(i as isize) as
+                                                      std::os::raw::c_int as isize)
+src/markdown.rs:4059:25: 4059:43
+(*__ctype_b_loc())
+src/markdown.rs:4059:51: 4059:75
+*data.offset(i as isize)
+src/markdown.rs:4070:31: 4070:55
+*data.offset(i as isize)
+src/markdown.rs:4071:49: 4071:56
+(*rndr)
+src/markdown.rs:4079:31: 4079:38
+(*rndr)
+src/markdown.rs:4097:15: 4098:87
+*data.offset(work.size.wrapping_sub(1 as std::os::raw::c_int as
+                                                      std::os::raw::c_ulong) as isize)
+src/markdown.rs:4105:12: 4105:19
+(*rndr)
+src/markdown.rs:4106:13: 4106:20
+(*rndr)
+src/markdown.rs:4107:70: 4107:77
+(*rndr)
+src/markdown.rs:4121:23: 4121:55
+*data.offset(work.size as isize)
+src/markdown.rs:4131:23: 4133:49
+*data.offset(work.size.wrapping_sub(1 as std::os::raw::c_int as
+                                                              std::os::raw::c_ulong)
+                                       as isize)
+src/markdown.rs:4144:20: 4144:27
+(*rndr)
+src/markdown.rs:4145:21: 4145:28
+(*rndr)
+src/markdown.rs:4147:78: 4147:85
+(*rndr)
+src/markdown.rs:4156:12: 4156:19
+(*rndr)
+src/markdown.rs:4157:13: 4157:20
+(*rndr)
+src/markdown.rs:4160:67: 4160:74
+(*rndr)
+src/markdown.rs:4213:23: 4215:46
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as
+                                                        std::os::raw::c_ulong) as
+                                       isize)
+src/markdown.rs:4233:8: 4233:15
+(*work)
+src/markdown.rs:4234:12: 4236:46
+*(*work).data.offset((*work).size.wrapping_sub(1 as std::os::raw::c_int as
+                                                              std::os::raw::c_ulong)
+                                    as isize)
+src/markdown.rs:4234:13: 4234:20
+(*work)
+src/markdown.rs:4234:33: 4234:40
+(*work)
+src/markdown.rs:4239:8: 4239:15
+(*rndr)
+src/markdown.rs:4240:9: 4240:16
+(*rndr)
+src/markdown.rs:4248:66: 4248:73
+(*rndr)
+src/markdown.rs:4266:19: 4267:85
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as
+                                                    std::os::raw::c_ulong) as isize)
+src/markdown.rs:4291:11: 4291:18
+(*work)
+src/markdown.rs:4292:15: 4295:49
+*(*work).data.offset((*work).size.wrapping_sub(1 as std::os::raw::c_int
+                                                                 as
+                                                                 std::os::raw::c_ulong)
+                                       as isize)
+src/markdown.rs:4292:16: 4292:23
+(*work)
+src/markdown.rs:4292:36: 4292:43
+(*work)
+src/markdown.rs:4298:14: 4298:21
+(*work)
+src/markdown.rs:4297:9: 4297:16
+(*work)
+src/markdown.rs:4304:8: 4304:15
+(*rndr)
+src/markdown.rs:4305:9: 4305:16
+(*rndr)
+src/markdown.rs:4308:66: 4308:73
+(*rndr)
+src/markdown.rs:4332:15: 4332:44
+*data.offset(orgpre as isize)
+src/markdown.rs:4341:15: 4342:41
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                               as isize)
+src/markdown.rs:4358:19: 4359:85
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as
+                                                    std::os::raw::c_ulong) as isize)
+src/markdown.rs:4372:23: 4372:65
+*data.offset(beg.wrapping_add(i) as isize)
+src/markdown.rs:4377:16: 4377:23
+(*rndr)
+src/markdown.rs:4398:21: 4398:27
+*flags
+src/markdown.rs:4399:25: 4399:31
+*flags
+src/markdown.rs:4400:17: 4400:23
+*flags
+src/markdown.rs:4413:49: 4413:56
+(*work)
+src/markdown.rs:4416:21: 4416:27
+*flags
+src/markdown.rs:4436:32: 4436:38
+*flags
+src/markdown.rs:4437:8: 4437:14
+*flags
+src/markdown.rs:4439:38: 4439:45
+(*work)
+src/markdown.rs:4440:38: 4440:45
+(*work)
+src/markdown.rs:4441:38: 4441:45
+(*work)
+src/markdown.rs:4442:25: 4442:32
+(*work)
+src/markdown.rs:4443:43: 4443:50
+(*work)
+src/markdown.rs:4443:57: 4443:64
+(*work)
+src/markdown.rs:4444:41: 4444:48
+(*work)
+src/markdown.rs:4445:35: 4445:42
+(*work)
+src/markdown.rs:4446:34: 4446:41
+(*work)
+src/markdown.rs:4447:21: 4447:28
+(*work)
+src/markdown.rs:4448:40: 4448:47
+(*work)
+src/markdown.rs:4448:54: 4448:61
+(*work)
+src/markdown.rs:4451:8: 4451:15
+(*rndr)
+src/markdown.rs:4452:9: 4452:16
+(*rndr)
+src/markdown.rs:4453:65: 4453:71
+*flags
+src/markdown.rs:4454:65: 4454:72
+(*rndr)
+src/markdown.rs:4475:8: 4475:15
+(*rndr)
+src/markdown.rs:4476:9: 4476:16
+(*rndr)
+src/markdown.rs:4477:61: 4477:68
+(*rndr)
+src/markdown.rs:4492:15: 4492:43
+*data.offset(level as isize)
+src/markdown.rs:4496:23: 4496:47
+*data.offset(i as isize)
+src/markdown.rs:4501:15: 4501:41
+*data.offset(end as isize)
+src/markdown.rs:4506:15: 4507:41
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                               as isize)
+src/markdown.rs:4511:15: 4512:41
+*data.offset(end.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                               as isize)
+src/markdown.rs:4519:12: 4519:19
+(*rndr)
+src/markdown.rs:4520:13: 4520:20
+(*rndr)
+src/markdown.rs:4523:67: 4523:74
+(*rndr)
+src/markdown.rs:4544:12: 4545:82
+*data.offset(tag_len.wrapping_add(2 as std::os::raw::c_int as
+                                                 std::os::raw::c_ulong) as isize)
+src/markdown.rs:4579:21: 4580:85
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as
+                                                    std::os::raw::c_ulong) as isize)
+src/markdown.rs:4582:25: 4582:49
+*data.offset(i as isize)
+src/markdown.rs:4584:16: 4584:40
+*data.offset(i as isize)
+src/markdown.rs:4597:16: 4598:42
+*data.offset(i.wrapping_sub(2 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:4641:12: 4641:59
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:4646:23: 4646:47
+*data.offset(i as isize)
+src/markdown.rs:4647:15: 4647:39
+*data.offset(i as isize)
+src/markdown.rs:4662:16: 4662:63
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:4664:16: 4664:63
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:4666:16: 4666:63
+*data.offset(3 as std::os::raw::c_int as isize)
+src/markdown.rs:4670:25: 4672:48
+*data.offset(i.wrapping_sub(2 as std::os::raw::c_int as
+                                                        std::os::raw::c_ulong) as
+                                         isize)
+src/markdown.rs:4674:29: 4676:52
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as
+                                                            std::os::raw::c_ulong) as
+                                             isize)
+src/markdown.rs:4678:29: 4678:53
+*data.offset(i as isize)
+src/markdown.rs:4688:38: 4688:45
+(*rndr)
+src/markdown.rs:4689:21: 4689:28
+(*rndr)
+src/markdown.rs:4691:78: 4691:85
+(*rndr)
+src/markdown.rs:4698:17: 4698:64
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:4700:21: 4700:68
+*data.offset(1 as std::os::raw::c_int as isize)
+src/markdown.rs:4702:17: 4702:64
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:4704:21: 4704:68
+*data.offset(2 as std::os::raw::c_int as isize)
+src/markdown.rs:4708:23: 4708:47
+*data.offset(i as isize)
+src/markdown.rs:4716:42: 4716:49
+(*rndr)
+src/markdown.rs:4717:25: 4717:32
+(*rndr)
+src/markdown.rs:4719:82: 4719:89
+(*rndr)
+src/markdown.rs:4743:26: 4743:33
+(*rndr)
+src/markdown.rs:4744:9: 4744:16
+(*rndr)
+src/markdown.rs:4746:66: 4746:73
+(*rndr)
+src/markdown.rs:4760:8: 4760:15
+(*rndr)
+src/markdown.rs:4760:43: 4760:50
+(*rndr)
+src/markdown.rs:4764:20: 4764:44
+*data.offset(i as isize)
+src/markdown.rs:4774:28: 4774:52
+*data.offset(i as isize)
+src/markdown.rs:4779:19: 4779:43
+*data.offset(i as isize)
+src/markdown.rs:4784:28: 4784:59
+*data.offset(cell_end as isize)
+src/markdown.rs:4791:9: 4791:16
+(*rndr)
+src/markdown.rs:4793:67: 4795:94
+*col_data.offset(col
+                                                                                       as
+                                                                                       isize)
+src/markdown.rs:4798:67: 4798:74
+(*rndr)
+src/markdown.rs:4816:9: 4816:16
+(*rndr)
+src/markdown.rs:4818:67: 4820:94
+*col_data.offset(col
+                                                                                       as
+                                                                                       isize)
+src/markdown.rs:4823:67: 4823:74
+(*rndr)
+src/markdown.rs:4827:5: 4827:12
+(*rndr)
+src/markdown.rs:4828:62: 4828:69
+(*rndr)
+src/markdown.rs:4844:23: 4844:47
+*data.offset(i as isize)
+src/markdown.rs:4847:12: 4847:41
+*data.offset(fresh2 as isize)
+src/markdown.rs:4856:24: 4859:50
+*data.offset(header_end.wrapping_sub(1 as std::os::raw::c_int
+                                                                as
+                                                                std::os::raw::c_ulong)
+                                        as isize)
+src/markdown.rs:4862:8: 4862:55
+*data.offset(0 as std::os::raw::c_int as isize)
+src/markdown.rs:4866:12: 4867:85
+*data.offset(header_end.wrapping_sub(1 as std::os::raw::c_int as
+                                                    std::os::raw::c_ulong) as isize)
+src/markdown.rs:4871:70: 4871:77
+(*rndr)
+src/markdown.rs:4874:5: 4874:13
+*columns
+src/markdown.rs:4876:16: 4876:24
+*columns
+src/markdown.rs:4875:5: 4875:17
+*column_data
+src/markdown.rs:4881:20: 4881:44
+*data.offset(i as isize)
+src/markdown.rs:4886:15: 4886:47
+*data.offset(under_end as isize)
+src/markdown.rs:4890:17: 4890:25
+*columns
+src/markdown.rs:4893:19: 4893:43
+*data.offset(i as isize)
+src/markdown.rs:4896:12: 4896:36
+*data.offset(i as isize)
+src/markdown.rs:4898:13: 4898:49
+*(*column_data).offset(col as isize)
+src/markdown.rs:4898:14: 4898:28
+(*column_data)
+src/markdown.rs:4903:19: 4903:43
+*data.offset(i as isize)
+src/markdown.rs:4908:16: 4908:40
+*data.offset(i as isize)
+src/markdown.rs:4910:13: 4910:49
+*(*column_data).offset(col as isize)
+src/markdown.rs:4910:14: 4910:28
+(*column_data)
+src/markdown.rs:4915:19: 4915:43
+*data.offset(i as isize)
+src/markdown.rs:4919:16: 4919:40
+*data.offset(i as isize)
+src/markdown.rs:4926:14: 4926:22
+*columns
+src/markdown.rs:4927:49: 4927:57
+*columns
+src/markdown.rs:4927:59: 4927:71
+*column_data
+src/markdown.rs:4950:23: 4950:47
+*data.offset(i as isize)
+src/markdown.rs:4953:20: 4953:49
+*data.offset(fresh3 as isize)
+src/markdown.rs:4969:12: 4969:19
+(*rndr)
+src/markdown.rs:4970:13: 4970:20
+(*rndr)
+src/markdown.rs:4973:66: 4973:73
+(*rndr)
+src/markdown.rs:4990:8: 4990:15
+(*rndr)
+src/markdown.rs:4991:55: 4991:62
+(*rndr)
+src/markdown.rs:4995:14: 4995:21
+(*rndr)
+src/markdown.rs:5008:19: 5008:45
+*data.offset(beg as isize)
+src/markdown.rs:5009:23: 5009:30
+(*rndr)
+src/markdown.rs:5023:20: 5023:27
+(*rndr)
+src/markdown.rs:5024:21: 5024:28
+(*rndr)
+src/markdown.rs:5025:74: 5025:81
+(*rndr)
+src/markdown.rs:5028:27: 5028:53
+*data.offset(beg as isize)
+src/markdown.rs:5033:23: 5033:30
+(*rndr)
+src/markdown.rs:5042:23: 5042:30
+(*rndr)
+src/markdown.rs:5121:8: 5121:34
+*data.offset(beg as isize)
+src/markdown.rs:5123:12: 5124:35
+*data.offset(beg.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as
+                            isize)
+src/markdown.rs:5126:16: 5127:82
+*data.offset(beg.wrapping_add(2 as std::os::raw::c_int as
+                                                 std::os::raw::c_ulong) as isize)
+src/markdown.rs:5130:20: 5131:86
+*data.offset(beg.wrapping_add(3 as std::os::raw::c_int as
+                                                     std::os::raw::c_ulong) as isize)
+src/markdown.rs:5140:8: 5140:32
+*data.offset(i as isize)
+src/markdown.rs:5145:22: 5145:46
+*data.offset(i as isize)
+src/markdown.rs:5146:15: 5146:39
+*data.offset(i as isize)
+src/markdown.rs:5147:15: 5147:39
+*data.offset(i as isize)
+src/markdown.rs:5150:20: 5150:44
+*data.offset(i as isize)
+src/markdown.rs:5156:20: 5156:44
+*data.offset(i as isize)
+src/markdown.rs:5160:22: 5160:46
+*data.offset(i as isize)
+src/markdown.rs:5164:13: 5164:37
+*data.offset(i as isize)
+src/markdown.rs:5165:17: 5165:41
+*data.offset(i as isize)
+src/markdown.rs:5167:23: 5167:47
+*data.offset(i as isize)
+src/markdown.rs:5169:16: 5170:42
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:5174:22: 5174:46
+*data.offset(i as isize)
+src/markdown.rs:5179:8: 5179:32
+*data.offset(i as isize)
+src/markdown.rs:5183:22: 5183:46
+*data.offset(i as isize)
+src/markdown.rs:5184:15: 5184:39
+*data.offset(i as isize)
+src/markdown.rs:5185:15: 5185:39
+*data.offset(i as isize)
+src/markdown.rs:5188:8: 5189:31
+*data.offset(i.wrapping_sub(1 as std::os::raw::c_int as std::os::raw::c_ulong) as
+                        isize)
+src/markdown.rs:5193:22: 5193:46
+*data.offset(i as isize)
+src/markdown.rs:5196:19: 5196:43
+*data.offset(i as isize)
+src/markdown.rs:5197:12: 5197:36
+*data.offset(i as isize)
+src/markdown.rs:5198:12: 5198:36
+*data.offset(i as isize)
+src/markdown.rs:5199:12: 5199:36
+*data.offset(i as isize)
+src/markdown.rs:5200:12: 5200:36
+*data.offset(i as isize)
+src/markdown.rs:5205:20: 5205:44
+*data.offset(i as isize)
+src/markdown.rs:5206:12: 5206:36
+*data.offset(i as isize)
+src/markdown.rs:5210:12: 5210:36
+*data.offset(i as isize)
+src/markdown.rs:5211:12: 5212:35
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong) as
+                            isize)
+src/markdown.rs:5218:26: 5218:50
+*data.offset(i as isize)
+src/markdown.rs:5228:13: 5228:37
+*data.offset(i as isize)
+src/markdown.rs:5229:17: 5229:41
+*data.offset(i as isize)
+src/markdown.rs:5230:17: 5230:41
+*data.offset(i as isize)
+src/markdown.rs:5235:19: 5235:43
+*data.offset(i as isize)
+src/markdown.rs:5236:19: 5236:43
+*data.offset(i as isize)
+src/markdown.rs:5240:16: 5240:40
+*data.offset(i as isize)
+src/markdown.rs:5241:16: 5242:42
+*data.offset(i.wrapping_add(1 as std::os::raw::c_int as std::os::raw::c_ulong)
+                                as isize)
+src/markdown.rs:5252:19: 5252:43
+*data.offset(i as isize)
+src/markdown.rs:5260:17: 5260:41
+*data.offset(i as isize)
+src/markdown.rs:5261:21: 5261:45
+*data.offset(i as isize)
+src/markdown.rs:5262:21: 5262:45
+*data.offset(i as isize)
+src/markdown.rs:5269:26: 5269:31
+*last
+src/markdown.rs:5276:9: 5276:17
+(*ref_0)
+src/markdown.rs:5277:16: 5277:24
+(*ref_0)
+src/markdown.rs:5281:13: 5281:21
+(*ref_0)
+src/markdown.rs:5282:20: 5282:28
+(*ref_0)
+src/markdown.rs:5296:19: 5296:43
+*line.offset(i as isize)
+src/markdown.rs:5334:17: 5334:22
+(*md)
+src/markdown.rs:5337:21: 5338:68
+*(*md).work_bufs.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                             isize)
+src/markdown.rs:5337:22: 5337:27
+(*md)
+src/markdown.rs:5340:21: 5341:68
+*(*md).work_bufs.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                             isize)
+src/markdown.rs:5340:22: 5340:27
+(*md)
+src/markdown.rs:5343:12: 5343:17
+(*md)
+src/markdown.rs:5345:8: 5345:13
+(*md)
+src/markdown.rs:5345:39: 5345:44
+(*md)
+src/markdown.rs:5346:12: 5346:17
+(*md)
+src/markdown.rs:5347:9: 5347:14
+(*md)
+src/markdown.rs:5349:9: 5349:14
+(*md)
+src/markdown.rs:5351:9: 5351:14
+(*md)
+src/markdown.rs:5355:13: 5355:18
+(*md)
+src/markdown.rs:5359:8: 5359:13
+(*md)
+src/markdown.rs:5360:9: 5360:14
+(*md)
+src/markdown.rs:5363:8: 5363:13
+(*md)
+src/markdown.rs:5364:9: 5364:14
+(*md)
+src/markdown.rs:5367:8: 5367:13
+(*md)
+src/markdown.rs:5367:36: 5367:41
+(*md)
+src/markdown.rs:5368:9: 5368:14
+(*md)
+src/markdown.rs:5371:5: 5371:10
+(*md)
+src/markdown.rs:5373:5: 5373:10
+(*md)
+src/markdown.rs:5375:5: 5375:10
+(*md)
+src/markdown.rs:5380:13: 5380:18
+(*md)
+src/markdown.rs:5383:9: 5383:14
+(*md)
+src/markdown.rs:5385:9: 5385:14
+(*md)
+src/markdown.rs:5387:9: 5387:14
+(*md)
+src/markdown.rs:5391:9: 5391:14
+(*md)
+src/markdown.rs:5395:5: 5395:10
+(*md)
+src/markdown.rs:5396:5: 5396:10
+(*md)
+src/markdown.rs:5397:5: 5397:10
+(*md)
+src/markdown.rs:5398:5: 5398:10
+(*md)
+src/markdown.rs:5399:5: 5399:10
+(*md)
+src/markdown.rs:5419:17: 5419:22
+(*md)
+src/markdown.rs:5440:54: 5440:59
+(*md)
+src/markdown.rs:5447:23: 5447:53
+*document.offset(end as isize)
+src/markdown.rs:5449:23: 5449:53
+*document.offset(end as isize)
+src/markdown.rs:5459:24: 5459:54
+*document.offset(end as isize)
+src/markdown.rs:5461:28: 5461:58
+*document.offset(end as isize)
+src/markdown.rs:5464:20: 5464:50
+*document.offset(end as isize)
+src/markdown.rs:5468:28: 5471:58
+*document.offset(end.wrapping_add(1 as std::os::raw::c_int
+                                                                 as
+                                                                 std::os::raw::c_ulong)
+                                                as isize)
+src/markdown.rs:5481:17: 5481:24
+(*text)
+src/markdown.rs:5481:43: 5481:50
+(*text)
+src/markdown.rs:5483:8: 5483:13
+(*md)
+src/markdown.rs:5484:9: 5484:14
+(*md)
+src/markdown.rs:5485:65: 5485:70
+(*md)
+src/markdown.rs:5487:8: 5487:15
+(*text)
+src/markdown.rs:5489:12: 5491:46
+*(*text).data.offset((*text).size.wrapping_sub(1 as std::os::raw::c_int as
+                                                              std::os::raw::c_ulong)
+                                    as isize)
+src/markdown.rs:5489:13: 5489:20
+(*text)
+src/markdown.rs:5489:33: 5489:40
+(*text)
+src/markdown.rs:5492:16: 5495:50
+*(*text).data.offset((*text).size.wrapping_sub(1 as std::os::raw::c_int
+                                                                  as
+                                                                  std::os::raw::c_ulong)
+                                        as isize)
+src/markdown.rs:5492:17: 5492:24
+(*text)
+src/markdown.rs:5492:37: 5492:44
+(*text)
+src/markdown.rs:5499:29: 5499:36
+(*text)
+src/markdown.rs:5499:43: 5499:50
+(*text)
+src/markdown.rs:5501:8: 5501:13
+(*md)
+src/markdown.rs:5502:9: 5502:14
+(*md)
+src/markdown.rs:5503:65: 5503:70
+(*md)
+src/markdown.rs:5507:20: 5507:25
+(*md)
+src/markdown.rs:5513:15: 5513:20
+(*md)
+src/markdown.rs:5514:20: 5515:71
+*(*md).work_bufs[1 as std::os::raw::c_int as
+                                        usize].item.offset(i as isize)
+src/markdown.rs:5514:21: 5514:26
+(*md)
+src/markdown.rs:5520:15: 5520:20
+(*md)
+src/markdown.rs:5521:20: 5522:71
+*(*md).work_bufs[0 as std::os::raw::c_int as
+                                        usize].item.offset(i as isize)
+src/markdown.rs:5521:21: 5521:26
+(*md)
+src/markdown.rs:5526:21: 5527:68
+*(*md).work_bufs.as_mut_ptr().offset(1 as std::os::raw::c_int as
+                                                             isize)
+src/markdown.rs:5526:22: 5526:27
+(*md)
+src/markdown.rs:5528:21: 5529:68
+*(*md).work_bufs.as_mut_ptr().offset(0 as std::os::raw::c_int as
+                                                             isize)
+src/markdown.rs:5528:22: 5528:27
+(*md)
+src/markdown.rs:5536:5: 5536:15
+*ver_major
+src/markdown.rs:5537:5: 5537:15
+*ver_minor
+src/markdown.rs:5538:5: 5538:18
+*ver_revision
+src/stack.rs:19:8: 19:13
+(*st)
+src/stack.rs:21:17: 21:22
+(*st)
+src/stack.rs:26:26: 26:31
+(*st)
+src/stack.rs:28:34: 28:39
+(*st)
+src/stack.rs:31:5: 31:10
+(*st)
+src/stack.rs:32:5: 32:10
+(*st)
+src/stack.rs:33:8: 33:13
+(*st)
+src/stack.rs:33:32: 33:37
+(*st)
+src/stack.rs:39:10: 39:15
+(*st)
+src/stack.rs:40:5: 40:10
+(*st)
+src/stack.rs:41:5: 41:10
+(*st)
+src/stack.rs:42:5: 42:10
+(*st)
+src/stack.rs:47:5: 47:10
+(*st)
+src/stack.rs:48:5: 48:10
+(*st)
+src/stack.rs:49:5: 49:10
+(*st)
+src/stack.rs:55:8: 55:13
+(*st)
+src/stack.rs:56:18: 56:23
+(*st)
+src/stack.rs:56:5: 56:10
+(*st)
+src/stack.rs:57:12: 57:51
+*(*st).item.offset((*st).size as isize)
+src/stack.rs:57:13: 57:18
+(*st)
+src/stack.rs:57:31: 57:36
+(*st)
+src/stack.rs:64:19: 64:24
+(*st)
+src/stack.rs:68:18: 68:23
+(*st)
+src/stack.rs:69:18: 69:23
+(*st)
+src/stack.rs:69:5: 69:10
+(*st)
+src/stack.rs:70:26: 70:61
+*(*st).item.offset(fresh0 as isize)
+src/stack.rs:70:27: 70:32
+(*st)
+src/stack.rs:76:8: 76:13
+(*st)
+src/stack.rs:77:12: 79:41
+*(*st).item.offset((*st).size.wrapping_sub(1 as std::os::raw::c_int as
+                                                          std::os::raw::c_ulong) as
+                                  isize)
+src/stack.rs:77:13: 77:18
+(*st)
+src/stack.rs:77:31: 77:36
+(*st)

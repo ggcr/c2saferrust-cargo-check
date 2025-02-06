@@ -1,0 +1,100 @@
+grabc.rs:787:19: 787:60
+unsafe { XOpenDisplay(std::ptr::null()) }
+grabc.rs:794:16: 796:6
+unsafe {
+        (*(*(display as _XPrivDisplay)).screens.offset((*(display as _XPrivDisplay)).default_screen as isize)).cmap
+    }
+grabc.rs:798:5: 800:6
+unsafe {
+        XSetErrorHandler(Some(MXError));
+    }
+grabc.rs:813:9: 815:10
+unsafe {
+            XQueryColor(display, cmap, &mut color);
+        }
+grabc.rs:867:29: 867:58
+unsafe { std::mem::zeroed() }
+grabc.rs:869:5: 898:6
+unsafe {
+        if cross_cursor == 0 {
+            cross_cursor = XCreateFontCursor(display, 130);
+            if cross_cursor == 0 {
+                eprintln!("Failed to create Cross Cursor!");
+                return 0;
+            }
+        }
+
+        let root_window = XRootWindow(display, XDefaultScreen(display));
+        let status = XGrabPointer(display, root_window, 0, (1 << 2) as u32, 0, 1, root_window, cross_cursor, 0);
+
+        if status == 0 {
+            XAllowEvents(display, 1, 0);
+            XWindowEvent(display, root_window, (1 << 2), &mut event);
+            if event.type_0 == 4 {
+                target_window = findSubWindow(display, root_window, event.xbutton.subwindow, &mut event.xbutton.x, &mut event.xbutton.y);
+                if target_window == 0 {
+                    eprintln!("Failed to get target window, getting root window!");
+                    target_window = root_window;
+                }
+                XUngrabPointer(display, 0);
+            }
+        } else {
+            eprintln!("Failed to grab mouse!");
+            std::process::exit(1);
+        }
+
+        XFreeCursor(display, cross_cursor);
+    }
+grabc.rs:900:10: 900:36
+unsafe { event.xbutton.x }
+grabc.rs:901:10: 901:36
+unsafe { event.xbutton.y }
+grabc.rs:918:11: 918:124
+unsafe { XTranslateCoordinates(display, top_window, window_to_check, *x, *y, &mut newx, &mut newy, &mut window) }
+grabc.rs:943:23: 943:79
+unsafe { XRootWindow(display, XDefaultScreen(display)) }
+grabc.rs:946:25: 946:73
+unsafe { selectWindow(display, &mut x, &mut y) }
+grabc.rs:952:18: 954:6
+unsafe {
+        XGetImage(display, target_window, x, y, 1, 1, !0, 2)
+    }
+grabc.rs:960:19: 962:6
+unsafe {
+        (*ximage).f.get_pixel.expect("non-null function pointer")(ximage, 0, 0)
+    }
+grabc.rs:964:5: 966:6
+unsafe {
+        (*ximage).f.destroy_image.expect("non-null function pointer")(ximage);
+    }
+grabc.rs:972:1: 997:2
+unsafe extern "C" fn MXError(display: *mut Display, error: *mut XErrorEvent) -> std::os::raw::c_int {
+    let xerrcode = (*error).error_code as std::os::raw::c_int;
+    if xerrcode == 11 || (xerrcode == 10 && (*error).request_code as std::os::raw::c_int == 88) {
+        return 0;
+    } else {
+        match (*error).request_code as std::os::raw::c_int {
+            14 => {
+                if (*error).error_code as std::os::raw::c_int == 9 {
+                    return 0;
+                }
+            }
+            3 | 15 => {
+                if (*error).error_code as std::os::raw::c_int == 3 {
+                    return 0;
+                }
+            }
+            91 => {
+                if (*error).error_code as std::os::raw::c_int == 2 {
+                    return 0;
+                }
+            }
+            _ => {}
+        }
+    }
+    return 1;
+}
+grabc.rs:1019:1: 1021:2
+unsafe extern "C" fn run_static_initializers() {
+    cross_cursor = Cursor::default(); // Assuming Cursor has a default implementation
+}

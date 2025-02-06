@@ -1,0 +1,120 @@
+test.rs:274:5: 274:12
+(*data)
+test.rs:282:5: 282:12
+(*data)
+test.rs:297:5: 297:12
+(*data)
+test.rs:312:5: 312:12
+(*data)
+test.rs:321:5: 321:12
+(*data)
+test.rs:342:5: 342:12
+(*data)
+test.rs:353:5: 353:12
+(*data)
+test.rs:362:5: 362:12
+(*data)
+test.rs:370:5: 370:12
+(*data)
+test.rs:378:5: 378:12
+(*data)
+test.rs:386:5: 386:12
+(*data)
+test.rs:397:13: 397:20
+*fresh0
+test.rs:467:13: 467:20
+*fresh1
+test.rs:660:9: 660:16
+(*data)
+test.rs:660:39: 660:46
+(*data)
+test.rs:661:9: 661:16
+(*data)
+test.rs:662:14: 662:21
+(*data)
+test.rs:664:9: 664:16
+(*data)
+test.rs:665:14: 665:21
+(*data)
+test.rs:667:9: 667:16
+(*data)
+test.rs:667:39: 667:46
+(*data)
+test.rs:668:9: 668:16
+(*data)
+test.rs:669:14: 669:21
+(*data)
+test.rs:671:9: 671:16
+(*data)
+test.rs:671:39: 671:46
+(*data)
+test.rs:672:9: 672:16
+(*data)
+test.rs:672:39: 672:46
+(*data)
+test.rs:673:9: 673:16
+(*data)
+test.rs:674:14: 674:21
+(*data)
+test.rs:676:9: 676:16
+(*data)
+test.rs:676:40: 676:47
+(*data)
+test.rs:686:12: 686:19
+(*data)
+test.rs:688:12: 688:19
+(*data)
+test.rs:690:12: 690:19
+(*data)
+test.rs:692:12: 692:19
+(*data)
+test.rs:694:12: 694:19
+(*data)
+test.rs:696:12: 696:19
+(*data)
+test.rs:698:12: 698:19
+(*data)
+test.rs:700:12: 700:19
+(*data)
+test.rs:702:12: 702:19
+(*data)
+test.rs:704:12: 704:19
+(*data)
+test.rs:706:12: 706:19
+(*data)
+test.rs:734:8: 734:17
+(*parsed)
+test.rs:741:8: 741:17
+(*parsed)
+test.rs:748:8: 748:17
+(*parsed)
+test.rs:756:8: 756:17
+(*parsed)
+test.rs:763:8: 763:17
+(*parsed)
+test.rs:771:8: 771:17
+(*parsed)
+test.rs:778:8: 778:17
+(*parsed)
+test.rs:786:8: 786:17
+(*parsed)
+test.rs:793:8: 793:17
+(*parsed)
+test.rs:800:8: 800:17
+(*parsed)
+test.rs:808:8: 808:17
+(*parsed)
+test.rs:816:8: 816:20
+(*gh_parsed)
+test.rs:824:8: 824:20
+(*gh_parsed)
+test.rs:832:8: 832:20
+(*gh_parsed)
+test.rs:840:8: 840:20
+(*gh_parsed)
+test.rs:848:8: 848:20
+(*gh_parsed)
+test.rs:856:8: 856:20
+(*gh_parsed)
+test.rs:864:8: 864:20
+(*gh_parsed)
