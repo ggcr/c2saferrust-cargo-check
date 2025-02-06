@@ -1,5 +1,7 @@
 ## C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques
 
+![sysdiagram](https://github.com/vikramnitin9/c2saferrust/blob/main/sysdiagram.png?raw=true)
+
 This is the code for our [paper](https://arxiv.org/pdf/2501.14257).
 
 ### Setup
