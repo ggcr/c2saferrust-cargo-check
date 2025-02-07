@@ -6,7 +6,7 @@ This is the code for our [paper](https://arxiv.org/pdf/2501.14257).
 
 ### Setup
 
-You need Python 3.11 with Pip, and [Rustup](https://rustup.rs/). If you want to re-generate our translations, you also need an [OpenAI API](https://platform.openai.com/docs/api-reference/authentication) key. Otherwise, if you'd simply like to compute metrics on our provided translations, you can skip this.
+You need Python 3.12 with Pip, and [Rustup](https://rustup.rs/). If you want to re-generate our translations, you also need an [OpenAI API](https://platform.openai.com/docs/api-reference/authentication) key. Otherwise, if you'd simply like to compute metrics on our provided translations, you can skip this.
 
 First, set the necessary environment variables.
 ```sh
