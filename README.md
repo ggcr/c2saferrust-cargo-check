@@ -8,17 +8,18 @@ This is the code for our [paper](https://arxiv.org/pdf/2501.14257).
 
 You need Python 3.12 with Pip, and [Rustup](https://rustup.rs/). If you want to re-generate our translations, you also need an [OpenAI API](https://platform.openai.com/docs/api-reference/authentication) key. Otherwise, if you'd simply like to compute metrics on our provided translations, you can skip this.
 
-First, set the necessary environment variables.
+First, install the Rust toolchain and dependencies
+```sh
+rustup install nightly-2022-08-08
+rustup component add rust-src rustc-dev llvm-tools-preview
+```
+
+Set the necessary environment variables.
 ```sh
 export RUSTUP_HOME="<your_path_here>"
 export RUSTFLAGS="-L $RUSTUP_HOME/toolchains/nightly-2022-08-08-x86_64-unknown-linux-gnu/lib"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$RUSTUP_HOME/toolchains/nightly-2022-08-08-x86_64-unknown-linux-gnu/lib"
 echo 'OPENAI_API_KEY="<your_key_here>"' > models/.env
-```
-
-Install rustup toolchain dependencies.
-```sh
-rustup component add rust-src rustc-dev llvm-tools-preview
 ```
 
 Install Python requirements.
