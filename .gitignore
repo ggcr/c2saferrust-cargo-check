@@ -1,11 +1,4 @@
-cat
-head
-pwd
-split
-truncate
-uniq
-tail
-
+functions.json
 compile_commands.json
 
 *.a
