@@ -1,470 +1,506 @@
 [
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "mbrtoc32.o",
-            "mbrtoc32.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "mbrtoc32.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "argmatch.o",
-            "argmatch.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "argmatch.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "uniq.o",
-            "uniq.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "uniq.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "version-etc-fsf.o",
-            "version-etc-fsf.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "version-etc-fsf.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "c32isprint.o",
-            "c32isprint.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "c32isprint.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "ialloc.o",
-            "ialloc.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "ialloc.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fadvise.o",
-            "fadvise.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "fadvise.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "localcharset.o",
-            "localcharset.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "localcharset.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "linebuffer.o",
-            "linebuffer.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "linebuffer.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "quotearg.o",
-            "quotearg.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "quotearg.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "memcasecmp.o",
-            "memcasecmp.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "memcasecmp.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "setlocale_null.o",
-            "setlocale_null.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "setlocale_null.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fpurge.o",
-            "fpurge.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "fpurge.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "xalloc-die.o",
-            "xalloc-die.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "xalloc-die.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fclose.o",
-            "fclose.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "fclose.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "c32isblank.o",
-            "c32isblank.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "c32isblank.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "freopen-safer.o",
-            "freopen-safer.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "freopen-safer.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "progname.o",
-            "progname.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "progname.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fseeko.o",
-            "fseeko.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "fseeko.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "closeout.o",
-            "closeout.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "closeout.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "propername-lite.o",
-            "propername-lite.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "propername-lite.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "xmalloc.o",
-            "xmalloc.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "xmalloc.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "xstrtoimax.o",
-            "xstrtoimax.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "xstrtoimax.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "exitfail.o",
-            "exitfail.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "exitfail.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "hard-locale.o",
-            "hard-locale.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "hard-locale.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "mbszero.o",
-            "mbszero.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "mbszero.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "version-etc.o",
-            "version-etc.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "version-etc.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "setlocale_null-unlocked.o",
-            "setlocale_null-unlocked.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "setlocale_null-unlocked.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fflush.o",
-            "fflush.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "fflush.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "version.o",
-            "version.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "version.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "mcel.o",
-            "mcel.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "mcel.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "c-strcasecmp.o",
-            "c-strcasecmp.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "c-strcasecmp.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "close-stream.o",
-            "close-stream.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "close-stream.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "posixver.o",
-            "posixver.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "posixver.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "c-ctype.o",
-            "c-ctype.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "c-ctype.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "skipchars.o",
-            "skipchars.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/uniq/c",
-        "file": "skipchars.c"
-    }
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "localcharset.o",
+      "localcharset.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/localcharset.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/localcharset.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "freopen-safer.o",
+      "freopen-safer.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/freopen-safer.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/freopen-safer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fflush.o",
+      "fflush.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fflush.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fflush.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "version-etc-fsf.o",
+      "version-etc-fsf.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/version-etc-fsf.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/version-etc-fsf.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fpurge.o",
+      "fpurge.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fpurge.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fpurge.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "mbszero.o",
+      "mbszero.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/mbszero.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/mbszero.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "closeout.o",
+      "closeout.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/closeout.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/closeout.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "c-ctype.o",
+      "c-ctype.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c-ctype.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c-ctype.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "argmatch.o",
+      "argmatch.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/argmatch.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/argmatch.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fclose.o",
+      "fclose.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fclose.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fclose.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "xmalloc.o",
+      "xmalloc.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/xmalloc.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/xmalloc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fadvise.o",
+      "fadvise.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fadvise.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fadvise.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "ialloc.o",
+      "ialloc.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/ialloc.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/ialloc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "setlocale_null-unlocked.o",
+      "setlocale_null-unlocked.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/setlocale_null-unlocked.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/setlocale_null-unlocked.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "version-etc.o",
+      "version-etc.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/version-etc.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/version-etc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "version.o",
+      "version.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/version.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/version.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "quotearg.o",
+      "quotearg.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/quotearg.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/quotearg.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "exitfail.o",
+      "exitfail.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/exitfail.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/exitfail.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "xalloc-die.o",
+      "xalloc-die.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/xalloc-die.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/xalloc-die.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "uniq.o",
+      "uniq.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/uniq.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/uniq.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "c32isblank.o",
+      "c32isblank.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c32isblank.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c32isblank.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "propername-lite.o",
+      "propername-lite.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/propername-lite.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/propername-lite.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "linebuffer.o",
+      "linebuffer.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/linebuffer.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/linebuffer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "skipchars.o",
+      "skipchars.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/skipchars.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/skipchars.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "posixver.o",
+      "posixver.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/posixver.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/posixver.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "memcasecmp.o",
+      "memcasecmp.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/memcasecmp.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/memcasecmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "close-stream.o",
+      "close-stream.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/close-stream.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/close-stream.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "mcel.o",
+      "mcel.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/mcel.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/mcel.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "c32isprint.o",
+      "c32isprint.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c32isprint.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c32isprint.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "progname.o",
+      "progname.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/progname.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/progname.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "c-strcasecmp.o",
+      "c-strcasecmp.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c-strcasecmp.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/c-strcasecmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "xstrtoimax.o",
+      "xstrtoimax.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/xstrtoimax.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/xstrtoimax.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "mbrtoc32.o",
+      "mbrtoc32.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/mbrtoc32.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/mbrtoc32.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "hard-locale.o",
+      "hard-locale.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/hard-locale.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/hard-locale.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fseeko.o",
+      "fseeko.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fseeko.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/fseeko.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "setlocale_null.o",
+      "setlocale_null.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/setlocale_null.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/uniq/c/setlocale_null.o"
+  }
 ]

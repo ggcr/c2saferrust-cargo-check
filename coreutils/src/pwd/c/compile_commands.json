@@ -1,366 +1,394 @@
 [
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "mbrtoc32.o",
-            "mbrtoc32.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "mbrtoc32.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "xmalloc.o",
-            "xmalloc.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "xmalloc.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "progname.o",
-            "progname.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "progname.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "setlocale_null.o",
-            "setlocale_null.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "setlocale_null.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "setlocale_null-unlocked.o",
-            "setlocale_null-unlocked.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "setlocale_null-unlocked.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fflush.o",
-            "fflush.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "fflush.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "xalloc-die.o",
-            "xalloc-die.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "xalloc-die.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "exitfail.o",
-            "exitfail.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "exitfail.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "same-inode.o",
-            "same-inode.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "same-inode.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "close-stream.o",
-            "close-stream.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "close-stream.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "root-dev-ino.o",
-            "root-dev-ino.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "root-dev-ino.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "hard-locale.o",
-            "hard-locale.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "hard-locale.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "version-etc-fsf.o",
-            "version-etc-fsf.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "version-etc-fsf.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "quotearg.o",
-            "quotearg.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "quotearg.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fclose.o",
-            "fclose.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "fclose.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "pwd.o",
-            "pwd.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "pwd.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "propername-lite.o",
-            "propername-lite.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "propername-lite.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "c32isprint.o",
-            "c32isprint.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "c32isprint.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "fseeko.o",
-            "fseeko.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "fseeko.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "mbszero.o",
-            "mbszero.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "mbszero.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "version.o",
-            "version.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "version.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "version-etc.o",
-            "version-etc.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "version-etc.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "localcharset.o",
-            "localcharset.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "localcharset.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "c-ctype.o",
-            "c-ctype.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "c-ctype.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "xgetcwd.o",
-            "xgetcwd.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "xgetcwd.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "ialloc.o",
-            "ialloc.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "ialloc.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "c-strcasecmp.o",
-            "c-strcasecmp.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "c-strcasecmp.c"
-    },
-    {
-        "arguments": [
-            "cc",
-            "-c",
-            "-I./include",
-            "-g",
-            "-o",
-            "closeout.o",
-            "closeout.c"
-        ],
-        "directory": "/home/luiz/Documents/c2rust_corpus/coreutils/pwd/c",
-        "file": "closeout.c"
-    }
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "localcharset.o",
+      "localcharset.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/localcharset.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/localcharset.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fflush.o",
+      "fflush.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/fflush.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/fflush.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "version-etc-fsf.o",
+      "version-etc-fsf.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/version-etc-fsf.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/version-etc-fsf.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "mbszero.o",
+      "mbszero.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/mbszero.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/mbszero.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "setlocale_null-unlocked.o",
+      "setlocale_null-unlocked.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/setlocale_null-unlocked.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/setlocale_null-unlocked.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "closeout.o",
+      "closeout.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/closeout.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/closeout.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "c-ctype.o",
+      "c-ctype.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/c-ctype.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/c-ctype.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fclose.o",
+      "fclose.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/fclose.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/fclose.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "xmalloc.o",
+      "xmalloc.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/xmalloc.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/xmalloc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "root-dev-ino.o",
+      "root-dev-ino.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/root-dev-ino.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/root-dev-ino.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "ialloc.o",
+      "ialloc.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/ialloc.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/ialloc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "same-inode.o",
+      "same-inode.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/same-inode.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/same-inode.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "version-etc.o",
+      "version-etc.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/version-etc.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/version-etc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "pwd.o",
+      "pwd.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/pwd.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/pwd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "version.o",
+      "version.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/version.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/version.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "quotearg.o",
+      "quotearg.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/quotearg.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/quotearg.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "exitfail.o",
+      "exitfail.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/exitfail.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/exitfail.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "xalloc-die.o",
+      "xalloc-die.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/xalloc-die.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/xalloc-die.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "propername-lite.o",
+      "propername-lite.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/propername-lite.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/propername-lite.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "close-stream.o",
+      "close-stream.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/close-stream.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/close-stream.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "xgetcwd.o",
+      "xgetcwd.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/xgetcwd.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/xgetcwd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "c32isprint.o",
+      "c32isprint.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/c32isprint.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/c32isprint.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "progname.o",
+      "progname.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/progname.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/progname.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "c-strcasecmp.o",
+      "c-strcasecmp.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/c-strcasecmp.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/c-strcasecmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "mbrtoc32.o",
+      "mbrtoc32.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/mbrtoc32.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/mbrtoc32.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "hard-locale.o",
+      "hard-locale.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/hard-locale.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/hard-locale.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "fseeko.o",
+      "fseeko.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/fseeko.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/fseeko.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-g",
+      "-c",
+      "-o",
+      "setlocale_null.o",
+      "setlocale_null.c"
+    ],
+    "directory": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c",
+    "file": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/setlocale_null.c",
+    "output": "/proj/arise/arise/vikram.nitin/c2saferrust/coreutils/src/pwd/c/setlocale_null.o"
+  }
 ]

@@ -1,5 +1,18 @@
+cat
+head
+pwd
+split
+truncate
+uniq
+tail
+
+compile_commands.json
+
+*.a
+*.o
 .git
 
+build/
 debug/
 target/
 
